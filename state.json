@@ -1,0 +1,12 @@
+{
+ "posted": {
+  "surgery": [
+   "S001"
+  ],
+  "medicine": [
+   "M001"
+  ]
+ },
+ "low_alert_on": "2026-11-19",
+ "audience_poll": {}
+}
