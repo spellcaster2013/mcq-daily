@@ -1,0 +1,182 @@
+[
+  {
+    "id": "S001", "subject": "surgery", "topic": "Hepatobiliary",
+    "stem": "A hilar cholangiocarcinoma involves the hepatic duct confluence and extends into the right second-order biliary radicles. The left hepatic duct is free. What is the Bismuth-Corlette type?",
+    "options": ["Type II", "Type IIIa", "Type IIIb", "Type IV"],
+    "answer": "B",
+    "reason": "Confluence plus right secondary radicles = Type IIIa.",
+    "explanation": "Type I: below the confluence. Type II: reaches the confluence only. Type IIIa: confluence plus right hepatic duct radicles. Type IIIb: confluence plus left hepatic duct radicles. Type IV: both sides, or multifocal.",
+    "pearl": "IIIa usually needs a right hepatectomy with caudate lobe resection; IIIb needs a left hepatectomy with caudate."
+  },
+  {
+    "id": "S002", "subject": "surgery", "topic": "Upper GI",
+    "stem": "According to the Siewert classification, the epicentre of a Type II adenocarcinoma of the oesophagogastric junction lies:",
+    "options": ["1 to 5 cm above the junction", "Within 1 cm above and 2 cm below the junction", "2 to 5 cm below the junction", "More than 5 cm below the junction"],
+    "answer": "B",
+    "reason": "Type II is the true cardia cancer: 1 cm above to 2 cm below.",
+    "explanation": "Type I: distal oesophageal, epicentre 1 to 5 cm above the junction. Type II: true cardia, 1 cm above to 2 cm below. Type III: subcardial, 2 to 5 cm below, infiltrating the junction from below.",
+    "pearl": "Type I behaves like oesophageal cancer (mediastinal nodes); Type III is treated as gastric cancer with total gastrectomy."
+  },
+  {
+    "id": "S003", "subject": "surgery", "topic": "Endocrine pancreas",
+    "stem": "In Zollinger-Ellison syndrome associated with MEN 1, the gastrinomas are most commonly located in the:",
+    "options": ["Pancreatic head", "Pancreatic tail", "Duodenum", "Gastric antrum"],
+    "answer": "C",
+    "reason": "MEN 1 gastrinomas are mostly small, multiple, submucosal duodenal tumours.",
+    "explanation": "Most gastrinomas arise within the gastrinoma triangle. In MEN 1 the large majority are duodenal, often multiple and only a few millimetres in size, so they are easily missed on imaging and need duodenotomy with palpation to find.",
+    "pearl": "In MEN 1, correct hyperparathyroidism first: lowering calcium reduces gastrin secretion."
+  },
+  {
+    "id": "S004", "subject": "surgery", "topic": "Biliary injury",
+    "stem": "After laparoscopic cholecystectomy, a bile leak is traced to a duct of Luschka in the gallbladder bed. The main biliary tree is intact and in continuity. What is the Strasberg type?",
+    "options": ["Type A", "Type B", "Type C", "Type D"],
+    "answer": "A",
+    "reason": "Leak from cystic stump or a minor duct in the liver bed, with continuity preserved = Type A.",
+    "explanation": "Type A: leak from the cystic duct stump or a small duct in the liver bed. Type B: occluded aberrant right sectoral duct. Type C: transected, unligated aberrant right sectoral duct. Type D: lateral injury to a major duct. Type E: major duct transection or stricture (Bismuth levels).",
+    "pearl": "Type A leaks usually settle with ERCP sphincterotomy or stenting plus drainage of any collection."
+  },
+  {
+    "id": "S005", "subject": "surgery", "topic": "Liver transplant",
+    "stem": "Which of these cirrhotic patients with hepatocellular carcinoma falls within the Milan criteria for liver transplantation?",
+    "options": ["Single 6 cm nodule", "Two nodules of 2.5 cm and 3 cm", "Four nodules of 2 cm each", "Single 4 cm nodule with portal vein tumour thrombus"],
+    "answer": "B",
+    "reason": "Milan: one tumour up to 5 cm, or up to three tumours each up to 3 cm.",
+    "explanation": "Milan criteria: a single tumour of 5 cm or less, or up to three tumours each 3 cm or less, with no macrovascular invasion and no extrahepatic spread. A 6 cm nodule, four nodules, and portal vein tumour thrombus all fall outside.",
+    "pearl": "UCSF criteria expand this: single tumour up to 6.5 cm, or up to 3 tumours with the largest up to 4.5 cm and total diameter up to 8 cm."
+  },
+  {
+    "id": "S006", "subject": "surgery", "topic": "Pancreas",
+    "stem": "On day 3 after pancreaticoduodenectomy, drain fluid amylase is more than 3 times the upper limit of normal serum amylase. The patient is well and management is unchanged. Per ISGPS 2016 this is:",
+    "options": ["Grade A pancreatic fistula", "Biochemical leak", "Grade B pancreatic fistula", "Grade C pancreatic fistula"],
+    "answer": "B",
+    "reason": "No clinical impact = biochemical leak, which is no longer called a fistula.",
+    "explanation": "ISGPS 2016 renamed the old Grade A as biochemical leak; it is not a true fistula. Grade B needs a change in management: drain left beyond 3 weeks, percutaneous or endoscopic drainage, angiography for bleeding, or infection without organ failure. Grade C means reoperation, organ failure or death.",
+    "pearl": "The amylase threshold applies to drain fluid on or after postoperative day 3."
+  },
+  {
+    "id": "S007", "subject": "surgery", "topic": "Laparoscopic cholecystectomy",
+    "stem": "Which of the following is NOT a requirement of the critical view of safety during laparoscopic cholecystectomy?",
+    "options": ["Hepatocystic triangle cleared of fat and fibrous tissue", "Lower third of gallbladder separated from the cystic plate", "Only two structures seen entering the gallbladder", "Common bile duct dissected and displayed"],
+    "answer": "D",
+    "reason": "The critical view never requires exposing the common bile duct.",
+    "explanation": "The three requirements are: the hepatocystic triangle is cleared of fat and fibrous tissue, the lower third of the gallbladder is taken off the cystic plate, and two and only two structures are seen entering the gallbladder. Dissecting towards the common bile duct adds risk and is not part of it.",
+    "pearl": "If the critical view cannot be achieved, bail out: subtotal cholecystectomy, fundus-first, or conversion."
+  },
+  {
+    "id": "S008", "subject": "surgery", "topic": "Thyroid",
+    "stem": "A 38-year-old woman has a 3 cm solitary thyroid nodule. FNAC is reported as Bethesda category IV. There are no suspicious nodes and the opposite lobe is normal. What is the standard next step?",
+    "options": ["Repeat FNAC after 3 months", "Diagnostic hemithyroidectomy", "Total thyroidectomy with central neck dissection", "Radioiodine ablation"],
+    "answer": "B",
+    "reason": "Follicular neoplasm cannot be called benign or malignant on cytology; lobectomy gives the histology.",
+    "explanation": "Bethesda IV is follicular neoplasm. Cytology cannot show capsular or vascular invasion, which is what separates follicular carcinoma from adenoma, so diagnostic lobectomy is the standard approach. Molecular testing can be used to refine risk where available.",
+    "pearl": "Bethesda III is the category where repeat FNAC is the usual first step."
+  },
+  {
+    "id": "S009", "subject": "surgery", "topic": "Vascular",
+    "stem": "A man with sudden leg pain has sensory loss extending above the toes, mild weakness of ankle dorsiflexion, no audible arterial Doppler signal and an audible venous signal. What is the Rutherford category of acute limb ischaemia?",
+    "options": ["Category I", "Category IIa", "Category IIb", "Category III"],
+    "answer": "C",
+    "reason": "Sensory loss beyond the toes plus motor weakness, venous signal still audible = IIb.",
+    "explanation": "I: viable, no deficit, arterial signal audible. IIa: marginally threatened, minimal sensory loss limited to toes, no weakness. IIb: immediately threatened, sensory loss beyond the toes with rest pain and mild to moderate weakness. III: irreversible, profound anaesthesia and paralysis, venous signal also inaudible.",
+    "pearl": "IIb needs immediate revascularisation; there is no time for prolonged catheter-directed thrombolysis."
+  },
+  {
+    "id": "S010", "subject": "surgery", "topic": "Colorectal",
+    "stem": "After low anterior resection with total mesorectal excision, a 45-year-old man reports retrograde ejaculation. Erection is normal. Which structure was most likely injured?",
+    "options": ["Pelvic splanchnic nerves", "Superior hypogastric plexus", "Pudendal nerve", "Cavernous nerves"],
+    "answer": "B",
+    "reason": "Ejaculation is sympathetic: superior hypogastric plexus and hypogastric nerves.",
+    "explanation": "The sympathetic superior hypogastric plexus lies in front of the aortic bifurcation and sacral promontory and is at risk during high ligation of the inferior mesenteric artery and posterior dissection. Injury causes retrograde ejaculation. Pelvic splanchnic (parasympathetic) or cavernous nerve injury causes erectile dysfunction.",
+    "pearl": "Point and shoot: Parasympathetic for erection, Sympathetic for emission."
+  },
+  {
+    "id": "M001", "subject": "medicine", "topic": "Cardiology",
+    "stem": "A 32-year-old man with a family history of sudden cardiac death has a non-diagnostic resting ECG. Which drug is used as a provocation test to unmask a type 1 Brugada pattern?",
+    "options": ["Ajmaline", "Isoprenaline", "Quinidine", "Adenosine"],
+    "answer": "A",
+    "reason": "Sodium channel blockers (ajmaline, flecainide, procainamide) unmask the coved ST elevation.",
+    "explanation": "Brugada syndrome is most often due to loss of function in the cardiac sodium channel (SCN5A). Sodium channel blockers exaggerate the defect and bring out coved ST elevation of 2 mm or more in V1 to V2. Isoprenaline and quinidine do the opposite and are used to treat electrical storm.",
+    "pearl": "Placing V1 and V2 in the 2nd or 3rd intercostal space increases the sensitivity of the ECG."
+  },
+  {
+    "id": "M002", "subject": "medicine", "topic": "Nephrology",
+    "stem": "The autoantibody found in about 70% of adults with primary membranous nephropathy is directed against:",
+    "options": ["Phospholipase A2 receptor", "Thrombospondin type 1 domain-containing 7A", "Nephrin", "Alpha-3 chain of type IV collagen"],
+    "answer": "A",
+    "reason": "Anti-PLA2R is the dominant antibody in primary membranous nephropathy.",
+    "explanation": "PLA2R on the podocyte is the target in roughly 70% of primary membranous nephropathy. THSD7A accounts for a small percentage and has an association with malignancy. Anti-nephrin antibodies are linked to minimal change disease. The alpha-3 chain of type IV collagen is the target in anti-GBM disease.",
+    "pearl": "Falling anti-PLA2R titres predict remission before proteinuria improves."
+  },
+  {
+    "id": "M003", "subject": "medicine", "topic": "Neurology",
+    "stem": "A 24-year-old woman presents with new psychosis, orofacial dyskinesias, seizures and autonomic instability. CSF is positive for anti-NMDA receptor antibodies. Which tumour should be looked for?",
+    "options": ["Ovarian teratoma", "Small cell lung carcinoma", "Thymoma", "Breast carcinoma"],
+    "answer": "A",
+    "reason": "Anti-NMDA receptor encephalitis in young women is classically linked to ovarian teratoma.",
+    "explanation": "Anti-NMDA receptor encephalitis typically starts with psychiatric features, then movement disorder, seizures, autonomic instability and hypoventilation. In young women an ovarian teratoma is found in a substantial proportion, and removing it improves outcome alongside immunotherapy.",
+    "pearl": "EEG may show the extreme delta brush pattern."
+  },
+  {
+    "id": "M004", "subject": "medicine", "topic": "Endocrinology",
+    "stem": "A 42-year-old with confirmed primary aldosteronism has a 1.2 cm left adrenal nodule on CT and wants surgery. Which test best distinguishes unilateral from bilateral disease before adrenalectomy?",
+    "options": ["Saline infusion test", "Adrenal venous sampling", "Aldosterone-to-renin ratio", "FDG PET-CT"],
+    "answer": "B",
+    "reason": "CT alone misclassifies many patients; adrenal venous sampling lateralises the source.",
+    "explanation": "The aldosterone-to-renin ratio is the screening test and saline infusion is a confirmatory test. Neither tells which side is responsible. CT can show a non-functioning incidentaloma or miss a small adenoma, so adrenal venous sampling is the reference test for lateralisation before surgery.",
+    "pearl": "It may be skipped in patients under 35 with marked disease and a clear unilateral adenoma on CT."
+  },
+  {
+    "id": "M005", "subject": "medicine", "topic": "Hepatology",
+    "stem": "Clinically significant portal hypertension is defined by a hepatic venous pressure gradient of:",
+    "options": ["More than 5 mmHg", "10 mmHg or more", "12 mmHg or more", "20 mmHg or more"],
+    "answer": "B",
+    "reason": "10 mmHg or more is the threshold at which varices and decompensation can develop.",
+    "explanation": "Normal gradient is 1 to 5 mmHg, and more than 5 mmHg is portal hypertension. At 10 mmHg or more it is clinically significant. At 12 mmHg or more variceal bleeding can occur. A gradient of 20 mmHg or more in acute variceal bleeding predicts treatment failure.",
+    "pearl": "Non-selective beta blockers aim to lower the gradient below 12 mmHg or by at least 20% from baseline."
+  },
+  {
+    "id": "M006", "subject": "medicine", "topic": "Pulmonology",
+    "stem": "According to the 2022 ESC/ERS guidelines, pre-capillary pulmonary hypertension is defined haemodynamically as:",
+    "options": ["mPAP > 25, PAWP <= 15, PVR > 3 WU", "mPAP > 20, PAWP <= 15, PVR > 2 WU", "mPAP > 20, PAWP > 15, PVR <= 2 WU", "mPAP > 25, PAWP > 15, PVR > 3 WU"],
+    "answer": "B",
+    "reason": "2022 update: mPAP above 20 mmHg, wedge 15 or less, PVR above 2 Wood units.",
+    "explanation": "The 2022 guidelines lowered the mean pulmonary artery pressure cut-off from 25 to above 20 mmHg and the pulmonary vascular resistance cut-off from 3 to above 2 Wood units. A wedge pressure of 15 mmHg or less marks pre-capillary disease; above 15 marks post-capillary disease.",
+    "pearl": "Right heart catheterisation is mandatory for diagnosis; echocardiography only estimates probability."
+  },
+  {
+    "id": "M007", "subject": "medicine", "topic": "Haematology",
+    "stem": "A 30-year-old woman has fever, confusion, platelets of 18,000 per microlitre, schistocytes on smear, raised LDH and normal PT and aPTT. What is the most important immediate treatment?",
+    "options": ["Platelet transfusion", "Therapeutic plasma exchange", "Intravenous immunoglobulin", "Unfractionated heparin"],
+    "answer": "B",
+    "reason": "This is TTP; plasma exchange is life-saving and should not wait for the ADAMTS13 result.",
+    "explanation": "Microangiopathic haemolysis with severe thrombocytopenia, neurological signs and a normal coagulation profile points to thrombotic thrombocytopenic purpura. Plasma exchange removes the anti-ADAMTS13 antibody and replaces the enzyme. Steroids are added, and caplacizumab and rituximab are used where available.",
+    "pearl": "ADAMTS13 activity below 10% confirms the diagnosis. Avoid platelet transfusion unless there is life-threatening bleeding."
+  },
+  {
+    "id": "M008", "subject": "medicine", "topic": "Rheumatology",
+    "stem": "A patient with a heliotrope rash, Gottron papules and no muscle weakness develops rapidly progressive interstitial lung disease. Which antibody is most likely to be positive?",
+    "options": ["Anti-Mi-2", "Anti-MDA5", "Anti-TIF1 gamma", "Anti-SRP"],
+    "answer": "B",
+    "reason": "Anti-MDA5: clinically amyopathic dermatomyositis with rapidly progressive lung disease.",
+    "explanation": "Anti-MDA5 marks clinically amyopathic dermatomyositis with skin ulceration and a high risk of rapidly progressive interstitial lung disease. Anti-Mi-2 goes with classic dermatomyositis and a good response to treatment. Anti-TIF1 gamma is linked to malignancy in adults. Anti-SRP goes with necrotising myopathy.",
+    "pearl": "A very high ferritin in anti-MDA5 disease signals a worse prognosis."
+  },
+  {
+    "id": "M009", "subject": "medicine", "topic": "Heart failure",
+    "stem": "A patient with heart failure and reduced ejection fraction is being switched from enalapril to sacubitril-valsartan. What is the minimum gap needed after the last enalapril dose?",
+    "options": ["12 hours", "24 hours", "36 hours", "72 hours"],
+    "answer": "C",
+    "reason": "A 36-hour washout lowers the risk of angioedema.",
+    "explanation": "Sacubitril inhibits neprilysin, which breaks down bradykinin. ACE inhibitors also raise bradykinin, so overlapping the two sharply increases the risk of angioedema. A 36-hour gap is required after stopping an ACE inhibitor. No washout is needed when switching from an ARB.",
+    "pearl": "BNP rises on sacubitril-valsartan; use NT-proBNP for monitoring."
+  },
+  {
+    "id": "M010", "subject": "medicine", "topic": "Infectious disease",
+    "stem": "A treatment-naive patient with HIV and a CD4 count of 40 is diagnosed with cryptococcal meningitis and started on antifungal induction. When should antiretroviral therapy be started?",
+    "options": ["On the same day", "After 2 weeks", "After 4 to 6 weeks", "After 6 months"],
+    "answer": "C",
+    "reason": "Early ART in cryptococcal meningitis increases mortality from IRIS.",
+    "explanation": "Starting antiretroviral therapy early in cryptococcal meningitis increases deaths, largely through immune reconstitution inflammatory syndrome inside the closed cranial space. WHO recommends deferring it for 4 to 6 weeks after starting antifungal treatment.",
+    "pearl": "Raised intracranial pressure is managed with repeated therapeutic lumbar punctures, not acetazolamide or steroids."
+  }
+]

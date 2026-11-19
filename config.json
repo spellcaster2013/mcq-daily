@@ -1,0 +1,34 @@
+{
+  "level_tag": "NEET SS · INI SS level",
+  "disclaimer": "Educational content. Verify with standard textbooks.",
+  "low_stock_days": 7,
+  "posts_per_day": 2,
+  "send_quiz_poll": true,
+  "subjects": {
+    "surgery": {
+      "channel_name": "Surgery MCQ Daily",
+      "link": "t.me/SurgeryMCQDaily",
+      "chat_id_env": "SURGERY_CHAT_ID",
+      "accent": "#0E7C7B",
+      "dark": "#0A2A2E",
+      "hashtags": "#NEETSS #INISS #SurgeryMCQ #GeneralSurgery #MChEntrance #SurgeryResident"
+    },
+    "medicine": {
+      "channel_name": "Medicine MCQ Daily",
+      "link": "t.me/MedicineMCQDaily",
+      "chat_id_env": "MEDICINE_CHAT_ID",
+      "accent": "#4B3FBF",
+      "dark": "#17143A",
+      "hashtags": "#NEETSS #INISS #MedicineMCQ #InternalMedicine #DMEntrance #MedicineResident"
+    }
+  },
+  "monthly_audience_poll": true,
+  "audience_poll_question": "Quick check: what are you preparing for right now?",
+  "audience_poll_options": [
+    "Final MS/MD university exam",
+    "NEET SS",
+    "INI SS",
+    "Both NEET SS and INI SS",
+    "Other / just revising"
+  ]
+}

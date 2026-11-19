@@ -1,0 +1,49 @@
+name: MCQ Daily bot
+
+on:
+  schedule:
+    - cron: "0 2 * * *"    # 07:30 IST
+    - cron: "0 14 * * *"   # 19:30 IST
+  workflow_dispatch:
+    inputs:
+      preview_only:
+        description: "Only draw the slides (download them from the run page), post nothing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency: mcq-daily
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow requests
+      - name: Post
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          SURGERY_CHAT_ID: ${{ secrets.SURGERY_CHAT_ID }}
+          MEDICINE_CHAT_ID: ${{ secrets.MEDICINE_CHAT_ID }}
+          OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+        run: python bot.py ${{ inputs.preview_only && '--preview' || '' }}
+      - name: Remember what was posted
+        if: always()
+        run: |
+          git config user.name "mcq-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Record posted MCQs" && git push)
+      - name: Keep slides for Instagram
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: slides
+          path: out/
+          retention-days: 14
+          if-no-files-found: ignore
