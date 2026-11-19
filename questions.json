@@ -1,182 +1,1922 @@
 [
   {
-    "id": "S001", "subject": "surgery", "topic": "Hepatobiliary",
+    "id": "S001",
+    "subject": "surgery",
+    "topic": "Hepatobiliary",
     "stem": "A hilar cholangiocarcinoma involves the hepatic duct confluence and extends into the right second-order biliary radicles. The left hepatic duct is free. What is the Bismuth-Corlette type?",
-    "options": ["Type II", "Type IIIa", "Type IIIb", "Type IV"],
+    "options": [
+      "Type II",
+      "Type IIIa",
+      "Type IIIb",
+      "Type IV"
+    ],
     "answer": "B",
     "reason": "Confluence plus right secondary radicles = Type IIIa.",
     "explanation": "Type I: below the confluence. Type II: reaches the confluence only. Type IIIa: confluence plus right hepatic duct radicles. Type IIIb: confluence plus left hepatic duct radicles. Type IV: both sides, or multifocal.",
     "pearl": "IIIa usually needs a right hepatectomy with caudate lobe resection; IIIb needs a left hepatectomy with caudate."
   },
   {
-    "id": "S002", "subject": "surgery", "topic": "Upper GI",
+    "id": "S002",
+    "subject": "surgery",
+    "topic": "Upper GI",
     "stem": "According to the Siewert classification, the epicentre of a Type II adenocarcinoma of the oesophagogastric junction lies:",
-    "options": ["1 to 5 cm above the junction", "Within 1 cm above and 2 cm below the junction", "2 to 5 cm below the junction", "More than 5 cm below the junction"],
+    "options": [
+      "1 to 5 cm above the junction",
+      "Within 1 cm above and 2 cm below the junction",
+      "2 to 5 cm below the junction",
+      "More than 5 cm below the junction"
+    ],
     "answer": "B",
     "reason": "Type II is the true cardia cancer: 1 cm above to 2 cm below.",
     "explanation": "Type I: distal oesophageal, epicentre 1 to 5 cm above the junction. Type II: true cardia, 1 cm above to 2 cm below. Type III: subcardial, 2 to 5 cm below, infiltrating the junction from below.",
     "pearl": "Type I behaves like oesophageal cancer (mediastinal nodes); Type III is treated as gastric cancer with total gastrectomy."
   },
   {
-    "id": "S003", "subject": "surgery", "topic": "Endocrine pancreas",
+    "id": "S003",
+    "subject": "surgery",
+    "topic": "Endocrine pancreas",
     "stem": "In Zollinger-Ellison syndrome associated with MEN 1, the gastrinomas are most commonly located in the:",
-    "options": ["Pancreatic head", "Pancreatic tail", "Duodenum", "Gastric antrum"],
+    "options": [
+      "Pancreatic head",
+      "Pancreatic tail",
+      "Duodenum",
+      "Gastric antrum"
+    ],
     "answer": "C",
     "reason": "MEN 1 gastrinomas are mostly small, multiple, submucosal duodenal tumours.",
     "explanation": "Most gastrinomas arise within the gastrinoma triangle. In MEN 1 the large majority are duodenal, often multiple and only a few millimetres in size, so they are easily missed on imaging and need duodenotomy with palpation to find.",
     "pearl": "In MEN 1, correct hyperparathyroidism first: lowering calcium reduces gastrin secretion."
   },
   {
-    "id": "S004", "subject": "surgery", "topic": "Biliary injury",
+    "id": "S004",
+    "subject": "surgery",
+    "topic": "Biliary injury",
     "stem": "After laparoscopic cholecystectomy, a bile leak is traced to a duct of Luschka in the gallbladder bed. The main biliary tree is intact and in continuity. What is the Strasberg type?",
-    "options": ["Type A", "Type B", "Type C", "Type D"],
+    "options": [
+      "Type A",
+      "Type B",
+      "Type C",
+      "Type D"
+    ],
     "answer": "A",
     "reason": "Leak from cystic stump or a minor duct in the liver bed, with continuity preserved = Type A.",
     "explanation": "Type A: leak from the cystic duct stump or a small duct in the liver bed. Type B: occluded aberrant right sectoral duct. Type C: transected, unligated aberrant right sectoral duct. Type D: lateral injury to a major duct. Type E: major duct transection or stricture (Bismuth levels).",
     "pearl": "Type A leaks usually settle with ERCP sphincterotomy or stenting plus drainage of any collection."
   },
   {
-    "id": "S005", "subject": "surgery", "topic": "Liver transplant",
+    "id": "S005",
+    "subject": "surgery",
+    "topic": "Liver transplant",
     "stem": "Which of these cirrhotic patients with hepatocellular carcinoma falls within the Milan criteria for liver transplantation?",
-    "options": ["Single 6 cm nodule", "Two nodules of 2.5 cm and 3 cm", "Four nodules of 2 cm each", "Single 4 cm nodule with portal vein tumour thrombus"],
+    "options": [
+      "Single 6 cm nodule",
+      "Two nodules of 2.5 cm and 3 cm",
+      "Four nodules of 2 cm each",
+      "Single 4 cm nodule with portal vein tumour thrombus"
+    ],
     "answer": "B",
     "reason": "Milan: one tumour up to 5 cm, or up to three tumours each up to 3 cm.",
     "explanation": "Milan criteria: a single tumour of 5 cm or less, or up to three tumours each 3 cm or less, with no macrovascular invasion and no extrahepatic spread. A 6 cm nodule, four nodules, and portal vein tumour thrombus all fall outside.",
     "pearl": "UCSF criteria expand this: single tumour up to 6.5 cm, or up to 3 tumours with the largest up to 4.5 cm and total diameter up to 8 cm."
   },
   {
-    "id": "S006", "subject": "surgery", "topic": "Pancreas",
+    "id": "S006",
+    "subject": "surgery",
+    "topic": "Pancreas",
     "stem": "On day 3 after pancreaticoduodenectomy, drain fluid amylase is more than 3 times the upper limit of normal serum amylase. The patient is well and management is unchanged. Per ISGPS 2016 this is:",
-    "options": ["Grade A pancreatic fistula", "Biochemical leak", "Grade B pancreatic fistula", "Grade C pancreatic fistula"],
+    "options": [
+      "Grade A pancreatic fistula",
+      "Biochemical leak",
+      "Grade B pancreatic fistula",
+      "Grade C pancreatic fistula"
+    ],
     "answer": "B",
     "reason": "No clinical impact = biochemical leak, which is no longer called a fistula.",
     "explanation": "ISGPS 2016 renamed the old Grade A as biochemical leak; it is not a true fistula. Grade B needs a change in management: drain left beyond 3 weeks, percutaneous or endoscopic drainage, angiography for bleeding, or infection without organ failure. Grade C means reoperation, organ failure or death.",
     "pearl": "The amylase threshold applies to drain fluid on or after postoperative day 3."
   },
   {
-    "id": "S007", "subject": "surgery", "topic": "Laparoscopic cholecystectomy",
+    "id": "S007",
+    "subject": "surgery",
+    "topic": "Laparoscopic cholecystectomy",
     "stem": "Which of the following is NOT a requirement of the critical view of safety during laparoscopic cholecystectomy?",
-    "options": ["Hepatocystic triangle cleared of fat and fibrous tissue", "Lower third of gallbladder separated from the cystic plate", "Only two structures seen entering the gallbladder", "Common bile duct dissected and displayed"],
+    "options": [
+      "Hepatocystic triangle cleared of fat and fibrous tissue",
+      "Lower third of gallbladder separated from the cystic plate",
+      "Only two structures seen entering the gallbladder",
+      "Common bile duct dissected and displayed"
+    ],
     "answer": "D",
     "reason": "The critical view never requires exposing the common bile duct.",
     "explanation": "The three requirements are: the hepatocystic triangle is cleared of fat and fibrous tissue, the lower third of the gallbladder is taken off the cystic plate, and two and only two structures are seen entering the gallbladder. Dissecting towards the common bile duct adds risk and is not part of it.",
     "pearl": "If the critical view cannot be achieved, bail out: subtotal cholecystectomy, fundus-first, or conversion."
   },
   {
-    "id": "S008", "subject": "surgery", "topic": "Thyroid",
+    "id": "S008",
+    "subject": "surgery",
+    "topic": "Thyroid",
     "stem": "A 38-year-old woman has a 3 cm solitary thyroid nodule. FNAC is reported as Bethesda category IV. There are no suspicious nodes and the opposite lobe is normal. What is the standard next step?",
-    "options": ["Repeat FNAC after 3 months", "Diagnostic hemithyroidectomy", "Total thyroidectomy with central neck dissection", "Radioiodine ablation"],
+    "options": [
+      "Repeat FNAC after 3 months",
+      "Diagnostic hemithyroidectomy",
+      "Total thyroidectomy with central neck dissection",
+      "Radioiodine ablation"
+    ],
     "answer": "B",
     "reason": "Follicular neoplasm cannot be called benign or malignant on cytology; lobectomy gives the histology.",
     "explanation": "Bethesda IV is follicular neoplasm. Cytology cannot show capsular or vascular invasion, which is what separates follicular carcinoma from adenoma, so diagnostic lobectomy is the standard approach. Molecular testing can be used to refine risk where available.",
     "pearl": "Bethesda III is the category where repeat FNAC is the usual first step."
   },
   {
-    "id": "S009", "subject": "surgery", "topic": "Vascular",
+    "id": "S009",
+    "subject": "surgery",
+    "topic": "Vascular",
     "stem": "A man with sudden leg pain has sensory loss extending above the toes, mild weakness of ankle dorsiflexion, no audible arterial Doppler signal and an audible venous signal. What is the Rutherford category of acute limb ischaemia?",
-    "options": ["Category I", "Category IIa", "Category IIb", "Category III"],
+    "options": [
+      "Category I",
+      "Category IIa",
+      "Category IIb",
+      "Category III"
+    ],
     "answer": "C",
     "reason": "Sensory loss beyond the toes plus motor weakness, venous signal still audible = IIb.",
     "explanation": "I: viable, no deficit, arterial signal audible. IIa: marginally threatened, minimal sensory loss limited to toes, no weakness. IIb: immediately threatened, sensory loss beyond the toes with rest pain and mild to moderate weakness. III: irreversible, profound anaesthesia and paralysis, venous signal also inaudible.",
     "pearl": "IIb needs immediate revascularisation; there is no time for prolonged catheter-directed thrombolysis."
   },
   {
-    "id": "S010", "subject": "surgery", "topic": "Colorectal",
+    "id": "S010",
+    "subject": "surgery",
+    "topic": "Colorectal",
     "stem": "After low anterior resection with total mesorectal excision, a 45-year-old man reports retrograde ejaculation. Erection is normal. Which structure was most likely injured?",
-    "options": ["Pelvic splanchnic nerves", "Superior hypogastric plexus", "Pudendal nerve", "Cavernous nerves"],
+    "options": [
+      "Pelvic splanchnic nerves",
+      "Superior hypogastric plexus",
+      "Pudendal nerve",
+      "Cavernous nerves"
+    ],
     "answer": "B",
     "reason": "Ejaculation is sympathetic: superior hypogastric plexus and hypogastric nerves.",
     "explanation": "The sympathetic superior hypogastric plexus lies in front of the aortic bifurcation and sacral promontory and is at risk during high ligation of the inferior mesenteric artery and posterior dissection. Injury causes retrograde ejaculation. Pelvic splanchnic (parasympathetic) or cavernous nerve injury causes erectile dysfunction.",
     "pearl": "Point and shoot: Parasympathetic for erection, Sympathetic for emission."
   },
   {
-    "id": "M001", "subject": "medicine", "topic": "Cardiology",
+    "id": "M001",
+    "subject": "medicine",
+    "topic": "Cardiology",
     "stem": "A 32-year-old man with a family history of sudden cardiac death has a non-diagnostic resting ECG. Which drug is used as a provocation test to unmask a type 1 Brugada pattern?",
-    "options": ["Ajmaline", "Isoprenaline", "Quinidine", "Adenosine"],
+    "options": [
+      "Ajmaline",
+      "Isoprenaline",
+      "Quinidine",
+      "Adenosine"
+    ],
     "answer": "A",
     "reason": "Sodium channel blockers (ajmaline, flecainide, procainamide) unmask the coved ST elevation.",
     "explanation": "Brugada syndrome is most often due to loss of function in the cardiac sodium channel (SCN5A). Sodium channel blockers exaggerate the defect and bring out coved ST elevation of 2 mm or more in V1 to V2. Isoprenaline and quinidine do the opposite and are used to treat electrical storm.",
     "pearl": "Placing V1 and V2 in the 2nd or 3rd intercostal space increases the sensitivity of the ECG."
   },
   {
-    "id": "M002", "subject": "medicine", "topic": "Nephrology",
+    "id": "M002",
+    "subject": "medicine",
+    "topic": "Nephrology",
     "stem": "The autoantibody found in about 70% of adults with primary membranous nephropathy is directed against:",
-    "options": ["Phospholipase A2 receptor", "Thrombospondin type 1 domain-containing 7A", "Nephrin", "Alpha-3 chain of type IV collagen"],
+    "options": [
+      "Phospholipase A2 receptor",
+      "Thrombospondin type 1 domain-containing 7A",
+      "Nephrin",
+      "Alpha-3 chain of type IV collagen"
+    ],
     "answer": "A",
     "reason": "Anti-PLA2R is the dominant antibody in primary membranous nephropathy.",
     "explanation": "PLA2R on the podocyte is the target in roughly 70% of primary membranous nephropathy. THSD7A accounts for a small percentage and has an association with malignancy. Anti-nephrin antibodies are linked to minimal change disease. The alpha-3 chain of type IV collagen is the target in anti-GBM disease.",
     "pearl": "Falling anti-PLA2R titres predict remission before proteinuria improves."
   },
   {
-    "id": "M003", "subject": "medicine", "topic": "Neurology",
+    "id": "M003",
+    "subject": "medicine",
+    "topic": "Neurology",
     "stem": "A 24-year-old woman presents with new psychosis, orofacial dyskinesias, seizures and autonomic instability. CSF is positive for anti-NMDA receptor antibodies. Which tumour should be looked for?",
-    "options": ["Ovarian teratoma", "Small cell lung carcinoma", "Thymoma", "Breast carcinoma"],
+    "options": [
+      "Ovarian teratoma",
+      "Small cell lung carcinoma",
+      "Thymoma",
+      "Breast carcinoma"
+    ],
     "answer": "A",
     "reason": "Anti-NMDA receptor encephalitis in young women is classically linked to ovarian teratoma.",
     "explanation": "Anti-NMDA receptor encephalitis typically starts with psychiatric features, then movement disorder, seizures, autonomic instability and hypoventilation. In young women an ovarian teratoma is found in a substantial proportion, and removing it improves outcome alongside immunotherapy.",
     "pearl": "EEG may show the extreme delta brush pattern."
   },
   {
-    "id": "M004", "subject": "medicine", "topic": "Endocrinology",
+    "id": "M004",
+    "subject": "medicine",
+    "topic": "Endocrinology",
     "stem": "A 42-year-old with confirmed primary aldosteronism has a 1.2 cm left adrenal nodule on CT and wants surgery. Which test best distinguishes unilateral from bilateral disease before adrenalectomy?",
-    "options": ["Saline infusion test", "Adrenal venous sampling", "Aldosterone-to-renin ratio", "FDG PET-CT"],
+    "options": [
+      "Saline infusion test",
+      "Adrenal venous sampling",
+      "Aldosterone-to-renin ratio",
+      "FDG PET-CT"
+    ],
     "answer": "B",
     "reason": "CT alone misclassifies many patients; adrenal venous sampling lateralises the source.",
     "explanation": "The aldosterone-to-renin ratio is the screening test and saline infusion is a confirmatory test. Neither tells which side is responsible. CT can show a non-functioning incidentaloma or miss a small adenoma, so adrenal venous sampling is the reference test for lateralisation before surgery.",
     "pearl": "It may be skipped in patients under 35 with marked disease and a clear unilateral adenoma on CT."
   },
   {
-    "id": "M005", "subject": "medicine", "topic": "Hepatology",
+    "id": "M005",
+    "subject": "medicine",
+    "topic": "Hepatology",
     "stem": "Clinically significant portal hypertension is defined by a hepatic venous pressure gradient of:",
-    "options": ["More than 5 mmHg", "10 mmHg or more", "12 mmHg or more", "20 mmHg or more"],
+    "options": [
+      "More than 5 mmHg",
+      "10 mmHg or more",
+      "12 mmHg or more",
+      "20 mmHg or more"
+    ],
     "answer": "B",
     "reason": "10 mmHg or more is the threshold at which varices and decompensation can develop.",
     "explanation": "Normal gradient is 1 to 5 mmHg, and more than 5 mmHg is portal hypertension. At 10 mmHg or more it is clinically significant. At 12 mmHg or more variceal bleeding can occur. A gradient of 20 mmHg or more in acute variceal bleeding predicts treatment failure.",
     "pearl": "Non-selective beta blockers aim to lower the gradient below 12 mmHg or by at least 20% from baseline."
   },
   {
-    "id": "M006", "subject": "medicine", "topic": "Pulmonology",
+    "id": "M006",
+    "subject": "medicine",
+    "topic": "Pulmonology",
     "stem": "According to the 2022 ESC/ERS guidelines, pre-capillary pulmonary hypertension is defined haemodynamically as:",
-    "options": ["mPAP > 25, PAWP <= 15, PVR > 3 WU", "mPAP > 20, PAWP <= 15, PVR > 2 WU", "mPAP > 20, PAWP > 15, PVR <= 2 WU", "mPAP > 25, PAWP > 15, PVR > 3 WU"],
+    "options": [
+      "mPAP > 25, PAWP <= 15, PVR > 3 WU",
+      "mPAP > 20, PAWP <= 15, PVR > 2 WU",
+      "mPAP > 20, PAWP > 15, PVR <= 2 WU",
+      "mPAP > 25, PAWP > 15, PVR > 3 WU"
+    ],
     "answer": "B",
     "reason": "2022 update: mPAP above 20 mmHg, wedge 15 or less, PVR above 2 Wood units.",
     "explanation": "The 2022 guidelines lowered the mean pulmonary artery pressure cut-off from 25 to above 20 mmHg and the pulmonary vascular resistance cut-off from 3 to above 2 Wood units. A wedge pressure of 15 mmHg or less marks pre-capillary disease; above 15 marks post-capillary disease.",
     "pearl": "Right heart catheterisation is mandatory for diagnosis; echocardiography only estimates probability."
   },
   {
-    "id": "M007", "subject": "medicine", "topic": "Haematology",
+    "id": "M007",
+    "subject": "medicine",
+    "topic": "Haematology",
     "stem": "A 30-year-old woman has fever, confusion, platelets of 18,000 per microlitre, schistocytes on smear, raised LDH and normal PT and aPTT. What is the most important immediate treatment?",
-    "options": ["Platelet transfusion", "Therapeutic plasma exchange", "Intravenous immunoglobulin", "Unfractionated heparin"],
+    "options": [
+      "Platelet transfusion",
+      "Therapeutic plasma exchange",
+      "Intravenous immunoglobulin",
+      "Unfractionated heparin"
+    ],
     "answer": "B",
     "reason": "This is TTP; plasma exchange is life-saving and should not wait for the ADAMTS13 result.",
     "explanation": "Microangiopathic haemolysis with severe thrombocytopenia, neurological signs and a normal coagulation profile points to thrombotic thrombocytopenic purpura. Plasma exchange removes the anti-ADAMTS13 antibody and replaces the enzyme. Steroids are added, and caplacizumab and rituximab are used where available.",
     "pearl": "ADAMTS13 activity below 10% confirms the diagnosis. Avoid platelet transfusion unless there is life-threatening bleeding."
   },
   {
-    "id": "M008", "subject": "medicine", "topic": "Rheumatology",
+    "id": "M008",
+    "subject": "medicine",
+    "topic": "Rheumatology",
     "stem": "A patient with a heliotrope rash, Gottron papules and no muscle weakness develops rapidly progressive interstitial lung disease. Which antibody is most likely to be positive?",
-    "options": ["Anti-Mi-2", "Anti-MDA5", "Anti-TIF1 gamma", "Anti-SRP"],
+    "options": [
+      "Anti-Mi-2",
+      "Anti-MDA5",
+      "Anti-TIF1 gamma",
+      "Anti-SRP"
+    ],
     "answer": "B",
     "reason": "Anti-MDA5: clinically amyopathic dermatomyositis with rapidly progressive lung disease.",
     "explanation": "Anti-MDA5 marks clinically amyopathic dermatomyositis with skin ulceration and a high risk of rapidly progressive interstitial lung disease. Anti-Mi-2 goes with classic dermatomyositis and a good response to treatment. Anti-TIF1 gamma is linked to malignancy in adults. Anti-SRP goes with necrotising myopathy.",
     "pearl": "A very high ferritin in anti-MDA5 disease signals a worse prognosis."
   },
   {
-    "id": "M009", "subject": "medicine", "topic": "Heart failure",
+    "id": "M009",
+    "subject": "medicine",
+    "topic": "Heart failure",
     "stem": "A patient with heart failure and reduced ejection fraction is being switched from enalapril to sacubitril-valsartan. What is the minimum gap needed after the last enalapril dose?",
-    "options": ["12 hours", "24 hours", "36 hours", "72 hours"],
+    "options": [
+      "12 hours",
+      "24 hours",
+      "36 hours",
+      "72 hours"
+    ],
     "answer": "C",
     "reason": "A 36-hour washout lowers the risk of angioedema.",
     "explanation": "Sacubitril inhibits neprilysin, which breaks down bradykinin. ACE inhibitors also raise bradykinin, so overlapping the two sharply increases the risk of angioedema. A 36-hour gap is required after stopping an ACE inhibitor. No washout is needed when switching from an ARB.",
     "pearl": "BNP rises on sacubitril-valsartan; use NT-proBNP for monitoring."
   },
   {
-    "id": "M010", "subject": "medicine", "topic": "Infectious disease",
+    "id": "M010",
+    "subject": "medicine",
+    "topic": "Infectious disease",
     "stem": "A treatment-naive patient with HIV and a CD4 count of 40 is diagnosed with cryptococcal meningitis and started on antifungal induction. When should antiretroviral therapy be started?",
-    "options": ["On the same day", "After 2 weeks", "After 4 to 6 weeks", "After 6 months"],
+    "options": [
+      "On the same day",
+      "After 2 weeks",
+      "After 4 to 6 weeks",
+      "After 6 months"
+    ],
     "answer": "C",
     "reason": "Early ART in cryptococcal meningitis increases mortality from IRIS.",
     "explanation": "Starting antiretroviral therapy early in cryptococcal meningitis increases deaths, largely through immune reconstitution inflammatory syndrome inside the closed cranial space. WHO recommends deferring it for 4 to 6 weeks after starting antifungal treatment.",
     "pearl": "Raised intracranial pressure is managed with repeated therapeutic lumbar punctures, not acetazolamide or steroids."
+  },
+  {
+    "id": "S011",
+    "subject": "surgery",
+    "topic": "Bariatric",
+    "stem": "A patient develops tachycardia and left shoulder pain on day 2 after laparoscopic sleeve gastrectomy. Where is a staple-line leak most likely to be located?",
+    "options": [
+      "At the mid-body of the sleeve",
+      "At the incisura angularis",
+      "At the antrum near the pylorus",
+      "Near the angle of His"
+    ],
+    "answer": "D",
+    "reason": "Most sleeve leaks occur at the proximal staple line near the angle of His.",
+    "explanation": "The proximal sleeve near the gastro-oesophageal junction has thinner tissue, relatively poor blood supply and is exposed to high intraluminal pressure when there is a distal narrowing. Most leaks occur here. Persistent tachycardia is the earliest and most reliable sign.",
+    "pearl": "A stricture at the incisura raises pressure upstream and keeps a proximal leak open; always look for it."
+  },
+  {
+    "id": "S012",
+    "subject": "surgery",
+    "topic": "Oesophagus",
+    "stem": "On high-resolution manometry, which Chicago subtype of achalasia responds best to pneumatic dilatation or Heller myotomy?",
+    "options": [
+      "Type I (classic, minimal pressurisation)",
+      "Type II (panoesophageal pressurisation)",
+      "Type III (spastic)",
+      "All subtypes respond equally"
+    ],
+    "answer": "B",
+    "reason": "Type II has the best response to every treatment modality.",
+    "explanation": "Type I shows absent peristalsis without pressurisation, type II shows panoesophageal pressurisation in at least 20% of swallows, and type III shows premature spastic contractions. Type II responds best. Type III responds worst to standard myotomy and is better served by a longer myotomy, as with POEM.",
+    "pearl": "POEM allows a myotomy tailored to the length of the spastic segment in type III."
+  },
+  {
+    "id": "S013",
+    "subject": "surgery",
+    "topic": "Oesophagus",
+    "stem": "A 50-year-old man has severe chest pain after forceful vomiting. Contrast study shows a leak. Which is the most common site of perforation in Boerhaave syndrome?",
+    "options": [
+      "Anterior wall at the cricopharyngeus",
+      "Left posterolateral wall of the distal oesophagus",
+      "Right lateral wall of the mid oesophagus",
+      "Posterior wall at the level of the carina"
+    ],
+    "answer": "B",
+    "reason": "The tear is typically left posterolateral, 2 to 3 cm above the gastro-oesophageal junction.",
+    "explanation": "Barogenic rupture occurs at the weakest unsupported point of the oesophagus, which is the left posterolateral wall of the distal third. This explains the usual left-sided pleural effusion and hydropneumothorax.",
+    "pearl": "Mackler triad: vomiting, chest pain and subcutaneous emphysema."
+  },
+  {
+    "id": "S014",
+    "subject": "surgery",
+    "topic": "Upper GI",
+    "stem": "An 8 cm gastric GIST with 12 mitoses per 50 high-power fields is resected with clear margins and no rupture. What is the recommended adjuvant treatment?",
+    "options": [
+      "Imatinib for 3 years",
+      "No adjuvant treatment",
+      "Imatinib for 1 year",
+      "Adjuvant radiotherapy"
+    ],
+    "answer": "A",
+    "reason": "High-risk GIST: 3 years of adjuvant imatinib improves survival over 1 year.",
+    "explanation": "Size above 5 cm with a high mitotic count places this tumour in the high-risk group. The SSG XVIII trial showed better recurrence-free and overall survival with 3 years of imatinib compared with 1 year. GIST is not radiosensitive and lymphadenectomy is not needed.",
+    "pearl": "PDGFRA D842V mutant GIST is resistant to imatinib; check the mutation before starting."
+  },
+  {
+    "id": "S015",
+    "subject": "surgery",
+    "topic": "Upper GI",
+    "stem": "For adequate pathological nodal staging after gastrectomy for adenocarcinoma, the minimum number of lymph nodes that should be examined is:",
+    "options": [
+      "6",
+      "12",
+      "16",
+      "25"
+    ],
+    "answer": "C",
+    "reason": "At least 16 regional nodes are needed for reliable N staging in gastric cancer.",
+    "explanation": "AJCC staging recommends examination of at least 16 regional lymph nodes for gastric cancer, and more is better. Twelve is the minimum figure for colorectal cancer, which is a common source of confusion.",
+    "pearl": "A D2 dissection normally yields well above this number."
+  },
+  {
+    "id": "S016",
+    "subject": "surgery",
+    "topic": "Upper GI",
+    "stem": "A 28-year-old woman has a mother and an aunt who died of diffuse gastric cancer before the age of 40. She carries a pathogenic CDH1 mutation. Endoscopy is normal. What should be advised?",
+    "options": [
+      "Annual endoscopy only",
+      "Prophylactic total gastrectomy",
+      "Prophylactic distal gastrectomy",
+      "Helicobacter pylori eradication and review"
+    ],
+    "answer": "B",
+    "reason": "CDH1 carriers have a high lifetime risk and endoscopy misses the signet-ring foci.",
+    "explanation": "Hereditary diffuse gastric cancer is caused by germline CDH1 (E-cadherin) mutations. The cancer spreads beneath intact mucosa as scattered signet-ring cell foci, so endoscopic surveillance is unreliable. Prophylactic total gastrectomy is advised in early adulthood.",
+    "pearl": "Women with CDH1 mutations also need surveillance for lobular breast cancer."
+  },
+  {
+    "id": "S017",
+    "subject": "surgery",
+    "topic": "Oesophagus",
+    "stem": "Surveillance biopsies in a 60-year-old man with a 4 cm Barrett segment show flat high-grade dysplasia, confirmed by a second pathologist. What is the preferred management?",
+    "options": [
+      "Repeat endoscopy in 6 months",
+      "Endoscopic eradication therapy",
+      "Oesophagectomy",
+      "Laparoscopic fundoplication alone"
+    ],
+    "answer": "B",
+    "reason": "High-grade dysplasia is treated endoscopically: resect visible lesions and ablate the rest.",
+    "explanation": "Endoscopic eradication therapy is the standard for high-grade dysplasia and intramucosal cancer. Visible nodules are removed by endoscopic resection and the remaining flat Barrett segment is treated with radiofrequency ablation. Oesophagectomy is reserved for submucosal invasion or failure of endoscopic treatment.",
+    "pearl": "T1a lesions carry a very low nodal risk; T1b lesions do not."
+  },
+  {
+    "id": "S018",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "CT of a pancreatic head adenocarcinoma shows tumour contact with the superior mesenteric artery of less than 180 degrees and no distant disease. How is this classified?",
+    "options": [
+      "Resectable",
+      "Borderline resectable",
+      "Locally advanced",
+      "Metastatic"
+    ],
+    "answer": "B",
+    "reason": "Arterial abutment of 180 degrees or less is borderline resectable.",
+    "explanation": "Resectable tumours have no arterial contact. Contact with the superior mesenteric artery of 180 degrees or less is borderline resectable, and encasement beyond 180 degrees is locally advanced. Borderline tumours are treated with neoadjuvant therapy before an attempt at resection.",
+    "pearl": "Venous involvement is borderline as long as the vein can be safely resected and reconstructed."
+  },
+  {
+    "id": "S019",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "Which finding in a branch-duct or mixed IPMN is a high-risk stigma that by itself indicates resection in a fit patient?",
+    "options": [
+      "Cyst diameter of 3 cm",
+      "Main pancreatic duct of 10 mm or more",
+      "Main pancreatic duct of 5 to 9 mm",
+      "Thickened enhancing cyst wall"
+    ],
+    "answer": "B",
+    "reason": "A main duct of 10 mm or more is a high-risk stigma.",
+    "explanation": "High-risk stigmata are obstructive jaundice with a cystic lesion of the head, an enhancing mural nodule of 5 mm or more, and a main duct of 10 mm or more. The other options are worrisome features, which call for endoscopic ultrasound before a decision.",
+    "pearl": "Main-duct IPMN carries a far higher malignancy risk than branch-duct disease."
+  },
+  {
+    "id": "S020",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "Three weeks into severe acute pancreatitis a stable patient has fever, and CT shows gas within a necrotic collection. What is the best initial intervention?",
+    "options": [
+      "Laparoscopic cholecystectomy",
+      "Total parenteral nutrition alone",
+      "Percutaneous or endoscopic drainage",
+      "Immediate open necrosectomy"
+    ],
+    "answer": "C",
+    "reason": "Step-up approach: drain first, and debride only if drainage fails.",
+    "explanation": "Gas in the collection indicates infected necrosis. The PANTER trial showed that a step-up approach, starting with catheter or endoscopic drainage and escalating to minimally invasive necrosectomy only if needed, reduces major complications compared with primary open necrosectomy.",
+    "pearl": "Delay any necrosectomy to about 4 weeks when the collection has walled off."
+  },
+  {
+    "id": "S021",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "A patient with chronic pancreatitis has intractable pain, a 9 mm pancreatic duct and a 5 cm inflammatory mass in the head. Which operation cores out the head without dividing the pancreatic neck and adds a lateral pancreaticojejunostomy?",
+    "options": [
+      "Puestow (Partington-Rochelle) procedure",
+      "Whipple procedure",
+      "Frey procedure",
+      "Beger procedure"
+    ],
+    "answer": "C",
+    "reason": "Frey: local head resection plus lateral pancreaticojejunostomy.",
+    "explanation": "The Partington-Rochelle procedure is a lateral pancreaticojejunostomy alone and does not treat a head mass. The Beger procedure is a duodenum-preserving head resection that transects the neck over the portal vein. The Frey procedure cores the head without neck transection and drains the duct.",
+    "pearl": "The head is the pacemaker of pain in chronic pancreatitis."
+  },
+  {
+    "id": "S022",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "A right posterior sectionectomy removes which Couinaud segments?",
+    "options": [
+      "Segments 6 and 7",
+      "Segments 5 and 6",
+      "Segments 5 and 8",
+      "Segments 7 and 8"
+    ],
+    "answer": "A",
+    "reason": "The right posterior section is segments 6 and 7.",
+    "explanation": "The right hepatic vein divides the right liver into an anterior section (segments 5 and 8) and a posterior section (segments 6 and 7). The middle hepatic vein lies in the principal plane and separates the right and left hemilivers.",
+    "pearl": "Segments 5 and 6 are inferior, 7 and 8 superior, relative to the portal bifurcation."
+  },
+  {
+    "id": "S023",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "A patient with Child A cirrhosis needs a right hepatectomy for hepatocellular carcinoma. What is the minimum future liver remnant generally considered safe?",
+    "options": [
+      "20%",
+      "30%",
+      "40%",
+      "60%"
+    ],
+    "answer": "C",
+    "reason": "Cirrhotic liver needs a remnant of about 40%.",
+    "explanation": "The accepted minimum future liver remnant is about 20% for a normal liver, 30% after prolonged chemotherapy or with steatosis, and 40% for a cirrhotic liver. If the predicted remnant is smaller, portal vein embolisation is used to induce hypertrophy.",
+    "pearl": "Failure to hypertrophy after portal vein embolisation predicts post-hepatectomy liver failure."
+  },
+  {
+    "id": "S024",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "An asymptomatic 55-year-old has an incidental 6 cm liver cyst that is heavily calcified with a solid appearance, WHO stage CE5. Hydatid serology is weakly positive. What is the best management?",
+    "options": [
+      "Observation (watch and wait)",
+      "Albendazole for 6 months",
+      "Surgical pericystectomy",
+      "PAIR"
+    ],
+    "answer": "A",
+    "reason": "CE4 and CE5 cysts are inactive and are simply observed.",
+    "explanation": "In the WHO classification CE1 and CE2 are active, CE3 is transitional, and CE4 and CE5 are inactive. Uncomplicated inactive cysts need no treatment. PAIR is suited to CE1 and CE3a cysts and is contraindicated when there is biliary communication.",
+    "pearl": "CE2 and CE3b cysts with daughter cysts respond poorly to PAIR; surgery is preferred."
+  },
+  {
+    "id": "S025",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "A 30-year-old man who uses anabolic steroids has a 3.5 cm hepatocellular adenoma confirmed on MRI. What is the recommended management?",
+    "options": [
+      "Stop steroids and observe",
+      "Resection only if it grows beyond 5 cm",
+      "Resection regardless of size",
+      "Transarterial embolisation"
+    ],
+    "answer": "C",
+    "reason": "Adenomas in men are resected whatever the size because of malignant risk.",
+    "explanation": "In women, adenomas under 5 cm are managed by stopping oral contraceptives and observing. In men the risk of malignant transformation is much higher, so resection is advised at any size. The beta-catenin activated subtype also carries a high risk.",
+    "pearl": "The inflammatory subtype bleeds most often; the HNF1A-inactivated subtype is the most indolent."
+  },
+  {
+    "id": "S026",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "MRCP in a 25-year-old woman shows multiple cystic dilatations of both the extrahepatic and intrahepatic bile ducts. What is the Todani type?",
+    "options": [
+      "Type I",
+      "Type III",
+      "Type IVa",
+      "Type V"
+    ],
+    "answer": "C",
+    "reason": "Intrahepatic plus extrahepatic cysts = type IVa.",
+    "explanation": "Type I is fusiform extrahepatic dilatation and is the most common. Type II is a diverticulum, type III a choledochocele, type IVa multiple intra- and extrahepatic cysts, type IVb multiple extrahepatic cysts only, and type V is Caroli disease with intrahepatic cysts alone.",
+    "pearl": "Treatment is cyst excision with Roux-en-Y hepaticojejunostomy; never a cyst-enterostomy."
+  },
+  {
+    "id": "S027",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "Histology after routine laparoscopic cholecystectomy shows adenocarcinoma invading the muscular layer (pT1b) with a negative cystic duct margin. What is the next step?",
+    "options": [
+      "No further treatment",
+      "Port-site excision alone",
+      "Adjuvant chemotherapy alone",
+      "Radical re-resection with lymphadenectomy"
+    ],
+    "answer": "D",
+    "reason": "T1a is cured by cholecystectomy; T1b and above need radical re-resection.",
+    "explanation": "Tumours confined to the lamina propria (T1a) need nothing further. From T1b onwards there is a meaningful risk of residual and nodal disease, so re-resection of the gallbladder bed (segments 4b and 5) with regional lymphadenectomy is recommended after staging.",
+    "pearl": "Routine port-site excision does not improve survival."
+  },
+  {
+    "id": "S028",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "A stone impacted in Hartmann pouch compresses the common hepatic duct from outside. There is no fistula. In the Csendes classification this is Mirizzi syndrome type:",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "answer": "A",
+    "reason": "External compression without a fistula = type I.",
+    "explanation": "Type I is external compression. Types II, III and IV are cholecystobiliary fistulae involving less than one third, up to two thirds, and the whole circumference of the duct. Type V is any type with a cholecystoenteric fistula.",
+    "pearl": "Higher types need a bilioenteric reconstruction, not simple cholecystectomy."
+  },
+  {
+    "id": "S029",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "A 70-year-old with fever, jaundice and right upper quadrant pain is confused and needs noradrenaline to maintain blood pressure. Besides antibiotics and resuscitation, what is the priority?",
+    "options": [
+      "Urgent endoscopic biliary drainage",
+      "Elective ERCP after 72 hours of antibiotics",
+      "Emergency cholecystectomy",
+      "MRCP before any intervention"
+    ],
+    "answer": "A",
+    "reason": "Organ dysfunction = Tokyo grade III; drain the biliary tree urgently.",
+    "explanation": "Tokyo Guidelines grade III (severe) cholangitis is defined by organ dysfunction such as hypotension needing vasopressors or altered consciousness. These patients need urgent biliary decompression, preferably by ERCP, once organ support has started. Definitive stone clearance can wait.",
+    "pearl": "Reynolds pentad adds shock and confusion to Charcot triad."
+  },
+  {
+    "id": "S030",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "In Lynch syndrome, which is the most common extracolonic malignancy?",
+    "options": [
+      "Urothelial carcinoma",
+      "Ovarian carcinoma",
+      "Endometrial carcinoma",
+      "Gastric carcinoma"
+    ],
+    "answer": "C",
+    "reason": "Endometrial cancer is the commonest extracolonic cancer in Lynch syndrome.",
+    "explanation": "Lynch syndrome results from germline mutations in mismatch repair genes (MLH1, MSH2, MSH6, PMS2). Women have a lifetime endometrial cancer risk that approaches their colorectal cancer risk. Ovarian, gastric, small bowel and upper urinary tract cancers also occur.",
+    "pearl": "Colonoscopy is started at 20 to 25 years and repeated every 1 to 2 years."
+  },
+  {
+    "id": "S031",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "After prophylactic proctocolectomy for familial adenomatous polyposis, which surveillance is most important for preventing cancer death?",
+    "options": [
+      "Serum CEA every 6 months",
+      "Annual CT of the chest",
+      "Upper GI endoscopy with a side-viewing scope",
+      "Capsule endoscopy every 5 years"
+    ],
+    "answer": "C",
+    "reason": "Duodenal and periampullary cancer is a leading cause of death after colectomy.",
+    "explanation": "Almost all patients with FAP develop duodenal adenomas, concentrated around the ampulla. Surveillance with forward and side-viewing endoscopy is guided by the Spigelman stage. Desmoid tumours are the other major cause of death after colectomy.",
+    "pearl": "Spigelman stage IV disease is an indication to consider prophylactic duodenectomy."
+  },
+  {
+    "id": "S032",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "On staging MRI for mid-rectal cancer, which finding is the strongest predictor of local recurrence?",
+    "options": [
+      "Distance from the anal verge",
+      "Tumour length above 5 cm",
+      "Mucinous histology",
+      "Involved circumferential resection margin"
+    ],
+    "answer": "D",
+    "reason": "A threatened mesorectal fascia (tumour within 1 mm) predicts local recurrence.",
+    "explanation": "The circumferential resection margin is the key determinant of local control after total mesorectal excision. Tumour within 1 mm of the mesorectal fascia on MRI indicates a threatened margin and is an indication for neoadjuvant treatment before surgery.",
+    "pearl": "Extramural venous invasion on MRI predicts distant rather than local failure."
+  },
+  {
+    "id": "S033",
+    "subject": "surgery",
+    "topic": "Anal canal",
+    "stem": "A 58-year-old woman has a 3 cm squamous cell carcinoma of the anal canal with no nodal or distant disease. What is the primary treatment?",
+    "options": [
+      "Neoadjuvant chemotherapy then surgery",
+      "Abdominoperineal resection",
+      "Wide local excision",
+      "Chemoradiation with 5-fluorouracil and mitomycin C"
+    ],
+    "answer": "D",
+    "reason": "Nigro regimen: chemoradiation is curative and preserves the sphincter.",
+    "explanation": "Combined chemoradiation with 5-fluorouracil and mitomycin C is the standard primary treatment for anal squamous cell carcinoma. Abdominoperineal resection is reserved for persistent or recurrent disease. Regression can continue for up to 6 months, so early biopsy is avoided.",
+    "pearl": "Local excision is only for small, well-differentiated anal margin lesions."
+  },
+  {
+    "id": "S034",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "A stable 60-year-old with sigmoid diverticulitis has a 5 cm pelvic abscess on CT. What is the Hinchey stage and best initial treatment?",
+    "options": [
+      "Stage I; antibiotics alone",
+      "Stage II; percutaneous drainage with antibiotics",
+      "Stage III; laparoscopic lavage",
+      "Stage IV; Hartmann procedure"
+    ],
+    "answer": "B",
+    "reason": "Pelvic abscess = Hinchey II; drain it percutaneously.",
+    "explanation": "Hinchey I is a pericolic abscess, II a pelvic or distant abscess, III generalised purulent peritonitis and IV faecal peritonitis. Abscesses larger than about 3 to 4 cm are drained under image guidance along with antibiotics, avoiding emergency surgery.",
+    "pearl": "Arrange colonoscopy after recovery to exclude an underlying carcinoma."
+  },
+  {
+    "id": "S035",
+    "subject": "surgery",
+    "topic": "Anorectal",
+    "stem": "A 35-year-old woman has an anterior trans-sphincteric fistula crossing more than a third of the external sphincter. Which operation is most appropriate?",
+    "options": [
+      "Abdominoperineal resection",
+      "Cutting seton tightened weekly",
+      "Lay-open fistulotomy",
+      "LIFT or endorectal advancement flap"
+    ],
+    "answer": "D",
+    "reason": "High or anterior fistulae in women need a sphincter-preserving procedure.",
+    "explanation": "Fistulotomy divides the sphincter below the track and risks incontinence when a substantial part of the external sphincter is involved, especially anteriorly in women where the sphincter is short. Ligation of the intersphincteric fistula tract or an advancement flap preserves continence.",
+    "pearl": "Simple low fistulae are still best treated by fistulotomy."
+  },
+  {
+    "id": "S036",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "A patient with acute severe ulcerative colitis develops toxic megacolon and fails 72 hours of intravenous steroids and rescue therapy. What is the operation of choice?",
+    "options": [
+      "Subtotal colectomy with end ileostomy",
+      "Loop ileostomy alone",
+      "Segmental colectomy with primary anastomosis",
+      "Proctocolectomy with ileal pouch-anal anastomosis"
+    ],
+    "answer": "A",
+    "reason": "Emergency: remove the colon, leave the rectum, bring out an ileostomy.",
+    "explanation": "In the emergency setting a subtotal colectomy with end ileostomy removes the diseased colon with the least morbidity. Pelvic dissection and pouch construction are avoided in a sick, steroid-treated patient and can be done later as a staged procedure.",
+    "pearl": "The rectal stump may be closed or brought out as a mucous fistula if it is friable."
+  },
+  {
+    "id": "S037",
+    "subject": "surgery",
+    "topic": "Appendix",
+    "stem": "Histology of an appendicectomy specimen shows a 2.5 cm neuroendocrine tumour at the base with mesoappendiceal invasion. What is the next step?",
+    "options": [
+      "Right hemicolectomy",
+      "No further surgery",
+      "Repeat CT in 1 year",
+      "Somatostatin analogue therapy alone"
+    ],
+    "answer": "A",
+    "reason": "Size over 2 cm, base involvement or deep mesoappendiceal invasion needs right hemicolectomy.",
+    "explanation": "Appendiceal neuroendocrine tumours under 1 cm at the tip are cured by appendicectomy. Tumours larger than 2 cm, those at the base with positive margins, or with significant mesoappendiceal invasion have a real risk of nodal spread and need completion right hemicolectomy.",
+    "pearl": "Tumours of 1 to 2 cm are decided case by case on grade and invasion."
+  },
+  {
+    "id": "S038",
+    "subject": "surgery",
+    "topic": "Small bowel",
+    "stem": "After massive enterectomy a patient is left with an end jejunostomy and no colon. Below roughly what length of small bowel is long-term parenteral support usually required?",
+    "options": [
+      "35 cm",
+      "60 cm",
+      "100 cm",
+      "200 cm"
+    ],
+    "answer": "C",
+    "reason": "End jejunostomy: under about 100 cm usually means dependence on parenteral support.",
+    "explanation": "The length needed for nutritional autonomy depends on the anatomy. Approximate thresholds are 100 cm for an end jejunostomy, 60 cm when jejunum is joined to colon, and 35 cm when the ileocaecal valve and whole colon are preserved.",
+    "pearl": "Teduglutide, a GLP-2 analogue, can reduce parenteral requirements."
+  },
+  {
+    "id": "S039",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "A 55-year-old woman with a 2 cm invasive ductal carcinoma has breast-conserving surgery. Two of three sentinel nodes show macrometastases. She will receive whole-breast radiotherapy and systemic therapy. What should be done for the axilla?",
+    "options": [
+      "Internal mammary node biopsy",
+      "Completion axillary dissection",
+      "Axillary sampling of level III",
+      "No further axillary surgery"
+    ],
+    "answer": "D",
+    "reason": "ACOSOG Z0011: with 1 to 2 positive sentinel nodes, dissection adds nothing.",
+    "explanation": "The Z0011 trial included clinically node-negative T1 to T2 tumours treated by breast conservation with whole-breast radiotherapy. With one or two positive sentinel nodes, omitting axillary dissection gave equivalent survival and regional control with less lymphoedema.",
+    "pearl": "The trial does not apply to mastectomy without radiotherapy or after neoadjuvant chemotherapy."
+  },
+  {
+    "id": "S040",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "A man is diagnosed with breast cancer. Which germline mutation is most strongly associated?",
+    "options": [
+      "PTEN",
+      "TP53",
+      "BRCA2",
+      "BRCA1"
+    ],
+    "answer": "C",
+    "reason": "Male breast cancer is classically linked to BRCA2.",
+    "explanation": "BRCA2 carriers have a clearly raised risk of male breast cancer, along with prostate and pancreatic cancer. BRCA1 is associated with triple-negative, basal-like breast cancer and ovarian cancer in women. All men with breast cancer should be offered genetic testing.",
+    "pearl": "Klinefelter syndrome is the strongest non-genetic-mutation risk factor in men."
+  },
+  {
+    "id": "S041",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "Core biopsy of a rapidly growing 6 cm breast lump shows a borderline phyllodes tumour. Axilla is clinically normal. What is the appropriate surgery?",
+    "options": [
+      "Enucleation",
+      "Wide excision with clear margins, no axillary surgery",
+      "Modified radical mastectomy",
+      "Wide excision with sentinel node biopsy"
+    ],
+    "answer": "B",
+    "reason": "Phyllodes tumours spread by blood, so the axilla is left alone.",
+    "explanation": "Phyllodes tumours are fibroepithelial lesions that recur locally if margins are inadequate, so wide excision with clear margins (traditionally 1 cm for borderline and malignant types) is the aim. Nodal spread is rare, and metastases, when they occur, go to the lung.",
+    "pearl": "Stromal overgrowth and mitotic rate determine the grade."
+  },
+  {
+    "id": "S042",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "A woman with HER2-positive breast cancer completes neoadjuvant chemotherapy with trastuzumab. Surgery shows residual invasive disease. What is the preferred adjuvant anti-HER2 therapy?",
+    "options": [
+      "No further anti-HER2 therapy",
+      "Lapatinib",
+      "Trastuzumab emtansine (T-DM1)",
+      "Continue trastuzumab alone"
+    ],
+    "answer": "C",
+    "reason": "KATHERINE trial: T-DM1 halves recurrence when there is residual disease.",
+    "explanation": "Residual invasive disease after neoadjuvant HER2-directed therapy marks a higher risk of relapse. In the KATHERINE trial, switching to trastuzumab emtansine for 14 cycles reduced invasive recurrence or death by about half compared with continuing trastuzumab.",
+    "pearl": "Pathological complete response is a strong prognostic marker in HER2-positive and triple-negative disease."
+  },
+  {
+    "id": "S043",
+    "subject": "surgery",
+    "topic": "Thyroid",
+    "stem": "FNAC and raised calcitonin confirm medullary thyroid carcinoma in a 30-year-old. What must be done before thyroidectomy?",
+    "options": [
+      "Radioiodine uptake scan",
+      "Thyroglobulin level",
+      "TSH suppression for 6 weeks",
+      "Plasma or urinary metanephrines"
+    ],
+    "answer": "D",
+    "reason": "Exclude phaeochromocytoma first; MEN 2 may be present.",
+    "explanation": "About a quarter of medullary carcinomas are hereditary, as part of MEN 2A or 2B caused by RET mutations. An unrecognised phaeochromocytoma can cause a fatal hypertensive crisis under anaesthesia, so it is excluded and treated first. Calcium is checked for hyperparathyroidism.",
+    "pearl": "Medullary carcinoma does not take up radioiodine; C cells are not follicular cells."
+  },
+  {
+    "id": "S044",
+    "subject": "surgery",
+    "topic": "Parathyroid",
+    "stem": "A 32-year-old with MEN 1 has primary hyperparathyroidism. What is the recommended operation?",
+    "options": [
+      "Excision of the single largest gland",
+      "Minimally invasive focused parathyroidectomy",
+      "Total thyroidectomy with parathyroidectomy",
+      "Subtotal parathyroidectomy with cervical thymectomy"
+    ],
+    "answer": "D",
+    "reason": "MEN 1 is multigland disease: remove three and a half glands plus the thymus.",
+    "explanation": "Hyperparathyroidism in MEN 1 involves all glands asymmetrically, so focused surgery fails. Subtotal parathyroidectomy leaving a vascularised remnant, or total parathyroidectomy with autotransplantation, is combined with transcervical thymectomy to remove supernumerary glands and reduce thymic carcinoid risk.",
+    "pearl": "Recurrence is common even after adequate surgery; plan for lifelong follow-up."
+  },
+  {
+    "id": "S045",
+    "subject": "surgery",
+    "topic": "Parathyroid",
+    "stem": "During focused parathyroidectomy, which intraoperative PTH result predicts cure by the Miami criterion?",
+    "options": [
+      "Fall of more than 50% at 10 minutes after excision",
+      "Any fall at 5 minutes",
+      "Fall of more than 25% at 20 minutes",
+      "Fall to below 10 pg/mL at 30 minutes"
+    ],
+    "answer": "A",
+    "reason": "A drop of over 50% from the highest baseline at 10 minutes predicts cure.",
+    "explanation": "PTH has a half-life of 3 to 5 minutes. The Miami criterion is a fall of more than 50% from the highest pre-incision or pre-excision value 10 minutes after removing the gland. Failure to fall suggests further hyperfunctioning tissue and the need to explore.",
+    "pearl": "Gland manipulation can spike PTH, which is why the pre-excision sample matters."
+  },
+  {
+    "id": "S046",
+    "subject": "surgery",
+    "topic": "Adrenal",
+    "stem": "A patient with phaeochromocytoma is being prepared for adrenalectomy. Why must a beta blocker never be started before alpha blockade?",
+    "options": [
+      "It prevents tumour localisation on MIBG",
+      "Unopposed alpha stimulation causes hypertensive crisis",
+      "It increases catecholamine synthesis",
+      "It causes refractory hypoglycaemia"
+    ],
+    "answer": "B",
+    "reason": "Blocking beta-2 vasodilatation leaves alpha vasoconstriction unopposed.",
+    "explanation": "Alpha blockade with phenoxybenzamine or doxazosin is started 10 to 14 days before surgery along with salt and fluid loading. A beta blocker is added only afterwards to control tachycardia. Given first, it removes beta-2 mediated vasodilatation and can precipitate a crisis.",
+    "pearl": "After the tumour is removed, watch for hypotension and hypoglycaemia."
+  },
+  {
+    "id": "S047",
+    "subject": "surgery",
+    "topic": "Adrenal",
+    "stem": "A 3 cm adrenal mass is found incidentally. Which finding is most consistent with a benign lipid-rich adenoma?",
+    "options": [
+      "Heterogeneous enhancement with necrosis",
+      "Unenhanced CT density of 10 HU or less",
+      "Size increase of 1 cm in 6 months",
+      "Absolute contrast washout of 40%"
+    ],
+    "answer": "B",
+    "reason": "Density of 10 HU or less on unenhanced CT indicates a lipid-rich adenoma.",
+    "explanation": "Benign adenomas are rich in intracellular lipid, giving low attenuation on unenhanced CT. Lipid-poor adenomas show rapid washout, with absolute washout of 60% or more. Every incidentaloma also needs hormonal evaluation whatever its appearance.",
+    "pearl": "Masses over 4 cm or with indeterminate features are generally resected."
+  },
+  {
+    "id": "S048",
+    "subject": "surgery",
+    "topic": "Vascular",
+    "stem": "One year after EVAR, CT shows a type II endoleak from a lumbar artery. The aneurysm sac has not enlarged. What is the management?",
+    "options": [
+      "Observation with continued imaging",
+      "Proximal extension cuff",
+      "Relining of the stent graft",
+      "Immediate open conversion"
+    ],
+    "answer": "A",
+    "reason": "Type II endoleaks with a stable sac are watched; many seal spontaneously.",
+    "explanation": "Type I (attachment site) and type III (graft defect or component separation) endoleaks expose the sac to systemic pressure and need prompt treatment. Type II endoleaks arise from back-bleeding branches such as lumbar arteries or the inferior mesenteric artery and are treated only if the sac enlarges.",
+    "pearl": "Type II is the most common endoleak."
+  },
+  {
+    "id": "S049",
+    "subject": "surgery",
+    "topic": "Vascular",
+    "stem": "A 68-year-old has a transient ischaemic attack and an 80% stenosis of the ipsilateral internal carotid artery. When should carotid endarterectomy ideally be done?",
+    "options": [
+      "Within 2 weeks of the event",
+      "After 3 months of antiplatelet therapy",
+      "After 6 weeks",
+      "Only if a second event occurs"
+    ],
+    "answer": "A",
+    "reason": "The benefit of endarterectomy is greatest within 14 days of symptoms.",
+    "explanation": "The risk of stroke is highest in the first days and weeks after a transient ischaemic attack or minor stroke. Pooled trial data show that the benefit of endarterectomy for symptomatic 70 to 99% stenosis falls quickly with delay, so surgery is recommended within 2 weeks.",
+    "pearl": "A near-occluded or totally occluded carotid is not operated on."
+  },
+  {
+    "id": "S050",
+    "subject": "surgery",
+    "topic": "Vascular",
+    "stem": "After tibial fracture fixation a patient has severe pain on passive toe extension. Compartment pressure is 38 mmHg and blood pressure is 110/60 mmHg. What is the appropriate action?",
+    "options": [
+      "Arterial duplex scan",
+      "Fasciotomy",
+      "Repeat pressure measurement after analgesia",
+      "Elevate the limb and reassess in 6 hours"
+    ],
+    "answer": "B",
+    "reason": "Delta pressure (diastolic minus compartment) below 30 mmHg = fasciotomy.",
+    "explanation": "Here the difference between diastolic pressure and compartment pressure is 22 mmHg. A difference below 30 mmHg, together with the clinical picture, indicates inadequate perfusion and the need for urgent four-compartment fasciotomy. Pulses remain palpable until late.",
+    "pearl": "Pain out of proportion and pain on passive stretch are the earliest signs."
+  },
+  {
+    "id": "S051",
+    "subject": "surgery",
+    "topic": "Trauma",
+    "stem": "At laparotomy for blunt trauma, a non-expanding, non-pulsatile haematoma is found around the left kidney. The patient is stable. What should be done?",
+    "options": [
+      "Leave it unexplored",
+      "Nephrectomy",
+      "Explore the haematoma",
+      "Pack and perform on-table angiography"
+    ],
+    "answer": "A",
+    "reason": "Zone 2 haematoma after blunt trauma is not explored unless expanding.",
+    "explanation": "Zone 1 (central) haematomas are explored in both blunt and penetrating trauma. Zone 2 (lateral, perirenal) haematomas are explored after penetrating injury, but after blunt injury only if expanding or pulsatile. Zone 3 (pelvic) blunt haematomas are not opened.",
+    "pearl": "Opening a contained pelvic haematoma releases tamponade and can be fatal."
+  },
+  {
+    "id": "S052",
+    "subject": "surgery",
+    "topic": "Trauma",
+    "stem": "A patient with an unstable pelvic fracture is in refractory haemorrhagic shock with no chest or abdominal source. If REBOA is used, in which aortic zone should the balloon be inflated?",
+    "options": [
+      "Zone 1",
+      "Zone 2",
+      "Zone 3",
+      "Zone 0"
+    ],
+    "answer": "C",
+    "reason": "Pelvic bleeding: Zone 3, the infrarenal aorta.",
+    "explanation": "Zone 1 runs from the left subclavian artery to the coeliac trunk and is used for intra-abdominal haemorrhage. Zone 2, between the coeliac trunk and the lowest renal artery, is a no-occlusion zone. Zone 3, from the lowest renal artery to the bifurcation, is used for pelvic and junctional bleeding.",
+    "pearl": "Zone 1 occlusion time should be kept as short as possible because of visceral ischaemia."
+  },
+  {
+    "id": "S053",
+    "subject": "surgery",
+    "topic": "Trauma",
+    "stem": "A haemodynamically stable patient with a grade III splenic injury after blunt trauma has a contrast blush on CT. What is the best management?",
+    "options": [
+      "Emergency splenectomy",
+      "Diagnostic laparoscopy",
+      "Observation in the ward",
+      "Splenic angioembolisation"
+    ],
+    "answer": "D",
+    "reason": "Stable patient with a blush: embolise to make non-operative management succeed.",
+    "explanation": "A contrast blush indicates active bleeding or a pseudoaneurysm and predicts failure of observation alone. In a stable patient, angioembolisation raises the success rate of non-operative management. Haemodynamic instability remains the indication for laparotomy.",
+    "pearl": "Vaccinate against encapsulated organisms if most of the spleen is lost or embolised."
+  },
+  {
+    "id": "S054",
+    "subject": "surgery",
+    "topic": "Burns",
+    "stem": "A 70 kg man with 40% TBSA burns arrives 2 hours after injury. Using the Parkland formula, what is the infusion rate for the remainder of the first 8 hours?",
+    "options": [
+      "About 470 mL per hour",
+      "About 700 mL per hour",
+      "About 930 mL per hour",
+      "About 1,400 mL per hour"
+    ],
+    "answer": "C",
+    "reason": "Half of 11,200 mL is due in the first 8 hours from the burn; 6 hours remain.",
+    "explanation": "Parkland: 4 mL x 70 kg x 40% = 11,200 mL in 24 hours. Half, 5,600 mL, is given in the first 8 hours counted from the time of the burn. With 6 hours left, the rate is about 930 mL per hour. The formula is a starting point; titrate to urine output.",
+    "pearl": "Target urine output is 0.5 mL/kg per hour in adults."
+  },
+  {
+    "id": "S055",
+    "subject": "surgery",
+    "topic": "Transplant",
+    "stem": "Eight months after renal transplantation an EBV-seronegative recipient develops fever, lymphadenopathy and a rising EBV viral load. Biopsy confirms post-transplant lymphoproliferative disorder. What is the first step?",
+    "options": [
+      "Start ganciclovir alone",
+      "Graft nephrectomy",
+      "Increase tacrolimus",
+      "Reduce immunosuppression"
+    ],
+    "answer": "D",
+    "reason": "Reducing immunosuppression is the first step in PTLD.",
+    "explanation": "Most early post-transplant lymphoproliferative disorder is driven by EBV-infected B cells proliferating without T-cell control. Reducing immunosuppression restores that control and can produce regression. Rituximab, with or without chemotherapy, is added for CD20-positive disease that does not respond.",
+    "pearl": "An EBV-negative recipient of an EBV-positive donor organ carries the highest risk."
+  },
+  {
+    "id": "S056",
+    "subject": "surgery",
+    "topic": "Bariatric",
+    "stem": "Two years after laparoscopic Roux-en-Y gastric bypass a woman has intermittent colicky pain. CT shows a mesenteric swirl sign. Where is the Petersen defect?",
+    "options": [
+      "At the jejunojejunostomy mesenteric defect",
+      "Between the Roux limb mesentery and the transverse mesocolon",
+      "Between the gastric pouch and the remnant stomach",
+      "Through the oesophageal hiatus"
+    ],
+    "answer": "B",
+    "reason": "Petersen space lies behind the Roux limb, in front of the transverse mesocolon.",
+    "explanation": "Internal hernia is the most common cause of small bowel obstruction after laparoscopic gastric bypass. Potential spaces are the Petersen space, the jejunojejunostomy mesenteric defect and, in retrocolic reconstructions, the mesocolic window. Weight loss enlarges these defects.",
+    "pearl": "A normal CT does not exclude internal hernia; persistent pain warrants laparoscopy."
+  },
+  {
+    "id": "S057",
+    "subject": "surgery",
+    "topic": "Hernia",
+    "stem": "After laparoscopic inguinal hernia repair a patient has burning pain and numbness over the anterolateral thigh. Tacks were placed lateral to the gonadal vessels below the iliopubic tract. Which nerve is injured?",
+    "options": [
+      "Ilioinguinal nerve",
+      "Obturator nerve",
+      "Iliohypogastric nerve",
+      "Lateral femoral cutaneous nerve"
+    ],
+    "answer": "D",
+    "reason": "Triangle of pain: lateral to the gonadal vessels, below the iliopubic tract.",
+    "explanation": "The triangle of pain contains the lateral femoral cutaneous nerve, the femoral branch of the genitofemoral nerve and the femoral nerve. The triangle of doom, between the vas deferens and gonadal vessels, contains the external iliac vessels. No fixation should be placed below the iliopubic tract.",
+    "pearl": "Injury to the lateral femoral cutaneous nerve causes meralgia paraesthetica."
+  },
+  {
+    "id": "S058",
+    "subject": "surgery",
+    "topic": "Paediatric surgery",
+    "stem": "For the best chance of bile drainage, Kasai portoenterostomy for biliary atresia should ideally be performed before what age?",
+    "options": [
+      "60 days",
+      "120 days",
+      "6 months",
+      "1 year"
+    ],
+    "answer": "A",
+    "reason": "Results fall off sharply when the Kasai procedure is done after about 60 days.",
+    "explanation": "Biliary atresia is a progressive fibro-obliterative disease of the bile ducts. Early portoenterostomy restores bile flow in a good proportion of infants and delays or avoids transplantation. Any infant with conjugated jaundice beyond 2 weeks needs urgent evaluation.",
+    "pearl": "Biliary atresia is the most common indication for paediatric liver transplantation."
+  },
+  {
+    "id": "S059",
+    "subject": "surgery",
+    "topic": "Surgical oncology",
+    "stem": "Excision biopsy of a pigmented lesion on the back shows melanoma with Breslow thickness 2.4 mm. There are no palpable nodes. What is the correct definitive surgery?",
+    "options": [
+      "1 cm margin only",
+      "2 cm margin with sentinel node biopsy",
+      "3 cm margin with elective node dissection",
+      "5 cm margin down to fascia"
+    ],
+    "answer": "B",
+    "reason": "Thickness over 2 mm: 2 cm margin, plus sentinel node biopsy.",
+    "explanation": "Recommended margins are 0.5 to 1 cm for in situ disease, 1 cm for melanoma up to 1 mm thick, 1 to 2 cm for 1 to 2 mm, and 2 cm for thicker tumours. Sentinel node biopsy is offered for thickness of 0.8 mm or more, or thinner tumours with ulceration.",
+    "pearl": "A positive sentinel node is now followed by nodal ultrasound surveillance, not routine dissection."
+  },
+  {
+    "id": "S060",
+    "subject": "surgery",
+    "topic": "Surgical oncology",
+    "stem": "A 45-year-old has a deep, 9 cm, firm mass in the thigh. MRI suggests a soft tissue sarcoma. What is the correct way to obtain a tissue diagnosis?",
+    "options": [
+      "Fine needle aspiration from the nearest point",
+      "Core needle biopsy along the planned incision line",
+      "Transverse incision biopsy",
+      "Excision biopsy"
+    ],
+    "answer": "B",
+    "reason": "Core biopsy, with the track placed so it can be excised with the tumour.",
+    "explanation": "Core needle biopsy gives enough tissue for subtype and grade. The track is contaminated and must lie in the line of the future longitudinal incision so it can be removed en bloc. Unplanned excision and transverse incisions compromise limb-sparing surgery.",
+    "pearl": "Staging includes MRI of the limb and CT of the chest; sarcomas spread to the lung."
+  },
+  {
+    "id": "M011",
+    "subject": "medicine",
+    "topic": "Cardiology",
+    "stem": "A 58-year-old presents to a rural hospital 2 hours after onset of chest pain with anterior ST elevation. The nearest PCI centre is 3 hours away. What is the best reperfusion strategy?",
+    "options": [
+      "Transfer for primary PCI",
+      "Fibrinolysis only if pain persists at 6 hours",
+      "Heparin alone and observe",
+      "Immediate fibrinolysis, then transfer"
+    ],
+    "answer": "D",
+    "reason": "If PCI cannot be delivered within 120 minutes, give fibrinolysis without delay.",
+    "explanation": "Primary PCI is preferred when it can be performed within 120 minutes of diagnosis. Otherwise fibrinolysis is given immediately, ideally within 10 minutes, followed by transfer for angiography 2 to 24 hours later. This is the pharmaco-invasive strategy.",
+    "pearl": "Failed fibrinolysis (less than 50% ST resolution at 60 to 90 minutes) needs rescue PCI."
+  },
+  {
+    "id": "M012",
+    "subject": "medicine",
+    "topic": "Cardiology",
+    "stem": "A 72-year-old woman with hypertension and type 2 diabetes is found to have atrial fibrillation. She has no history of stroke, heart failure or vascular disease. What is her CHA2DS2-VASc score?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "C",
+    "reason": "Age 65 to 74 (1) + female (1) + hypertension (1) + diabetes (1) = 4.",
+    "explanation": "The score gives 1 point each for heart failure, hypertension, diabetes, vascular disease, age 65 to 74 and female sex, and 2 points each for age 75 or more and prior stroke or TIA. She scores 4 and should receive oral anticoagulation, preferably a DOAC.",
+    "pearl": "Female sex alone, with no other risk factor, does not justify anticoagulation."
+  },
+  {
+    "id": "M013",
+    "subject": "medicine",
+    "topic": "Cardiology",
+    "stem": "Mavacamten, used in symptomatic obstructive hypertrophic cardiomyopathy, acts by:",
+    "options": [
+      "Blocking beta-1 adrenergic receptors",
+      "Inhibiting the late sodium current",
+      "Inhibiting cardiac myosin ATPase",
+      "Blocking L-type calcium channels"
+    ],
+    "answer": "C",
+    "reason": "It is a selective cardiac myosin inhibitor that reduces hypercontractility.",
+    "explanation": "Mavacamten reduces the number of myosin heads that can bind actin, lowering contractility and the outflow tract gradient. It improved symptoms and exercise capacity in the EXPLORER-HCM trial. Ejection fraction must be monitored because it can cause systolic dysfunction.",
+    "pearl": "Avoid vasodilators and high-dose diuretics in obstructive HCM; they worsen the gradient."
+  },
+  {
+    "id": "M014",
+    "subject": "medicine",
+    "topic": "Cardiology",
+    "stem": "Which set of echocardiographic values defines severe aortic stenosis?",
+    "options": [
+      "Peak velocity 5 m/s, mean gradient 20 mmHg, area 1.8 cm2",
+      "Peak velocity 3 m/s, mean gradient 25 mmHg, area 1.5 cm2",
+      "Peak velocity 4 m/s or more, mean gradient 40 mmHg or more, area under 1 cm2",
+      "Peak velocity 2.5 m/s, mean gradient 15 mmHg, area 2 cm2"
+    ],
+    "answer": "C",
+    "reason": "Severe: velocity 4 m/s or more, mean gradient 40 mmHg or more, area below 1 cm2.",
+    "explanation": "These three values define high-gradient severe aortic stenosis. When the area is below 1 cm2 but the gradient is low, low-flow low-gradient stenosis is considered and dobutamine stress echocardiography or CT calcium scoring is used to confirm severity.",
+    "pearl": "Symptoms (angina, syncope, dyspnoea) or an ejection fraction below 50% indicate valve replacement."
+  },
+  {
+    "id": "M015",
+    "subject": "medicine",
+    "topic": "Cardiology",
+    "stem": "A patient with Staphylococcus aureus aortic valve endocarditis develops a PR interval that lengthens progressively to complete heart block. What does this indicate?",
+    "options": [
+      "Septic coronary embolism",
+      "Coincidental degenerative conduction disease",
+      "Antibiotic toxicity",
+      "Perivalvular abscess needing surgery"
+    ],
+    "answer": "D",
+    "reason": "New conduction block in aortic endocarditis means extension into the root.",
+    "explanation": "The conduction system runs close to the aortic root. A new atrioventricular block signals perivalvular extension or abscess, which represents uncontrolled infection and is an indication for urgent surgery. Transoesophageal echocardiography is the investigation of choice.",
+    "pearl": "The three surgical indications are heart failure, uncontrolled infection and prevention of embolism."
+  },
+  {
+    "id": "M016",
+    "subject": "medicine",
+    "topic": "Cardiology",
+    "stem": "A woman on erythromycin and ondansetron has recurrent syncope. The monitor shows polymorphic ventricular tachycardia with a twisting axis and she has a pulse. What is the first-line drug?",
+    "options": [
+      "Intravenous procainamide",
+      "Intravenous verapamil",
+      "Intravenous amiodarone",
+      "Intravenous magnesium sulphate"
+    ],
+    "answer": "D",
+    "reason": "Torsades de pointes: magnesium 2 g IV, even if serum magnesium is normal.",
+    "explanation": "Torsades de pointes arises on a prolonged QT interval. Magnesium suppresses the early afterdepolarisations that trigger it. Offending drugs are stopped and potassium is corrected. Amiodarone and procainamide prolong the QT further and are avoided.",
+    "pearl": "Refractory cases are treated by raising the heart rate with pacing or isoprenaline."
+  },
+  {
+    "id": "M017",
+    "subject": "medicine",
+    "topic": "Cardiology",
+    "stem": "A 76-year-old man has heart failure with preserved ejection fraction, thick ventricular walls and low ECG voltages. Serum and urine show no monoclonal protein. Which test can confirm the diagnosis without biopsy?",
+    "options": [
+      "FDG PET-CT",
+      "Exercise treadmill test",
+      "Technetium pyrophosphate (bone tracer) scintigraphy",
+      "Coronary angiography"
+    ],
+    "answer": "C",
+    "reason": "Grade 2 to 3 cardiac uptake with no monoclonal protein confirms ATTR amyloidosis.",
+    "explanation": "Transthyretin amyloid takes up bone-seeking tracers. Grade 2 or 3 myocardial uptake, once light-chain amyloidosis has been excluded by serum free light chains and serum and urine immunofixation, is diagnostic of ATTR cardiomyopathy. Tafamidis stabilises the transthyretin tetramer.",
+    "pearl": "Bilateral carpal tunnel syndrome and lumbar canal stenosis often precede the cardiac disease by years."
+  },
+  {
+    "id": "M018",
+    "subject": "medicine",
+    "topic": "Pulmonary vascular",
+    "stem": "A normotensive patient with acute pulmonary embolism has right ventricular dilatation on echocardiography and a raised troponin. What is the recommended initial management?",
+    "options": [
+      "Inferior vena cava filter",
+      "Systemic thrombolysis",
+      "Surgical embolectomy",
+      "Anticoagulation with close monitoring"
+    ],
+    "answer": "D",
+    "reason": "Intermediate-high risk: anticoagulate and monitor; thrombolyse only on deterioration.",
+    "explanation": "Systemic thrombolysis is reserved for high-risk pulmonary embolism with shock or persistent hypotension. In intermediate-high risk patients the PEITHO trial showed that routine thrombolysis prevented decompensation but caused more major bleeding and stroke, so rescue reperfusion is used if they deteriorate.",
+    "pearl": "Low molecular weight heparin is preferred over unfractionated heparin unless reperfusion is likely."
+  },
+  {
+    "id": "M019",
+    "subject": "medicine",
+    "topic": "Nephrology",
+    "stem": "Avacopan, used as a steroid-sparing agent in ANCA-associated vasculitis, acts by:",
+    "options": [
+      "Blocking the interleukin-6 receptor",
+      "Inhibiting calcineurin",
+      "Blocking the C5a receptor",
+      "Depleting CD20-positive B cells"
+    ],
+    "answer": "C",
+    "reason": "Avacopan is an oral C5a receptor antagonist.",
+    "explanation": "The alternative complement pathway and C5a amplify neutrophil activation in ANCA-associated vasculitis. In the ADVOCATE trial, avacopan in place of a prednisolone taper was non-inferior for remission at 26 weeks and superior for sustained remission at 52 weeks.",
+    "pearl": "Induction still requires rituximab or cyclophosphamide alongside it."
+  },
+  {
+    "id": "M020",
+    "subject": "medicine",
+    "topic": "Electrolytes",
+    "stem": "A 60-year-old has a generalised seizure. Serum sodium is 108 mmol/L. What is the correct immediate treatment?",
+    "options": [
+      "1 litre of 0.9% saline over 1 hour",
+      "Fluid restriction",
+      "Oral tolvaptan",
+      "100 to 150 mL bolus of 3% saline"
+    ],
+    "answer": "D",
+    "reason": "Severe symptoms: bolus hypertonic saline to raise sodium by about 5 mmol/L.",
+    "explanation": "Seizures or coma from hyponatraemia are treated with boluses of 3% saline, repeated if needed, aiming for a rise of 4 to 6 mmol/L in the first hours. Total correction should not exceed 8 to 10 mmol/L in 24 hours, to avoid osmotic demyelination.",
+    "pearl": "Alcoholism, malnutrition and hypokalaemia increase the risk of osmotic demyelination."
+  },
+  {
+    "id": "M021",
+    "subject": "medicine",
+    "topic": "Electrolytes",
+    "stem": "A patient with potassium of 7.2 mmol/L has widened QRS complexes on ECG. Which is the first drug to give?",
+    "options": [
+      "Nebulised salbutamol",
+      "Intravenous calcium gluconate",
+      "Sodium bicarbonate",
+      "Insulin with dextrose"
+    ],
+    "answer": "B",
+    "reason": "Calcium stabilises the myocardium within minutes; it does not lower potassium.",
+    "explanation": "ECG changes mean the membrane must be stabilised first with intravenous calcium. Insulin with dextrose and salbutamol then shift potassium into cells. Removal from the body needs diuretics, potassium binders or dialysis.",
+    "pearl": "The effect of calcium lasts only 30 to 60 minutes; repeat if ECG changes persist."
+  },
+  {
+    "id": "M022",
+    "subject": "medicine",
+    "topic": "Nephrology",
+    "stem": "A diabetic man with mild CKD has potassium 5.9 mmol/L, bicarbonate 17 mmol/L, a normal anion gap and urine pH of 5.0. What is the most likely diagnosis?",
+    "options": [
+      "Type 2 (proximal) RTA",
+      "Type 1 (distal) RTA",
+      "Lactic acidosis",
+      "Type 4 RTA"
+    ],
+    "answer": "D",
+    "reason": "Hyperkalaemia with normal anion gap acidosis and acid urine = type 4.",
+    "explanation": "Type 4 renal tubular acidosis results from hyporeninaemic hypoaldosteronism, common in diabetic nephropathy. Hyperkalaemia suppresses ammonia production, but the urine can still be acidified. Types 1 and 2 cause hypokalaemia, and in type 1 the urine pH stays above 5.5.",
+    "pearl": "ACE inhibitors, NSAIDs, heparin and trimethoprim can unmask or worsen it."
+  },
+  {
+    "id": "M023",
+    "subject": "medicine",
+    "topic": "Nephrology",
+    "stem": "The early fall in eGFR and the long-term renal protection seen with SGLT2 inhibitors are best explained by:",
+    "options": [
+      "Direct podocyte regeneration",
+      "Afferent arteriolar constriction via tubuloglomerular feedback",
+      "Efferent arteriolar dilatation",
+      "Reduced renin release from the macula densa"
+    ],
+    "answer": "B",
+    "reason": "More sodium at the macula densa restores feedback and lowers glomerular pressure.",
+    "explanation": "Blocking proximal sodium-glucose reabsorption increases sodium chloride delivery to the macula densa. Tubuloglomerular feedback constricts the afferent arteriole and reduces intraglomerular pressure and hyperfiltration. The small initial fall in eGFR is haemodynamic and reversible.",
+    "pearl": "The benefit is seen in CKD with and without diabetes."
+  },
+  {
+    "id": "M024",
+    "subject": "medicine",
+    "topic": "Nephrology",
+    "stem": "A 25-year-old man has haemoptysis and rapidly progressive renal failure. Biopsy shows crescents with linear IgG along the glomerular basement membrane. What is the treatment?",
+    "options": [
+      "Plasma exchange, cyclophosphamide and steroids",
+      "Supportive dialysis only",
+      "Steroids alone",
+      "Rituximab alone"
+    ],
+    "answer": "A",
+    "reason": "Anti-GBM disease: remove the antibody and stop its production.",
+    "explanation": "Anti-GBM disease is caused by antibodies against the alpha-3 chain of type IV collagen. Plasma exchange removes circulating antibody quickly while cyclophosphamide and steroids suppress production. Outcome depends on renal function at presentation.",
+    "pearl": "Dialysis dependence with 100% crescents at presentation predicts little chance of renal recovery."
+  },
+  {
+    "id": "M025",
+    "subject": "medicine",
+    "topic": "Neurology",
+    "stem": "A 66-year-old was last seen well 10 hours ago and has an NIHSS of 16. CT angiography shows a proximal middle cerebral artery occlusion, and perfusion imaging shows a small core with a large penumbra. What is the best treatment?",
+    "options": [
+      "Aspirin and admit to stroke unit",
+      "Decompressive craniectomy",
+      "Intravenous alteplase",
+      "Mechanical thrombectomy"
+    ],
+    "answer": "D",
+    "reason": "Large vessel occlusion with mismatch: thrombectomy up to 24 hours.",
+    "explanation": "Intravenous thrombolysis is limited to 4.5 hours in standard practice. The DAWN and DEFUSE-3 trials showed that thrombectomy benefits selected patients with anterior large vessel occlusion and a favourable core to penumbra mismatch between 6 and 24 hours.",
+    "pearl": "Selection in the late window is by tissue, not by the clock."
+  },
+  {
+    "id": "M026",
+    "subject": "medicine",
+    "topic": "Neurology",
+    "stem": "Which statement about MuSK antibody-positive myasthenia gravis is correct?",
+    "options": [
+      "Thymoma is found in most patients",
+      "Bulbar weakness is prominent and rituximab is effective",
+      "Pyridostigmine gives an excellent response",
+      "Thymectomy is the first-line treatment"
+    ],
+    "answer": "B",
+    "reason": "MuSK myasthenia: bulbar, facial and neck weakness, with a good response to rituximab.",
+    "explanation": "MuSK antibodies are IgG4 and are found in a proportion of patients who lack acetylcholine receptor antibodies. Weakness is predominantly bulbar, facial and respiratory. Response to pyridostigmine is often poor, thymic pathology is absent and thymectomy has no proven benefit.",
+    "pearl": "Plasma exchange works better than IVIG in a MuSK crisis."
+  },
+  {
+    "id": "M027",
+    "subject": "medicine",
+    "topic": "Neurology",
+    "stem": "A patient with Guillain-Barre syndrome can no longer walk unaided. Which treatment has been shown to be of no benefit?",
+    "options": [
+      "Corticosteroids",
+      "Thromboprophylaxis",
+      "Plasma exchange",
+      "Intravenous immunoglobulin"
+    ],
+    "answer": "A",
+    "reason": "Steroids do not help in Guillain-Barre syndrome.",
+    "explanation": "Intravenous immunoglobulin and plasma exchange are equally effective when started early, and combining them adds nothing. Trials of oral and intravenous corticosteroids showed no benefit. Monitoring of vital capacity and autonomic function is essential.",
+    "pearl": "Intubate when vital capacity falls below about 20 mL/kg."
+  },
+  {
+    "id": "M028",
+    "subject": "medicine",
+    "topic": "Neurology",
+    "stem": "A 35-year-old woman has intractable hiccups and vomiting for 3 weeks, followed by paraparesis. MRI shows a spinal cord lesion spanning five vertebral segments. Which antibody should be tested?",
+    "options": [
+      "Anti-aquaporin-4",
+      "Anti-GQ1b",
+      "Anti-GAD",
+      "Anti-Hu"
+    ],
+    "answer": "A",
+    "reason": "Area postrema syndrome plus longitudinally extensive myelitis = NMOSD.",
+    "explanation": "Neuromyelitis optica spectrum disorder is an astrocytopathy caused by aquaporin-4 IgG. Core features are optic neuritis, myelitis extending over three or more vertebral segments, and area postrema syndrome. Relapses are prevented with agents such as rituximab, eculizumab, inebilizumab or satralizumab.",
+    "pearl": "Some multiple sclerosis drugs, including interferon beta and natalizumab, can worsen NMOSD."
+  },
+  {
+    "id": "M029",
+    "subject": "medicine",
+    "topic": "Neurology",
+    "stem": "A 19-year-old has tremor, dysarthria and deranged liver enzymes. MRI of the midbrain shows the 'face of the giant panda' sign. What is the diagnosis?",
+    "options": [
+      "Leigh syndrome",
+      "Huntington disease",
+      "Wilson disease",
+      "Multiple system atrophy"
+    ],
+    "answer": "C",
+    "reason": "The panda sign in a young patient with liver and movement problems is Wilson disease.",
+    "explanation": "Wilson disease is due to ATP7B mutations that impair biliary copper excretion. Diagnosis rests on low ceruloplasmin, raised 24-hour urinary copper and Kayser-Fleischer rings, which are almost always present when there is neurological disease. Treatment is chelation or zinc.",
+    "pearl": "Neurological symptoms can worsen at the start of penicillamine."
+  },
+  {
+    "id": "M030",
+    "subject": "medicine",
+    "topic": "Neurology",
+    "stem": "A patient is still convulsing after two adequate doses of intravenous lorazepam. Based on the ESETT trial, which statement about the next drug is correct?",
+    "options": [
+      "Phenobarbital must always be used second",
+      "Levetiracetam, fosphenytoin and valproate are equally effective",
+      "Valproate is contraindicated in status epilepticus",
+      "Fosphenytoin is superior to the others"
+    ],
+    "answer": "B",
+    "reason": "ESETT: all three stop seizures in about half of patients.",
+    "explanation": "In benzodiazepine-refractory status epilepticus, the ESETT trial found no difference in efficacy or safety between levetiracetam, fosphenytoin and valproate. The choice depends on comorbidity: avoid valproate in pregnancy and liver disease, and fosphenytoin in cardiac conduction disease.",
+    "pearl": "If the second-line drug fails, proceed to anaesthetic infusion with EEG monitoring."
+  },
+  {
+    "id": "M031",
+    "subject": "medicine",
+    "topic": "Neurology",
+    "stem": "A 35-year-old man has attacks of severe unilateral orbital pain lasting 45 minutes with lacrimation and nasal congestion, occurring nightly for 3 weeks. What is the best acute treatment?",
+    "options": [
+      "Oral paracetamol",
+      "Oral amitriptyline",
+      "High-flow 100% oxygen",
+      "Oral propranolol"
+    ],
+    "answer": "C",
+    "reason": "Cluster headache: oxygen at 12 to 15 L/min or subcutaneous sumatriptan.",
+    "explanation": "Cluster headache is a trigeminal autonomic cephalalgia with short, severe, strictly unilateral attacks and restlessness. Attacks are aborted with high-flow oxygen through a non-rebreathing mask or subcutaneous sumatriptan. Verapamil is the main preventive drug.",
+    "pearl": "A short course of steroids bridges the gap until verapamil takes effect."
+  },
+  {
+    "id": "M032",
+    "subject": "medicine",
+    "topic": "Endocrinology",
+    "stem": "A woman has confirmed ACTH-dependent Cushing syndrome. Pituitary MRI is normal. What is the next investigation?",
+    "options": [
+      "Adrenal CT",
+      "Inferior petrosal sinus sampling",
+      "Octreotide scan",
+      "Repeat low-dose dexamethasone test"
+    ],
+    "answer": "B",
+    "reason": "Petrosal sinus sampling separates pituitary from ectopic ACTH.",
+    "explanation": "Many corticotroph adenomas are too small to see on MRI. A central-to-peripheral ACTH ratio of 2 or more at baseline, or 3 or more after CRH or desmopressin stimulation, confirms a pituitary source. It localises the source to the pituitary but lateralises poorly.",
+    "pearl": "Lesions under 6 mm on MRI may be incidental, so sampling is still advised."
+  },
+  {
+    "id": "M033",
+    "subject": "medicine",
+    "topic": "Endocrinology",
+    "stem": "A 40-year-old has enlarging hands, coarse facial features and new diabetes. What is the best initial screening test?",
+    "options": [
+      "Serum IGF-1",
+      "Pituitary MRI",
+      "Insulin tolerance test",
+      "Random growth hormone"
+    ],
+    "answer": "A",
+    "reason": "IGF-1 is stable through the day and reflects integrated growth hormone secretion.",
+    "explanation": "Growth hormone is secreted in pulses, so a random level is unreliable. A raised age-adjusted IGF-1 is the screening test. Confirmation is failure of growth hormone to suppress during an oral glucose tolerance test, followed by MRI of the pituitary.",
+    "pearl": "Screen for colonic polyps, sleep apnoea and cardiomyopathy once the diagnosis is made."
+  },
+  {
+    "id": "M034",
+    "subject": "medicine",
+    "topic": "Endocrinology",
+    "stem": "A patient with diabetic ketoacidosis has pH 7.05, glucose 520 mg/dL and potassium 3.0 mmol/L. After starting saline, what is the next step?",
+    "options": [
+      "Give subcutaneous insulin instead",
+      "Replace potassium and withhold insulin until it is above 3.3",
+      "Give sodium bicarbonate",
+      "Start insulin infusion immediately"
+    ],
+    "answer": "B",
+    "reason": "Insulin drives potassium into cells; starting it at 3.0 risks fatal arrhythmia.",
+    "explanation": "Total body potassium is depleted in ketoacidosis even when the serum level looks normal. If potassium is below 3.3 mmol/L, insulin is withheld and potassium replaced first. Between 3.3 and 5.3 mmol/L, potassium is added to each litre of fluid.",
+    "pearl": "Bicarbonate is considered only when pH is below 6.9."
+  },
+  {
+    "id": "M035",
+    "subject": "medicine",
+    "topic": "Endocrinology",
+    "stem": "In thyroid storm, why is iodine given at least one hour after the thionamide?",
+    "options": [
+      "To avoid an allergic reaction",
+      "To allow propranolol to act first",
+      "Because iodine inactivates propylthiouracil",
+      "So that iodine is not used as substrate for new hormone"
+    ],
+    "answer": "D",
+    "reason": "Block synthesis first, then give iodine to block release.",
+    "explanation": "A thionamide blocks organification, so iodine given afterwards cannot be built into new hormone and instead inhibits hormone release (Wolff-Chaikoff effect). Propylthiouracil is preferred because it also reduces T4 to T3 conversion. Beta blockade and steroids complete the regimen.",
+    "pearl": "The Burch-Wartofsky score helps identify storm; 45 or more is highly suggestive."
+  },
+  {
+    "id": "M036",
+    "subject": "medicine",
+    "topic": "Endocrinology",
+    "stem": "A man with squamous cell lung cancer has calcium of 14.5 mg/dL, suppressed PTH and low 1,25-dihydroxyvitamin D. What is the mechanism?",
+    "options": [
+      "Ectopic 1-alpha hydroxylase activity",
+      "PTH-related peptide secretion",
+      "Osteolytic bone metastases",
+      "Ectopic PTH secretion"
+    ],
+    "answer": "B",
+    "reason": "Humoral hypercalcaemia of malignancy is mediated by PTHrP.",
+    "explanation": "PTH-related peptide acts on the PTH receptor to increase bone resorption and renal calcium reabsorption, but unlike PTH it does not raise 1,25-dihydroxyvitamin D. It is typical of squamous cancers. Lymphomas cause hypercalcaemia through excess 1,25-dihydroxyvitamin D.",
+    "pearl": "Treatment is intravenous saline followed by zoledronate; denosumab if refractory."
+  },
+  {
+    "id": "M037",
+    "subject": "medicine",
+    "topic": "Endocrinology",
+    "stem": "A slim 22-year-old has fasting glucose persistently around 118 mg/dL and HbA1c 6.3%. Her father and grandfather have the same mild pattern without complications. Antibodies are negative. What is the management?",
+    "options": [
+      "Low-dose sulfonylurea",
+      "No treatment",
+      "Basal insulin",
+      "Metformin and a GLP-1 agonist"
+    ],
+    "answer": "B",
+    "reason": "GCK-MODY: a reset glucose set-point that needs no treatment.",
+    "explanation": "Glucokinase mutations raise the threshold for insulin secretion, giving mild, stable fasting hyperglycaemia from birth. Complications are rare and treatment does not change the glucose level. HNF1A-MODY, by contrast, is progressive and very sensitive to low-dose sulfonylureas.",
+    "pearl": "Pregnancy is the one setting where GCK-MODY may need management, guided by fetal growth."
+  },
+  {
+    "id": "M038",
+    "subject": "medicine",
+    "topic": "Endocrinology",
+    "stem": "A woman with known Addison disease presents with vomiting, blood pressure 76/40 mmHg and sodium 124 mmol/L. What is the immediate treatment?",
+    "options": [
+      "Hydrocortisone 100 mg IV and rapid saline",
+      "Dexamethasone 0.5 mg orally",
+      "Await a cortisol result before treating",
+      "Oral fludrocortisone"
+    ],
+    "answer": "A",
+    "reason": "Adrenal crisis: treat at once with hydrocortisone and saline.",
+    "explanation": "Adrenal crisis is a clinical diagnosis and treatment is never delayed for tests. Hydrocortisone 100 mg is given intravenously, followed by 200 mg over 24 hours, with rapid 0.9% saline. At these doses hydrocortisone provides enough mineralocorticoid effect.",
+    "pearl": "Teach sick-day rules: double or triple the dose during illness and carry injectable hydrocortisone."
+  },
+  {
+    "id": "M039",
+    "subject": "medicine",
+    "topic": "Gastroenterology",
+    "stem": "In a patient already on a gluten-free diet, which test has the highest negative predictive value for excluding coeliac disease?",
+    "options": [
+      "Anti-gliadin IgG",
+      "Duodenal biopsy",
+      "Anti-tissue transglutaminase IgA",
+      "HLA-DQ2 and DQ8 typing"
+    ],
+    "answer": "D",
+    "reason": "Without DQ2 or DQ8, coeliac disease is essentially excluded.",
+    "explanation": "Serology and histology become normal on a gluten-free diet and cannot exclude the disease. Nearly all patients carry HLA-DQ2 or DQ8, so their absence rules it out. Their presence is common in the general population and does not confirm the diagnosis.",
+    "pearl": "Always check total IgA with tTG-IgA; IgA deficiency gives a false negative."
+  },
+  {
+    "id": "M040",
+    "subject": "medicine",
+    "topic": "Hepatology",
+    "stem": "In acute liver failure due to paracetamol, which finding alone meets the King's College criteria for transplantation?",
+    "options": [
+      "Bilirubin above 17 mg/dL",
+      "Age above 40 years",
+      "Arterial pH below 7.30 after fluid resuscitation",
+      "ALT above 10,000 IU/L"
+    ],
+    "answer": "C",
+    "reason": "Persisting acidosis after resuscitation is a stand-alone criterion.",
+    "explanation": "For paracetamol, the criteria are arterial pH below 7.30 after resuscitation, or all three of INR above 6.5, creatinine above 3.4 mg/dL and grade III to IV encephalopathy. Bilirubin and age belong to the non-paracetamol criteria. The height of ALT has no prognostic value.",
+    "pearl": "A raised arterial lactate after resuscitation adds to the sensitivity of the criteria."
+  },
+  {
+    "id": "M041",
+    "subject": "medicine",
+    "topic": "Hepatology",
+    "stem": "A 45-year-old has HBsAg positive, HBeAg negative, anti-HBe positive, HBV DNA 2 million IU/mL and ALT three times normal. What explains this pattern?",
+    "options": [
+      "Immune-tolerant phase",
+      "Inactive carrier state",
+      "Resolved infection",
+      "Precore or basal core promoter mutant infection"
+    ],
+    "answer": "D",
+    "reason": "Active hepatitis without HBeAg: the virus cannot make e antigen.",
+    "explanation": "Precore and basal core promoter mutations stop or reduce HBeAg production while viral replication continues. This is HBeAg-negative chronic hepatitis B, with high DNA and fluctuating ALT. An inactive carrier has low DNA and persistently normal ALT.",
+    "pearl": "Treatment is long-term entecavir or tenofovir."
+  },
+  {
+    "id": "M042",
+    "subject": "medicine",
+    "topic": "Hepatology",
+    "stem": "A patient with Child-Pugh C cirrhosis (score 11) has variceal bleeding controlled by terlipressin and band ligation. What should be offered next to improve survival?",
+    "options": [
+      "Propranolol alone",
+      "Pre-emptive TIPS within 72 hours",
+      "Repeat endoscopy at 4 weeks only",
+      "Balloon tamponade"
+    ],
+    "answer": "B",
+    "reason": "High-risk patients benefit from early TIPS after the bleeding is controlled.",
+    "explanation": "Pre-emptive TIPS within 72 hours, ideally 24, reduces rebleeding and mortality in Child-Pugh C patients with a score below 14 and in Child-Pugh B patients above 7 with active bleeding at endoscopy. Others receive beta blockers with repeat band ligation.",
+    "pearl": "Prophylactic antibiotics such as ceftriaxone are given to every cirrhotic with a variceal bleed."
+  },
+  {
+    "id": "M043",
+    "subject": "medicine",
+    "topic": "Hepatology",
+    "stem": "Ascitic fluid in a cirrhotic patient with fever shows 480 neutrophils per mm3. Besides cefotaxime, which measure reduces hepatorenal syndrome and mortality?",
+    "options": [
+      "Intravenous albumin on day 1 and day 3",
+      "Large-volume paracentesis",
+      "Intravenous furosemide",
+      "Fresh frozen plasma"
+    ],
+    "answer": "A",
+    "reason": "Albumin 1.5 g/kg on day 1 and 1 g/kg on day 3.",
+    "explanation": "Spontaneous bacterial peritonitis is diagnosed when ascitic neutrophils reach 250 per mm3 or more. Infection worsens circulatory dysfunction and often precipitates hepatorenal syndrome. Albumin with antibiotics reduces renal failure and death, most clearly in those with raised bilirubin or creatinine.",
+    "pearl": "After one episode, long-term antibiotic prophylaxis is indicated."
+  },
+  {
+    "id": "M044",
+    "subject": "medicine",
+    "topic": "Gastroenterology",
+    "stem": "A 28-year-old man with asthma has repeated food bolus impaction. Endoscopy shows rings and linear furrows. What biopsy finding confirms the diagnosis?",
+    "options": [
+      "Intraepithelial lymphocytosis",
+      "Non-caseating granulomas",
+      "At least 15 eosinophils per high-power field",
+      "Intestinal metaplasia with goblet cells"
+    ],
+    "answer": "C",
+    "reason": "Eosinophilic oesophagitis: 15 or more eosinophils per high-power field.",
+    "explanation": "Eosinophilic oesophagitis is a chronic allergen-driven disease seen in atopic young men. Biopsies are taken from both proximal and distal oesophagus. Treatment options are proton pump inhibitors, swallowed topical steroids, elimination diets and dupilumab, with dilatation for strictures.",
+    "pearl": "It is the commonest cause of food bolus impaction in young adults."
+  },
+  {
+    "id": "M045",
+    "subject": "medicine",
+    "topic": "Gastroenterology",
+    "stem": "Vedolizumab, used in ulcerative colitis and Crohn disease, acts by blocking:",
+    "options": [
+      "Janus kinase 1",
+      "The p40 subunit of IL-12 and IL-23",
+      "The alpha-4 beta-7 integrin",
+      "Tumour necrosis factor alpha"
+    ],
+    "answer": "C",
+    "reason": "It blocks gut homing of lymphocytes through alpha-4 beta-7.",
+    "explanation": "Alpha-4 beta-7 integrin on lymphocytes binds MAdCAM-1 on gut endothelium. Blocking it gives gut-selective immunosuppression. Ustekinumab targets the p40 subunit shared by IL-12 and IL-23, and tofacitinib and upadacitinib are Janus kinase inhibitors.",
+    "pearl": "Natalizumab blocks alpha-4 more broadly, which explains its risk of PML."
+  },
+  {
+    "id": "M046",
+    "subject": "medicine",
+    "topic": "Critical care",
+    "stem": "A ventilated patient with ARDS has a PaO2/FiO2 ratio of 110 on PEEP 12 and tidal volume 6 mL/kg. Which intervention has been shown to reduce mortality?",
+    "options": [
+      "Prone positioning for at least 16 hours a day",
+      "Inhaled nitric oxide",
+      "High-frequency oscillation",
+      "Routine high-dose methylprednisolone"
+    ],
+    "answer": "A",
+    "reason": "PROSEVA: early prolonged proning in moderate to severe ARDS saves lives.",
+    "explanation": "In patients with a PaO2/FiO2 ratio below 150, prone sessions of at least 16 hours a day reduced 28-day mortality in the PROSEVA trial. Low tidal volume ventilation is the other proven intervention. Nitric oxide improves oxygenation without improving survival.",
+    "pearl": "Berlin severity: mild 200 to 300, moderate 100 to 200, severe below 100."
+  },
+  {
+    "id": "M047",
+    "subject": "medicine",
+    "topic": "Pulmonology",
+    "stem": "A 68-year-old has idiopathic pulmonary fibrosis with a UIP pattern on CT. Which treatment was shown to increase death and hospitalisation?",
+    "options": [
+      "Prednisolone, azathioprine and N-acetylcysteine",
+      "Pirfenidone",
+      "Nintedanib",
+      "Pulmonary rehabilitation"
+    ],
+    "answer": "A",
+    "reason": "PANTHER-IPF: triple immunosuppression causes harm.",
+    "explanation": "The PANTHER trial was stopped early because the combination of prednisolone, azathioprine and N-acetylcysteine increased mortality and admissions. The antifibrotics nintedanib and pirfenidone slow the decline in forced vital capacity. Lung transplantation is the only treatment that prolongs survival substantially.",
+    "pearl": "A definite UIP pattern on CT in the right clinical setting does not need a biopsy."
+  },
+  {
+    "id": "M048",
+    "subject": "medicine",
+    "topic": "Pulmonology",
+    "stem": "Tezepelumab, a biologic for severe asthma that works irrespective of eosinophil count, targets:",
+    "options": [
+      "The interleukin-4 receptor alpha chain",
+      "Thymic stromal lymphopoietin",
+      "Immunoglobulin E",
+      "Interleukin-5"
+    ],
+    "answer": "B",
+    "reason": "It blocks TSLP, an epithelial alarmin at the top of the inflammatory cascade.",
+    "explanation": "TSLP is released by airway epithelium and drives both type 2 and non-type 2 inflammation, which is why tezepelumab works across phenotypes. Mepolizumab and reslizumab block IL-5, benralizumab its receptor, omalizumab IgE, and dupilumab the IL-4 receptor alpha chain.",
+    "pearl": "Dupilumab can cause a transient rise in blood eosinophils."
+  },
+  {
+    "id": "M049",
+    "subject": "medicine",
+    "topic": "Pulmonology",
+    "stem": "A 30-year-old woman has fever, erythema nodosum, bilateral ankle arthritis and bilateral hilar lymphadenopathy on chest X-ray. What is the appropriate approach?",
+    "options": [
+      "Start anti-tuberculous therapy",
+      "Mediastinoscopy and biopsy",
+      "High-dose prednisolone for 12 months",
+      "Clinical diagnosis; NSAIDs and observation"
+    ],
+    "answer": "D",
+    "reason": "Lofgren syndrome is diagnosed clinically and usually resolves by itself.",
+    "explanation": "The combination of erythema nodosum, bilateral hilar lymphadenopathy, arthritis and fever is highly specific for acute sarcoidosis. Biopsy is not needed in a typical case. Most patients remit within months to 2 years with symptomatic treatment alone.",
+    "pearl": "Heerfordt syndrome is uveitis, parotid enlargement, facial palsy and fever."
+  },
+  {
+    "id": "M050",
+    "subject": "medicine",
+    "topic": "Pulmonology",
+    "stem": "A stable patient with COPD has resting PaO2 of 52 mmHg on room air on two occasions 3 weeks apart. Which intervention improves survival?",
+    "options": [
+      "Long-term oxygen for at least 15 hours a day",
+      "Nocturnal oxygen only",
+      "Inhaled corticosteroid alone",
+      "Oxygen during exertion only"
+    ],
+    "answer": "A",
+    "reason": "Long-term oxygen improves survival when resting PaO2 is 55 mmHg or less.",
+    "explanation": "Long-term oxygen is indicated for a resting PaO2 of 55 mmHg or less or saturation of 88% or less, or a PaO2 of 56 to 59 mmHg with cor pulmonale or polycythaemia. Benefit requires at least 15 hours of use a day. Smoking cessation is the other intervention that prolongs life.",
+    "pearl": "Oxygen for moderate or exertion-only desaturation showed no survival benefit in the LOTT trial."
+  },
+  {
+    "id": "M051",
+    "subject": "medicine",
+    "topic": "Haematology",
+    "stem": "A patient with chronic myeloid leukaemia loses response to imatinib and then dasatinib. Mutation analysis shows T315I. Which drug is appropriate?",
+    "options": [
+      "Higher-dose imatinib",
+      "Nilotinib",
+      "Bosutinib",
+      "Ponatinib"
+    ],
+    "answer": "D",
+    "reason": "T315I confers resistance to all earlier tyrosine kinase inhibitors.",
+    "explanation": "The T315I gatekeeper mutation blocks binding of imatinib, dasatinib, nilotinib and bosutinib. Ponatinib was designed to overcome it, and asciminib, which binds the myristoyl pocket, is also active at a higher dose. Allogeneic transplantation is considered in eligible patients.",
+    "pearl": "Ponatinib carries a risk of arterial occlusive events; control cardiovascular risk factors."
+  },
+  {
+    "id": "M052",
+    "subject": "medicine",
+    "topic": "Haematology",
+    "stem": "A 30-year-old has gum bleeding, fibrinogen of 80 mg/dL, and promyelocytes with multiple Auer rods on the smear. What should be done first?",
+    "options": [
+      "Give heparin for the coagulopathy",
+      "Start hydroxyurea",
+      "Start all-trans retinoic acid immediately",
+      "Await cytogenetic confirmation"
+    ],
+    "answer": "C",
+    "reason": "Suspected APL: start ATRA at once, before genetic confirmation.",
+    "explanation": "Acute promyelocytic leukaemia carries a high risk of early death from haemorrhage. All-trans retinoic acid is started on morphological suspicion, with aggressive correction of fibrinogen and platelets. Confirmation of t(15;17) PML-RARA follows. Arsenic trioxide is added for definitive treatment.",
+    "pearl": "Differentiation syndrome (fever, weight gain, lung infiltrates) is treated with dexamethasone."
+  },
+  {
+    "id": "M053",
+    "subject": "medicine",
+    "topic": "Haematology",
+    "stem": "A patient with 30% clonal marrow plasma cells has no hypercalcaemia, renal failure, anaemia or bone lesions. Which finding still makes the diagnosis active multiple myeloma?",
+    "options": [
+      "Involved to uninvolved free light chain ratio of 100 or more",
+      "M-protein of 2.5 g/dL",
+      "Bence Jones proteinuria of 300 mg per day",
+      "Beta-2 microglobulin of 4 mg/L"
+    ],
+    "answer": "A",
+    "reason": "A light chain ratio of 100 or more is a myeloma-defining event.",
+    "explanation": "The SLiM criteria define myeloma needing treatment even without CRAB features: 60% or more clonal plasma cells, an involved to uninvolved serum free light chain ratio of 100 or more, or more than one focal lesion of at least 5 mm on MRI.",
+    "pearl": "Without these, the same patient has smouldering myeloma."
+  },
+  {
+    "id": "M054",
+    "subject": "medicine",
+    "topic": "Haematology",
+    "stem": "Seven days after starting unfractionated heparin a patient's platelets fall from 240,000 to 90,000 and a new deep vein thrombosis appears. What is the correct management?",
+    "options": [
+      "Transfuse platelets",
+      "Start warfarin immediately",
+      "Switch to low molecular weight heparin",
+      "Stop heparin and start argatroban"
+    ],
+    "answer": "D",
+    "reason": "HIT: stop all heparin and give a non-heparin anticoagulant.",
+    "explanation": "Heparin-induced thrombocytopenia is caused by antibodies to platelet factor 4-heparin complexes and is strongly prothrombotic. All heparin, including flushes and low molecular weight heparin, is stopped. Argatroban, bivalirudin, fondaparinux or a DOAC is used. Warfarin is deferred until platelets recover.",
+    "pearl": "Starting warfarin early can cause venous limb gangrene through protein C depletion."
+  },
+  {
+    "id": "M055",
+    "subject": "medicine",
+    "topic": "Haematology",
+    "stem": "A patient with haemolysis, pancytopenia and hepatic vein thrombosis has loss of CD55 and CD59 on flow cytometry. Before starting eculizumab, what is mandatory?",
+    "options": [
+      "Meningococcal vaccination",
+      "Splenectomy",
+      "Bone marrow harvest",
+      "Iron chelation"
+    ],
+    "answer": "A",
+    "reason": "Blocking C5 removes the defence against Neisseria.",
+    "explanation": "Paroxysmal nocturnal haemoglobinuria results from PIGA mutation and loss of GPI-anchored complement regulators. Eculizumab and ravulizumab block C5 and prevent intravascular haemolysis and thrombosis. Terminal complement blockade greatly increases the risk of meningococcal infection.",
+    "pearl": "Thrombosis at unusual sites is the leading cause of death in untreated disease."
+  },
+  {
+    "id": "M056",
+    "subject": "medicine",
+    "topic": "Haematology",
+    "stem": "Emicizumab prevents bleeding in haemophilia A, including patients with inhibitors, by:",
+    "options": [
+      "Bridging factors IXa and X as a bispecific antibody",
+      "Blocking tissue factor pathway inhibitor",
+      "Replacing factor VIII by gene transfer",
+      "Inhibiting antithrombin"
+    ],
+    "answer": "A",
+    "reason": "It mimics the cofactor function of factor VIIIa.",
+    "explanation": "Emicizumab is a bispecific antibody that brings activated factor IX and factor X together, replacing the function of factor VIIIa. It is not recognised by factor VIII inhibitors and is given subcutaneously. Fitusiran lowers antithrombin and concizumab blocks tissue factor pathway inhibitor.",
+    "pearl": "It interferes with aPTT-based assays; use chromogenic assays with bovine reagents."
+  },
+  {
+    "id": "M057",
+    "subject": "medicine",
+    "topic": "Rheumatology",
+    "stem": "A 34-year-old woman with antiphospholipid syndrome is positive for lupus anticoagulant, anticardiolipin and anti-beta-2 glycoprotein I. She has had an ischaemic stroke. Which long-term anticoagulant is recommended?",
+    "options": [
+      "Aspirin alone",
+      "Dabigatran",
+      "Rivaroxaban",
+      "Warfarin"
+    ],
+    "answer": "D",
+    "reason": "Triple-positive or arterial antiphospholipid syndrome: warfarin, not a DOAC.",
+    "explanation": "The TRAPS trial of rivaroxaban against warfarin in triple-positive patients was stopped early because of excess arterial thrombosis with rivaroxaban. Vitamin K antagonists remain the standard for high-risk antiphospholipid syndrome, particularly with arterial events.",
+    "pearl": "Diagnosis needs persistent antibodies on two tests at least 12 weeks apart."
+  },
+  {
+    "id": "M058",
+    "subject": "medicine",
+    "topic": "Rheumatology",
+    "stem": "A 74-year-old has new temporal headache, jaw claudication and transient loss of vision in one eye. ESR is 96 mm/h. What is the immediate step?",
+    "options": [
+      "MRI of the brain first",
+      "Start methotrexate",
+      "High-dose glucocorticoids immediately",
+      "Temporal artery biopsy, then treat"
+    ],
+    "answer": "C",
+    "reason": "Visual symptoms: steroids now, biopsy later.",
+    "explanation": "Giant cell arteritis can cause irreversible blindness from anterior ischaemic optic neuropathy. Treatment must not wait for biopsy, which stays positive for at least 1 to 2 weeks after starting steroids. Patients with visual symptoms are usually given intravenous methylprednisolone.",
+    "pearl": "Tocilizumab is an effective steroid-sparing agent."
+  },
+  {
+    "id": "M059",
+    "subject": "medicine",
+    "topic": "Rheumatology",
+    "stem": "Before starting allopurinol in a patient of Han Chinese or Thai ancestry, which test reduces the risk of severe cutaneous adverse reactions?",
+    "options": [
+      "HLA-B*58:01",
+      "G6PD level",
+      "TPMT genotype",
+      "HLA-B27"
+    ],
+    "answer": "A",
+    "reason": "HLA-B*58:01 carriers are at high risk of allopurinol hypersensitivity.",
+    "explanation": "Allopurinol hypersensitivity syndrome, including Stevens-Johnson syndrome and toxic epidermal necrolysis, is strongly associated with HLA-B*58:01, which is common in several Asian populations. Carriers should receive an alternative such as febuxostat. Starting at a low dose also lowers risk.",
+    "pearl": "HLA-B*15:02 is the corresponding risk allele for carbamazepine."
+  },
+  {
+    "id": "M060",
+    "subject": "medicine",
+    "topic": "Infectious disease",
+    "stem": "A patient has pulmonary tuberculosis resistant to rifampicin and isoniazid but susceptible to fluoroquinolones. Which regimen does WHO now prefer?",
+    "options": [
+      "12 months of high-dose isoniazid",
+      "6 months of bedaquiline, pretomanid, linezolid and moxifloxacin",
+      "9 months of rifampicin and ethambutol",
+      "18 to 20 months of an injectable-based regimen"
+    ],
+    "answer": "B",
+    "reason": "BPaLM for 6 months is the preferred all-oral regimen.",
+    "explanation": "The TB-PRACTECAL trial showed that 6 months of bedaquiline, pretomanid, linezolid and moxifloxacin was at least as effective as longer standard regimens, with fewer adverse events. If fluoroquinolone resistance is present, moxifloxacin is dropped and BPaL is used.",
+    "pearl": "Monitor for linezolid toxicity: neuropathy, optic neuritis and myelosuppression."
   }
 ]
