@@ -1,0 +1,962 @@
+[
+  {
+    "id": "S001",
+    "subject": "surgery",
+    "topic": "Hepatobiliary",
+    "stem": "A hilar cholangiocarcinoma involves the hepatic duct confluence and extends into the right second-order biliary radicles. The left hepatic duct is free. What is the Bismuth-Corlette type?",
+    "options": [
+      "Type II",
+      "Type IIIa",
+      "Type IIIb",
+      "Type IV"
+    ],
+    "answer": "B",
+    "reason": "Confluence plus right secondary radicles = Type IIIa.",
+    "explanation": "Type I: below the confluence. Type II: reaches the confluence only. Type IIIa: confluence plus right hepatic duct radicles. Type IIIb: confluence plus left hepatic duct radicles. Type IV: both sides, or multifocal.",
+    "pearl": "IIIa usually needs a right hepatectomy with caudate lobe resection; IIIb needs a left hepatectomy with caudate."
+  },
+  {
+    "id": "S002",
+    "subject": "surgery",
+    "topic": "Upper GI",
+    "stem": "According to the Siewert classification, the epicentre of a Type II adenocarcinoma of the oesophagogastric junction lies:",
+    "options": [
+      "1 to 5 cm above the junction",
+      "Within 1 cm above and 2 cm below the junction",
+      "2 to 5 cm below the junction",
+      "More than 5 cm below the junction"
+    ],
+    "answer": "B",
+    "reason": "Type II is the true cardia cancer: 1 cm above to 2 cm below.",
+    "explanation": "Type I: distal oesophageal, epicentre 1 to 5 cm above the junction. Type II: true cardia, 1 cm above to 2 cm below. Type III: subcardial, 2 to 5 cm below, infiltrating the junction from below.",
+    "pearl": "Type I behaves like oesophageal cancer (mediastinal nodes); Type III is treated as gastric cancer with total gastrectomy."
+  },
+  {
+    "id": "S003",
+    "subject": "surgery",
+    "topic": "Endocrine pancreas",
+    "stem": "In Zollinger-Ellison syndrome associated with MEN 1, the gastrinomas are most commonly located in the:",
+    "options": [
+      "Pancreatic head",
+      "Pancreatic tail",
+      "Duodenum",
+      "Gastric antrum"
+    ],
+    "answer": "C",
+    "reason": "MEN 1 gastrinomas are mostly small, multiple, submucosal duodenal tumours.",
+    "explanation": "Most gastrinomas arise within the gastrinoma triangle. In MEN 1 the large majority are duodenal, often multiple and only a few millimetres in size, so they are easily missed on imaging and need duodenotomy with palpation to find.",
+    "pearl": "In MEN 1, correct hyperparathyroidism first: lowering calcium reduces gastrin secretion."
+  },
+  {
+    "id": "S004",
+    "subject": "surgery",
+    "topic": "Biliary injury",
+    "stem": "After laparoscopic cholecystectomy, a bile leak is traced to a duct of Luschka in the gallbladder bed. The main biliary tree is intact and in continuity. What is the Strasberg type?",
+    "options": [
+      "Type A",
+      "Type B",
+      "Type C",
+      "Type D"
+    ],
+    "answer": "A",
+    "reason": "Leak from cystic stump or a minor duct in the liver bed, with continuity preserved = Type A.",
+    "explanation": "Type A: leak from the cystic duct stump or a small duct in the liver bed. Type B: occluded aberrant right sectoral duct. Type C: transected, unligated aberrant right sectoral duct. Type D: lateral injury to a major duct. Type E: major duct transection or stricture (Bismuth levels).",
+    "pearl": "Type A leaks usually settle with ERCP sphincterotomy or stenting plus drainage of any collection."
+  },
+  {
+    "id": "S005",
+    "subject": "surgery",
+    "topic": "Liver transplant",
+    "stem": "Which of these cirrhotic patients with hepatocellular carcinoma falls within the Milan criteria for liver transplantation?",
+    "options": [
+      "Single 6 cm nodule",
+      "Two nodules of 2.5 cm and 3 cm",
+      "Four nodules of 2 cm each",
+      "Single 4 cm nodule with portal vein tumour thrombus"
+    ],
+    "answer": "B",
+    "reason": "Milan: one tumour up to 5 cm, or up to three tumours each up to 3 cm.",
+    "explanation": "Milan criteria: a single tumour of 5 cm or less, or up to three tumours each 3 cm or less, with no macrovascular invasion and no extrahepatic spread. A 6 cm nodule, four nodules, and portal vein tumour thrombus all fall outside.",
+    "pearl": "UCSF criteria expand this: single tumour up to 6.5 cm, or up to 3 tumours with the largest up to 4.5 cm and total diameter up to 8 cm."
+  },
+  {
+    "id": "S006",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "On day 3 after pancreaticoduodenectomy, drain fluid amylase is more than 3 times the upper limit of normal serum amylase. The patient is well and management is unchanged. Per ISGPS 2016 this is:",
+    "options": [
+      "Grade A pancreatic fistula",
+      "Biochemical leak",
+      "Grade B pancreatic fistula",
+      "Grade C pancreatic fistula"
+    ],
+    "answer": "B",
+    "reason": "No clinical impact = biochemical leak, which is no longer called a fistula.",
+    "explanation": "ISGPS 2016 renamed the old Grade A as biochemical leak; it is not a true fistula. Grade B needs a change in management: drain left beyond 3 weeks, percutaneous or endoscopic drainage, angiography for bleeding, or infection without organ failure. Grade C means reoperation, organ failure or death.",
+    "pearl": "The amylase threshold applies to drain fluid on or after postoperative day 3."
+  },
+  {
+    "id": "S007",
+    "subject": "surgery",
+    "topic": "Laparoscopic cholecystectomy",
+    "stem": "Which of the following is NOT a requirement of the critical view of safety during laparoscopic cholecystectomy?",
+    "options": [
+      "Hepatocystic triangle cleared of fat and fibrous tissue",
+      "Lower third of gallbladder separated from the cystic plate",
+      "Only two structures seen entering the gallbladder",
+      "Common bile duct dissected and displayed"
+    ],
+    "answer": "D",
+    "reason": "The critical view never requires exposing the common bile duct.",
+    "explanation": "The three requirements are: the hepatocystic triangle is cleared of fat and fibrous tissue, the lower third of the gallbladder is taken off the cystic plate, and two and only two structures are seen entering the gallbladder. Dissecting towards the common bile duct adds risk and is not part of it.",
+    "pearl": "If the critical view cannot be achieved, bail out: subtotal cholecystectomy, fundus-first, or conversion."
+  },
+  {
+    "id": "S008",
+    "subject": "surgery",
+    "topic": "Thyroid",
+    "stem": "A 38-year-old woman has a 3 cm solitary thyroid nodule. FNAC is reported as Bethesda category IV. There are no suspicious nodes and the opposite lobe is normal. What is the standard next step?",
+    "options": [
+      "Repeat FNAC after 3 months",
+      "Diagnostic hemithyroidectomy",
+      "Total thyroidectomy with central neck dissection",
+      "Radioiodine ablation"
+    ],
+    "answer": "B",
+    "reason": "Follicular neoplasm cannot be called benign or malignant on cytology; lobectomy gives the histology.",
+    "explanation": "Bethesda IV is follicular neoplasm. Cytology cannot show capsular or vascular invasion, which is what separates follicular carcinoma from adenoma, so diagnostic lobectomy is the standard approach. Molecular testing can be used to refine risk where available.",
+    "pearl": "Bethesda III is the category where repeat FNAC is the usual first step."
+  },
+  {
+    "id": "S009",
+    "subject": "surgery",
+    "topic": "Vascular",
+    "stem": "A man with sudden leg pain has sensory loss extending above the toes, mild weakness of ankle dorsiflexion, no audible arterial Doppler signal and an audible venous signal. What is the Rutherford category of acute limb ischaemia?",
+    "options": [
+      "Category I",
+      "Category IIa",
+      "Category IIb",
+      "Category III"
+    ],
+    "answer": "C",
+    "reason": "Sensory loss beyond the toes plus motor weakness, venous signal still audible = IIb.",
+    "explanation": "I: viable, no deficit, arterial signal audible. IIa: marginally threatened, minimal sensory loss limited to toes, no weakness. IIb: immediately threatened, sensory loss beyond the toes with rest pain and mild to moderate weakness. III: irreversible, profound anaesthesia and paralysis, venous signal also inaudible.",
+    "pearl": "IIb needs immediate revascularisation; there is no time for prolonged catheter-directed thrombolysis."
+  },
+  {
+    "id": "S010",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "After low anterior resection with total mesorectal excision, a 45-year-old man reports retrograde ejaculation. Erection is normal. Which structure was most likely injured?",
+    "options": [
+      "Pelvic splanchnic nerves",
+      "Superior hypogastric plexus",
+      "Pudendal nerve",
+      "Cavernous nerves"
+    ],
+    "answer": "B",
+    "reason": "Ejaculation is sympathetic: superior hypogastric plexus and hypogastric nerves.",
+    "explanation": "The sympathetic superior hypogastric plexus lies in front of the aortic bifurcation and sacral promontory and is at risk during high ligation of the inferior mesenteric artery and posterior dissection. Injury causes retrograde ejaculation. Pelvic splanchnic (parasympathetic) or cavernous nerve injury causes erectile dysfunction.",
+    "pearl": "Point and shoot: Parasympathetic for erection, Sympathetic for emission."
+  },
+  {
+    "id": "S011",
+    "subject": "surgery",
+    "topic": "Bariatric",
+    "stem": "A patient develops tachycardia and left shoulder pain on day 2 after laparoscopic sleeve gastrectomy. Where is a staple-line leak most likely to be located?",
+    "options": [
+      "At the mid-body of the sleeve",
+      "At the incisura angularis",
+      "At the antrum near the pylorus",
+      "Near the angle of His"
+    ],
+    "answer": "D",
+    "reason": "Most sleeve leaks occur at the proximal staple line near the angle of His.",
+    "explanation": "The proximal sleeve near the gastro-oesophageal junction has thinner tissue, relatively poor blood supply and is exposed to high intraluminal pressure when there is a distal narrowing. Most leaks occur here. Persistent tachycardia is the earliest and most reliable sign.",
+    "pearl": "A stricture at the incisura raises pressure upstream and keeps a proximal leak open; always look for it."
+  },
+  {
+    "id": "S012",
+    "subject": "surgery",
+    "topic": "Oesophagus",
+    "stem": "On high-resolution manometry, which Chicago subtype of achalasia responds best to pneumatic dilatation or Heller myotomy?",
+    "options": [
+      "Type I (classic, minimal pressurisation)",
+      "Type II (panoesophageal pressurisation)",
+      "Type III (spastic)",
+      "All subtypes respond equally"
+    ],
+    "answer": "B",
+    "reason": "Type II has the best response to every treatment modality.",
+    "explanation": "Type I shows absent peristalsis without pressurisation, type II shows panoesophageal pressurisation in at least 20% of swallows, and type III shows premature spastic contractions. Type II responds best. Type III responds worst to standard myotomy and is better served by a longer myotomy, as with POEM.",
+    "pearl": "POEM allows a myotomy tailored to the length of the spastic segment in type III."
+  },
+  {
+    "id": "S013",
+    "subject": "surgery",
+    "topic": "Oesophagus",
+    "stem": "A 50-year-old man has severe chest pain after forceful vomiting. Contrast study shows a leak. Which is the most common site of perforation in Boerhaave syndrome?",
+    "options": [
+      "Anterior wall at the cricopharyngeus",
+      "Left posterolateral wall of the distal oesophagus",
+      "Right lateral wall of the mid oesophagus",
+      "Posterior wall at the level of the carina"
+    ],
+    "answer": "B",
+    "reason": "The tear is typically left posterolateral, 2 to 3 cm above the gastro-oesophageal junction.",
+    "explanation": "Barogenic rupture occurs at the weakest unsupported point of the oesophagus, which is the left posterolateral wall of the distal third. This explains the usual left-sided pleural effusion and hydropneumothorax.",
+    "pearl": "Mackler triad: vomiting, chest pain and subcutaneous emphysema."
+  },
+  {
+    "id": "S014",
+    "subject": "surgery",
+    "topic": "Upper GI",
+    "stem": "An 8 cm gastric GIST with 12 mitoses per 50 high-power fields is resected with clear margins and no rupture. What is the recommended adjuvant treatment?",
+    "options": [
+      "Imatinib for 3 years",
+      "No adjuvant treatment",
+      "Imatinib for 1 year",
+      "Adjuvant radiotherapy"
+    ],
+    "answer": "A",
+    "reason": "High-risk GIST: 3 years of adjuvant imatinib improves survival over 1 year.",
+    "explanation": "Size above 5 cm with a high mitotic count places this tumour in the high-risk group. The SSG XVIII trial showed better recurrence-free and overall survival with 3 years of imatinib compared with 1 year. GIST is not radiosensitive and lymphadenectomy is not needed.",
+    "pearl": "PDGFRA D842V mutant GIST is resistant to imatinib; check the mutation before starting."
+  },
+  {
+    "id": "S015",
+    "subject": "surgery",
+    "topic": "Upper GI",
+    "stem": "For adequate pathological nodal staging after gastrectomy for adenocarcinoma, the minimum number of lymph nodes that should be examined is:",
+    "options": [
+      "6",
+      "12",
+      "16",
+      "25"
+    ],
+    "answer": "C",
+    "reason": "At least 16 regional nodes are needed for reliable N staging in gastric cancer.",
+    "explanation": "AJCC staging recommends examination of at least 16 regional lymph nodes for gastric cancer, and more is better. Twelve is the minimum figure for colorectal cancer, which is a common source of confusion.",
+    "pearl": "A D2 dissection normally yields well above this number."
+  },
+  {
+    "id": "S016",
+    "subject": "surgery",
+    "topic": "Upper GI",
+    "stem": "A 28-year-old woman has a mother and an aunt who died of diffuse gastric cancer before the age of 40. She carries a pathogenic CDH1 mutation. Endoscopy is normal. What should be advised?",
+    "options": [
+      "Annual endoscopy only",
+      "Prophylactic total gastrectomy",
+      "Prophylactic distal gastrectomy",
+      "Helicobacter pylori eradication and review"
+    ],
+    "answer": "B",
+    "reason": "CDH1 carriers have a high lifetime risk and endoscopy misses the signet-ring foci.",
+    "explanation": "Hereditary diffuse gastric cancer is caused by germline CDH1 (E-cadherin) mutations. The cancer spreads beneath intact mucosa as scattered signet-ring cell foci, so endoscopic surveillance is unreliable. Prophylactic total gastrectomy is advised in early adulthood.",
+    "pearl": "Women with CDH1 mutations also need surveillance for lobular breast cancer."
+  },
+  {
+    "id": "S017",
+    "subject": "surgery",
+    "topic": "Oesophagus",
+    "stem": "Surveillance biopsies in a 60-year-old man with a 4 cm Barrett segment show flat high-grade dysplasia, confirmed by a second pathologist. What is the preferred management?",
+    "options": [
+      "Repeat endoscopy in 6 months",
+      "Endoscopic eradication therapy",
+      "Oesophagectomy",
+      "Laparoscopic fundoplication alone"
+    ],
+    "answer": "B",
+    "reason": "High-grade dysplasia is treated endoscopically: resect visible lesions and ablate the rest.",
+    "explanation": "Endoscopic eradication therapy is the standard for high-grade dysplasia and intramucosal cancer. Visible nodules are removed by endoscopic resection and the remaining flat Barrett segment is treated with radiofrequency ablation. Oesophagectomy is reserved for submucosal invasion or failure of endoscopic treatment.",
+    "pearl": "T1a lesions carry a very low nodal risk; T1b lesions do not."
+  },
+  {
+    "id": "S018",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "CT of a pancreatic head adenocarcinoma shows tumour contact with the superior mesenteric artery of less than 180 degrees and no distant disease. How is this classified?",
+    "options": [
+      "Resectable",
+      "Borderline resectable",
+      "Locally advanced",
+      "Metastatic"
+    ],
+    "answer": "B",
+    "reason": "Arterial abutment of 180 degrees or less is borderline resectable.",
+    "explanation": "Resectable tumours have no arterial contact. Contact with the superior mesenteric artery of 180 degrees or less is borderline resectable, and encasement beyond 180 degrees is locally advanced. Borderline tumours are treated with neoadjuvant therapy before an attempt at resection.",
+    "pearl": "Venous involvement is borderline as long as the vein can be safely resected and reconstructed."
+  },
+  {
+    "id": "S019",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "Which finding in a branch-duct or mixed IPMN is a high-risk stigma that by itself indicates resection in a fit patient?",
+    "options": [
+      "Cyst diameter of 3 cm",
+      "Main pancreatic duct of 10 mm or more",
+      "Main pancreatic duct of 5 to 9 mm",
+      "Thickened enhancing cyst wall"
+    ],
+    "answer": "B",
+    "reason": "A main duct of 10 mm or more is a high-risk stigma.",
+    "explanation": "High-risk stigmata are obstructive jaundice with a cystic lesion of the head, an enhancing mural nodule of 5 mm or more, and a main duct of 10 mm or more. The other options are worrisome features, which call for endoscopic ultrasound before a decision.",
+    "pearl": "Main-duct IPMN carries a far higher malignancy risk than branch-duct disease."
+  },
+  {
+    "id": "S020",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "Three weeks into severe acute pancreatitis a stable patient has fever, and CT shows gas within a necrotic collection. What is the best initial intervention?",
+    "options": [
+      "Laparoscopic cholecystectomy",
+      "Total parenteral nutrition alone",
+      "Percutaneous or endoscopic drainage",
+      "Immediate open necrosectomy"
+    ],
+    "answer": "C",
+    "reason": "Step-up approach: drain first, and debride only if drainage fails.",
+    "explanation": "Gas in the collection indicates infected necrosis. The PANTER trial showed that a step-up approach, starting with catheter or endoscopic drainage and escalating to minimally invasive necrosectomy only if needed, reduces major complications compared with primary open necrosectomy.",
+    "pearl": "Delay any necrosectomy to about 4 weeks when the collection has walled off."
+  },
+  {
+    "id": "S021",
+    "subject": "surgery",
+    "topic": "Pancreas",
+    "stem": "A patient with chronic pancreatitis has intractable pain, a 9 mm pancreatic duct and a 5 cm inflammatory mass in the head. Which operation cores out the head without dividing the pancreatic neck and adds a lateral pancreaticojejunostomy?",
+    "options": [
+      "Puestow (Partington-Rochelle) procedure",
+      "Whipple procedure",
+      "Frey procedure",
+      "Beger procedure"
+    ],
+    "answer": "C",
+    "reason": "Frey: local head resection plus lateral pancreaticojejunostomy.",
+    "explanation": "The Partington-Rochelle procedure is a lateral pancreaticojejunostomy alone and does not treat a head mass. The Beger procedure is a duodenum-preserving head resection that transects the neck over the portal vein. The Frey procedure cores the head without neck transection and drains the duct.",
+    "pearl": "The head is the pacemaker of pain in chronic pancreatitis."
+  },
+  {
+    "id": "S022",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "A right posterior sectionectomy removes which Couinaud segments?",
+    "options": [
+      "Segments 6 and 7",
+      "Segments 5 and 6",
+      "Segments 5 and 8",
+      "Segments 7 and 8"
+    ],
+    "answer": "A",
+    "reason": "The right posterior section is segments 6 and 7.",
+    "explanation": "The right hepatic vein divides the right liver into an anterior section (segments 5 and 8) and a posterior section (segments 6 and 7). The middle hepatic vein lies in the principal plane and separates the right and left hemilivers.",
+    "pearl": "Segments 5 and 6 are inferior, 7 and 8 superior, relative to the portal bifurcation."
+  },
+  {
+    "id": "S023",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "A patient with Child A cirrhosis needs a right hepatectomy for hepatocellular carcinoma. What is the minimum future liver remnant generally considered safe?",
+    "options": [
+      "20%",
+      "30%",
+      "40%",
+      "60%"
+    ],
+    "answer": "C",
+    "reason": "Cirrhotic liver needs a remnant of about 40%.",
+    "explanation": "The accepted minimum future liver remnant is about 20% for a normal liver, 30% after prolonged chemotherapy or with steatosis, and 40% for a cirrhotic liver. If the predicted remnant is smaller, portal vein embolisation is used to induce hypertrophy.",
+    "pearl": "Failure to hypertrophy after portal vein embolisation predicts post-hepatectomy liver failure."
+  },
+  {
+    "id": "S024",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "An asymptomatic 55-year-old has an incidental 6 cm liver cyst that is heavily calcified with a solid appearance, WHO stage CE5. Hydatid serology is weakly positive. What is the best management?",
+    "options": [
+      "Observation (watch and wait)",
+      "Albendazole for 6 months",
+      "Surgical pericystectomy",
+      "PAIR"
+    ],
+    "answer": "A",
+    "reason": "CE4 and CE5 cysts are inactive and are simply observed.",
+    "explanation": "In the WHO classification CE1 and CE2 are active, CE3 is transitional, and CE4 and CE5 are inactive. Uncomplicated inactive cysts need no treatment. PAIR is suited to CE1 and CE3a cysts and is contraindicated when there is biliary communication.",
+    "pearl": "CE2 and CE3b cysts with daughter cysts respond poorly to PAIR; surgery is preferred."
+  },
+  {
+    "id": "S025",
+    "subject": "surgery",
+    "topic": "Liver",
+    "stem": "A 30-year-old man who uses anabolic steroids has a 3.5 cm hepatocellular adenoma confirmed on MRI. What is the recommended management?",
+    "options": [
+      "Stop steroids and observe",
+      "Resection only if it grows beyond 5 cm",
+      "Resection regardless of size",
+      "Transarterial embolisation"
+    ],
+    "answer": "C",
+    "reason": "Adenomas in men are resected whatever the size because of malignant risk.",
+    "explanation": "In women, adenomas under 5 cm are managed by stopping oral contraceptives and observing. In men the risk of malignant transformation is much higher, so resection is advised at any size. The beta-catenin activated subtype also carries a high risk.",
+    "pearl": "The inflammatory subtype bleeds most often; the HNF1A-inactivated subtype is the most indolent."
+  },
+  {
+    "id": "S026",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "MRCP in a 25-year-old woman shows multiple cystic dilatations of both the extrahepatic and intrahepatic bile ducts. What is the Todani type?",
+    "options": [
+      "Type I",
+      "Type III",
+      "Type IVa",
+      "Type V"
+    ],
+    "answer": "C",
+    "reason": "Intrahepatic plus extrahepatic cysts = type IVa.",
+    "explanation": "Type I is fusiform extrahepatic dilatation and is the most common. Type II is a diverticulum, type III a choledochocele, type IVa multiple intra- and extrahepatic cysts, type IVb multiple extrahepatic cysts only, and type V is Caroli disease with intrahepatic cysts alone.",
+    "pearl": "Treatment is cyst excision with Roux-en-Y hepaticojejunostomy; never a cyst-enterostomy."
+  },
+  {
+    "id": "S027",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "Histology after routine laparoscopic cholecystectomy shows adenocarcinoma invading the muscular layer (pT1b) with a negative cystic duct margin. What is the next step?",
+    "options": [
+      "No further treatment",
+      "Port-site excision alone",
+      "Adjuvant chemotherapy alone",
+      "Radical re-resection with lymphadenectomy"
+    ],
+    "answer": "D",
+    "reason": "T1a is cured by cholecystectomy; T1b and above need radical re-resection.",
+    "explanation": "Tumours confined to the lamina propria (T1a) need nothing further. From T1b onwards there is a meaningful risk of residual and nodal disease, so re-resection of the gallbladder bed (segments 4b and 5) with regional lymphadenectomy is recommended after staging.",
+    "pearl": "Routine port-site excision does not improve survival."
+  },
+  {
+    "id": "S028",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "A stone impacted in Hartmann pouch compresses the common hepatic duct from outside. There is no fistula. In the Csendes classification this is Mirizzi syndrome type:",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type III",
+      "Type IV"
+    ],
+    "answer": "A",
+    "reason": "External compression without a fistula = type I.",
+    "explanation": "Type I is external compression. Types II, III and IV are cholecystobiliary fistulae involving less than one third, up to two thirds, and the whole circumference of the duct. Type V is any type with a cholecystoenteric fistula.",
+    "pearl": "Higher types need a bilioenteric reconstruction, not simple cholecystectomy."
+  },
+  {
+    "id": "S029",
+    "subject": "surgery",
+    "topic": "Biliary",
+    "stem": "A 70-year-old with fever, jaundice and right upper quadrant pain is confused and needs noradrenaline to maintain blood pressure. Besides antibiotics and resuscitation, what is the priority?",
+    "options": [
+      "Urgent endoscopic biliary drainage",
+      "Elective ERCP after 72 hours of antibiotics",
+      "Emergency cholecystectomy",
+      "MRCP before any intervention"
+    ],
+    "answer": "A",
+    "reason": "Organ dysfunction = Tokyo grade III; drain the biliary tree urgently.",
+    "explanation": "Tokyo Guidelines grade III (severe) cholangitis is defined by organ dysfunction such as hypotension needing vasopressors or altered consciousness. These patients need urgent biliary decompression, preferably by ERCP, once organ support has started. Definitive stone clearance can wait.",
+    "pearl": "Reynolds pentad adds shock and confusion to Charcot triad."
+  },
+  {
+    "id": "S030",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "In Lynch syndrome, which is the most common extracolonic malignancy?",
+    "options": [
+      "Urothelial carcinoma",
+      "Ovarian carcinoma",
+      "Endometrial carcinoma",
+      "Gastric carcinoma"
+    ],
+    "answer": "C",
+    "reason": "Endometrial cancer is the commonest extracolonic cancer in Lynch syndrome.",
+    "explanation": "Lynch syndrome results from germline mutations in mismatch repair genes (MLH1, MSH2, MSH6, PMS2). Women have a lifetime endometrial cancer risk that approaches their colorectal cancer risk. Ovarian, gastric, small bowel and upper urinary tract cancers also occur.",
+    "pearl": "Colonoscopy is started at 20 to 25 years and repeated every 1 to 2 years."
+  },
+  {
+    "id": "S031",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "After prophylactic proctocolectomy for familial adenomatous polyposis, which surveillance is most important for preventing cancer death?",
+    "options": [
+      "Serum CEA every 6 months",
+      "Annual CT of the chest",
+      "Upper GI endoscopy with a side-viewing scope",
+      "Capsule endoscopy every 5 years"
+    ],
+    "answer": "C",
+    "reason": "Duodenal and periampullary cancer is a leading cause of death after colectomy.",
+    "explanation": "Almost all patients with FAP develop duodenal adenomas, concentrated around the ampulla. Surveillance with forward and side-viewing endoscopy is guided by the Spigelman stage. Desmoid tumours are the other major cause of death after colectomy.",
+    "pearl": "Spigelman stage IV disease is an indication to consider prophylactic duodenectomy."
+  },
+  {
+    "id": "S032",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "On staging MRI for mid-rectal cancer, which finding is the strongest predictor of local recurrence?",
+    "options": [
+      "Distance from the anal verge",
+      "Tumour length above 5 cm",
+      "Mucinous histology",
+      "Involved circumferential resection margin"
+    ],
+    "answer": "D",
+    "reason": "A threatened mesorectal fascia (tumour within 1 mm) predicts local recurrence.",
+    "explanation": "The circumferential resection margin is the key determinant of local control after total mesorectal excision. Tumour within 1 mm of the mesorectal fascia on MRI indicates a threatened margin and is an indication for neoadjuvant treatment before surgery.",
+    "pearl": "Extramural venous invasion on MRI predicts distant rather than local failure."
+  },
+  {
+    "id": "S033",
+    "subject": "surgery",
+    "topic": "Anal canal",
+    "stem": "A 58-year-old woman has a 3 cm squamous cell carcinoma of the anal canal with no nodal or distant disease. What is the primary treatment?",
+    "options": [
+      "Neoadjuvant chemotherapy then surgery",
+      "Abdominoperineal resection",
+      "Wide local excision",
+      "Chemoradiation with 5-fluorouracil and mitomycin C"
+    ],
+    "answer": "D",
+    "reason": "Nigro regimen: chemoradiation is curative and preserves the sphincter.",
+    "explanation": "Combined chemoradiation with 5-fluorouracil and mitomycin C is the standard primary treatment for anal squamous cell carcinoma. Abdominoperineal resection is reserved for persistent or recurrent disease. Regression can continue for up to 6 months, so early biopsy is avoided.",
+    "pearl": "Local excision is only for small, well-differentiated anal margin lesions."
+  },
+  {
+    "id": "S034",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "A stable 60-year-old with sigmoid diverticulitis has a 5 cm pelvic abscess on CT. What is the Hinchey stage and best initial treatment?",
+    "options": [
+      "Stage I; antibiotics alone",
+      "Stage II; percutaneous drainage with antibiotics",
+      "Stage III; laparoscopic lavage",
+      "Stage IV; Hartmann procedure"
+    ],
+    "answer": "B",
+    "reason": "Pelvic abscess = Hinchey II; drain it percutaneously.",
+    "explanation": "Hinchey I is a pericolic abscess, II a pelvic or distant abscess, III generalised purulent peritonitis and IV faecal peritonitis. Abscesses larger than about 3 to 4 cm are drained under image guidance along with antibiotics, avoiding emergency surgery.",
+    "pearl": "Arrange colonoscopy after recovery to exclude an underlying carcinoma."
+  },
+  {
+    "id": "S035",
+    "subject": "surgery",
+    "topic": "Anorectal",
+    "stem": "A 35-year-old woman has an anterior trans-sphincteric fistula crossing more than a third of the external sphincter. Which operation is most appropriate?",
+    "options": [
+      "Abdominoperineal resection",
+      "Cutting seton tightened weekly",
+      "Lay-open fistulotomy",
+      "LIFT or endorectal advancement flap"
+    ],
+    "answer": "D",
+    "reason": "High or anterior fistulae in women need a sphincter-preserving procedure.",
+    "explanation": "Fistulotomy divides the sphincter below the track and risks incontinence when a substantial part of the external sphincter is involved, especially anteriorly in women where the sphincter is short. Ligation of the intersphincteric fistula tract or an advancement flap preserves continence.",
+    "pearl": "Simple low fistulae are still best treated by fistulotomy."
+  },
+  {
+    "id": "S036",
+    "subject": "surgery",
+    "topic": "Colorectal",
+    "stem": "A patient with acute severe ulcerative colitis develops toxic megacolon and fails 72 hours of intravenous steroids and rescue therapy. What is the operation of choice?",
+    "options": [
+      "Subtotal colectomy with end ileostomy",
+      "Loop ileostomy alone",
+      "Segmental colectomy with primary anastomosis",
+      "Proctocolectomy with ileal pouch-anal anastomosis"
+    ],
+    "answer": "A",
+    "reason": "Emergency: remove the colon, leave the rectum, bring out an ileostomy.",
+    "explanation": "In the emergency setting a subtotal colectomy with end ileostomy removes the diseased colon with the least morbidity. Pelvic dissection and pouch construction are avoided in a sick, steroid-treated patient and can be done later as a staged procedure.",
+    "pearl": "The rectal stump may be closed or brought out as a mucous fistula if it is friable."
+  },
+  {
+    "id": "S037",
+    "subject": "surgery",
+    "topic": "Appendix",
+    "stem": "Histology of an appendicectomy specimen shows a 2.5 cm neuroendocrine tumour at the base with mesoappendiceal invasion. What is the next step?",
+    "options": [
+      "Right hemicolectomy",
+      "No further surgery",
+      "Repeat CT in 1 year",
+      "Somatostatin analogue therapy alone"
+    ],
+    "answer": "A",
+    "reason": "Size over 2 cm, base involvement or deep mesoappendiceal invasion needs right hemicolectomy.",
+    "explanation": "Appendiceal neuroendocrine tumours under 1 cm at the tip are cured by appendicectomy. Tumours larger than 2 cm, those at the base with positive margins, or with significant mesoappendiceal invasion have a real risk of nodal spread and need completion right hemicolectomy.",
+    "pearl": "Tumours of 1 to 2 cm are decided case by case on grade and invasion."
+  },
+  {
+    "id": "S038",
+    "subject": "surgery",
+    "topic": "Small bowel",
+    "stem": "After massive enterectomy a patient is left with an end jejunostomy and no colon. Below roughly what length of small bowel is long-term parenteral support usually required?",
+    "options": [
+      "35 cm",
+      "60 cm",
+      "100 cm",
+      "200 cm"
+    ],
+    "answer": "C",
+    "reason": "End jejunostomy: under about 100 cm usually means dependence on parenteral support.",
+    "explanation": "The length needed for nutritional autonomy depends on the anatomy. Approximate thresholds are 100 cm for an end jejunostomy, 60 cm when jejunum is joined to colon, and 35 cm when the ileocaecal valve and whole colon are preserved.",
+    "pearl": "Teduglutide, a GLP-2 analogue, can reduce parenteral requirements."
+  },
+  {
+    "id": "S039",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "A 55-year-old woman with a 2 cm invasive ductal carcinoma has breast-conserving surgery. Two of three sentinel nodes show macrometastases. She will receive whole-breast radiotherapy and systemic therapy. What should be done for the axilla?",
+    "options": [
+      "Internal mammary node biopsy",
+      "Completion axillary dissection",
+      "Axillary sampling of level III",
+      "No further axillary surgery"
+    ],
+    "answer": "D",
+    "reason": "ACOSOG Z0011: with 1 to 2 positive sentinel nodes, dissection adds nothing.",
+    "explanation": "The Z0011 trial included clinically node-negative T1 to T2 tumours treated by breast conservation with whole-breast radiotherapy. With one or two positive sentinel nodes, omitting axillary dissection gave equivalent survival and regional control with less lymphoedema.",
+    "pearl": "The trial does not apply to mastectomy without radiotherapy or after neoadjuvant chemotherapy."
+  },
+  {
+    "id": "S040",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "A man is diagnosed with breast cancer. Which germline mutation is most strongly associated?",
+    "options": [
+      "PTEN",
+      "TP53",
+      "BRCA2",
+      "BRCA1"
+    ],
+    "answer": "C",
+    "reason": "Male breast cancer is classically linked to BRCA2.",
+    "explanation": "BRCA2 carriers have a clearly raised risk of male breast cancer, along with prostate and pancreatic cancer. BRCA1 is associated with triple-negative, basal-like breast cancer and ovarian cancer in women. All men with breast cancer should be offered genetic testing.",
+    "pearl": "Klinefelter syndrome is the strongest non-genetic-mutation risk factor in men."
+  },
+  {
+    "id": "S041",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "Core biopsy of a rapidly growing 6 cm breast lump shows a borderline phyllodes tumour. Axilla is clinically normal. What is the appropriate surgery?",
+    "options": [
+      "Enucleation",
+      "Wide excision with clear margins, no axillary surgery",
+      "Modified radical mastectomy",
+      "Wide excision with sentinel node biopsy"
+    ],
+    "answer": "B",
+    "reason": "Phyllodes tumours spread by blood, so the axilla is left alone.",
+    "explanation": "Phyllodes tumours are fibroepithelial lesions that recur locally if margins are inadequate, so wide excision with clear margins (traditionally 1 cm for borderline and malignant types) is the aim. Nodal spread is rare, and metastases, when they occur, go to the lung.",
+    "pearl": "Stromal overgrowth and mitotic rate determine the grade."
+  },
+  {
+    "id": "S042",
+    "subject": "surgery",
+    "topic": "Breast",
+    "stem": "A woman with HER2-positive breast cancer completes neoadjuvant chemotherapy with trastuzumab. Surgery shows residual invasive disease. What is the preferred adjuvant anti-HER2 therapy?",
+    "options": [
+      "No further anti-HER2 therapy",
+      "Lapatinib",
+      "Trastuzumab emtansine (T-DM1)",
+      "Continue trastuzumab alone"
+    ],
+    "answer": "C",
+    "reason": "KATHERINE trial: T-DM1 halves recurrence when there is residual disease.",
+    "explanation": "Residual invasive disease after neoadjuvant HER2-directed therapy marks a higher risk of relapse. In the KATHERINE trial, switching to trastuzumab emtansine for 14 cycles reduced invasive recurrence or death by about half compared with continuing trastuzumab.",
+    "pearl": "Pathological complete response is a strong prognostic marker in HER2-positive and triple-negative disease."
+  },
+  {
+    "id": "S043",
+    "subject": "surgery",
+    "topic": "Thyroid",
+    "stem": "FNAC and raised calcitonin confirm medullary thyroid carcinoma in a 30-year-old. What must be done before thyroidectomy?",
+    "options": [
+      "Radioiodine uptake scan",
+      "Thyroglobulin level",
+      "TSH suppression for 6 weeks",
+      "Plasma or urinary metanephrines"
+    ],
+    "answer": "D",
+    "reason": "Exclude phaeochromocytoma first; MEN 2 may be present.",
+    "explanation": "About a quarter of medullary carcinomas are hereditary, as part of MEN 2A or 2B caused by RET mutations. An unrecognised phaeochromocytoma can cause a fatal hypertensive crisis under anaesthesia, so it is excluded and treated first. Calcium is checked for hyperparathyroidism.",
+    "pearl": "Medullary carcinoma does not take up radioiodine; C cells are not follicular cells."
+  },
+  {
+    "id": "S044",
+    "subject": "surgery",
+    "topic": "Parathyroid",
+    "stem": "A 32-year-old with MEN 1 has primary hyperparathyroidism. What is the recommended operation?",
+    "options": [
+      "Excision of the single largest gland",
+      "Minimally invasive focused parathyroidectomy",
+      "Total thyroidectomy with parathyroidectomy",
+      "Subtotal parathyroidectomy with cervical thymectomy"
+    ],
+    "answer": "D",
+    "reason": "MEN 1 is multigland disease: remove three and a half glands plus the thymus.",
+    "explanation": "Hyperparathyroidism in MEN 1 involves all glands asymmetrically, so focused surgery fails. Subtotal parathyroidectomy leaving a vascularised remnant, or total parathyroidectomy with autotransplantation, is combined with transcervical thymectomy to remove supernumerary glands and reduce thymic carcinoid risk.",
+    "pearl": "Recurrence is common even after adequate surgery; plan for lifelong follow-up."
+  },
+  {
+    "id": "S045",
+    "subject": "surgery",
+    "topic": "Parathyroid",
+    "stem": "During focused parathyroidectomy, which intraoperative PTH result predicts cure by the Miami criterion?",
+    "options": [
+      "Fall of more than 50% at 10 minutes after excision",
+      "Any fall at 5 minutes",
+      "Fall of more than 25% at 20 minutes",
+      "Fall to below 10 pg/mL at 30 minutes"
+    ],
+    "answer": "A",
+    "reason": "A drop of over 50% from the highest baseline at 10 minutes predicts cure.",
+    "explanation": "PTH has a half-life of 3 to 5 minutes. The Miami criterion is a fall of more than 50% from the highest pre-incision or pre-excision value 10 minutes after removing the gland. Failure to fall suggests further hyperfunctioning tissue and the need to explore.",
+    "pearl": "Gland manipulation can spike PTH, which is why the pre-excision sample matters."
+  },
+  {
+    "id": "S046",
+    "subject": "surgery",
+    "topic": "Adrenal",
+    "stem": "A patient with phaeochromocytoma is being prepared for adrenalectomy. Why must a beta blocker never be started before alpha blockade?",
+    "options": [
+      "It prevents tumour localisation on MIBG",
+      "Unopposed alpha stimulation causes hypertensive crisis",
+      "It increases catecholamine synthesis",
+      "It causes refractory hypoglycaemia"
+    ],
+    "answer": "B",
+    "reason": "Blocking beta-2 vasodilatation leaves alpha vasoconstriction unopposed.",
+    "explanation": "Alpha blockade with phenoxybenzamine or doxazosin is started 10 to 14 days before surgery along with salt and fluid loading. A beta blocker is added only afterwards to control tachycardia. Given first, it removes beta-2 mediated vasodilatation and can precipitate a crisis.",
+    "pearl": "After the tumour is removed, watch for hypotension and hypoglycaemia."
+  },
+  {
+    "id": "S047",
+    "subject": "surgery",
+    "topic": "Adrenal",
+    "stem": "A 3 cm adrenal mass is found incidentally. Which finding is most consistent with a benign lipid-rich adenoma?",
+    "options": [
+      "Heterogeneous enhancement with necrosis",
+      "Unenhanced CT density of 10 HU or less",
+      "Size increase of 1 cm in 6 months",
+      "Absolute contrast washout of 40%"
+    ],
+    "answer": "B",
+    "reason": "Density of 10 HU or less on unenhanced CT indicates a lipid-rich adenoma.",
+    "explanation": "Benign adenomas are rich in intracellular lipid, giving low attenuation on unenhanced CT. Lipid-poor adenomas show rapid washout, with absolute washout of 60% or more. Every incidentaloma also needs hormonal evaluation whatever its appearance.",
+    "pearl": "Masses over 4 cm or with indeterminate features are generally resected."
+  },
+  {
+    "id": "S048",
+    "subject": "surgery",
+    "topic": "Vascular",
+    "stem": "One year after EVAR, CT shows a type II endoleak from a lumbar artery. The aneurysm sac has not enlarged. What is the management?",
+    "options": [
+      "Observation with continued imaging",
+      "Proximal extension cuff",
+      "Relining of the stent graft",
+      "Immediate open conversion"
+    ],
+    "answer": "A",
+    "reason": "Type II endoleaks with a stable sac are watched; many seal spontaneously.",
+    "explanation": "Type I (attachment site) and type III (graft defect or component separation) endoleaks expose the sac to systemic pressure and need prompt treatment. Type II endoleaks arise from back-bleeding branches such as lumbar arteries or the inferior mesenteric artery and are treated only if the sac enlarges.",
+    "pearl": "Type II is the most common endoleak."
+  },
+  {
+    "id": "S049",
+    "subject": "surgery",
+    "topic": "Vascular",
+    "stem": "A 68-year-old has a transient ischaemic attack and an 80% stenosis of the ipsilateral internal carotid artery. When should carotid endarterectomy ideally be done?",
+    "options": [
+      "Within 2 weeks of the event",
+      "After 3 months of antiplatelet therapy",
+      "After 6 weeks",
+      "Only if a second event occurs"
+    ],
+    "answer": "A",
+    "reason": "The benefit of endarterectomy is greatest within 14 days of symptoms.",
+    "explanation": "The risk of stroke is highest in the first days and weeks after a transient ischaemic attack or minor stroke. Pooled trial data show that the benefit of endarterectomy for symptomatic 70 to 99% stenosis falls quickly with delay, so surgery is recommended within 2 weeks.",
+    "pearl": "A near-occluded or totally occluded carotid is not operated on."
+  },
+  {
+    "id": "S050",
+    "subject": "surgery",
+    "topic": "Vascular",
+    "stem": "After tibial fracture fixation a patient has severe pain on passive toe extension. Compartment pressure is 38 mmHg and blood pressure is 110/60 mmHg. What is the appropriate action?",
+    "options": [
+      "Arterial duplex scan",
+      "Fasciotomy",
+      "Repeat pressure measurement after analgesia",
+      "Elevate the limb and reassess in 6 hours"
+    ],
+    "answer": "B",
+    "reason": "Delta pressure (diastolic minus compartment) below 30 mmHg = fasciotomy.",
+    "explanation": "Here the difference between diastolic pressure and compartment pressure is 22 mmHg. A difference below 30 mmHg, together with the clinical picture, indicates inadequate perfusion and the need for urgent four-compartment fasciotomy. Pulses remain palpable until late.",
+    "pearl": "Pain out of proportion and pain on passive stretch are the earliest signs."
+  },
+  {
+    "id": "S051",
+    "subject": "surgery",
+    "topic": "Trauma",
+    "stem": "At laparotomy for blunt trauma, a non-expanding, non-pulsatile haematoma is found around the left kidney. The patient is stable. What should be done?",
+    "options": [
+      "Leave it unexplored",
+      "Nephrectomy",
+      "Explore the haematoma",
+      "Pack and perform on-table angiography"
+    ],
+    "answer": "A",
+    "reason": "Zone 2 haematoma after blunt trauma is not explored unless expanding.",
+    "explanation": "Zone 1 (central) haematomas are explored in both blunt and penetrating trauma. Zone 2 (lateral, perirenal) haematomas are explored after penetrating injury, but after blunt injury only if expanding or pulsatile. Zone 3 (pelvic) blunt haematomas are not opened.",
+    "pearl": "Opening a contained pelvic haematoma releases tamponade and can be fatal."
+  },
+  {
+    "id": "S052",
+    "subject": "surgery",
+    "topic": "Trauma",
+    "stem": "A patient with an unstable pelvic fracture is in refractory haemorrhagic shock with no chest or abdominal source. If REBOA is used, in which aortic zone should the balloon be inflated?",
+    "options": [
+      "Zone 1",
+      "Zone 2",
+      "Zone 3",
+      "Zone 0"
+    ],
+    "answer": "C",
+    "reason": "Pelvic bleeding: Zone 3, the infrarenal aorta.",
+    "explanation": "Zone 1 runs from the left subclavian artery to the coeliac trunk and is used for intra-abdominal haemorrhage. Zone 2, between the coeliac trunk and the lowest renal artery, is a no-occlusion zone. Zone 3, from the lowest renal artery to the bifurcation, is used for pelvic and junctional bleeding.",
+    "pearl": "Zone 1 occlusion time should be kept as short as possible because of visceral ischaemia."
+  },
+  {
+    "id": "S053",
+    "subject": "surgery",
+    "topic": "Trauma",
+    "stem": "A haemodynamically stable patient with a grade III splenic injury after blunt trauma has a contrast blush on CT. What is the best management?",
+    "options": [
+      "Emergency splenectomy",
+      "Diagnostic laparoscopy",
+      "Observation in the ward",
+      "Splenic angioembolisation"
+    ],
+    "answer": "D",
+    "reason": "Stable patient with a blush: embolise to make non-operative management succeed.",
+    "explanation": "A contrast blush indicates active bleeding or a pseudoaneurysm and predicts failure of observation alone. In a stable patient, angioembolisation raises the success rate of non-operative management. Haemodynamic instability remains the indication for laparotomy.",
+    "pearl": "Vaccinate against encapsulated organisms if most of the spleen is lost or embolised."
+  },
+  {
+    "id": "S054",
+    "subject": "surgery",
+    "topic": "Burns",
+    "stem": "A 70 kg man with 40% TBSA burns arrives 2 hours after injury. Using the Parkland formula, what is the infusion rate for the remainder of the first 8 hours?",
+    "options": [
+      "About 470 mL per hour",
+      "About 700 mL per hour",
+      "About 930 mL per hour",
+      "About 1,400 mL per hour"
+    ],
+    "answer": "C",
+    "reason": "Half of 11,200 mL is due in the first 8 hours from the burn; 6 hours remain.",
+    "explanation": "Parkland: 4 mL x 70 kg x 40% = 11,200 mL in 24 hours. Half, 5,600 mL, is given in the first 8 hours counted from the time of the burn. With 6 hours left, the rate is about 930 mL per hour. The formula is a starting point; titrate to urine output.",
+    "pearl": "Target urine output is 0.5 mL/kg per hour in adults."
+  },
+  {
+    "id": "S055",
+    "subject": "surgery",
+    "topic": "Transplant",
+    "stem": "Eight months after renal transplantation an EBV-seronegative recipient develops fever, lymphadenopathy and a rising EBV viral load. Biopsy confirms post-transplant lymphoproliferative disorder. What is the first step?",
+    "options": [
+      "Start ganciclovir alone",
+      "Graft nephrectomy",
+      "Increase tacrolimus",
+      "Reduce immunosuppression"
+    ],
+    "answer": "D",
+    "reason": "Reducing immunosuppression is the first step in PTLD.",
+    "explanation": "Most early post-transplant lymphoproliferative disorder is driven by EBV-infected B cells proliferating without T-cell control. Reducing immunosuppression restores that control and can produce regression. Rituximab, with or without chemotherapy, is added for CD20-positive disease that does not respond.",
+    "pearl": "An EBV-negative recipient of an EBV-positive donor organ carries the highest risk."
+  },
+  {
+    "id": "S056",
+    "subject": "surgery",
+    "topic": "Bariatric",
+    "stem": "Two years after laparoscopic Roux-en-Y gastric bypass a woman has intermittent colicky pain. CT shows a mesenteric swirl sign. Where is the Petersen defect?",
+    "options": [
+      "At the jejunojejunostomy mesenteric defect",
+      "Between the Roux limb mesentery and the transverse mesocolon",
+      "Between the gastric pouch and the remnant stomach",
+      "Through the oesophageal hiatus"
+    ],
+    "answer": "B",
+    "reason": "Petersen space lies behind the Roux limb, in front of the transverse mesocolon.",
+    "explanation": "Internal hernia is the most common cause of small bowel obstruction after laparoscopic gastric bypass. Potential spaces are the Petersen space, the jejunojejunostomy mesenteric defect and, in retrocolic reconstructions, the mesocolic window. Weight loss enlarges these defects.",
+    "pearl": "A normal CT does not exclude internal hernia; persistent pain warrants laparoscopy."
+  },
+  {
+    "id": "S057",
+    "subject": "surgery",
+    "topic": "Hernia",
+    "stem": "After laparoscopic inguinal hernia repair a patient has burning pain and numbness over the anterolateral thigh. Tacks were placed lateral to the gonadal vessels below the iliopubic tract. Which nerve is injured?",
+    "options": [
+      "Ilioinguinal nerve",
+      "Obturator nerve",
+      "Iliohypogastric nerve",
+      "Lateral femoral cutaneous nerve"
+    ],
+    "answer": "D",
+    "reason": "Triangle of pain: lateral to the gonadal vessels, below the iliopubic tract.",
+    "explanation": "The triangle of pain contains the lateral femoral cutaneous nerve, the femoral branch of the genitofemoral nerve and the femoral nerve. The triangle of doom, between the vas deferens and gonadal vessels, contains the external iliac vessels. No fixation should be placed below the iliopubic tract.",
+    "pearl": "Injury to the lateral femoral cutaneous nerve causes meralgia paraesthetica."
+  },
+  {
+    "id": "S058",
+    "subject": "surgery",
+    "topic": "Paediatric surgery",
+    "stem": "For the best chance of bile drainage, Kasai portoenterostomy for biliary atresia should ideally be performed before what age?",
+    "options": [
+      "60 days",
+      "120 days",
+      "6 months",
+      "1 year"
+    ],
+    "answer": "A",
+    "reason": "Results fall off sharply when the Kasai procedure is done after about 60 days.",
+    "explanation": "Biliary atresia is a progressive fibro-obliterative disease of the bile ducts. Early portoenterostomy restores bile flow in a good proportion of infants and delays or avoids transplantation. Any infant with conjugated jaundice beyond 2 weeks needs urgent evaluation.",
+    "pearl": "Biliary atresia is the most common indication for paediatric liver transplantation."
+  },
+  {
+    "id": "S059",
+    "subject": "surgery",
+    "topic": "Surgical oncology",
+    "stem": "Excision biopsy of a pigmented lesion on the back shows melanoma with Breslow thickness 2.4 mm. There are no palpable nodes. What is the correct definitive surgery?",
+    "options": [
+      "1 cm margin only",
+      "2 cm margin with sentinel node biopsy",
+      "3 cm margin with elective node dissection",
+      "5 cm margin down to fascia"
+    ],
+    "answer": "B",
+    "reason": "Thickness over 2 mm: 2 cm margin, plus sentinel node biopsy.",
+    "explanation": "Recommended margins are 0.5 to 1 cm for in situ disease, 1 cm for melanoma up to 1 mm thick, 1 to 2 cm for 1 to 2 mm, and 2 cm for thicker tumours. Sentinel node biopsy is offered for thickness of 0.8 mm or more, or thinner tumours with ulceration.",
+    "pearl": "A positive sentinel node is now followed by nodal ultrasound surveillance, not routine dissection."
+  },
+  {
+    "id": "S060",
+    "subject": "surgery",
+    "topic": "Surgical oncology",
+    "stem": "A 45-year-old has a deep, 9 cm, firm mass in the thigh. MRI suggests a soft tissue sarcoma. What is the correct way to obtain a tissue diagnosis?",
+    "options": [
+      "Fine needle aspiration from the nearest point",
+      "Core needle biopsy along the planned incision line",
+      "Transverse incision biopsy",
+      "Excision biopsy"
+    ],
+    "answer": "B",
+    "reason": "Core biopsy, with the track placed so it can be excised with the tumour.",
+    "explanation": "Core needle biopsy gives enough tissue for subtype and grade. The track is contaminated and must lie in the line of the future longitudinal incision so it can be removed en bloc. Unplanned excision and transverse incisions compromise limb-sparing surgery.",
+    "pearl": "Staging includes MRI of the limb and CT of the chest; sarcomas spread to the lung."
+  }
+]

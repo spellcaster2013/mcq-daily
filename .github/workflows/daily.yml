@@ -2,8 +2,8 @@ name: MCQ Daily bot
 
 on:
   schedule:
-    - cron: "0 2 * * *"    # 07:30 IST
-    - cron: "0 14 * * *"   # 19:30 IST
+    - cron: "17 2 * * *"    # 07:47 IST
+    - cron: "17 15 * * *"   # 20:47 IST
   workflow_dispatch:
     inputs:
       preview_only:
@@ -11,10 +11,10 @@ on:
         type: boolean
         default: false
       subject:
-        description: "Which channel: both, surgery or medicine"
+        description: "Where to post: all, surgery (Telegram), medicine (Telegram) or instagram"
         type: choice
-        options: [both, surgery, medicine]
-        default: both
+        options: [all, surgery, medicine, instagram]
+        default: all
 
 permissions:
   contents: write
@@ -30,21 +30,24 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pillow requests
+      - name: Git identity
+        run: |
+          git config user.name "mcq-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
       - name: Post
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           SURGERY_CHAT_ID: ${{ secrets.SURGERY_CHAT_ID }}
           MEDICINE_CHAT_ID: ${{ secrets.MEDICINE_CHAT_ID }}
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
-        run: python bot.py ${{ inputs.preview_only && '--preview' || '' }} ${{ (inputs.subject == 'surgery' || inputs.subject == 'medicine') && format('--subject {0}', inputs.subject) || '' }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python bot.py ${{ inputs.preview_only && '--preview' || '' }} ${{ (inputs.subject && inputs.subject != 'all' && inputs.subject != 'both') && format('--only {0}', inputs.subject) || '' }}
       - name: Remember what was posted
         if: always()
         run: |
-          git config user.name "mcq-daily-bot"
-          git config user.email "actions@users.noreply.github.com"
           git add state.json 2>/dev/null || true
           git diff --cached --quiet || (git commit -m "Record posted MCQs" && git push)
-      - name: Keep slides for Instagram
+      - name: Keep slides
         if: always()
         uses: actions/upload-artifact@v4
         with:

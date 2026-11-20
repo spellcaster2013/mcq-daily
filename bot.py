@@ -1,24 +1,30 @@
 """MCQ Daily bot.
 
-Each run posts the next unused MCQ of every subject to its Telegram channel
-(4-slide carousel + quiz poll), records it in state.json, and privately warns
-the owner when the stock of unused MCQs is running low.
+Each run posts the next unused MCQ to every destination in config.json:
+Telegram channels (4-slide album + quiz poll) and Instagram (@scalpelxlab
+carousel via the Instagram API). Progress is recorded in state.json, and the
+owner is warned privately when MCQs run low or something fails.
 
-  python bot.py              post for real (needs the env secrets)
-  python bot.py --preview    only draw the slides into out/, post nothing
-  python bot.py --check      validate questions.json and print the stock
+  python bot.py                       post for real (needs the env secrets)
+  python bot.py --only instagram      post to one destination only
+  python bot.py --preview             only draw the slides into out/, post nothing
+  python bot.py --check               validate questions.json and print the stock
 """
 import argparse
 import datetime as dt
+import hashlib
 import json
 import os
+import subprocess
 import sys
+import time
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "out"
+IGDIR = ROOT / "ig"
 W, H, M = 1080, 1350, 80
 BG, INK, MUTED, CARD, LINE = "#F6F4EF", "#14171A", "#6B7278", "#FFFFFF", "#E3DFD6"
 GREEN, GREEN_BG = "#178A4C", "#E4F5EA"
@@ -57,48 +63,58 @@ def text_block(draw, xy, text, weight, size, width, fill=INK, spacing=1.35, dry=
 
 
 def fit(draw, text, weight, width, max_h, sizes, spacing=1.35):
-    """Largest size from `sizes` whose wrapped text fits in max_h."""
     for size in sizes:
         if text_block(draw, (0, 0), text, weight, size, width, spacing=spacing, dry=True) <= max_h:
             return size
     return sizes[-1]
 
 
-def header(draw, sub, number, page):
-    name = sub["channel_name"].upper()
+def one_line(draw, xy, text, weight, width, sizes, fill):
+    """Draw text on one line, shrinking the font until it fits."""
+    for size in sizes:
+        f = font(weight, size)
+        if draw.textlength(text, font=f) <= width:
+            break
+    draw.text(xy, text, font=f, fill=fill)
+
+
+def badge(draw, d):
+    name = d["badge"].upper()
     f = font("Bold", 26)
     tw = draw.textlength(name, font=f)
-    draw.rounded_rectangle((M, 70, M + tw + 48, 126), 28, fill=sub["accent"])
+    draw.rounded_rectangle((M, 70, M + tw + 48, 126), 28, fill=d["accent"])
     draw.text((M + 24, 82), name, font=f, fill="#FFFFFF")
+
+
+def header(draw, d, number, page):
+    badge(draw, d)
     num = f"#{number:03d}"
     f2 = font("ExtraBold", 34)
-    draw.text((W - M - draw.textlength(num, font=f2), 78), num, font=f2, fill=sub["accent"])
+    draw.text((W - M - draw.textlength(num, font=f2), 78), num, font=f2, fill=d["accent"])
     f3 = font("SemiBold", 24)
     draw.text((W - M - draw.textlength(page, font=f3), H - 92), page, font=f3, fill=MUTED)
 
 
 def footer(draw, text, color=MUTED):
-    draw.text((M, H - 92), text, font=font("SemiBold", 24), fill=color)
+    one_line(draw, (M, H - 92), text, "SemiBold", W - 2 * M - 90, (24, 22, 20, 18), color)
 
 
-def option_rows(draw, q, y, size, mode, sub):
-    """mode 'ask' = neutral cards, 'reveal' = correct one highlighted."""
+def option_rows(draw, q, y, size, mode, d):
     width = W - 2 * M - 140
     for i, opt in enumerate(q["options"]):
         correct = LETTERS[i] == q["answer"]
         hi = mode == "reveal" and correct
         dim = mode == "reveal" and not correct
-        h = text_block(draw, (0, 0), opt, "SemiBold", size, width, dry=True) + 44
-        h = max(h, 96)
+        th = text_block(draw, (0, 0), opt, "SemiBold", size, width, dry=True)
+        h = max(th + 44, 96)
         draw.rounded_rectangle((M, y, W - M, y + h), 24, fill=GREEN_BG if hi else CARD,
                                outline=GREEN if hi else LINE, width=3 if hi else 2)
         cy = y + h // 2
         draw.ellipse((M + 22, cy - 28, M + 78, cy + 28),
-                     fill=GREEN if hi else (LINE if dim else sub["accent"]))
+                     fill=GREEN if hi else (LINE if dim else d["accent"]))
         lf = font("Bold", 28)
         lw = draw.textlength(LETTERS[i], font=lf)
         draw.text((M + 50 - lw / 2, cy - 18), LETTERS[i], font=lf, fill=MUTED if dim else "#FFFFFF")
-        th = text_block(draw, (0, 0), opt, "SemiBold", size, width, dry=True)
         text_block(draw, (M + 104, y + (h - th) // 2 + 4), opt, "SemiBold", size, width,
                    fill=MUTED if dim else INK)
         y += h + 18
@@ -116,96 +132,109 @@ def new_slide(color=BG):
     return img, ImageDraw.Draw(img)
 
 
-def slide_question(q, sub, cfg, number):
-    img, d = new_slide()
-    header(d, sub, number, "1 / 4")
-    tag = f"{q['topic'].upper()}  ·  {cfg['level_tag']}"
-    d.text((M, 170), tag, font=font("SemiBold", 24), fill=MUTED)
+def tag_text(q, cfg):
+    if q.get("chapter"):
+        return f"SABISTON 22E · {q['chapter'].upper()}"
+    return f"{q['topic'].upper()}  ·  {cfg['level_tag']}"
+
+
+def slide_question(q, d, cfg, number):
+    img, dr = new_slide()
+    header(dr, d, number, "1 / 4")
+    one_line(dr, (M, 170), tag_text(q, cfg), "SemiBold", W - 2 * M, (24, 22, 20, 18), MUTED)
     top, bottom = 230, H - 130
     for stem_size, opt_size in ((50, 34), (46, 32), (42, 30), (38, 28), (34, 26), (30, 24)):
-        need = (text_block(d, (0, 0), q["stem"], "Bold", stem_size, W - 2 * M, dry=True)
-                + 40 + options_height(d, q, opt_size))
+        need = (text_block(dr, (0, 0), q["stem"], "Bold", stem_size, W - 2 * M, dry=True)
+                + 40 + options_height(dr, q, opt_size))
         if need <= bottom - top:
             break
-    y = text_block(d, (M, top), q["stem"], "Bold", stem_size, W - 2 * M)
-    option_rows(d, q, y + 40, opt_size, "ask", sub)
-    footer(d, "Swipe for the answer  →", sub["accent"])
+    y = text_block(dr, (M, top), q["stem"], "Bold", stem_size, W - 2 * M)
+    option_rows(dr, q, y + 40, opt_size, "ask", d)
+    footer(dr, d["swipe_text"], d["accent"])
     return img
 
 
-def slide_answer(q, sub, cfg, number):
-    img, d = new_slide()
-    header(d, sub, number, "2 / 4")
-    d.text((M, 180), "Answer", font=font("ExtraBold", 72), fill=INK)
-    d.text((M + 330, 180), q["answer"], font=font("ExtraBold", 72), fill=GREEN)
+def slide_answer(q, d, cfg, number):
+    img, dr = new_slide()
+    header(dr, d, number, "2 / 4")
+    dr.text((M, 180), "Answer", font=font("ExtraBold", 72), fill=INK)
+    dr.text((M + 330, 180), q["answer"], font=font("ExtraBold", 72), fill=GREEN)
     top, bottom = 320, H - 130
     for opt_size, why_size in ((34, 38), (32, 36), (30, 34), (28, 30), (26, 28)):
-        need = (options_height(d, q, opt_size) + 60
-                + text_block(d, (0, 0), q["reason"], "SemiBold", why_size, W - 2 * M, dry=True) + 50)
+        need = (options_height(dr, q, opt_size) + 60
+                + text_block(dr, (0, 0), q["reason"], "SemiBold", why_size, W - 2 * M, dry=True) + 50)
         if need <= bottom - top:
             break
-    y = option_rows(d, q, top, opt_size, "reveal", sub) + 30
-    d.text((M, y), "WHY", font=font("Bold", 24), fill=sub["accent"])
-    text_block(d, (M, y + 44), q["reason"], "SemiBold", why_size, W - 2 * M)
-    footer(d, "Swipe for the explanation  →", sub["accent"])
+    y = option_rows(dr, q, top, opt_size, "reveal", d) + 30
+    dr.text((M, y), "WHY", font=font("Bold", 24), fill=d["accent"])
+    text_block(dr, (M, y + 44), q["reason"], "SemiBold", why_size, W - 2 * M)
+    footer(dr, "Swipe for the explanation  →", d["accent"])
     return img
 
 
-def slide_explanation(q, sub, cfg, number):
-    img, d = new_slide()
-    header(d, sub, number, "3 / 4")
-    d.text((M, 180), "Explanation", font=font("ExtraBold", 64), fill=INK)
+def slide_explanation(q, d, cfg, number):
+    img, dr = new_slide()
+    header(dr, d, number, "3 / 4")
+    dr.text((M, 180), "Explanation", font=font("ExtraBold", 64), fill=INK)
     inner = W - 2 * M - 72
-    pearl_size = fit(d, q["pearl"], "SemiBold", inner, 230, (32, 30, 28, 26, 24))
-    pearl_h = text_block(d, (0, 0), q["pearl"], "SemiBold", pearl_size, inner, dry=True) + 110
+    pearl_size = fit(dr, q["pearl"], "SemiBold", inner, 230, (32, 30, 28, 26, 24))
+    pearl_h = text_block(dr, (0, 0), q["pearl"], "SemiBold", pearl_size, inner, dry=True) + 110
     box_top = H - 140 - pearl_h
     body_h = box_top - 300 - 30
-    size = fit(d, q["explanation"], "Regular", W - 2 * M, body_h, (38, 36, 34, 32, 30, 28, 26, 24), 1.45)
-    text_block(d, (M, 300), q["explanation"], "Regular", size, W - 2 * M, spacing=1.45)
-    d.rounded_rectangle((M, box_top, W - M, box_top + pearl_h), 28, fill=sub["dark"])
-    d.text((M + 36, box_top + 30), "HIGH-YIELD PEARL", font=font("Bold", 22), fill="#FFD166")
-    text_block(d, (M + 36, box_top + 74), q["pearl"], "SemiBold", pearl_size, inner, fill="#FFFFFF")
-    footer(d, cfg["disclaimer"])
+    size = fit(dr, q["explanation"], "Regular", W - 2 * M, body_h, (38, 36, 34, 32, 30, 28, 26, 24), 1.45)
+    text_block(dr, (M, 300), q["explanation"], "Regular", size, W - 2 * M, spacing=1.45)
+    dr.rounded_rectangle((M, box_top, W - M, box_top + pearl_h), 28, fill=d["dark"])
+    dr.text((M + 36, box_top + 30), "HIGH-YIELD PEARL", font=font("Bold", 22), fill="#FFD166")
+    text_block(dr, (M + 36, box_top + 74), q["pearl"], "SemiBold", pearl_size, inner, fill="#FFFFFF")
+    ref = f"Topic ref: Sabiston 22e, {q['chapter'].split(' · ')[0]}. " if q.get("chapter") else ""
+    footer(dr, ref + cfg["disclaimer"])
     return img
 
 
-def slide_cta(q, sub, cfg, number):
-    img, d = new_slide(sub["dark"])
-    f = font("Bold", 26)
-    name = sub["channel_name"].upper()
-    tw = d.textlength(name, font=f)
-    d.rounded_rectangle((M, 70, M + tw + 48, 126), 28, fill=sub["accent"])
-    d.text((M + 24, 82), name, font=f, fill="#FFFFFF")
-    y = text_block(d, (M, 330), "Got it right?", "ExtraBold", 92, W - 2 * M, fill="#FFFFFF", spacing=1.1)
-    per = cfg["posts_per_day"]
-    line = (f"{per} fresh MCQs every day" if per > 1 else "One fresh MCQ every day")
-    y = text_block(d, (M, y + 30), f"{line} at {cfg['level_tag']}, with the answer and explanation.",
-                   "SemiBold", 42, W - 2 * M, fill="#D9DEE2", spacing=1.4)
-    d.text((M, y + 70), "JOIN FREE ON TELEGRAM", font=font("Bold", 26), fill="#FFD166")
+def slide_cta(q, d, cfg, number):
+    img, dr = new_slide(d["dark"])
+    badge(dr, d)
+    y = text_block(dr, (M, 330), "Got it right?", "ExtraBold", 92, W - 2 * M, fill="#FFFFFF", spacing=1.1)
+    y = text_block(dr, (M, y + 30), d["cta_line"], "SemiBold", 42, W - 2 * M, fill="#D9DEE2", spacing=1.4)
+    dr.text((M, y + 70), d["cta_label"], font=font("Bold", 26), fill="#FFD166")
     lf = font("ExtraBold", 50)
-    lw = d.textlength(sub["link"], font=lf)
-    d.rounded_rectangle((M, y + 122, M + lw + 80, y + 230), 54, fill="#FFFFFF")
-    d.text((M + 40, y + 144), sub["link"], font=lf, fill=sub["dark"])
-    d.text((M, y + 290), "Save this post.  Send it to a co-resident.", font=font("SemiBold", 32), fill="#FFFFFF")
-    d.text((M, H - 92), cfg["disclaimer"], font=font("SemiBold", 24), fill="#9AA4AB")
+    lw = dr.textlength(d["link"], font=lf)
+    dr.rounded_rectangle((M, y + 122, M + lw + 80, y + 230), 54, fill="#FFFFFF")
+    dr.text((M + 40, y + 144), d["link"], font=lf, fill=d["dark"])
+    dr.text((M, y + 290), "Save this post.  Send it to a co-resident.", font=font("SemiBold", 32), fill="#FFFFFF")
+    dr.text((M, H - 92), cfg["disclaimer"], font=font("SemiBold", 24), fill="#9AA4AB")
     return img
 
 
-def render(q, sub, cfg, number):
+def render(q, d, key, cfg, number):
     OUT.mkdir(exist_ok=True)
     paths = []
     for i, fn in enumerate((slide_question, slide_answer, slide_explanation, slide_cta), 1):
-        p = OUT / f"{q['subject']}_{number:03d}_{q['id']}_{i}.png"
-        fn(q, sub, cfg, number).save(p, optimize=True)
+        p = OUT / f"{key}_{number:03d}_{q['id']}_{i}.png"
+        fn(q, d, cfg, number).save(p, optimize=True)
         paths.append(p)
     return paths
 
 
-def caption(q, sub, cfg, number):
-    return (f"{sub['channel_name']} #{number:03d}  |  {q['topic']}\n\n{q['stem']}\n\n"
-            + "\n".join(f"{LETTERS[i]}. {o}" for i, o in enumerate(q["options"]))
-            + f"\n\nAnswer and explanation on the next slides.\n\n{cfg['disclaimer']}\n"
-            + f"More daily MCQs: {sub['link']}\n\n{sub['hashtags']}")
+def options_text(q):
+    return "\n".join(f"{LETTERS[i]}. {o}" for i, o in enumerate(q["options"]))
+
+
+def telegram_caption(q, d, cfg, number):
+    where = q.get("chapter") or q["topic"]
+    return (f"{d['channel_name']} #{number:03d}  |  {where}\n\n{q['stem']}\n\n{options_text(q)}"
+            f"\n\nAnswer and explanation on the next slides.\n\n{cfg['disclaimer']}\n"
+            f"More daily MCQs: {d['link']}\n\n{d['hashtags']}")
+
+
+def instagram_caption(q, d, cfg, number):
+    where = q.get("chapter") or q["topic"]
+    return (f"NEET SS · INI SS Surgery MCQ #{number:03d}\n{where} (Sabiston 22e)\n\n"
+            f"{q['stem']}\n\n{options_text(q)}\n\n"
+            "Comment your answer (A, B, C or D), then swipe for the explanation.\n"
+            "Save it for revision and send it to a co-resident.\n\n"
+            f"2 more MCQs every day, free on Telegram: {d['link']} (link in bio)\n\n"
+            f"{cfg['disclaimer']}\n\n{d['hashtags']}")[:2200]
 
 
 # ---------- data ----------
@@ -221,23 +250,30 @@ def load_questions():
         for key in ("subject", "topic", "stem", "options", "answer", "reason", "explanation", "pearl"):
             if not q.get(key):
                 errors.append(f"{qid}: missing '{key}'")
-        if len(q.get("options", [])) != 4:
-            errors.append(f"{qid}: needs exactly 4 options")
+        if len(q.get("options", [])) != 4 or len(set(q.get("options", []))) != 4:
+            errors.append(f"{qid}: needs exactly 4 different options")
         if q.get("answer") not in list(LETTERS):
             errors.append(f"{qid}: answer must be A, B, C or D")
         if any(len(o) > 100 for o in q.get("options", [])):
             errors.append(f"{qid}: an option is over 100 characters (Telegram poll limit)")
+        if q.get("route") not in (None, "telegram", "instagram"):
+            errors.append(f"{qid}: route must be telegram or instagram")
     return qs, errors
 
 
 def load_state():
     p = ROOT / "state.json"
-    return json.loads(p.read_text()) if p.exists() else {"posted": {}, "low_alert_on": ""}
+    return json.loads(p.read_text()) if p.exists() else {"posted": {}}
 
 
-def stock(qs, state, subject):
-    done = set(state["posted"].get(subject, []))
-    return [q for q in qs if q["subject"] == subject and q["id"] not in done]
+def save_state(state):
+    (ROOT / "state.json").write_text(json.dumps(state, indent=1))
+
+
+def stock(qs, state, key, d):
+    done = set(state["posted"].get(key, []))
+    route = d.get("route")
+    return [q for q in qs if q["subject"] == d["subject"] and q.get("route") == route and q["id"] not in done]
 
 
 # ---------- telegram ----------
@@ -251,15 +287,15 @@ def tg(method, token, data=None, files=None):
     return body["result"]
 
 
-def post_telegram(token, chat_id, q, sub, cfg, number, paths):
+def post_telegram(token, chat_id, q, d, cfg, number, paths):
     media, files = [], {}
     for i, p in enumerate(paths):
         files[f"f{i}"] = open(p, "rb")
         item = {"type": "photo", "media": f"attach://f{i}"}
         if i == 0:
-            item["caption"] = caption(q, sub, cfg, number)[:1024]
+            item["caption"] = telegram_caption(q, d, cfg, number)[:1024]
         if i in (1, 2):
-            item["has_spoiler"] = True  # answer + explanation stay blurred until tapped
+            item["has_spoiler"] = True
         media.append(item)
     try:
         tg("sendMediaGroup", token, {"chat_id": chat_id, "media": json.dumps(media)}, files)
@@ -276,23 +312,106 @@ def post_telegram(token, chat_id, q, sub, cfg, number, paths):
         })
 
 
-def audience_poll(token, chat_id, cfg, state, subject):
-    """Once a month (after the first 2 weeks of posts) ask members what they are preparing for."""
+def audience_poll(token, chat_id, cfg, state, key, d):
     month = dt.date.today().strftime("%Y-%m")
     asked = state.setdefault("audience_poll", {})
-    if (not cfg.get("monthly_audience_poll") or asked.get(subject) == month
-            or len(state["posted"].get(subject, [])) < 14 * cfg["posts_per_day"]):
+    if (not cfg.get("monthly_audience_poll") or asked.get(key) == month
+            or len(state["posted"].get(key, [])) < 14 * d["posts_per_day"]):
         return
     try:
-        tg("sendPoll", token, {
-            "chat_id": chat_id, "is_anonymous": "true",
-            "question": cfg["audience_poll_question"],
-            "options": json.dumps(cfg["audience_poll_options"]),
-        })
-        asked[subject] = month
-        (ROOT / "state.json").write_text(json.dumps(state, indent=1))
+        tg("sendPoll", token, {"chat_id": chat_id, "is_anonymous": "true",
+                               "question": cfg["audience_poll_question"],
+                               "options": json.dumps(cfg["audience_poll_options"])})
+        asked[key] = month
+        save_state(state)
     except Exception as e:
         print("audience poll failed:", e)
+
+
+# ---------- instagram ----------
+
+def ig_call(cfg, method, path, **params):
+    import requests
+    url = f"https://graph.instagram.com/{cfg['graph_version']}/{path}"
+    r = (requests.get(url, params=params, timeout=60) if method == "GET"
+         else requests.post(url, data=params, timeout=60))
+    body = r.json()
+    if "error" in body:
+        raise RuntimeError(f"Instagram {path}: {body['error'].get('message')}")
+    return body
+
+
+def git(*args):
+    return subprocess.run(["git", *args], cwd=ROOT, check=True, capture_output=True, text=True).stdout.strip()
+
+
+def host_images(paths, key, number, qid):
+    """Save JPEG copies under ig/, push them, and return public raw URLs."""
+    IGDIR.mkdir(exist_ok=True)
+    for old in IGDIR.glob("*.jpg"):  # keep only recent posts in the repo
+        try:
+            if int(old.name.split("_")[0]) < number - 10:
+                old.unlink()
+        except ValueError:
+            pass
+    names = []
+    for i, p in enumerate(paths, 1):
+        name = f"{number:03d}_{qid}_{i}.jpg"
+        Image.open(p).convert("RGB").save(IGDIR / name, "JPEG", quality=92)
+        names.append(name)
+    git("add", "-A", "ig")
+    git("commit", "-m", f"Instagram images for #{number:03d}")
+    git("push", "origin", "HEAD")
+    sha = git("rev-parse", "HEAD")
+    repo = os.environ.get("GITHUB_REPOSITORY", "spellcaster2013/mcq-daily")
+    urls = [f"https://raw.githubusercontent.com/{repo}/{sha}/ig/{n}" for n in names]
+    import requests
+    for u in urls:  # wait until GitHub serves the files
+        for _ in range(12):
+            if requests.head(u, timeout=20).status_code == 200:
+                break
+            time.sleep(5)
+    return urls
+
+
+def post_instagram(token, q, d, cfg, number, paths):
+    me = ig_call(cfg, "GET", "me", fields="user_id,username", access_token=token)
+    ig_id = me.get("user_id") or me["id"]
+    urls = host_images(paths, "instagram", number, q["id"])
+    children = [ig_call(cfg, "POST", f"{ig_id}/media", image_url=u, is_carousel_item="true",
+                        access_token=token)["id"] for u in urls]
+    box = ig_call(cfg, "POST", f"{ig_id}/media", media_type="CAROUSEL", children=",".join(children),
+                  caption=instagram_caption(q, d, cfg, number), access_token=token)["id"]
+    for _ in range(30):
+        status = ig_call(cfg, "GET", box, fields="status_code", access_token=token).get("status_code")
+        if status == "FINISHED":
+            break
+        if status in ("ERROR", "EXPIRED"):
+            raise RuntimeError(f"Instagram carousel container status {status}")
+        time.sleep(5)
+    ig_call(cfg, "POST", f"{ig_id}/media_publish", creation_id=box, access_token=token)
+
+
+def check_ig_token(token, cfg, state, alerts):
+    """Track token age; try a weekly refresh; warn the owner before it expires."""
+    today = dt.date.today()
+    info = state.setdefault("ig_token", {})
+    fp = hashlib.sha256(token.encode()).hexdigest()[:12]
+    if info.get("fp") != fp:
+        info.update(fp=fp, since=today.isoformat(), refreshed=today.isoformat())
+    if (today - dt.date.fromisoformat(info["refreshed"])).days >= 7:
+        try:
+            r = ig_call(cfg, "GET", "refresh_access_token", grant_type="ig_refresh_token", access_token=token)
+            info["refreshed"] = today.isoformat()
+            if r.get("access_token") == token:  # same token, new expiry
+                info["since"] = today.isoformat()
+        except Exception as e:
+            print("token refresh failed:", e)
+    age = (today - dt.date.fromisoformat(info["since"])).days
+    if age >= cfg["ig_token_warn_days"] and state.get("token_alert_on") != today.isoformat():
+        alerts.append(f"Instagram token is {age} days old and stops working at about 60 days. "
+                      "Generate a new one and replace the IG_ACCESS_TOKEN secret.")
+        state["token_alert_on"] = today.isoformat()
 
 
 def tell_owner(token, text):
@@ -300,7 +419,7 @@ def tell_owner(token, text):
     if token and owner:
         try:
             tg("sendMessage", token, {"chat_id": owner, "text": text})
-        except Exception as e:  # an alert must never break the run
+        except Exception as e:
             print("owner alert failed:", e)
     print("[owner]", text)
 
@@ -308,65 +427,76 @@ def tell_owner(token, text):
 # ---------- main ----------
 
 def main():
+    cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     ap = argparse.ArgumentParser()
     ap.add_argument("--preview", action="store_true")
     ap.add_argument("--check", action="store_true")
-    ap.add_argument("--subject", choices=["surgery", "medicine"])
+    ap.add_argument("--only", "--subject", dest="only", choices=list(cfg["destinations"]))
     args = ap.parse_args()
 
-    cfg = json.loads((ROOT / "config.json").read_text(encoding="utf-8"))
     qs, errors = load_questions()
     state = load_state()
-    token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-    subjects = [args.subject] if args.subject else list(cfg["subjects"])
+    state.setdefault("posted", {})
+    tg_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
+    ig_token = os.environ.get("IG_ACCESS_TOKEN", "")
+    keys = [args.only] if args.only else list(cfg["destinations"])
 
     if errors:
-        tell_owner(token, "MCQ bot stopped: questions.json has problems.\n" + "\n".join(errors[:15]))
+        tell_owner(tg_token, "MCQ bot stopped: questions.json has problems.\n" + "\n".join(errors[:15]))
         sys.exit(1)
     if args.check:
-        for s in cfg["subjects"]:
-            left = len(stock(qs, state, s))
-            print(f"{s}: {left} unused MCQs = {left // cfg['posts_per_day']} days")
+        for k, d in cfg["destinations"].items():
+            left = len(stock(qs, state, k, d))
+            print(f"{k}: {left} unused MCQs = {left // d['posts_per_day']} days")
         return
 
-    failed, low = [], []
-    for s in subjects:
-        sub = cfg["subjects"][s]
-        left = stock(qs, state, s)
-        number = len(state["posted"].get(s, [])) + 1
+    failed, low, alerts = [], [], []
+    for k in keys:
+        d = cfg["destinations"][k]
+        if d["kind"] == "instagram" and not ig_token and not args.preview:
+            print("instagram: not connected yet (no IG_ACCESS_TOKEN), skipped")
+            continue
+        left = stock(qs, state, k, d)
+        number = len(state["posted"].get(k, [])) + 1
         if not left:
-            failed.append(f"{sub['channel_name']}: no MCQs left, nothing posted")
+            failed.append(f"{d['channel_name']}: no MCQs left, nothing posted")
             continue
         q = left[0]
-        paths = render(q, sub, cfg, number)
+        paths = render(q, d, k, cfg, number)
         if args.preview:
-            print(f"{s}: drew {q['id']} as #{number:03d}")
-            continue
-        chat_id = os.environ.get(sub["chat_id_env"], "")
-        if not (token and chat_id):
-            failed.append(f"{sub['channel_name']}: secret TELEGRAM_BOT_TOKEN or {sub['chat_id_env']} is missing")
+            print(f"{k}: drew {q['id']} as #{number:03d}")
             continue
         try:
-            post_telegram(token, chat_id, q, sub, cfg, number, paths)
-            state["posted"].setdefault(s, []).append(q["id"])
-            (ROOT / "state.json").write_text(json.dumps(state, indent=1))
-            print(f"{s}: posted {q['id']} as #{number:03d}")
-            audience_poll(token, chat_id, cfg, state, s)
+            if d["kind"] == "telegram":
+                chat_id = os.environ.get(d["chat_id_env"], "")
+                if not (tg_token and chat_id):
+                    raise RuntimeError(f"secret TELEGRAM_BOT_TOKEN or {d['chat_id_env']} is missing")
+                post_telegram(tg_token, chat_id, q, d, cfg, number, paths)
+            else:
+                check_ig_token(ig_token, cfg, state, alerts)
+                post_instagram(ig_token, q, d, cfg, number, paths)
+            state["posted"].setdefault(k, []).append(q["id"])
+            save_state(state)
+            print(f"{k}: posted {q['id']} as #{number:03d}")
+            if d["kind"] == "telegram":
+                audience_poll(tg_token, os.environ.get(d["chat_id_env"]), cfg, state, k, d)
         except Exception as e:
-            failed.append(f"{sub['channel_name']}: {e}")
-        days = (len(left) - 1) // cfg["posts_per_day"]
+            failed.append(f"{d['channel_name']}: {e}")
+        days = (len(left) - 1) // d["posts_per_day"]
         if days <= cfg["low_stock_days"]:
-            low.append(f"{sub['channel_name']}: {len(left) - 1} MCQs left (about {days} days)")
+            low.append(f"{d['channel_name']}: {len(left) - 1} MCQs left (about {days} days)")
 
     if args.preview:
         return
-    if failed:
-        tell_owner(token, "MCQ bot problem:\n" + "\n".join(failed))
     today = dt.date.today().isoformat()
-    if low and state.get("low_alert_on") != today:  # at most one reminder a day
-        tell_owner(token, "Running out of MCQs. Add more to questions.json.\n" + "\n".join(low))
+    if failed:
+        tell_owner(tg_token, "MCQ bot problem:\n" + "\n".join(failed))
+    for a in alerts:
+        tell_owner(tg_token, a)
+    if low and state.get("low_alert_on") != today:
+        tell_owner(tg_token, "Running out of MCQs. Add more to questions.json.\n" + "\n".join(low))
         state["low_alert_on"] = today
-        (ROOT / "state.json").write_text(json.dumps(state, indent=1))
+    save_state(state)
     if failed:
         sys.exit(1)
 

@@ -1,165 +1,5 @@
 [
   {
-    "id": "S001",
-    "subject": "surgery",
-    "topic": "Hepatobiliary",
-    "stem": "A hilar cholangiocarcinoma involves the hepatic duct confluence and extends into the right second-order biliary radicles. The left hepatic duct is free. What is the Bismuth-Corlette type?",
-    "options": [
-      "Type II",
-      "Type IIIa",
-      "Type IIIb",
-      "Type IV"
-    ],
-    "answer": "B",
-    "reason": "Confluence plus right secondary radicles = Type IIIa.",
-    "explanation": "Type I: below the confluence. Type II: reaches the confluence only. Type IIIa: confluence plus right hepatic duct radicles. Type IIIb: confluence plus left hepatic duct radicles. Type IV: both sides, or multifocal.",
-    "pearl": "IIIa usually needs a right hepatectomy with caudate lobe resection; IIIb needs a left hepatectomy with caudate."
-  },
-  {
-    "id": "S002",
-    "subject": "surgery",
-    "topic": "Upper GI",
-    "stem": "According to the Siewert classification, the epicentre of a Type II adenocarcinoma of the oesophagogastric junction lies:",
-    "options": [
-      "1 to 5 cm above the junction",
-      "Within 1 cm above and 2 cm below the junction",
-      "2 to 5 cm below the junction",
-      "More than 5 cm below the junction"
-    ],
-    "answer": "B",
-    "reason": "Type II is the true cardia cancer: 1 cm above to 2 cm below.",
-    "explanation": "Type I: distal oesophageal, epicentre 1 to 5 cm above the junction. Type II: true cardia, 1 cm above to 2 cm below. Type III: subcardial, 2 to 5 cm below, infiltrating the junction from below.",
-    "pearl": "Type I behaves like oesophageal cancer (mediastinal nodes); Type III is treated as gastric cancer with total gastrectomy."
-  },
-  {
-    "id": "S003",
-    "subject": "surgery",
-    "topic": "Endocrine pancreas",
-    "stem": "In Zollinger-Ellison syndrome associated with MEN 1, the gastrinomas are most commonly located in the:",
-    "options": [
-      "Pancreatic head",
-      "Pancreatic tail",
-      "Duodenum",
-      "Gastric antrum"
-    ],
-    "answer": "C",
-    "reason": "MEN 1 gastrinomas are mostly small, multiple, submucosal duodenal tumours.",
-    "explanation": "Most gastrinomas arise within the gastrinoma triangle. In MEN 1 the large majority are duodenal, often multiple and only a few millimetres in size, so they are easily missed on imaging and need duodenotomy with palpation to find.",
-    "pearl": "In MEN 1, correct hyperparathyroidism first: lowering calcium reduces gastrin secretion."
-  },
-  {
-    "id": "S004",
-    "subject": "surgery",
-    "topic": "Biliary injury",
-    "stem": "After laparoscopic cholecystectomy, a bile leak is traced to a duct of Luschka in the gallbladder bed. The main biliary tree is intact and in continuity. What is the Strasberg type?",
-    "options": [
-      "Type A",
-      "Type B",
-      "Type C",
-      "Type D"
-    ],
-    "answer": "A",
-    "reason": "Leak from cystic stump or a minor duct in the liver bed, with continuity preserved = Type A.",
-    "explanation": "Type A: leak from the cystic duct stump or a small duct in the liver bed. Type B: occluded aberrant right sectoral duct. Type C: transected, unligated aberrant right sectoral duct. Type D: lateral injury to a major duct. Type E: major duct transection or stricture (Bismuth levels).",
-    "pearl": "Type A leaks usually settle with ERCP sphincterotomy or stenting plus drainage of any collection."
-  },
-  {
-    "id": "S005",
-    "subject": "surgery",
-    "topic": "Liver transplant",
-    "stem": "Which of these cirrhotic patients with hepatocellular carcinoma falls within the Milan criteria for liver transplantation?",
-    "options": [
-      "Single 6 cm nodule",
-      "Two nodules of 2.5 cm and 3 cm",
-      "Four nodules of 2 cm each",
-      "Single 4 cm nodule with portal vein tumour thrombus"
-    ],
-    "answer": "B",
-    "reason": "Milan: one tumour up to 5 cm, or up to three tumours each up to 3 cm.",
-    "explanation": "Milan criteria: a single tumour of 5 cm or less, or up to three tumours each 3 cm or less, with no macrovascular invasion and no extrahepatic spread. A 6 cm nodule, four nodules, and portal vein tumour thrombus all fall outside.",
-    "pearl": "UCSF criteria expand this: single tumour up to 6.5 cm, or up to 3 tumours with the largest up to 4.5 cm and total diameter up to 8 cm."
-  },
-  {
-    "id": "S006",
-    "subject": "surgery",
-    "topic": "Pancreas",
-    "stem": "On day 3 after pancreaticoduodenectomy, drain fluid amylase is more than 3 times the upper limit of normal serum amylase. The patient is well and management is unchanged. Per ISGPS 2016 this is:",
-    "options": [
-      "Grade A pancreatic fistula",
-      "Biochemical leak",
-      "Grade B pancreatic fistula",
-      "Grade C pancreatic fistula"
-    ],
-    "answer": "B",
-    "reason": "No clinical impact = biochemical leak, which is no longer called a fistula.",
-    "explanation": "ISGPS 2016 renamed the old Grade A as biochemical leak; it is not a true fistula. Grade B needs a change in management: drain left beyond 3 weeks, percutaneous or endoscopic drainage, angiography for bleeding, or infection without organ failure. Grade C means reoperation, organ failure or death.",
-    "pearl": "The amylase threshold applies to drain fluid on or after postoperative day 3."
-  },
-  {
-    "id": "S007",
-    "subject": "surgery",
-    "topic": "Laparoscopic cholecystectomy",
-    "stem": "Which of the following is NOT a requirement of the critical view of safety during laparoscopic cholecystectomy?",
-    "options": [
-      "Hepatocystic triangle cleared of fat and fibrous tissue",
-      "Lower third of gallbladder separated from the cystic plate",
-      "Only two structures seen entering the gallbladder",
-      "Common bile duct dissected and displayed"
-    ],
-    "answer": "D",
-    "reason": "The critical view never requires exposing the common bile duct.",
-    "explanation": "The three requirements are: the hepatocystic triangle is cleared of fat and fibrous tissue, the lower third of the gallbladder is taken off the cystic plate, and two and only two structures are seen entering the gallbladder. Dissecting towards the common bile duct adds risk and is not part of it.",
-    "pearl": "If the critical view cannot be achieved, bail out: subtotal cholecystectomy, fundus-first, or conversion."
-  },
-  {
-    "id": "S008",
-    "subject": "surgery",
-    "topic": "Thyroid",
-    "stem": "A 38-year-old woman has a 3 cm solitary thyroid nodule. FNAC is reported as Bethesda category IV. There are no suspicious nodes and the opposite lobe is normal. What is the standard next step?",
-    "options": [
-      "Repeat FNAC after 3 months",
-      "Diagnostic hemithyroidectomy",
-      "Total thyroidectomy with central neck dissection",
-      "Radioiodine ablation"
-    ],
-    "answer": "B",
-    "reason": "Follicular neoplasm cannot be called benign or malignant on cytology; lobectomy gives the histology.",
-    "explanation": "Bethesda IV is follicular neoplasm. Cytology cannot show capsular or vascular invasion, which is what separates follicular carcinoma from adenoma, so diagnostic lobectomy is the standard approach. Molecular testing can be used to refine risk where available.",
-    "pearl": "Bethesda III is the category where repeat FNAC is the usual first step."
-  },
-  {
-    "id": "S009",
-    "subject": "surgery",
-    "topic": "Vascular",
-    "stem": "A man with sudden leg pain has sensory loss extending above the toes, mild weakness of ankle dorsiflexion, no audible arterial Doppler signal and an audible venous signal. What is the Rutherford category of acute limb ischaemia?",
-    "options": [
-      "Category I",
-      "Category IIa",
-      "Category IIb",
-      "Category III"
-    ],
-    "answer": "C",
-    "reason": "Sensory loss beyond the toes plus motor weakness, venous signal still audible = IIb.",
-    "explanation": "I: viable, no deficit, arterial signal audible. IIa: marginally threatened, minimal sensory loss limited to toes, no weakness. IIb: immediately threatened, sensory loss beyond the toes with rest pain and mild to moderate weakness. III: irreversible, profound anaesthesia and paralysis, venous signal also inaudible.",
-    "pearl": "IIb needs immediate revascularisation; there is no time for prolonged catheter-directed thrombolysis."
-  },
-  {
-    "id": "S010",
-    "subject": "surgery",
-    "topic": "Colorectal",
-    "stem": "After low anterior resection with total mesorectal excision, a 45-year-old man reports retrograde ejaculation. Erection is normal. Which structure was most likely injured?",
-    "options": [
-      "Pelvic splanchnic nerves",
-      "Superior hypogastric plexus",
-      "Pudendal nerve",
-      "Cavernous nerves"
-    ],
-    "answer": "B",
-    "reason": "Ejaculation is sympathetic: superior hypogastric plexus and hypogastric nerves.",
-    "explanation": "The sympathetic superior hypogastric plexus lies in front of the aortic bifurcation and sacral promontory and is at risk during high ligation of the inferior mesenteric artery and posterior dissection. Injury causes retrograde ejaculation. Pelvic splanchnic (parasympathetic) or cavernous nerve injury causes erectile dysfunction.",
-    "pearl": "Point and shoot: Parasympathetic for erection, Sympathetic for emission."
-  },
-  {
     "id": "M001",
     "subject": "medicine",
     "topic": "Cardiology",
@@ -318,806 +158,6 @@
     "reason": "Early ART in cryptococcal meningitis increases mortality from IRIS.",
     "explanation": "Starting antiretroviral therapy early in cryptococcal meningitis increases deaths, largely through immune reconstitution inflammatory syndrome inside the closed cranial space. WHO recommends deferring it for 4 to 6 weeks after starting antifungal treatment.",
     "pearl": "Raised intracranial pressure is managed with repeated therapeutic lumbar punctures, not acetazolamide or steroids."
-  },
-  {
-    "id": "S011",
-    "subject": "surgery",
-    "topic": "Bariatric",
-    "stem": "A patient develops tachycardia and left shoulder pain on day 2 after laparoscopic sleeve gastrectomy. Where is a staple-line leak most likely to be located?",
-    "options": [
-      "At the mid-body of the sleeve",
-      "At the incisura angularis",
-      "At the antrum near the pylorus",
-      "Near the angle of His"
-    ],
-    "answer": "D",
-    "reason": "Most sleeve leaks occur at the proximal staple line near the angle of His.",
-    "explanation": "The proximal sleeve near the gastro-oesophageal junction has thinner tissue, relatively poor blood supply and is exposed to high intraluminal pressure when there is a distal narrowing. Most leaks occur here. Persistent tachycardia is the earliest and most reliable sign.",
-    "pearl": "A stricture at the incisura raises pressure upstream and keeps a proximal leak open; always look for it."
-  },
-  {
-    "id": "S012",
-    "subject": "surgery",
-    "topic": "Oesophagus",
-    "stem": "On high-resolution manometry, which Chicago subtype of achalasia responds best to pneumatic dilatation or Heller myotomy?",
-    "options": [
-      "Type I (classic, minimal pressurisation)",
-      "Type II (panoesophageal pressurisation)",
-      "Type III (spastic)",
-      "All subtypes respond equally"
-    ],
-    "answer": "B",
-    "reason": "Type II has the best response to every treatment modality.",
-    "explanation": "Type I shows absent peristalsis without pressurisation, type II shows panoesophageal pressurisation in at least 20% of swallows, and type III shows premature spastic contractions. Type II responds best. Type III responds worst to standard myotomy and is better served by a longer myotomy, as with POEM.",
-    "pearl": "POEM allows a myotomy tailored to the length of the spastic segment in type III."
-  },
-  {
-    "id": "S013",
-    "subject": "surgery",
-    "topic": "Oesophagus",
-    "stem": "A 50-year-old man has severe chest pain after forceful vomiting. Contrast study shows a leak. Which is the most common site of perforation in Boerhaave syndrome?",
-    "options": [
-      "Anterior wall at the cricopharyngeus",
-      "Left posterolateral wall of the distal oesophagus",
-      "Right lateral wall of the mid oesophagus",
-      "Posterior wall at the level of the carina"
-    ],
-    "answer": "B",
-    "reason": "The tear is typically left posterolateral, 2 to 3 cm above the gastro-oesophageal junction.",
-    "explanation": "Barogenic rupture occurs at the weakest unsupported point of the oesophagus, which is the left posterolateral wall of the distal third. This explains the usual left-sided pleural effusion and hydropneumothorax.",
-    "pearl": "Mackler triad: vomiting, chest pain and subcutaneous emphysema."
-  },
-  {
-    "id": "S014",
-    "subject": "surgery",
-    "topic": "Upper GI",
-    "stem": "An 8 cm gastric GIST with 12 mitoses per 50 high-power fields is resected with clear margins and no rupture. What is the recommended adjuvant treatment?",
-    "options": [
-      "Imatinib for 3 years",
-      "No adjuvant treatment",
-      "Imatinib for 1 year",
-      "Adjuvant radiotherapy"
-    ],
-    "answer": "A",
-    "reason": "High-risk GIST: 3 years of adjuvant imatinib improves survival over 1 year.",
-    "explanation": "Size above 5 cm with a high mitotic count places this tumour in the high-risk group. The SSG XVIII trial showed better recurrence-free and overall survival with 3 years of imatinib compared with 1 year. GIST is not radiosensitive and lymphadenectomy is not needed.",
-    "pearl": "PDGFRA D842V mutant GIST is resistant to imatinib; check the mutation before starting."
-  },
-  {
-    "id": "S015",
-    "subject": "surgery",
-    "topic": "Upper GI",
-    "stem": "For adequate pathological nodal staging after gastrectomy for adenocarcinoma, the minimum number of lymph nodes that should be examined is:",
-    "options": [
-      "6",
-      "12",
-      "16",
-      "25"
-    ],
-    "answer": "C",
-    "reason": "At least 16 regional nodes are needed for reliable N staging in gastric cancer.",
-    "explanation": "AJCC staging recommends examination of at least 16 regional lymph nodes for gastric cancer, and more is better. Twelve is the minimum figure for colorectal cancer, which is a common source of confusion.",
-    "pearl": "A D2 dissection normally yields well above this number."
-  },
-  {
-    "id": "S016",
-    "subject": "surgery",
-    "topic": "Upper GI",
-    "stem": "A 28-year-old woman has a mother and an aunt who died of diffuse gastric cancer before the age of 40. She carries a pathogenic CDH1 mutation. Endoscopy is normal. What should be advised?",
-    "options": [
-      "Annual endoscopy only",
-      "Prophylactic total gastrectomy",
-      "Prophylactic distal gastrectomy",
-      "Helicobacter pylori eradication and review"
-    ],
-    "answer": "B",
-    "reason": "CDH1 carriers have a high lifetime risk and endoscopy misses the signet-ring foci.",
-    "explanation": "Hereditary diffuse gastric cancer is caused by germline CDH1 (E-cadherin) mutations. The cancer spreads beneath intact mucosa as scattered signet-ring cell foci, so endoscopic surveillance is unreliable. Prophylactic total gastrectomy is advised in early adulthood.",
-    "pearl": "Women with CDH1 mutations also need surveillance for lobular breast cancer."
-  },
-  {
-    "id": "S017",
-    "subject": "surgery",
-    "topic": "Oesophagus",
-    "stem": "Surveillance biopsies in a 60-year-old man with a 4 cm Barrett segment show flat high-grade dysplasia, confirmed by a second pathologist. What is the preferred management?",
-    "options": [
-      "Repeat endoscopy in 6 months",
-      "Endoscopic eradication therapy",
-      "Oesophagectomy",
-      "Laparoscopic fundoplication alone"
-    ],
-    "answer": "B",
-    "reason": "High-grade dysplasia is treated endoscopically: resect visible lesions and ablate the rest.",
-    "explanation": "Endoscopic eradication therapy is the standard for high-grade dysplasia and intramucosal cancer. Visible nodules are removed by endoscopic resection and the remaining flat Barrett segment is treated with radiofrequency ablation. Oesophagectomy is reserved for submucosal invasion or failure of endoscopic treatment.",
-    "pearl": "T1a lesions carry a very low nodal risk; T1b lesions do not."
-  },
-  {
-    "id": "S018",
-    "subject": "surgery",
-    "topic": "Pancreas",
-    "stem": "CT of a pancreatic head adenocarcinoma shows tumour contact with the superior mesenteric artery of less than 180 degrees and no distant disease. How is this classified?",
-    "options": [
-      "Resectable",
-      "Borderline resectable",
-      "Locally advanced",
-      "Metastatic"
-    ],
-    "answer": "B",
-    "reason": "Arterial abutment of 180 degrees or less is borderline resectable.",
-    "explanation": "Resectable tumours have no arterial contact. Contact with the superior mesenteric artery of 180 degrees or less is borderline resectable, and encasement beyond 180 degrees is locally advanced. Borderline tumours are treated with neoadjuvant therapy before an attempt at resection.",
-    "pearl": "Venous involvement is borderline as long as the vein can be safely resected and reconstructed."
-  },
-  {
-    "id": "S019",
-    "subject": "surgery",
-    "topic": "Pancreas",
-    "stem": "Which finding in a branch-duct or mixed IPMN is a high-risk stigma that by itself indicates resection in a fit patient?",
-    "options": [
-      "Cyst diameter of 3 cm",
-      "Main pancreatic duct of 10 mm or more",
-      "Main pancreatic duct of 5 to 9 mm",
-      "Thickened enhancing cyst wall"
-    ],
-    "answer": "B",
-    "reason": "A main duct of 10 mm or more is a high-risk stigma.",
-    "explanation": "High-risk stigmata are obstructive jaundice with a cystic lesion of the head, an enhancing mural nodule of 5 mm or more, and a main duct of 10 mm or more. The other options are worrisome features, which call for endoscopic ultrasound before a decision.",
-    "pearl": "Main-duct IPMN carries a far higher malignancy risk than branch-duct disease."
-  },
-  {
-    "id": "S020",
-    "subject": "surgery",
-    "topic": "Pancreas",
-    "stem": "Three weeks into severe acute pancreatitis a stable patient has fever, and CT shows gas within a necrotic collection. What is the best initial intervention?",
-    "options": [
-      "Laparoscopic cholecystectomy",
-      "Total parenteral nutrition alone",
-      "Percutaneous or endoscopic drainage",
-      "Immediate open necrosectomy"
-    ],
-    "answer": "C",
-    "reason": "Step-up approach: drain first, and debride only if drainage fails.",
-    "explanation": "Gas in the collection indicates infected necrosis. The PANTER trial showed that a step-up approach, starting with catheter or endoscopic drainage and escalating to minimally invasive necrosectomy only if needed, reduces major complications compared with primary open necrosectomy.",
-    "pearl": "Delay any necrosectomy to about 4 weeks when the collection has walled off."
-  },
-  {
-    "id": "S021",
-    "subject": "surgery",
-    "topic": "Pancreas",
-    "stem": "A patient with chronic pancreatitis has intractable pain, a 9 mm pancreatic duct and a 5 cm inflammatory mass in the head. Which operation cores out the head without dividing the pancreatic neck and adds a lateral pancreaticojejunostomy?",
-    "options": [
-      "Puestow (Partington-Rochelle) procedure",
-      "Whipple procedure",
-      "Frey procedure",
-      "Beger procedure"
-    ],
-    "answer": "C",
-    "reason": "Frey: local head resection plus lateral pancreaticojejunostomy.",
-    "explanation": "The Partington-Rochelle procedure is a lateral pancreaticojejunostomy alone and does not treat a head mass. The Beger procedure is a duodenum-preserving head resection that transects the neck over the portal vein. The Frey procedure cores the head without neck transection and drains the duct.",
-    "pearl": "The head is the pacemaker of pain in chronic pancreatitis."
-  },
-  {
-    "id": "S022",
-    "subject": "surgery",
-    "topic": "Liver",
-    "stem": "A right posterior sectionectomy removes which Couinaud segments?",
-    "options": [
-      "Segments 6 and 7",
-      "Segments 5 and 6",
-      "Segments 5 and 8",
-      "Segments 7 and 8"
-    ],
-    "answer": "A",
-    "reason": "The right posterior section is segments 6 and 7.",
-    "explanation": "The right hepatic vein divides the right liver into an anterior section (segments 5 and 8) and a posterior section (segments 6 and 7). The middle hepatic vein lies in the principal plane and separates the right and left hemilivers.",
-    "pearl": "Segments 5 and 6 are inferior, 7 and 8 superior, relative to the portal bifurcation."
-  },
-  {
-    "id": "S023",
-    "subject": "surgery",
-    "topic": "Liver",
-    "stem": "A patient with Child A cirrhosis needs a right hepatectomy for hepatocellular carcinoma. What is the minimum future liver remnant generally considered safe?",
-    "options": [
-      "20%",
-      "30%",
-      "40%",
-      "60%"
-    ],
-    "answer": "C",
-    "reason": "Cirrhotic liver needs a remnant of about 40%.",
-    "explanation": "The accepted minimum future liver remnant is about 20% for a normal liver, 30% after prolonged chemotherapy or with steatosis, and 40% for a cirrhotic liver. If the predicted remnant is smaller, portal vein embolisation is used to induce hypertrophy.",
-    "pearl": "Failure to hypertrophy after portal vein embolisation predicts post-hepatectomy liver failure."
-  },
-  {
-    "id": "S024",
-    "subject": "surgery",
-    "topic": "Liver",
-    "stem": "An asymptomatic 55-year-old has an incidental 6 cm liver cyst that is heavily calcified with a solid appearance, WHO stage CE5. Hydatid serology is weakly positive. What is the best management?",
-    "options": [
-      "Observation (watch and wait)",
-      "Albendazole for 6 months",
-      "Surgical pericystectomy",
-      "PAIR"
-    ],
-    "answer": "A",
-    "reason": "CE4 and CE5 cysts are inactive and are simply observed.",
-    "explanation": "In the WHO classification CE1 and CE2 are active, CE3 is transitional, and CE4 and CE5 are inactive. Uncomplicated inactive cysts need no treatment. PAIR is suited to CE1 and CE3a cysts and is contraindicated when there is biliary communication.",
-    "pearl": "CE2 and CE3b cysts with daughter cysts respond poorly to PAIR; surgery is preferred."
-  },
-  {
-    "id": "S025",
-    "subject": "surgery",
-    "topic": "Liver",
-    "stem": "A 30-year-old man who uses anabolic steroids has a 3.5 cm hepatocellular adenoma confirmed on MRI. What is the recommended management?",
-    "options": [
-      "Stop steroids and observe",
-      "Resection only if it grows beyond 5 cm",
-      "Resection regardless of size",
-      "Transarterial embolisation"
-    ],
-    "answer": "C",
-    "reason": "Adenomas in men are resected whatever the size because of malignant risk.",
-    "explanation": "In women, adenomas under 5 cm are managed by stopping oral contraceptives and observing. In men the risk of malignant transformation is much higher, so resection is advised at any size. The beta-catenin activated subtype also carries a high risk.",
-    "pearl": "The inflammatory subtype bleeds most often; the HNF1A-inactivated subtype is the most indolent."
-  },
-  {
-    "id": "S026",
-    "subject": "surgery",
-    "topic": "Biliary",
-    "stem": "MRCP in a 25-year-old woman shows multiple cystic dilatations of both the extrahepatic and intrahepatic bile ducts. What is the Todani type?",
-    "options": [
-      "Type I",
-      "Type III",
-      "Type IVa",
-      "Type V"
-    ],
-    "answer": "C",
-    "reason": "Intrahepatic plus extrahepatic cysts = type IVa.",
-    "explanation": "Type I is fusiform extrahepatic dilatation and is the most common. Type II is a diverticulum, type III a choledochocele, type IVa multiple intra- and extrahepatic cysts, type IVb multiple extrahepatic cysts only, and type V is Caroli disease with intrahepatic cysts alone.",
-    "pearl": "Treatment is cyst excision with Roux-en-Y hepaticojejunostomy; never a cyst-enterostomy."
-  },
-  {
-    "id": "S027",
-    "subject": "surgery",
-    "topic": "Biliary",
-    "stem": "Histology after routine laparoscopic cholecystectomy shows adenocarcinoma invading the muscular layer (pT1b) with a negative cystic duct margin. What is the next step?",
-    "options": [
-      "No further treatment",
-      "Port-site excision alone",
-      "Adjuvant chemotherapy alone",
-      "Radical re-resection with lymphadenectomy"
-    ],
-    "answer": "D",
-    "reason": "T1a is cured by cholecystectomy; T1b and above need radical re-resection.",
-    "explanation": "Tumours confined to the lamina propria (T1a) need nothing further. From T1b onwards there is a meaningful risk of residual and nodal disease, so re-resection of the gallbladder bed (segments 4b and 5) with regional lymphadenectomy is recommended after staging.",
-    "pearl": "Routine port-site excision does not improve survival."
-  },
-  {
-    "id": "S028",
-    "subject": "surgery",
-    "topic": "Biliary",
-    "stem": "A stone impacted in Hartmann pouch compresses the common hepatic duct from outside. There is no fistula. In the Csendes classification this is Mirizzi syndrome type:",
-    "options": [
-      "Type I",
-      "Type II",
-      "Type III",
-      "Type IV"
-    ],
-    "answer": "A",
-    "reason": "External compression without a fistula = type I.",
-    "explanation": "Type I is external compression. Types II, III and IV are cholecystobiliary fistulae involving less than one third, up to two thirds, and the whole circumference of the duct. Type V is any type with a cholecystoenteric fistula.",
-    "pearl": "Higher types need a bilioenteric reconstruction, not simple cholecystectomy."
-  },
-  {
-    "id": "S029",
-    "subject": "surgery",
-    "topic": "Biliary",
-    "stem": "A 70-year-old with fever, jaundice and right upper quadrant pain is confused and needs noradrenaline to maintain blood pressure. Besides antibiotics and resuscitation, what is the priority?",
-    "options": [
-      "Urgent endoscopic biliary drainage",
-      "Elective ERCP after 72 hours of antibiotics",
-      "Emergency cholecystectomy",
-      "MRCP before any intervention"
-    ],
-    "answer": "A",
-    "reason": "Organ dysfunction = Tokyo grade III; drain the biliary tree urgently.",
-    "explanation": "Tokyo Guidelines grade III (severe) cholangitis is defined by organ dysfunction such as hypotension needing vasopressors or altered consciousness. These patients need urgent biliary decompression, preferably by ERCP, once organ support has started. Definitive stone clearance can wait.",
-    "pearl": "Reynolds pentad adds shock and confusion to Charcot triad."
-  },
-  {
-    "id": "S030",
-    "subject": "surgery",
-    "topic": "Colorectal",
-    "stem": "In Lynch syndrome, which is the most common extracolonic malignancy?",
-    "options": [
-      "Urothelial carcinoma",
-      "Ovarian carcinoma",
-      "Endometrial carcinoma",
-      "Gastric carcinoma"
-    ],
-    "answer": "C",
-    "reason": "Endometrial cancer is the commonest extracolonic cancer in Lynch syndrome.",
-    "explanation": "Lynch syndrome results from germline mutations in mismatch repair genes (MLH1, MSH2, MSH6, PMS2). Women have a lifetime endometrial cancer risk that approaches their colorectal cancer risk. Ovarian, gastric, small bowel and upper urinary tract cancers also occur.",
-    "pearl": "Colonoscopy is started at 20 to 25 years and repeated every 1 to 2 years."
-  },
-  {
-    "id": "S031",
-    "subject": "surgery",
-    "topic": "Colorectal",
-    "stem": "After prophylactic proctocolectomy for familial adenomatous polyposis, which surveillance is most important for preventing cancer death?",
-    "options": [
-      "Serum CEA every 6 months",
-      "Annual CT of the chest",
-      "Upper GI endoscopy with a side-viewing scope",
-      "Capsule endoscopy every 5 years"
-    ],
-    "answer": "C",
-    "reason": "Duodenal and periampullary cancer is a leading cause of death after colectomy.",
-    "explanation": "Almost all patients with FAP develop duodenal adenomas, concentrated around the ampulla. Surveillance with forward and side-viewing endoscopy is guided by the Spigelman stage. Desmoid tumours are the other major cause of death after colectomy.",
-    "pearl": "Spigelman stage IV disease is an indication to consider prophylactic duodenectomy."
-  },
-  {
-    "id": "S032",
-    "subject": "surgery",
-    "topic": "Colorectal",
-    "stem": "On staging MRI for mid-rectal cancer, which finding is the strongest predictor of local recurrence?",
-    "options": [
-      "Distance from the anal verge",
-      "Tumour length above 5 cm",
-      "Mucinous histology",
-      "Involved circumferential resection margin"
-    ],
-    "answer": "D",
-    "reason": "A threatened mesorectal fascia (tumour within 1 mm) predicts local recurrence.",
-    "explanation": "The circumferential resection margin is the key determinant of local control after total mesorectal excision. Tumour within 1 mm of the mesorectal fascia on MRI indicates a threatened margin and is an indication for neoadjuvant treatment before surgery.",
-    "pearl": "Extramural venous invasion on MRI predicts distant rather than local failure."
-  },
-  {
-    "id": "S033",
-    "subject": "surgery",
-    "topic": "Anal canal",
-    "stem": "A 58-year-old woman has a 3 cm squamous cell carcinoma of the anal canal with no nodal or distant disease. What is the primary treatment?",
-    "options": [
-      "Neoadjuvant chemotherapy then surgery",
-      "Abdominoperineal resection",
-      "Wide local excision",
-      "Chemoradiation with 5-fluorouracil and mitomycin C"
-    ],
-    "answer": "D",
-    "reason": "Nigro regimen: chemoradiation is curative and preserves the sphincter.",
-    "explanation": "Combined chemoradiation with 5-fluorouracil and mitomycin C is the standard primary treatment for anal squamous cell carcinoma. Abdominoperineal resection is reserved for persistent or recurrent disease. Regression can continue for up to 6 months, so early biopsy is avoided.",
-    "pearl": "Local excision is only for small, well-differentiated anal margin lesions."
-  },
-  {
-    "id": "S034",
-    "subject": "surgery",
-    "topic": "Colorectal",
-    "stem": "A stable 60-year-old with sigmoid diverticulitis has a 5 cm pelvic abscess on CT. What is the Hinchey stage and best initial treatment?",
-    "options": [
-      "Stage I; antibiotics alone",
-      "Stage II; percutaneous drainage with antibiotics",
-      "Stage III; laparoscopic lavage",
-      "Stage IV; Hartmann procedure"
-    ],
-    "answer": "B",
-    "reason": "Pelvic abscess = Hinchey II; drain it percutaneously.",
-    "explanation": "Hinchey I is a pericolic abscess, II a pelvic or distant abscess, III generalised purulent peritonitis and IV faecal peritonitis. Abscesses larger than about 3 to 4 cm are drained under image guidance along with antibiotics, avoiding emergency surgery.",
-    "pearl": "Arrange colonoscopy after recovery to exclude an underlying carcinoma."
-  },
-  {
-    "id": "S035",
-    "subject": "surgery",
-    "topic": "Anorectal",
-    "stem": "A 35-year-old woman has an anterior trans-sphincteric fistula crossing more than a third of the external sphincter. Which operation is most appropriate?",
-    "options": [
-      "Abdominoperineal resection",
-      "Cutting seton tightened weekly",
-      "Lay-open fistulotomy",
-      "LIFT or endorectal advancement flap"
-    ],
-    "answer": "D",
-    "reason": "High or anterior fistulae in women need a sphincter-preserving procedure.",
-    "explanation": "Fistulotomy divides the sphincter below the track and risks incontinence when a substantial part of the external sphincter is involved, especially anteriorly in women where the sphincter is short. Ligation of the intersphincteric fistula tract or an advancement flap preserves continence.",
-    "pearl": "Simple low fistulae are still best treated by fistulotomy."
-  },
-  {
-    "id": "S036",
-    "subject": "surgery",
-    "topic": "Colorectal",
-    "stem": "A patient with acute severe ulcerative colitis develops toxic megacolon and fails 72 hours of intravenous steroids and rescue therapy. What is the operation of choice?",
-    "options": [
-      "Subtotal colectomy with end ileostomy",
-      "Loop ileostomy alone",
-      "Segmental colectomy with primary anastomosis",
-      "Proctocolectomy with ileal pouch-anal anastomosis"
-    ],
-    "answer": "A",
-    "reason": "Emergency: remove the colon, leave the rectum, bring out an ileostomy.",
-    "explanation": "In the emergency setting a subtotal colectomy with end ileostomy removes the diseased colon with the least morbidity. Pelvic dissection and pouch construction are avoided in a sick, steroid-treated patient and can be done later as a staged procedure.",
-    "pearl": "The rectal stump may be closed or brought out as a mucous fistula if it is friable."
-  },
-  {
-    "id": "S037",
-    "subject": "surgery",
-    "topic": "Appendix",
-    "stem": "Histology of an appendicectomy specimen shows a 2.5 cm neuroendocrine tumour at the base with mesoappendiceal invasion. What is the next step?",
-    "options": [
-      "Right hemicolectomy",
-      "No further surgery",
-      "Repeat CT in 1 year",
-      "Somatostatin analogue therapy alone"
-    ],
-    "answer": "A",
-    "reason": "Size over 2 cm, base involvement or deep mesoappendiceal invasion needs right hemicolectomy.",
-    "explanation": "Appendiceal neuroendocrine tumours under 1 cm at the tip are cured by appendicectomy. Tumours larger than 2 cm, those at the base with positive margins, or with significant mesoappendiceal invasion have a real risk of nodal spread and need completion right hemicolectomy.",
-    "pearl": "Tumours of 1 to 2 cm are decided case by case on grade and invasion."
-  },
-  {
-    "id": "S038",
-    "subject": "surgery",
-    "topic": "Small bowel",
-    "stem": "After massive enterectomy a patient is left with an end jejunostomy and no colon. Below roughly what length of small bowel is long-term parenteral support usually required?",
-    "options": [
-      "35 cm",
-      "60 cm",
-      "100 cm",
-      "200 cm"
-    ],
-    "answer": "C",
-    "reason": "End jejunostomy: under about 100 cm usually means dependence on parenteral support.",
-    "explanation": "The length needed for nutritional autonomy depends on the anatomy. Approximate thresholds are 100 cm for an end jejunostomy, 60 cm when jejunum is joined to colon, and 35 cm when the ileocaecal valve and whole colon are preserved.",
-    "pearl": "Teduglutide, a GLP-2 analogue, can reduce parenteral requirements."
-  },
-  {
-    "id": "S039",
-    "subject": "surgery",
-    "topic": "Breast",
-    "stem": "A 55-year-old woman with a 2 cm invasive ductal carcinoma has breast-conserving surgery. Two of three sentinel nodes show macrometastases. She will receive whole-breast radiotherapy and systemic therapy. What should be done for the axilla?",
-    "options": [
-      "Internal mammary node biopsy",
-      "Completion axillary dissection",
-      "Axillary sampling of level III",
-      "No further axillary surgery"
-    ],
-    "answer": "D",
-    "reason": "ACOSOG Z0011: with 1 to 2 positive sentinel nodes, dissection adds nothing.",
-    "explanation": "The Z0011 trial included clinically node-negative T1 to T2 tumours treated by breast conservation with whole-breast radiotherapy. With one or two positive sentinel nodes, omitting axillary dissection gave equivalent survival and regional control with less lymphoedema.",
-    "pearl": "The trial does not apply to mastectomy without radiotherapy or after neoadjuvant chemotherapy."
-  },
-  {
-    "id": "S040",
-    "subject": "surgery",
-    "topic": "Breast",
-    "stem": "A man is diagnosed with breast cancer. Which germline mutation is most strongly associated?",
-    "options": [
-      "PTEN",
-      "TP53",
-      "BRCA2",
-      "BRCA1"
-    ],
-    "answer": "C",
-    "reason": "Male breast cancer is classically linked to BRCA2.",
-    "explanation": "BRCA2 carriers have a clearly raised risk of male breast cancer, along with prostate and pancreatic cancer. BRCA1 is associated with triple-negative, basal-like breast cancer and ovarian cancer in women. All men with breast cancer should be offered genetic testing.",
-    "pearl": "Klinefelter syndrome is the strongest non-genetic-mutation risk factor in men."
-  },
-  {
-    "id": "S041",
-    "subject": "surgery",
-    "topic": "Breast",
-    "stem": "Core biopsy of a rapidly growing 6 cm breast lump shows a borderline phyllodes tumour. Axilla is clinically normal. What is the appropriate surgery?",
-    "options": [
-      "Enucleation",
-      "Wide excision with clear margins, no axillary surgery",
-      "Modified radical mastectomy",
-      "Wide excision with sentinel node biopsy"
-    ],
-    "answer": "B",
-    "reason": "Phyllodes tumours spread by blood, so the axilla is left alone.",
-    "explanation": "Phyllodes tumours are fibroepithelial lesions that recur locally if margins are inadequate, so wide excision with clear margins (traditionally 1 cm for borderline and malignant types) is the aim. Nodal spread is rare, and metastases, when they occur, go to the lung.",
-    "pearl": "Stromal overgrowth and mitotic rate determine the grade."
-  },
-  {
-    "id": "S042",
-    "subject": "surgery",
-    "topic": "Breast",
-    "stem": "A woman with HER2-positive breast cancer completes neoadjuvant chemotherapy with trastuzumab. Surgery shows residual invasive disease. What is the preferred adjuvant anti-HER2 therapy?",
-    "options": [
-      "No further anti-HER2 therapy",
-      "Lapatinib",
-      "Trastuzumab emtansine (T-DM1)",
-      "Continue trastuzumab alone"
-    ],
-    "answer": "C",
-    "reason": "KATHERINE trial: T-DM1 halves recurrence when there is residual disease.",
-    "explanation": "Residual invasive disease after neoadjuvant HER2-directed therapy marks a higher risk of relapse. In the KATHERINE trial, switching to trastuzumab emtansine for 14 cycles reduced invasive recurrence or death by about half compared with continuing trastuzumab.",
-    "pearl": "Pathological complete response is a strong prognostic marker in HER2-positive and triple-negative disease."
-  },
-  {
-    "id": "S043",
-    "subject": "surgery",
-    "topic": "Thyroid",
-    "stem": "FNAC and raised calcitonin confirm medullary thyroid carcinoma in a 30-year-old. What must be done before thyroidectomy?",
-    "options": [
-      "Radioiodine uptake scan",
-      "Thyroglobulin level",
-      "TSH suppression for 6 weeks",
-      "Plasma or urinary metanephrines"
-    ],
-    "answer": "D",
-    "reason": "Exclude phaeochromocytoma first; MEN 2 may be present.",
-    "explanation": "About a quarter of medullary carcinomas are hereditary, as part of MEN 2A or 2B caused by RET mutations. An unrecognised phaeochromocytoma can cause a fatal hypertensive crisis under anaesthesia, so it is excluded and treated first. Calcium is checked for hyperparathyroidism.",
-    "pearl": "Medullary carcinoma does not take up radioiodine; C cells are not follicular cells."
-  },
-  {
-    "id": "S044",
-    "subject": "surgery",
-    "topic": "Parathyroid",
-    "stem": "A 32-year-old with MEN 1 has primary hyperparathyroidism. What is the recommended operation?",
-    "options": [
-      "Excision of the single largest gland",
-      "Minimally invasive focused parathyroidectomy",
-      "Total thyroidectomy with parathyroidectomy",
-      "Subtotal parathyroidectomy with cervical thymectomy"
-    ],
-    "answer": "D",
-    "reason": "MEN 1 is multigland disease: remove three and a half glands plus the thymus.",
-    "explanation": "Hyperparathyroidism in MEN 1 involves all glands asymmetrically, so focused surgery fails. Subtotal parathyroidectomy leaving a vascularised remnant, or total parathyroidectomy with autotransplantation, is combined with transcervical thymectomy to remove supernumerary glands and reduce thymic carcinoid risk.",
-    "pearl": "Recurrence is common even after adequate surgery; plan for lifelong follow-up."
-  },
-  {
-    "id": "S045",
-    "subject": "surgery",
-    "topic": "Parathyroid",
-    "stem": "During focused parathyroidectomy, which intraoperative PTH result predicts cure by the Miami criterion?",
-    "options": [
-      "Fall of more than 50% at 10 minutes after excision",
-      "Any fall at 5 minutes",
-      "Fall of more than 25% at 20 minutes",
-      "Fall to below 10 pg/mL at 30 minutes"
-    ],
-    "answer": "A",
-    "reason": "A drop of over 50% from the highest baseline at 10 minutes predicts cure.",
-    "explanation": "PTH has a half-life of 3 to 5 minutes. The Miami criterion is a fall of more than 50% from the highest pre-incision or pre-excision value 10 minutes after removing the gland. Failure to fall suggests further hyperfunctioning tissue and the need to explore.",
-    "pearl": "Gland manipulation can spike PTH, which is why the pre-excision sample matters."
-  },
-  {
-    "id": "S046",
-    "subject": "surgery",
-    "topic": "Adrenal",
-    "stem": "A patient with phaeochromocytoma is being prepared for adrenalectomy. Why must a beta blocker never be started before alpha blockade?",
-    "options": [
-      "It prevents tumour localisation on MIBG",
-      "Unopposed alpha stimulation causes hypertensive crisis",
-      "It increases catecholamine synthesis",
-      "It causes refractory hypoglycaemia"
-    ],
-    "answer": "B",
-    "reason": "Blocking beta-2 vasodilatation leaves alpha vasoconstriction unopposed.",
-    "explanation": "Alpha blockade with phenoxybenzamine or doxazosin is started 10 to 14 days before surgery along with salt and fluid loading. A beta blocker is added only afterwards to control tachycardia. Given first, it removes beta-2 mediated vasodilatation and can precipitate a crisis.",
-    "pearl": "After the tumour is removed, watch for hypotension and hypoglycaemia."
-  },
-  {
-    "id": "S047",
-    "subject": "surgery",
-    "topic": "Adrenal",
-    "stem": "A 3 cm adrenal mass is found incidentally. Which finding is most consistent with a benign lipid-rich adenoma?",
-    "options": [
-      "Heterogeneous enhancement with necrosis",
-      "Unenhanced CT density of 10 HU or less",
-      "Size increase of 1 cm in 6 months",
-      "Absolute contrast washout of 40%"
-    ],
-    "answer": "B",
-    "reason": "Density of 10 HU or less on unenhanced CT indicates a lipid-rich adenoma.",
-    "explanation": "Benign adenomas are rich in intracellular lipid, giving low attenuation on unenhanced CT. Lipid-poor adenomas show rapid washout, with absolute washout of 60% or more. Every incidentaloma also needs hormonal evaluation whatever its appearance.",
-    "pearl": "Masses over 4 cm or with indeterminate features are generally resected."
-  },
-  {
-    "id": "S048",
-    "subject": "surgery",
-    "topic": "Vascular",
-    "stem": "One year after EVAR, CT shows a type II endoleak from a lumbar artery. The aneurysm sac has not enlarged. What is the management?",
-    "options": [
-      "Observation with continued imaging",
-      "Proximal extension cuff",
-      "Relining of the stent graft",
-      "Immediate open conversion"
-    ],
-    "answer": "A",
-    "reason": "Type II endoleaks with a stable sac are watched; many seal spontaneously.",
-    "explanation": "Type I (attachment site) and type III (graft defect or component separation) endoleaks expose the sac to systemic pressure and need prompt treatment. Type II endoleaks arise from back-bleeding branches such as lumbar arteries or the inferior mesenteric artery and are treated only if the sac enlarges.",
-    "pearl": "Type II is the most common endoleak."
-  },
-  {
-    "id": "S049",
-    "subject": "surgery",
-    "topic": "Vascular",
-    "stem": "A 68-year-old has a transient ischaemic attack and an 80% stenosis of the ipsilateral internal carotid artery. When should carotid endarterectomy ideally be done?",
-    "options": [
-      "Within 2 weeks of the event",
-      "After 3 months of antiplatelet therapy",
-      "After 6 weeks",
-      "Only if a second event occurs"
-    ],
-    "answer": "A",
-    "reason": "The benefit of endarterectomy is greatest within 14 days of symptoms.",
-    "explanation": "The risk of stroke is highest in the first days and weeks after a transient ischaemic attack or minor stroke. Pooled trial data show that the benefit of endarterectomy for symptomatic 70 to 99% stenosis falls quickly with delay, so surgery is recommended within 2 weeks.",
-    "pearl": "A near-occluded or totally occluded carotid is not operated on."
-  },
-  {
-    "id": "S050",
-    "subject": "surgery",
-    "topic": "Vascular",
-    "stem": "After tibial fracture fixation a patient has severe pain on passive toe extension. Compartment pressure is 38 mmHg and blood pressure is 110/60 mmHg. What is the appropriate action?",
-    "options": [
-      "Arterial duplex scan",
-      "Fasciotomy",
-      "Repeat pressure measurement after analgesia",
-      "Elevate the limb and reassess in 6 hours"
-    ],
-    "answer": "B",
-    "reason": "Delta pressure (diastolic minus compartment) below 30 mmHg = fasciotomy.",
-    "explanation": "Here the difference between diastolic pressure and compartment pressure is 22 mmHg. A difference below 30 mmHg, together with the clinical picture, indicates inadequate perfusion and the need for urgent four-compartment fasciotomy. Pulses remain palpable until late.",
-    "pearl": "Pain out of proportion and pain on passive stretch are the earliest signs."
-  },
-  {
-    "id": "S051",
-    "subject": "surgery",
-    "topic": "Trauma",
-    "stem": "At laparotomy for blunt trauma, a non-expanding, non-pulsatile haematoma is found around the left kidney. The patient is stable. What should be done?",
-    "options": [
-      "Leave it unexplored",
-      "Nephrectomy",
-      "Explore the haematoma",
-      "Pack and perform on-table angiography"
-    ],
-    "answer": "A",
-    "reason": "Zone 2 haematoma after blunt trauma is not explored unless expanding.",
-    "explanation": "Zone 1 (central) haematomas are explored in both blunt and penetrating trauma. Zone 2 (lateral, perirenal) haematomas are explored after penetrating injury, but after blunt injury only if expanding or pulsatile. Zone 3 (pelvic) blunt haematomas are not opened.",
-    "pearl": "Opening a contained pelvic haematoma releases tamponade and can be fatal."
-  },
-  {
-    "id": "S052",
-    "subject": "surgery",
-    "topic": "Trauma",
-    "stem": "A patient with an unstable pelvic fracture is in refractory haemorrhagic shock with no chest or abdominal source. If REBOA is used, in which aortic zone should the balloon be inflated?",
-    "options": [
-      "Zone 1",
-      "Zone 2",
-      "Zone 3",
-      "Zone 0"
-    ],
-    "answer": "C",
-    "reason": "Pelvic bleeding: Zone 3, the infrarenal aorta.",
-    "explanation": "Zone 1 runs from the left subclavian artery to the coeliac trunk and is used for intra-abdominal haemorrhage. Zone 2, between the coeliac trunk and the lowest renal artery, is a no-occlusion zone. Zone 3, from the lowest renal artery to the bifurcation, is used for pelvic and junctional bleeding.",
-    "pearl": "Zone 1 occlusion time should be kept as short as possible because of visceral ischaemia."
-  },
-  {
-    "id": "S053",
-    "subject": "surgery",
-    "topic": "Trauma",
-    "stem": "A haemodynamically stable patient with a grade III splenic injury after blunt trauma has a contrast blush on CT. What is the best management?",
-    "options": [
-      "Emergency splenectomy",
-      "Diagnostic laparoscopy",
-      "Observation in the ward",
-      "Splenic angioembolisation"
-    ],
-    "answer": "D",
-    "reason": "Stable patient with a blush: embolise to make non-operative management succeed.",
-    "explanation": "A contrast blush indicates active bleeding or a pseudoaneurysm and predicts failure of observation alone. In a stable patient, angioembolisation raises the success rate of non-operative management. Haemodynamic instability remains the indication for laparotomy.",
-    "pearl": "Vaccinate against encapsulated organisms if most of the spleen is lost or embolised."
-  },
-  {
-    "id": "S054",
-    "subject": "surgery",
-    "topic": "Burns",
-    "stem": "A 70 kg man with 40% TBSA burns arrives 2 hours after injury. Using the Parkland formula, what is the infusion rate for the remainder of the first 8 hours?",
-    "options": [
-      "About 470 mL per hour",
-      "About 700 mL per hour",
-      "About 930 mL per hour",
-      "About 1,400 mL per hour"
-    ],
-    "answer": "C",
-    "reason": "Half of 11,200 mL is due in the first 8 hours from the burn; 6 hours remain.",
-    "explanation": "Parkland: 4 mL x 70 kg x 40% = 11,200 mL in 24 hours. Half, 5,600 mL, is given in the first 8 hours counted from the time of the burn. With 6 hours left, the rate is about 930 mL per hour. The formula is a starting point; titrate to urine output.",
-    "pearl": "Target urine output is 0.5 mL/kg per hour in adults."
-  },
-  {
-    "id": "S055",
-    "subject": "surgery",
-    "topic": "Transplant",
-    "stem": "Eight months after renal transplantation an EBV-seronegative recipient develops fever, lymphadenopathy and a rising EBV viral load. Biopsy confirms post-transplant lymphoproliferative disorder. What is the first step?",
-    "options": [
-      "Start ganciclovir alone",
-      "Graft nephrectomy",
-      "Increase tacrolimus",
-      "Reduce immunosuppression"
-    ],
-    "answer": "D",
-    "reason": "Reducing immunosuppression is the first step in PTLD.",
-    "explanation": "Most early post-transplant lymphoproliferative disorder is driven by EBV-infected B cells proliferating without T-cell control. Reducing immunosuppression restores that control and can produce regression. Rituximab, with or without chemotherapy, is added for CD20-positive disease that does not respond.",
-    "pearl": "An EBV-negative recipient of an EBV-positive donor organ carries the highest risk."
-  },
-  {
-    "id": "S056",
-    "subject": "surgery",
-    "topic": "Bariatric",
-    "stem": "Two years after laparoscopic Roux-en-Y gastric bypass a woman has intermittent colicky pain. CT shows a mesenteric swirl sign. Where is the Petersen defect?",
-    "options": [
-      "At the jejunojejunostomy mesenteric defect",
-      "Between the Roux limb mesentery and the transverse mesocolon",
-      "Between the gastric pouch and the remnant stomach",
-      "Through the oesophageal hiatus"
-    ],
-    "answer": "B",
-    "reason": "Petersen space lies behind the Roux limb, in front of the transverse mesocolon.",
-    "explanation": "Internal hernia is the most common cause of small bowel obstruction after laparoscopic gastric bypass. Potential spaces are the Petersen space, the jejunojejunostomy mesenteric defect and, in retrocolic reconstructions, the mesocolic window. Weight loss enlarges these defects.",
-    "pearl": "A normal CT does not exclude internal hernia; persistent pain warrants laparoscopy."
-  },
-  {
-    "id": "S057",
-    "subject": "surgery",
-    "topic": "Hernia",
-    "stem": "After laparoscopic inguinal hernia repair a patient has burning pain and numbness over the anterolateral thigh. Tacks were placed lateral to the gonadal vessels below the iliopubic tract. Which nerve is injured?",
-    "options": [
-      "Ilioinguinal nerve",
-      "Obturator nerve",
-      "Iliohypogastric nerve",
-      "Lateral femoral cutaneous nerve"
-    ],
-    "answer": "D",
-    "reason": "Triangle of pain: lateral to the gonadal vessels, below the iliopubic tract.",
-    "explanation": "The triangle of pain contains the lateral femoral cutaneous nerve, the femoral branch of the genitofemoral nerve and the femoral nerve. The triangle of doom, between the vas deferens and gonadal vessels, contains the external iliac vessels. No fixation should be placed below the iliopubic tract.",
-    "pearl": "Injury to the lateral femoral cutaneous nerve causes meralgia paraesthetica."
-  },
-  {
-    "id": "S058",
-    "subject": "surgery",
-    "topic": "Paediatric surgery",
-    "stem": "For the best chance of bile drainage, Kasai portoenterostomy for biliary atresia should ideally be performed before what age?",
-    "options": [
-      "60 days",
-      "120 days",
-      "6 months",
-      "1 year"
-    ],
-    "answer": "A",
-    "reason": "Results fall off sharply when the Kasai procedure is done after about 60 days.",
-    "explanation": "Biliary atresia is a progressive fibro-obliterative disease of the bile ducts. Early portoenterostomy restores bile flow in a good proportion of infants and delays or avoids transplantation. Any infant with conjugated jaundice beyond 2 weeks needs urgent evaluation.",
-    "pearl": "Biliary atresia is the most common indication for paediatric liver transplantation."
-  },
-  {
-    "id": "S059",
-    "subject": "surgery",
-    "topic": "Surgical oncology",
-    "stem": "Excision biopsy of a pigmented lesion on the back shows melanoma with Breslow thickness 2.4 mm. There are no palpable nodes. What is the correct definitive surgery?",
-    "options": [
-      "1 cm margin only",
-      "2 cm margin with sentinel node biopsy",
-      "3 cm margin with elective node dissection",
-      "5 cm margin down to fascia"
-    ],
-    "answer": "B",
-    "reason": "Thickness over 2 mm: 2 cm margin, plus sentinel node biopsy.",
-    "explanation": "Recommended margins are 0.5 to 1 cm for in situ disease, 1 cm for melanoma up to 1 mm thick, 1 to 2 cm for 1 to 2 mm, and 2 cm for thicker tumours. Sentinel node biopsy is offered for thickness of 0.8 mm or more, or thinner tumours with ulceration.",
-    "pearl": "A positive sentinel node is now followed by nodal ultrasound surveillance, not routine dissection."
-  },
-  {
-    "id": "S060",
-    "subject": "surgery",
-    "topic": "Surgical oncology",
-    "stem": "A 45-year-old has a deep, 9 cm, firm mass in the thigh. MRI suggests a soft tissue sarcoma. What is the correct way to obtain a tissue diagnosis?",
-    "options": [
-      "Fine needle aspiration from the nearest point",
-      "Core needle biopsy along the planned incision line",
-      "Transverse incision biopsy",
-      "Excision biopsy"
-    ],
-    "answer": "B",
-    "reason": "Core biopsy, with the track placed so it can be excised with the tumour.",
-    "explanation": "Core needle biopsy gives enough tissue for subtype and grade. The track is contaminated and must lie in the line of the future longitudinal incision so it can be removed en bloc. Unplanned excision and transverse incisions compromise limb-sparing surgery.",
-    "pearl": "Staging includes MRI of the limb and CT of the chest; sarcomas spread to the lung."
   },
   {
     "id": "M011",
@@ -1918,5 +958,1805 @@
     "reason": "BPaLM for 6 months is the preferred all-oral regimen.",
     "explanation": "The TB-PRACTECAL trial showed that 6 months of bedaquiline, pretomanid, linezolid and moxifloxacin was at least as effective as longer standard regimens, with fewer adverse events. If fluoroquinolone resistance is present, moxifloxacin is dropped and BPaL is used.",
     "pearl": "Monitor for linezolid toxicity: neuropathy, optic neuritis and myelosuppression."
+  },
+  {
+    "id": "SB004-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "Which of the following is NOT one of the six predictors in the Revised Cardiac Risk Index (RCRI)?",
+    "options": [
+      "History of cerebrovascular disease",
+      "Serum creatinine above 2 mg/dL",
+      "Age above 70 years",
+      "Insulin-treated diabetes"
+    ],
+    "answer": "C",
+    "reason": "Age is not an RCRI variable.",
+    "explanation": "The RCRI uses six predictors: high-risk surgery (intraperitoneal, intrathoracic or suprainguinal vascular), ischaemic heart disease, heart failure, cerebrovascular disease, insulin-treated diabetes and creatinine above 2 mg/dL. Risk of major cardiac events rises with the number present.",
+    "pearl": "Three or more RCRI predictors mark high cardiac risk."
+  },
+  {
+    "id": "SB004-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "A 66-year-old needs an elevated-risk abdominal operation. He climbs two flights of stairs daily without symptoms and has no active cardiac condition. What is the next step?",
+    "options": [
+      "Coronary angiography",
+      "Pharmacological stress testing",
+      "Resting echocardiography in all cases",
+      "Proceed to surgery without further cardiac testing"
+    ],
+    "answer": "D",
+    "reason": "Functional capacity of 4 METs or more without symptoms: proceed.",
+    "explanation": "In the stepwise ACC/AHA approach, patients with elevated risk but good functional capacity (4 METs or more, such as climbing two flights of stairs) go to surgery without further testing. Testing is reserved for poor or unknown capacity, and only if the result would change management.",
+    "pearl": "A Duke Activity Status Index score above 34 roughly equals 4 METs."
+  },
+  {
+    "id": "SB004-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "After elective PCI with a drug-eluting stent for stable coronary disease, elective noncardiac surgery should ideally be delayed for at least:",
+    "options": [
+      "30 days",
+      "3 months",
+      "6 months",
+      "12 months"
+    ],
+    "answer": "C",
+    "reason": "About 6 months after a DES for chronic coronary disease.",
+    "explanation": "Premature interruption of dual antiplatelet therapy after stenting risks stent thrombosis. Elective surgery is ideally deferred 6 months after a drug-eluting stent placed for stable disease, and 12 months after an acute coronary syndrome. After bare-metal stents, 30 days is the minimum.",
+    "pearl": "If delay is harmful, surgery may be considered from 3 months, continuing aspirin."
+  },
+  {
+    "id": "SB004-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "A STOP-BANG score in which range indicates a high probability of moderate to severe obstructive sleep apnoea?",
+    "options": [
+      "0 to 2",
+      "3 to 4",
+      "5 to 8",
+      "Any score above 1"
+    ],
+    "answer": "C",
+    "reason": "STOP-BANG 5 to 8 = high risk of moderate to severe OSA.",
+    "explanation": "STOP-BANG scores Snoring, Tiredness, Observed apnoea, high blood Pressure, BMI above 35, Age above 50, Neck circumference above 40 cm and male Gender. A score of 0 to 2 is low risk, 3 to 4 intermediate and 5 to 8 high risk.",
+    "pearl": "Untreated OSA raises the risk of difficult airway, desaturation and postoperative opioid complications."
+  },
+  {
+    "id": "SB004-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "For smoking cessation to reduce postoperative wound and pulmonary complications, it should begin at least how long before surgery?",
+    "options": [
+      "24 hours",
+      "1 week",
+      "4 weeks",
+      "6 months"
+    ],
+    "answer": "C",
+    "reason": "At least 4 weeks of abstinence reduces complications.",
+    "explanation": "Stopping 4 or more weeks before surgery reduces wound and respiratory complications, and longer abstinence gives greater benefit. Even 12 to 24 hours of abstinence lowers carboxyhaemoglobin, but that is not enough to reduce complications.",
+    "pearl": "Nicotine replacement does not impair wound healing the way smoking does."
+  },
+  {
+    "id": "SB004-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "Which scoring system is used to stratify the risk of venous thromboembolism in general surgical patients?",
+    "options": [
+      "Goldman index",
+      "ARISCAT score",
+      "Charlson comorbidity index",
+      "Caprini score"
+    ],
+    "answer": "D",
+    "reason": "Caprini stratifies surgical VTE risk and guides prophylaxis.",
+    "explanation": "The Caprini score adds weighted points for age, surgery type, malignancy, previous VTE, thrombophilia, immobility and other factors to guide mechanical and pharmacological prophylaxis. ARISCAT predicts pulmonary complications, Goldman cardiac risk, and Charlson overall comorbidity.",
+    "pearl": "Caprini 5 or more is highest risk; consider extended prophylaxis after major cancer surgery."
+  },
+  {
+    "id": "SB004-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "Which of the following is a predictor in the ARISCAT score for postoperative pulmonary complications?",
+    "options": [
+      "Body mass index above 30",
+      "Well-controlled asthma",
+      "Male sex",
+      "Preoperative SpO2 below 91% on room air"
+    ],
+    "answer": "D",
+    "reason": "Low preoperative SpO2 is an ARISCAT variable.",
+    "explanation": "ARISCAT includes age, preoperative SpO2, respiratory infection in the last month, preoperative anaemia (Hb 10 g/dL or less), upper abdominal or intrathoracic incision, operation longer than 2 hours, and emergency surgery. Obesity and sex are not part of it.",
+    "pearl": "Upper abdominal and thoracic incisions carry the biggest weight after low SpO2."
+  },
+  {
+    "id": "SB004-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "In the POISE trial, starting high-dose extended-release metoprolol on the day of noncardiac surgery:",
+    "options": [
+      "Had no effect on any cardiac outcome",
+      "Reduced stroke without affecting myocardial infarction",
+      "Reduced all-cause mortality",
+      "Reduced myocardial infarction but increased stroke and death"
+    ],
+    "answer": "D",
+    "reason": "Fewer MIs, but more strokes, hypotension and deaths.",
+    "explanation": "POISE showed that beta blockers started acutely before surgery lowered myocardial infarction but increased stroke and total mortality, largely through hypotension and bradycardia. Patients already taking beta blockers should continue them; starting them on the day of surgery is avoided.",
+    "pearl": "If started, begin days to weeks ahead and titrate to heart rate and blood pressure."
+  },
+  {
+    "id": "SB004-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "A patient with atrial fibrillation (CHA2DS2-VASc 4), no prior stroke, on warfarin is scheduled for elective colectomy. What is the best plan?",
+    "options": [
+      "Stop warfarin 5 days before surgery without heparin bridging",
+      "Stop warfarin 24 hours before surgery",
+      "Continue warfarin through surgery",
+      "Stop warfarin and bridge with therapeutic LMWH"
+    ],
+    "answer": "A",
+    "reason": "BRIDGE trial: bridging adds bleeding without preventing thromboembolism.",
+    "explanation": "In the BRIDGE trial of AF patients interrupting warfarin, no bridging was non-inferior for arterial thromboembolism and caused less major bleeding than LMWH bridging. Warfarin is stopped about 5 days before surgery and restarted once haemostasis is secure.",
+    "pearl": "Bridging is still considered for mechanical mitral valves or stroke or VTE within 3 months."
+  },
+  {
+    "id": "SB004-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 4 · Preoperative Risk Assessment",
+    "topic": "Preoperative Risk Assessment",
+    "stem": "Before elective surgery, an SGLT2 inhibitor such as empagliflozin should be stopped how long beforehand?",
+    "options": [
+      "Morning of surgery",
+      "24 hours",
+      "At least 3 days",
+      "2 weeks"
+    ],
+    "answer": "C",
+    "reason": "Stop 3 days before (4 for ertugliflozin) to avoid euglycaemic DKA.",
+    "explanation": "SGLT2 inhibitors can cause ketoacidosis with near-normal glucose during fasting and surgical stress. Canagliflozin, dapagliflozin and empagliflozin are stopped at least 3 days before scheduled surgery, ertugliflozin at least 4 days, and restarted once eating normally.",
+    "pearl": "Check ketones, not just glucose, if a patient on an SGLT2 inhibitor becomes acidotic."
+  },
+  {
+    "id": "SB019-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "Elective laparoscopic cholecystectomy with controlled entry into the biliary tract and no spillage is classified as which wound class?",
+    "options": [
+      "Dirty-infected (class IV)",
+      "Contaminated (class III)",
+      "Clean (class I)",
+      "Clean-contaminated (class II)"
+    ],
+    "answer": "D",
+    "reason": "Controlled entry into a hollow viscus = clean-contaminated.",
+    "explanation": "Class I wounds do not enter the respiratory, alimentary, genital or urinary tract. Class II enter them under controlled conditions without unusual contamination. Class III includes gross spillage, major breaks in sterile technique and fresh trauma. Class IV involves pus or perforated viscus.",
+    "pearl": "Wound class is one of the components of the NNIS SSI risk index."
+  },
+  {
+    "id": "SB019-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "When vancomycin is used for surgical prophylaxis, the infusion should begin:",
+    "options": [
+      "Within 120 minutes before incision",
+      "The evening before surgery",
+      "At skin closure",
+      "Within 15 minutes before incision"
+    ],
+    "answer": "A",
+    "reason": "Vancomycin needs a longer infusion, so start it within 2 hours of incision.",
+    "explanation": "Most prophylactic agents such as cefazolin are given within 60 minutes before incision so tissue levels peak at incision. Vancomycin and fluoroquinolones need longer infusions and are started within 120 minutes. Giving it too late or too early both increase SSI.",
+    "pearl": "Infuse vancomycin over at least an hour to avoid red man syndrome."
+  },
+  {
+    "id": "SB019-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "During a long operation, cefazolin prophylaxis should be redosed every:",
+    "options": [
+      "2 hours",
+      "4 hours",
+      "8 hours",
+      "12 hours"
+    ],
+    "answer": "B",
+    "reason": "Cefazolin is redosed every 4 hours of surgery.",
+    "explanation": "Redosing keeps tissue levels above the MIC throughout the operation. The interval is about two half-lives of the drug, which is 4 hours for cefazolin. A dose is also repeated after blood loss of more than 1,500 mL.",
+    "pearl": "Cefazolin is dosed at 2 g, and 3 g for patients weighing 120 kg or more."
+  },
+  {
+    "id": "SB019-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "A patient with a permanent pacemaker needs a laparotomy. Which precaution with electrosurgery is correct?",
+    "options": [
+      "No precautions are needed with modern devices",
+      "Use bipolar where possible and keep the current path away from the device",
+      "Increase monopolar power to shorten activation time",
+      "Place the return electrode over the pulse generator"
+    ],
+    "answer": "B",
+    "reason": "Minimise monopolar use and keep its current path away from the device.",
+    "explanation": "Monopolar current can be sensed as cardiac activity, causing inhibition, or can reset the device. Bipolar diathermy is preferred, monopolar bursts kept short, and the return pad placed so the current path does not cross the generator or leads. Pacemaker-dependent patients may need asynchronous reprogramming or a magnet.",
+    "pearl": "Check and reprogramme cardiac devices after surgery if they were altered."
+  },
+  {
+    "id": "SB019-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "With modern isolated electrosurgical generators, the most common cause of a patient burn at the dispersive electrode is:",
+    "options": [
+      "Current diverting to ECG electrodes",
+      "Poor contact of the return electrode pad",
+      "Use of the cut waveform",
+      "Direct coupling to bowel"
+    ],
+    "answer": "B",
+    "reason": "Partial pad contact concentrates current and burns the skin.",
+    "explanation": "If the dispersive pad loses contact, current density at the remaining area rises and causes a burn. Return electrode monitoring systems measure pad impedance and stop the generator if contact is poor. Isolated generators largely eliminate alternate-site burns through ECG leads.",
+    "pearl": "Place the pad over well-vascularised muscle, away from bony prominences and metal implants."
+  },
+  {
+    "id": "SB019-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "Which laparoscopic port arrangement carries the highest risk of capacitive coupling injury?",
+    "options": [
+      "All-plastic cannula system",
+      "All-metal cannula system",
+      "Low-voltage cut waveform through a plastic port",
+      "Metal cannula held by a plastic anchoring collar"
+    ],
+    "answer": "D",
+    "reason": "Hybrid (metal-plastic) cannulas trap the induced charge.",
+    "explanation": "A capacitor forms when an insulator separates two conductors. With an all-metal port, induced current disperses through the abdominal wall. A plastic collar insulates the metal cannula, so charge can discharge into adjacent bowel. High-voltage coagulation current increases the risk.",
+    "pearl": "Insulation failure and direct coupling are the other two mechanisms of stray energy injury."
+  },
+  {
+    "id": "SB019-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "During tracheostomy, which step most reduces the risk of an operating room fire?",
+    "options": [
+      "Lower inspired oxygen to 30% or less before using diathermy near the airway",
+      "Increase oxygen flow to clear the field",
+      "Use monopolar diathermy to open the trachea",
+      "Use alcohol-based prep and drape immediately"
+    ],
+    "answer": "A",
+    "reason": "Remove the oxidiser part of the fire triad.",
+    "explanation": "Fire needs an ignition source, fuel and an oxidiser. In airway surgery, oxygen enrichment near the field is the main modifiable factor, so FiO2 is reduced to the minimum needed. Alcohol preps must be allowed to dry, and the trachea is opened with a scalpel, not diathermy.",
+    "pearl": "Pooled alcohol prep under drapes is a classic fuel source."
+  },
+  {
+    "id": "SB019-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "Pneumoperitoneum with CO2 at 15 mmHg most typically causes:",
+    "options": [
+      "Increased functional residual capacity",
+      "Reduced venous return and raised systemic vascular resistance",
+      "Lower arterial PaCO2",
+      "Increased renal blood flow"
+    ],
+    "answer": "B",
+    "reason": "Raised intra-abdominal pressure compresses the IVC and raises afterload.",
+    "explanation": "Insufflation reduces venous return and increases systemic vascular resistance, while CO2 absorption raises PaCO2. Splinting of the diaphragm reduces functional residual capacity and compliance, and renal blood flow and urine output fall.",
+    "pearl": "Head-down tilt worsens ventilation; head-up tilt worsens venous return."
+  },
+  {
+    "id": "SB019-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "According to the STITCH trial, closing a midline laparotomy with the small-bites technique means:",
+    "options": [
+      "Bites 5 mm from the wound edge, placed 5 mm apart",
+      "Bites 1 cm from the edge, placed 1 cm apart",
+      "Interrupted mass closure with nylon",
+      "A suture to wound length ratio of 2:1"
+    ],
+    "answer": "A",
+    "reason": "5 mm by 5 mm bites reduced incisional hernia.",
+    "explanation": "The STITCH trial showed that small bites in the aponeurosis, 5 mm from the edge and 5 mm apart with a slowly absorbable suture, reduced incisional hernia at 1 year compared with large bites. A suture to wound length ratio of at least 4:1 is maintained.",
+    "pearl": "Prophylactic mesh is also considered in high-risk midline laparotomies."
+  },
+  {
+    "id": "SB019-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 19 · Principles of Preoperative and Operative Surgery",
+    "topic": "Principles of Preoperative and Operative Surgery",
+    "stem": "Intraoperative hypothermia below 36 °C is associated with:",
+    "options": [
+      "Increased surgical site infection and blood loss",
+      "Reduced surgical site infection",
+      "Faster drug metabolism",
+      "Fewer cardiac events"
+    ],
+    "answer": "A",
+    "reason": "Hypothermia impairs immunity and coagulation.",
+    "explanation": "Mild hypothermia causes vasoconstriction and reduced tissue oxygen, impairs neutrophil function, and slows clotting enzymes. It increases wound infection, blood loss, transfusion and cardiac events, and prolongs drug action. Active warming keeps core temperature at 36 °C or more.",
+    "pearl": "Most heat loss happens in the first hour after induction from redistribution."
+  },
+  {
+    "id": "SB020-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "What is the earliest sign of malignant hyperthermia under general anaesthesia?",
+    "options": [
+      "Unexplained rise in end-tidal CO2",
+      "Hypokalaemia",
+      "Dark urine from myoglobinuria",
+      "Core temperature above 40 °C"
+    ],
+    "answer": "A",
+    "reason": "Rising end-tidal CO2 despite more ventilation comes first.",
+    "explanation": "Malignant hyperthermia is triggered by volatile agents and succinylcholine in patients with RYR1 mutations. Uncontrolled calcium release causes hypermetabolism: rising end-tidal CO2, tachycardia and masseter rigidity first, with hyperthermia, hyperkalaemia and myoglobinuria later.",
+    "pearl": "Treat with dantrolene 2.5 mg/kg, repeated as needed, and stop all triggers."
+  },
+  {
+    "id": "SB020-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "In which patient is succinylcholine contraindicated because of the risk of hyperkalaemia?",
+    "options": [
+      "Six hours after a major burn",
+      "Ten days after a major burn",
+      "Rapid sequence induction for a full stomach",
+      "Healthy adult for emergency appendicectomy"
+    ],
+    "answer": "B",
+    "reason": "Extrajunctional receptors develop from about 24 to 48 hours after a burn.",
+    "explanation": "Burns, denervation, crush injury and prolonged immobility cause upregulation of extrajunctional acetylcholine receptors. Succinylcholine then releases large amounts of potassium. The risk starts 24 to 48 hours after injury and lasts for months, so it is safe in the first hours after a burn.",
+    "pearl": "Rocuronium with sugammadex available is the alternative for rapid sequence induction."
+  },
+  {
+    "id": "SB020-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "A patient has seizures and then ventricular arrhythmia after a large-volume bupivacaine block. Besides airway management and CPR, what is the specific treatment?",
+    "options": [
+      "Lidocaine for the arrhythmia",
+      "20% lipid emulsion, 1.5 mL/kg bolus",
+      "Propofol infusion as a lipid source",
+      "High-dose vasopressin"
+    ],
+    "answer": "B",
+    "reason": "Lipid emulsion treats local anaesthetic systemic toxicity.",
+    "explanation": "Lipid emulsion acts as a lipid sink and supports myocardial energy use. A bolus of 1.5 mL/kg of 20% emulsion is followed by an infusion. Adrenaline is used in reduced doses, and vasopressin, calcium channel blockers, beta blockers and further local anaesthetic are avoided.",
+    "pearl": "Propofol is not a substitute: its lipid content is too low and it depresses the heart."
+  },
+  {
+    "id": "SB020-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "The maximum recommended dose of lidocaine with adrenaline for infiltration is about:",
+    "options": [
+      "3 mg/kg",
+      "4.5 mg/kg",
+      "7 mg/kg",
+      "10 mg/kg"
+    ],
+    "answer": "C",
+    "reason": "About 7 mg/kg with adrenaline, 4.5 mg/kg without.",
+    "explanation": "Adrenaline causes local vasoconstriction, slowing absorption and allowing a higher safe dose. For bupivacaine the limits are about 2 mg/kg plain and 3 mg/kg with adrenaline. Toxicity starts with perioral numbness, tinnitus and agitation before seizures and cardiac effects.",
+    "pearl": "Tumescent lidocaine in liposuction is a special case with much higher dosing."
+  },
+  {
+    "id": "SB020-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "Sugammadex reverses neuromuscular blockade caused by:",
+    "options": [
+      "Atracurium",
+      "Rocuronium and vecuronium",
+      "Succinylcholine",
+      "Cisatracurium"
+    ],
+    "answer": "B",
+    "reason": "It encapsulates steroidal neuromuscular blockers.",
+    "explanation": "Sugammadex is a modified cyclodextrin that binds rocuronium and vecuronium in a one-to-one complex. It can reverse even profound block, unlike neostigmine. It has no effect on benzylisoquinolinium agents such as atracurium or on succinylcholine.",
+    "pearl": "It also binds progesterone and can reduce hormonal contraceptive effect for 7 days."
+  },
+  {
+    "id": "SB020-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "A patient with poorly controlled diabetes and a BMI of 42 kg/m2, but no other disease, would be classified as:",
+    "options": [
+      "ASA I",
+      "ASA II",
+      "ASA III",
+      "ASA IV"
+    ],
+    "answer": "C",
+    "reason": "Morbid obesity (BMI 40 or more) or poorly controlled diabetes = ASA III.",
+    "explanation": "ASA III means severe systemic disease with substantive functional limitation, including poorly controlled diabetes or hypertension and BMI of 40 or more. ASA II is mild disease such as well-controlled diabetes or BMI 30 to 40. ASA IV is severe disease that is a constant threat to life.",
+    "pearl": "Adding E denotes emergency surgery."
+  },
+  {
+    "id": "SB020-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "A patient has a severe postural headache 3 days after spinal anaesthesia that has not settled with fluids, caffeine and analgesics. What is the definitive treatment?",
+    "options": [
+      "Lumbar puncture to drain CSF",
+      "Epidural blood patch",
+      "Strict bed rest for 2 weeks",
+      "Repeat spinal anaesthesia"
+    ],
+    "answer": "B",
+    "reason": "Epidural blood patch seals the dural leak.",
+    "explanation": "Post-dural puncture headache is worse when upright and eases lying down, from CSF leak and intracranial hypotension. Most resolve with conservative care. An epidural blood patch of about 20 mL of autologous blood relieves symptoms in most patients when conservative care fails.",
+    "pearl": "Smaller-gauge pencil-point needles reduce the incidence."
+  },
+  {
+    "id": "SB020-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "In a transversus abdominis plane (TAP) block, local anaesthetic is deposited between which layers?",
+    "options": [
+      "Transversus abdominis and transversalis fascia",
+      "External and internal oblique",
+      "Rectus abdominis and posterior rectus sheath",
+      "Internal oblique and transversus abdominis"
+    ],
+    "answer": "D",
+    "reason": "The anterior rami of T6 to L1 run between internal oblique and transversus.",
+    "explanation": "The thoracolumbar nerves supplying the anterior abdominal wall travel in the plane between internal oblique and transversus abdominis. A TAP block gives somatic analgesia of the wall but no visceral analgesia, so it is part of multimodal opioid-sparing analgesia.",
+    "pearl": "The rectus sheath block lies between rectus and posterior sheath and suits midline wounds."
+  },
+  {
+    "id": "SB020-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "A patient on a prolonged high-dose propofol infusion in ICU develops metabolic acidosis, rhabdomyolysis, hyperkalaemia and heart failure. What is the diagnosis?",
+    "options": [
+      "Serotonin syndrome",
+      "Neuroleptic malignant syndrome",
+      "Propofol infusion syndrome",
+      "Malignant hyperthermia"
+    ],
+    "answer": "C",
+    "reason": "Propofol infusion syndrome impairs mitochondrial fatty acid oxidation.",
+    "explanation": "The syndrome is linked to doses above about 4 mg/kg per hour for more than 48 hours, especially with catecholamines and steroids. Features are lactic acidosis, rhabdomyolysis, hyperkalaemia, lipaemia, arrhythmia and cardiac failure. Stopping propofol is the key step.",
+    "pearl": "Rising lactate and triglycerides are early warnings."
+  },
+  {
+    "id": "SB020-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 20 · Anesthesiology Principles, Pain Management, and Sedation",
+    "topic": "Anesthesiology Principles, Pain Management, and Sedation",
+    "stem": "Glycopyrrolate is given with neostigmine during reversal of neuromuscular blockade to prevent:",
+    "options": [
+      "Malignant hyperthermia",
+      "Bradycardia from muscarinic stimulation",
+      "Hypertension",
+      "Recurarisation"
+    ],
+    "answer": "B",
+    "reason": "It blocks the muscarinic effects of raised acetylcholine.",
+    "explanation": "Neostigmine inhibits acetylcholinesterase, increasing acetylcholine at nicotinic and muscarinic receptors. Unopposed muscarinic effects cause bradycardia, secretions and bronchospasm. Glycopyrrolate, an antimuscarinic that does not cross the blood-brain barrier, is paired with it.",
+    "pearl": "Neostigmine has a ceiling effect and cannot reverse profound block."
+  },
+  {
+    "id": "SB022-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "Under ERAS and current anaesthetic guidance, an adult without delayed gastric emptying may drink clear fluids up to how long before induction?",
+    "options": [
+      "Until midnight before surgery",
+      "2 hours",
+      "8 hours",
+      "6 hours"
+    ],
+    "answer": "B",
+    "reason": "Clear fluids up to 2 hours, solids up to 6 hours.",
+    "explanation": "Prolonged fasting increases thirst, anxiety, dehydration and insulin resistance without reducing aspiration risk. Clear fluids are allowed up to 2 hours and a light meal up to 6 hours before anaesthesia in patients without gastroparesis or obstruction.",
+    "pearl": "Diabetics with gastroparesis and patients with bowel obstruction are exceptions."
+  },
+  {
+    "id": "SB022-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "What is the main purpose of a preoperative carbohydrate drink in ERAS protocols?",
+    "options": [
+      "To reduce postoperative insulin resistance",
+      "To prevent postoperative nausea",
+      "To increase gastric acidity",
+      "To replace mechanical bowel preparation"
+    ],
+    "answer": "A",
+    "reason": "Carbohydrate loading puts patients in a fed metabolic state.",
+    "explanation": "A clear carbohydrate drink the evening before and 2 to 3 hours before surgery attenuates the postoperative insulin resistance caused by surgical stress. It also improves thirst and wellbeing, and helps preserve muscle mass.",
+    "pearl": "Its use in insulin-treated diabetics remains debated."
+  },
+  {
+    "id": "SB022-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "For elective colorectal resection, which bowel preparation strategy is associated with lower surgical site infection and anastomotic leak?",
+    "options": [
+      "Enemas only",
+      "Mechanical preparation combined with oral antibiotics",
+      "Mechanical preparation alone",
+      "No preparation and no antibiotics"
+    ],
+    "answer": "B",
+    "reason": "Mechanical preparation alone gives no benefit; oral antibiotics add it.",
+    "explanation": "Large database studies and several trials show that mechanical preparation alone does not reduce complications, while adding oral non-absorbable antibiotics lowers SSI and leak. Many centres now use combined preparation for left-sided and rectal resections.",
+    "pearl": "IV prophylactic antibiotics at induction are still given."
+  },
+  {
+    "id": "SB022-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "After elective colectomy within an ERAS pathway, routine nasogastric decompression should be:",
+    "options": [
+      "Avoided",
+      "Replaced by a gastrostomy",
+      "Kept for 72 hours",
+      "Kept until flatus is passed"
+    ],
+    "answer": "A",
+    "reason": "Routine NG tubes increase complications without benefit.",
+    "explanation": "Meta-analyses show that routine nasogastric decompression increases fever, atelectasis and pneumonia and delays return of bowel function. Tubes placed during surgery are removed before reversal of anaesthesia, and used later only for vomiting or established ileus.",
+    "pearl": "Early oral intake does not increase leak rates."
+  },
+  {
+    "id": "SB022-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "The RELIEF trial compared restrictive with moderately liberal intravenous fluids in major abdominal surgery. What did it show?",
+    "options": [
+      "The restrictive regimen improved disability-free survival",
+      "No difference in any outcome",
+      "The restrictive regimen increased acute kidney injury",
+      "The liberal regimen increased anastomotic leak"
+    ],
+    "answer": "C",
+    "reason": "Too restrictive raised AKI; aim for near-zero balance.",
+    "explanation": "RELIEF found no difference in disability-free survival, but the restrictive arm had more acute kidney injury and surgical site infection. The message is to avoid both overload and excessive restriction, aiming for a modestly positive fluid balance of around 1 to 2 litres.",
+    "pearl": "Stop intravenous fluids as soon as the patient drinks."
+  },
+  {
+    "id": "SB022-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "After elective colorectal resection in an ERAS pathway, oral intake should generally begin:",
+    "options": [
+      "After the first bowel movement",
+      "On day 5",
+      "Within 24 hours",
+      "After flatus is passed"
+    ],
+    "answer": "C",
+    "reason": "Early feeding is safe and speeds recovery.",
+    "explanation": "Oral fluids and diet within 24 hours do not increase anastomotic leak and are associated with faster return of bowel function and shorter stay. Waiting for flatus or bowel sounds has no physiological basis.",
+    "pearl": "Oral nutritional supplements help patients who eat little."
+  },
+  {
+    "id": "SB022-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "Alvimopan shortens postoperative ileus by acting as:",
+    "options": [
+      "A peripheral mu-opioid receptor antagonist",
+      "A dopamine D2 antagonist",
+      "A motilin receptor agonist",
+      "A 5-HT4 receptor agonist"
+    ],
+    "answer": "A",
+    "reason": "It blocks gut opioid receptors without reversing analgesia.",
+    "explanation": "Alvimopan does not cross the blood-brain barrier, so it blocks opioid effects on the bowel while central analgesia remains. It is used after bowel resection and is restricted to short courses because of a cardiovascular signal with long-term use.",
+    "pearl": "Chewing gum and minimising opioids also reduce ileus."
+  },
+  {
+    "id": "SB022-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "Within ERAS programmes, better outcomes are seen when overall protocol compliance exceeds about:",
+    "options": [
+      "30%",
+      "70%",
+      "100%",
+      "50%"
+    ],
+    "answer": "B",
+    "reason": "High compliance (above about 70%) improves outcomes.",
+    "explanation": "Data from colorectal ERAS programmes show a dose-response relationship: complications and length of stay fall as compliance with the protocol elements rises, with clear benefit above roughly 70%. Auditing compliance is a core ERAS activity.",
+    "pearl": "No single element drives the benefit; the bundle does."
+  },
+  {
+    "id": "SB022-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "For analgesia after laparoscopic colorectal surgery in an ERAS pathway, which approach is preferred?",
+    "options": [
+      "Multimodal opioid-sparing analgesia, with spinal or abdominal wall blocks",
+      "Patient-controlled morphine as the sole agent",
+      "Regular intramuscular pethidine",
+      "Routine thoracic epidural"
+    ],
+    "answer": "A",
+    "reason": "Epidurals add little after laparoscopy and can delay mobilisation.",
+    "explanation": "Thoracic epidurals are recommended for open colorectal surgery. After laparoscopic surgery they can cause hypotension and delay recovery, so a multimodal regimen with paracetamol, NSAIDs, and spinal analgesia or TAP blocks is favoured to limit systemic opioids.",
+    "pearl": "Opioid-sparing analgesia also reduces nausea and ileus."
+  },
+  {
+    "id": "SB022-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 22 · Enhanced Recovery After Surgery (ERAS)",
+    "topic": "Enhanced Recovery After Surgery (ERAS)",
+    "stem": "Which is NOT one of the four Apfel risk factors for postoperative nausea and vomiting?",
+    "options": [
+      "History of motion sickness or PONV",
+      "Female sex",
+      "Postoperative opioid use",
+      "Current smoking"
+    ],
+    "answer": "D",
+    "reason": "Being a non-smoker is the risk factor; smoking is protective.",
+    "explanation": "The Apfel score counts female sex, non-smoking status, history of PONV or motion sickness, and postoperative opioids. With 0, 1, 2, 3 or 4 factors the risk is roughly 10, 20, 40, 60 and 80%. Prophylaxis is scaled to the number of factors.",
+    "pearl": "Combining antiemetics from different classes gives additive benefit."
+  },
+  {
+    "id": "SB023-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "Which type of collagen predominates in early granulation tissue?",
+    "options": [
+      "Type III",
+      "Type I",
+      "Type II",
+      "Type IV"
+    ],
+    "answer": "A",
+    "reason": "Type III dominates early; type I in mature scar.",
+    "explanation": "In the proliferative phase, fibroblasts lay down type III collagen first. During remodelling it is replaced by type I collagen, with increasing cross-linking. Normal skin has a type I to type III ratio of about 4:1.",
+    "pearl": "Type IV collagen is found in basement membranes."
+  },
+  {
+    "id": "SB023-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "What is the maximum tensile strength a healed skin wound eventually reaches, compared with unwounded skin?",
+    "options": [
+      "About 20%",
+      "About 50%",
+      "About 80%",
+      "100%"
+    ],
+    "answer": "C",
+    "reason": "A scar never regains full strength; it plateaus around 80%.",
+    "explanation": "Tensile strength is about 20% at 3 weeks and rises over months during remodelling as collagen cross-links and reorganises. It reaches a maximum of roughly 80% of unwounded skin and never fully recovers.",
+    "pearl": "Fascia regains strength slowly, which is why incisional hernias appear late."
+  },
+  {
+    "id": "SB023-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "Scurvy impairs wound healing mainly because vitamin C is needed for:",
+    "options": [
+      "Neutrophil chemotaxis",
+      "Epithelial cell division",
+      "Fibroblast migration",
+      "Hydroxylation of proline and lysine in procollagen"
+    ],
+    "answer": "D",
+    "reason": "Without hydroxylation, collagen triple helices are unstable.",
+    "explanation": "Prolyl and lysyl hydroxylases need ascorbate as a cofactor. Underhydroxylated collagen cannot form stable triple helices or cross-link, so wounds fail to gain strength and old scars can break down.",
+    "pearl": "Iron and oxygen are the other cofactors of these hydroxylases."
+  },
+  {
+    "id": "SB023-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "Which feature best distinguishes a keloid from a hypertrophic scar?",
+    "options": [
+      "It is raised above the skin",
+      "It appears within weeks of injury",
+      "It is itchy",
+      "It extends beyond the borders of the original wound"
+    ],
+    "answer": "D",
+    "reason": "Keloids invade beyond the wound edge; hypertrophic scars do not.",
+    "explanation": "Hypertrophic scars stay within the wound, appear early and often regress, especially when tension is relieved. Keloids extend beyond the original margins, rarely regress and recur often after excision. Both are raised and may itch.",
+    "pearl": "Keloids are common in darker skin and on the earlobe, sternum and shoulders."
+  },
+  {
+    "id": "SB023-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "Which agent can partly reverse the inhibitory effect of corticosteroids on wound healing?",
+    "options": [
+      "Vitamin E",
+      "Zinc",
+      "Vitamin K",
+      "Vitamin A"
+    ],
+    "answer": "D",
+    "reason": "Vitamin A counteracts steroid inhibition of inflammation and collagen.",
+    "explanation": "Steroids suppress the inflammatory phase, fibroblast proliferation and collagen synthesis. Vitamin A, given orally or topically, restores the inflammatory response and partly reverses the impairment, although it does not reverse effects on infection risk.",
+    "pearl": "Steroid effects are most marked when given in the first days after wounding."
+  },
+  {
+    "id": "SB023-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "Which cell is chiefly responsible for wound contraction?",
+    "options": [
+      "Macrophage",
+      "Myofibroblast",
+      "Keratinocyte",
+      "Neutrophil"
+    ],
+    "answer": "B",
+    "reason": "Myofibroblasts contain smooth muscle actin and pull wound edges together.",
+    "explanation": "Myofibroblasts are specialised fibroblasts expressing alpha-smooth muscle actin. They appear in granulation tissue and contract the wound, reducing its size. Excessive contraction across joints causes contractures.",
+    "pearl": "Full-thickness grafts limit contraction better than split-thickness grafts."
+  },
+  {
+    "id": "SB023-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "From about 48 to 96 hours after injury, which cell becomes the predominant and essential cell in the wound?",
+    "options": [
+      "Lymphocyte",
+      "Macrophage",
+      "Platelet",
+      "Neutrophil"
+    ],
+    "answer": "B",
+    "reason": "Macrophages direct the transition to repair.",
+    "explanation": "Neutrophils dominate in the first 24 to 48 hours. Macrophages then predominate, clearing debris and releasing growth factors such as TGF-beta and PDGF that recruit fibroblasts and drive angiogenesis. Healing can proceed without neutrophils but not without macrophages.",
+    "pearl": "Lymphocytes appear later, around day 5 to 7."
+  },
+  {
+    "id": "SB023-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "A man has a non-healing ulcer in an old burn scar on his leg. Biopsy is most likely to show:",
+    "options": [
+      "Squamous cell carcinoma",
+      "Dermatofibrosarcoma protuberans",
+      "Basal cell carcinoma",
+      "Melanoma"
+    ],
+    "answer": "A",
+    "reason": "Marjolin ulcer is a squamous cell carcinoma in a chronic wound.",
+    "explanation": "Malignant change in chronic scars, burns, sinuses or venous ulcers is usually squamous cell carcinoma and appears after a long latency. It is often aggressive, with a higher rate of nodal spread than ordinary skin SCC. Any chronic ulcer that changes should be biopsied.",
+    "pearl": "Treatment is wide excision; assess regional nodes."
+  },
+  {
+    "id": "SB023-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "Which growth factor is approved as a topical treatment for diabetic foot ulcers?",
+    "options": [
+      "TGF-beta3",
+      "Recombinant EGF alone",
+      "VEGF-A gene therapy",
+      "Recombinant PDGF-BB (becaplermin)"
+    ],
+    "answer": "D",
+    "reason": "Becaplermin is recombinant platelet-derived growth factor.",
+    "explanation": "Becaplermin gel improves healing of neuropathic diabetic foot ulcers when combined with offloading and debridement. PDGF attracts and stimulates fibroblasts and macrophages. Its use has been tempered by concern about malignancy with prolonged use.",
+    "pearl": "Offloading and adequate perfusion matter more than any topical agent."
+  },
+  {
+    "id": "SB023-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 23 · Wound Healing",
+    "topic": "Wound Healing",
+    "stem": "Negative pressure wound therapy is most commonly applied at a continuous pressure of:",
+    "options": [
+      "-25 mmHg",
+      "-50 mmHg",
+      "-125 mmHg",
+      "-300 mmHg"
+    ],
+    "answer": "C",
+    "reason": "The standard setting is about -125 mmHg.",
+    "explanation": "Negative pressure removes exudate, reduces oedema, draws wound edges together and stimulates granulation through mechanical stress on cells. Around -125 mmHg continuous is standard. Lower settings are used over fragile tissue or near exposed vessels.",
+    "pearl": "Never place the foam directly on exposed vessels or bowel without a protective layer."
+  },
+  {
+    "id": "SB025-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "A patient develops a pelvic abscess 10 days after anterior resection. Under CDC definitions this is:",
+    "options": [
+      "Organ/space SSI",
+      "Not an SSI",
+      "Superficial incisional SSI",
+      "Deep incisional SSI"
+    ],
+    "answer": "A",
+    "reason": "Infection in a cavity or organ opened at surgery = organ/space SSI.",
+    "explanation": "Superficial incisional SSI involves skin and subcutaneous tissue. Deep incisional SSI involves fascia and muscle. Organ/space SSI involves any part of the anatomy opened or manipulated during the operation, such as an intra-abdominal or pelvic abscess.",
+    "pearl": "Surveillance usually runs for 30 days, or 90 days for certain procedures."
+  },
+  {
+    "id": "SB025-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "The most common organism causing SSI after clean surgery is:",
+    "options": [
+      "Bacteroides fragilis",
+      "Staphylococcus aureus",
+      "Escherichia coli",
+      "Pseudomonas aeruginosa"
+    ],
+    "answer": "B",
+    "reason": "Skin flora, mainly S. aureus, cause clean-wound SSI.",
+    "explanation": "In clean procedures the source is usually the patient's own skin flora, especially Staphylococcus aureus and coagulase-negative staphylococci. In clean-contaminated and contaminated bowel surgery, gram-negative enteric bacteria and anaerobes become important.",
+    "pearl": "Prophylaxis choice follows the expected flora of the site."
+  },
+  {
+    "id": "SB025-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "If hair must be removed from the operative site, it should be:",
+    "options": [
+      "Removed with depilatory cream a week before",
+      "Shaved with a razor the night before",
+      "Clipped immediately before surgery",
+      "Shaved with a razor in theatre"
+    ],
+    "answer": "C",
+    "reason": "Razors cause microabrasions that colonise.",
+    "explanation": "Shaving creates small skin cuts that become colonised, increasing SSI, particularly when done the night before. Hair is removed only if it interferes with surgery, using clippers just before the operation.",
+    "pearl": "Not removing hair at all is equally acceptable."
+  },
+  {
+    "id": "SB025-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "For skin antisepsis in clean-contaminated surgery, which preparation reduced SSI compared with aqueous povidone-iodine in a landmark trial?",
+    "options": [
+      "Soap and water",
+      "Hydrogen peroxide",
+      "Aqueous chlorhexidine",
+      "Chlorhexidine-alcohol"
+    ],
+    "answer": "D",
+    "reason": "Chlorhexidine-alcohol beat povidone-iodine (Darouiche, NEJM 2010).",
+    "explanation": "Alcohol gives rapid killing and chlorhexidine adds a persistent residual effect. In the trial, chlorhexidine-alcohol lowered superficial and deep incisional SSI. Alcohol preps must dry fully before draping and diathermy to avoid fire.",
+    "pearl": "Chlorhexidine is avoided on mucous membranes, the eye and the middle ear."
+  },
+  {
+    "id": "SB025-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "CDC guidance on perioperative glucose control for surgical patients, with or without diabetes, recommends keeping blood glucose below:",
+    "options": [
+      "110 mg/dL",
+      "140 mg/dL",
+      "200 mg/dL",
+      "250 mg/dL"
+    ],
+    "answer": "C",
+    "reason": "Target below 200 mg/dL to reduce SSI.",
+    "explanation": "Hyperglycaemia impairs neutrophil function and raises SSI risk. The 2017 CDC guideline recommends perioperative glucose below 200 mg/dL in all patients. Very tight targets risk hypoglycaemia without additional SSI benefit.",
+    "pearl": "HbA1c reflects chronic control; perioperative glucose drives acute risk."
+  },
+  {
+    "id": "SB025-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "After a clean procedure such as inguinal hernia repair with mesh, prophylactic antibiotics should:",
+    "options": [
+      "Continue for 24 hours",
+      "Continue until the drain is removed",
+      "Continue for 5 days",
+      "Not be continued after the incision is closed"
+    ],
+    "answer": "D",
+    "reason": "Additional doses after closure do not reduce SSI.",
+    "explanation": "CDC and WHO guidance recommends against extending prophylaxis after wound closure, even when drains are present. Extended courses add resistance, Clostridioides difficile infection and cost without benefit.",
+    "pearl": "Therapeutic antibiotics for established infection are a separate decision."
+  },
+  {
+    "id": "SB025-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "Which measure reduces SSI in known nasal carriers of Staphylococcus aureus undergoing cardiothoracic or orthopaedic surgery?",
+    "options": [
+      "Routine postoperative vancomycin",
+      "Oral ciprofloxacin for a week",
+      "Shaving the operative site",
+      "Intranasal mupirocin with chlorhexidine body wash"
+    ],
+    "answer": "D",
+    "reason": "Decolonisation lowers S. aureus SSI in carriers.",
+    "explanation": "Screening and decolonising carriers with nasal mupirocin and chlorhexidine washing for about 5 days reduces S. aureus infections, especially after cardiac and orthopaedic implant surgery.",
+    "pearl": "MRSA carriers may also need vancomycin added to prophylaxis."
+  },
+  {
+    "id": "SB025-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "Which is NOT a component of the NNIS SSI risk index?",
+    "options": [
+      "Patient age above 65 years",
+      "Contaminated or dirty wound class",
+      "ASA score of 3 or more",
+      "Operation longer than the 75th percentile for that procedure"
+    ],
+    "answer": "A",
+    "reason": "NNIS uses ASA, wound class and duration only.",
+    "explanation": "The NNIS index gives one point each for ASA 3 or more, contaminated or dirty wound, and duration beyond the 75th percentile for that procedure. Laparoscopic approach lowers the score by one for some procedures.",
+    "pearl": "It is used to compare SSI rates between hospitals fairly."
+  },
+  {
+    "id": "SB025-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "A patient has a red, tender, discharging superficial incisional SSI 6 days after laparotomy, without systemic signs. What is the main treatment?",
+    "options": [
+      "Oral antibiotics alone",
+      "Apply a tighter dressing",
+      "Return to theatre for laparotomy",
+      "Open the wound to drain it"
+    ],
+    "answer": "D",
+    "reason": "Drainage is the key treatment for incisional SSI.",
+    "explanation": "Superficial SSI is treated by removing sutures or staples, opening and draining the collection and packing or applying negative pressure. Antibiotics are added for spreading cellulitis, systemic signs or immunosuppression. Fascial integrity should be checked.",
+    "pearl": "Send pus for culture to guide any antibiotics."
+  },
+  {
+    "id": "SB025-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 25 · Surgical Site Infections",
+    "topic": "Surgical Site Infections",
+    "stem": "WHO guidance recommends which suture material to reduce SSI, regardless of wound class?",
+    "options": [
+      "Silver wire",
+      "Catgut sutures",
+      "Triclosan-coated sutures",
+      "Silk sutures"
+    ],
+    "answer": "C",
+    "reason": "Triclosan-coated sutures reduce SSI.",
+    "explanation": "Triclosan is an antibacterial agent that inhibits colonisation of the suture. Meta-analyses showed reduced SSI across wound classes, and WHO gives a conditional recommendation for its use.",
+    "pearl": "Multifilament sutures harbour bacteria more than monofilament."
+  },
+  {
+    "id": "SB026-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "A postoperative complication that needs reoperation under general anaesthesia is graded under Clavien-Dindo as:",
+    "options": [
+      "Grade II",
+      "Grade IIIa",
+      "Grade IIIb",
+      "Grade IVa"
+    ],
+    "answer": "C",
+    "reason": "Intervention under general anaesthesia = IIIb.",
+    "explanation": "Grade I needs no specific treatment beyond simple measures. Grade II needs drugs, transfusion or parenteral nutrition. Grade III needs surgical, endoscopic or radiological intervention: IIIa without and IIIb with general anaesthesia. Grade IV is life-threatening with organ failure needing ICU. Grade V is death.",
+    "pearl": "The suffix 'd' marks a complication that persists at discharge."
+  },
+  {
+    "id": "SB026-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "A patient needs a blood transfusion for postoperative anaemia. Under Clavien-Dindo this is:",
+    "options": [
+      "Grade I",
+      "Grade II",
+      "Grade IIIa",
+      "Grade IVa"
+    ],
+    "answer": "B",
+    "reason": "Transfusion counts as grade II.",
+    "explanation": "Grade II includes complications needing pharmacological treatment beyond the allowed simple drugs (antiemetics, antipyretics, analgesics, diuretics, electrolytes), as well as blood transfusion and total parenteral nutrition.",
+    "pearl": "Wound infections opened at the bedside remain grade I."
+  },
+  {
+    "id": "SB026-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "Under Clavien-Dindo, acute kidney injury requiring dialysis in ICU is graded as:",
+    "options": [
+      "Grade IIIb",
+      "Grade IVa",
+      "Grade IVb",
+      "Grade V"
+    ],
+    "answer": "B",
+    "reason": "Single-organ dysfunction needing ICU = IVa.",
+    "explanation": "Grade IV covers life-threatening complications needing intensive care: IVa is single-organ dysfunction, including dialysis, and IVb is multi-organ dysfunction. Brain haemorrhage and ischaemic stroke count as grade IV, but TIA does not.",
+    "pearl": "Grade V is death of the patient."
+  },
+  {
+    "id": "SB026-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "What does the Comprehensive Complication Index (CCI) add to the Clavien-Dindo classification?",
+    "options": [
+      "It measures complications after discharge only",
+      "It sums all complications into a single 0 to 100 score",
+      "It grades only the most severe complication",
+      "It predicts complications before surgery"
+    ],
+    "answer": "B",
+    "reason": "CCI integrates every complication, not just the worst.",
+    "explanation": "Clavien-Dindo reports the single most severe complication. The CCI weights each complication by its grade and combines them into a continuous score from 0 (no complications) to 100 (death), giving a more sensitive measure of total morbidity.",
+    "pearl": "CCI is increasingly used as an outcome measure in surgical trials."
+  },
+  {
+    "id": "SB026-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "In surgical quality research, failure to rescue is defined as:",
+    "options": [
+      "Unplanned return to theatre",
+      "Failure to complete the planned operation",
+      "Readmission within 30 days",
+      "Death after a major complication"
+    ],
+    "answer": "D",
+    "reason": "Failure to rescue = mortality among patients with a major complication.",
+    "explanation": "Hospitals with high and low mortality often have similar complication rates. The difference lies mainly in failure to rescue: how well complications are recognised and managed. Staffing, ICU access and escalation pathways drive it.",
+    "pearl": "Early warning scores and rapid response teams target failure to rescue."
+  },
+  {
+    "id": "SB026-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "Abdominal compartment syndrome is defined as sustained intra-abdominal pressure above:",
+    "options": [
+      "12 mmHg",
+      "15 mmHg",
+      "20 mmHg with new organ dysfunction",
+      "30 mmHg regardless of organ function"
+    ],
+    "answer": "C",
+    "reason": "IAP above 20 mmHg with new organ dysfunction.",
+    "explanation": "Intra-abdominal hypertension is a sustained pressure of 12 mmHg or more, graded I to IV. Abdominal compartment syndrome is sustained pressure above 20 mmHg with new organ dysfunction or failure. Bladder pressure is the standard measurement.",
+    "pearl": "Decompressive laparotomy is the definitive treatment when medical measures fail."
+  },
+  {
+    "id": "SB026-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "Which finding is the classic warning sign of impending fascial dehiscence after laparotomy?",
+    "options": [
+      "Wound pain on day 1",
+      "Serosanguinous (salmon-coloured) wound discharge",
+      "Mild erythema at the suture line",
+      "Low-grade fever on day 2"
+    ],
+    "answer": "B",
+    "reason": "Pink serous fluid from the wound signals fascial separation.",
+    "explanation": "Dehiscence usually occurs between days 5 and 8. A sudden gush of serosanguinous fluid often comes before evisceration. Risk factors include technical closure errors, infection, raised intra-abdominal pressure, malnutrition, steroids and emergency surgery.",
+    "pearl": "Cover eviscerated bowel with moist sterile packs and return to theatre."
+  },
+  {
+    "id": "SB026-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "The Clavien-Dindo classification grades complications according to:",
+    "options": [
+      "The therapy needed to treat them",
+      "The organ system involved",
+      "The time they occur after surgery",
+      "The length of hospital stay they cause"
+    ],
+    "answer": "A",
+    "reason": "Grading is therapy-based, which makes it reproducible.",
+    "explanation": "Because the grade depends on the treatment required, it avoids subjective terms like minor and major and is reproducible across centres. Its weakness is that it records only the single worst complication, which the CCI addresses.",
+    "pearl": "It has been validated in many surgical specialties."
+  },
+  {
+    "id": "SB026-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "A chyle leak of 400 mL per day follows left neck dissection. What is the first-line management?",
+    "options": [
+      "Medium-chain triglyceride diet or nil by mouth with drainage",
+      "Immediate re-exploration",
+      "Remove the drain and apply a pressure dressing only",
+      "Sclerotherapy of the thoracic duct"
+    ],
+    "answer": "A",
+    "reason": "Low-output leaks are managed conservatively first.",
+    "explanation": "Medium-chain triglycerides are absorbed directly into the portal circulation, bypassing lymphatics, so they reduce chyle flow. Low-output leaks usually close with diet, drainage and sometimes octreotide. High-output or persistent leaks need re-exploration or lymphatic embolisation.",
+    "pearl": "Output above about 1 litre a day usually needs intervention."
+  },
+  {
+    "id": "SB026-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 26 · Surgical Complications: Overview and Grading",
+    "topic": "Surgical Complications: Overview and Grading",
+    "stem": "The most commonly retained surgical item after abdominal surgery is:",
+    "options": [
+      "A drain fragment",
+      "A needle",
+      "A surgical sponge or gauze",
+      "A surgical instrument"
+    ],
+    "answer": "C",
+    "reason": "Sponges are the most frequently retained item.",
+    "explanation": "Retained items are more likely in emergencies, unexpected changes in procedure, high body mass index and incorrect counts. Radiopaque markers in sponges, structured counts and, where available, radiofrequency detection reduce the risk.",
+    "pearl": "A retained gauze can present years later as a gossypiboma mimicking a tumour."
+  },
+  {
+    "id": "SB027-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "Which is NOT one of the five Fried frailty phenotype criteria?",
+    "options": [
+      "Weak grip strength",
+      "Unintentional weight loss",
+      "Slow walking speed",
+      "Cognitive impairment"
+    ],
+    "answer": "D",
+    "reason": "Fried criteria are physical; cognition is not one of them.",
+    "explanation": "The Fried phenotype includes unintentional weight loss, self-reported exhaustion, weak grip strength, slow walking speed and low physical activity. Three or more criteria mean frailty, one or two pre-frailty. Frailty predicts complications, institutional discharge and death.",
+    "pearl": "Deficit-accumulation indices, by contrast, include cognitive items."
+  },
+  {
+    "id": "SB027-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "Which intervention is most effective at preventing postoperative delirium in older patients?",
+    "options": [
+      "Multicomponent non-pharmacological measures",
+      "Routine prophylactic haloperidol",
+      "Physical restraints for safety",
+      "Routine benzodiazepine at night"
+    ],
+    "answer": "A",
+    "reason": "Programmes like HELP reduce delirium by about a third.",
+    "explanation": "Multicomponent strategies address orientation, sleep, early mobilisation, hydration, hearing and vision aids and avoiding deliriogenic drugs. Prophylactic antipsychotics have not reliably prevented delirium, and benzodiazepines and restraints make it worse.",
+    "pearl": "Benzodiazepines are first-line only for alcohol or benzodiazepine withdrawal."
+  },
+  {
+    "id": "SB027-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "Which opioid should be avoided in older surgical patients because of neurotoxic metabolites?",
+    "options": [
+      "Pethidine (meperidine)",
+      "Oxycodone at reduced dose",
+      "Fentanyl",
+      "Morphine at reduced dose"
+    ],
+    "answer": "A",
+    "reason": "Norpethidine accumulates and causes delirium and seizures.",
+    "explanation": "Pethidine is metabolised to norpethidine, which accumulates with reduced renal function and causes agitation, delirium and seizures. The Beers criteria list it among drugs to avoid in older adults.",
+    "pearl": "Start opioids low and go slow; age reduces clearance."
+  },
+  {
+    "id": "SB027-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "Which tool is most widely used at the bedside to diagnose delirium?",
+    "options": [
+      "Mini-Mental State Examination alone",
+      "Glasgow Coma Scale",
+      "Confusion Assessment Method (CAM)",
+      "Richmond Agitation-Sedation Scale alone"
+    ],
+    "answer": "C",
+    "reason": "CAM: acute onset and fluctuation, inattention, plus disorganised thinking or altered consciousness.",
+    "explanation": "The CAM algorithm requires acute onset or fluctuating course and inattention, plus either disorganised thinking or an altered level of consciousness. CAM-ICU adapts it for ventilated patients. MMSE assesses cognition but does not diagnose delirium.",
+    "pearl": "The 4AT is a quick alternative used in many hospitals."
+  },
+  {
+    "id": "SB027-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "Which subtype of postoperative delirium is most common and most often missed?",
+    "options": [
+      "Hyperactive",
+      "Agitated",
+      "Hypoactive",
+      "Mixed"
+    ],
+    "answer": "C",
+    "reason": "Quiet, withdrawn patients are often overlooked.",
+    "explanation": "Hypoactive delirium presents with lethargy, reduced movement and withdrawal and is often mistaken for depression or fatigue. It carries a worse prognosis than hyperactive delirium, partly because it is recognised late.",
+    "pearl": "Screen routinely with a validated tool, not just when agitation appears."
+  },
+  {
+    "id": "SB027-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "A frail 80-year-old has a lower heart rate rise than expected during postoperative sepsis. The best explanation is:",
+    "options": [
+      "Increased vagal tone from the infection",
+      "Anaemia",
+      "Reduced beta-adrenergic responsiveness with age",
+      "Hypothermia"
+    ],
+    "answer": "C",
+    "reason": "Ageing blunts the chronotropic response to catecholamines.",
+    "explanation": "Older hearts respond less to beta-adrenergic stimulation, so maximum heart rate and cardiac output reserve fall. They depend more on preload and atrial contraction. Tachycardia may therefore be absent even in severe sepsis or haemorrhage, and beta blockers mask it further.",
+    "pearl": "Do not be reassured by a normal heart rate in an older patient."
+  },
+  {
+    "id": "SB027-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "An 84-year-old woman weighing 45 kg has a serum creatinine of 0.9 mg/dL. What is the best interpretation?",
+    "options": [
+      "Her GFR may be markedly reduced despite a normal creatinine",
+      "She is volume overloaded",
+      "Her muscle mass is increased",
+      "Her renal function is normal"
+    ],
+    "answer": "A",
+    "reason": "Low muscle mass hides reduced GFR.",
+    "explanation": "Creatinine production falls with muscle mass, so a normal serum creatinine can hide a substantially reduced GFR in older, small patients. Drug dosing should use an estimated clearance such as Cockcroft-Gault.",
+    "pearl": "Renally cleared drugs such as enoxaparin and some antibiotics need adjusting."
+  },
+  {
+    "id": "SB027-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "An older patient needs help with shopping, finances and housework but is independent in bathing and dressing. On the Clinical Frailty Scale, the score is:",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answer": "B",
+    "reason": "Dependence in instrumental ADLs only = CFS 5, mildly frail.",
+    "explanation": "CFS 5 (mildly frail) means needing help with higher-order instrumental activities such as finances, transport and heavy housework. CFS 6 adds help with bathing or stairs, and CFS 7 is complete dependence for personal care.",
+    "pearl": "CFS 5 or more predicts higher postoperative mortality and discharge to care."
+  },
+  {
+    "id": "SB027-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "For an older patient with a hip fracture, surgery should ideally be performed:",
+    "options": [
+      "After 5 to 7 days of optimisation",
+      "Within 36 to 48 hours of admission",
+      "Only after full cardiac work-up",
+      "After the pain has settled"
+    ],
+    "answer": "B",
+    "reason": "Early surgery reduces mortality and complications.",
+    "explanation": "Delay beyond 36 to 48 hours is associated with higher mortality, pressure sores, pneumonia and delirium. Correctable problems such as anaemia, electrolytes and anticoagulation are addressed quickly, without delaying for non-essential tests.",
+    "pearl": "Orthogeriatric co-management improves outcomes."
+  },
+  {
+    "id": "SB027-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 27 · Surgery in the Geriatric Patient",
+    "topic": "Surgery in the Geriatric Patient",
+    "stem": "Compared with younger adults, older patients with acute appendicitis more often present with:",
+    "options": [
+      "Classic migratory pain and high fever",
+      "Marked leukocytosis",
+      "Perforation at the time of presentation",
+      "Shorter duration of symptoms"
+    ],
+    "answer": "C",
+    "reason": "Atypical, delayed presentations lead to more perforation.",
+    "explanation": "Older patients often have vague pain, little fever and modest leukocytosis, and present late. Perforation rates are substantially higher than in young adults. CT is used liberally, and an underlying caecal tumour should be considered.",
+    "pearl": "Arrange colonoscopy after recovery in older patients treated for appendicitis."
+  },
+  {
+    "id": "SB028-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "If a semi-elective operation cannot wait until after delivery, the safest time in pregnancy is generally the:",
+    "options": [
+      "Immediately before term",
+      "Second trimester",
+      "Third trimester",
+      "First trimester"
+    ],
+    "answer": "B",
+    "reason": "Organogenesis is complete and the uterus is not yet large.",
+    "explanation": "The first trimester carries the highest risk of teratogenic effects and miscarriage. In the third trimester the large uterus hinders access and preterm labour is more likely. The second trimester balances these risks. Urgent surgery should never be delayed for trimester.",
+    "pearl": "Delaying needed surgery increases fetal loss more than the operation itself."
+  },
+  {
+    "id": "SB028-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "A pregnant woman at 24 weeks has right-sided abdominal pain and an inconclusive ultrasound for appendicitis. What is the next imaging test?",
+    "options": [
+      "MRI without gadolinium",
+      "Plain abdominal X-ray",
+      "CT with intravenous contrast",
+      "Repeat ultrasound in 48 hours"
+    ],
+    "answer": "A",
+    "reason": "MRI is safe and accurate in pregnancy.",
+    "explanation": "Graded compression ultrasound is first-line. If inconclusive, non-contrast MRI has high sensitivity and specificity for appendicitis and avoids ionising radiation. Gadolinium is generally avoided in pregnancy unless essential. CT can be used if MRI is unavailable.",
+    "pearl": "Delay to surgery after perforation raises fetal loss sharply."
+  },
+  {
+    "id": "SB028-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "The most common non-obstetric surgical emergency in pregnancy is:",
+    "options": [
+      "Intestinal obstruction",
+      "Adnexal torsion",
+      "Acute cholecystitis",
+      "Acute appendicitis"
+    ],
+    "answer": "D",
+    "reason": "Appendicitis tops the list, followed by biliary disease.",
+    "explanation": "Appendicitis occurs in about 1 in 1,000 to 1,500 pregnancies. The appendix is displaced upward by the uterus, so pain may be in the right flank or upper quadrant. Biliary disease is the second most common indication for surgery.",
+    "pearl": "Perforation markedly increases fetal loss."
+  },
+  {
+    "id": "SB028-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "Fetal radiation doses below about what level are not associated with increased congenital anomalies or fetal loss?",
+    "options": [
+      "5 mGy",
+      "50 mGy",
+      "500 mGy",
+      "5,000 mGy"
+    ],
+    "answer": "B",
+    "reason": "Below 50 mGy, no increase in anomalies or loss.",
+    "explanation": "Most diagnostic imaging, including a single abdominal CT, delivers fetal doses well below 50 mGy. Deterministic effects become a concern above about 100 to 200 mGy. Needed imaging should not be withheld because of radiation fears.",
+    "pearl": "Shield and minimise dose, but image when the diagnosis matters."
+  },
+  {
+    "id": "SB028-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "Beyond about 20 weeks of gestation, a pregnant patient on the operating table should be positioned with:",
+    "options": [
+      "Left lateral tilt or left uterine displacement",
+      "Steep head-down tilt",
+      "Right lateral tilt",
+      "Supine flat without tilt"
+    ],
+    "answer": "A",
+    "reason": "Avoid aortocaval compression by the uterus.",
+    "explanation": "In the supine position the gravid uterus compresses the inferior vena cava and aorta, reducing venous return and cardiac output and causing maternal hypotension and fetal hypoxia. Left uterine displacement with a wedge or table tilt relieves it.",
+    "pearl": "Manual left uterine displacement is used during CPR."
+  },
+  {
+    "id": "SB028-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "During laparoscopy in pregnancy, SAGES guidance recommends insufflation pressures of:",
+    "options": [
+      "20 to 25 mmHg",
+      "5 mmHg or less",
+      "Gasless laparoscopy only",
+      "10 to 15 mmHg"
+    ],
+    "answer": "D",
+    "reason": "10 to 15 mmHg is considered safe.",
+    "explanation": "Laparoscopy is safe in any trimester. Entry by open technique or adjusted to fundal height avoids uterine injury. Insufflation at 10 to 15 mmHg with monitoring of end-tidal CO2 is recommended. Fetal heart monitoring is done before and after surgery.",
+    "pearl": "Use VTE prophylaxis; pregnancy is a hypercoagulable state."
+  },
+  {
+    "id": "SB028-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "A woman in her first trimester has had three attacks of biliary colic. What is the appropriate management?",
+    "options": [
+      "Defer surgery until 6 weeks after delivery in all cases",
+      "Open cholecystectomy only",
+      "Laparoscopic cholecystectomy is reasonable in any trimester",
+      "Long-term oral ursodeoxycholic acid"
+    ],
+    "answer": "C",
+    "reason": "Recurrent symptoms favour cholecystectomy whatever the trimester.",
+    "explanation": "Conservative management of symptomatic gallstones in pregnancy has high rates of recurrence, cholecystitis and pancreatitis, which threaten the fetus. SAGES guidance supports laparoscopic cholecystectomy in any trimester for symptomatic disease.",
+    "pearl": "Gallstone pancreatitis carries the greatest fetal risk."
+  },
+  {
+    "id": "SB028-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "After blunt abdominal trauma in an Rh-negative pregnant woman, the Kleihauer-Betke test is used to:",
+    "options": [
+      "Detect placental abruption",
+      "Estimate gestational age",
+      "Diagnose uterine rupture",
+      "Quantify fetomaternal haemorrhage to guide anti-D dosing"
+    ],
+    "answer": "D",
+    "reason": "It measures how much fetal blood entered the maternal circulation.",
+    "explanation": "Fetal red cells resist acid elution and stain in the maternal smear. The percentage quantifies fetomaternal haemorrhage so that enough anti-D immunoglobulin is given to Rh-negative mothers. Cardiotocography for at least 4 to 6 hours detects abruption.",
+    "pearl": "Give anti-D to all Rh-negative pregnant trauma patients."
+  },
+  {
+    "id": "SB028-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "In maternal cardiac arrest at 30 weeks, when should perimortem caesarean delivery begin if there is no return of circulation?",
+    "options": [
+      "Never during active CPR",
+      "After 20 minutes of CPR",
+      "Only after transfer to theatre",
+      "At 4 minutes, aiming for delivery by 5 minutes"
+    ],
+    "answer": "D",
+    "reason": "Start at 4 minutes to deliver by 5.",
+    "explanation": "Emptying the uterus relieves aortocaval compression and improves the effectiveness of maternal CPR, as well as giving the best chance of fetal survival. It is performed at the site of arrest without moving the patient, beginning about 4 minutes after arrest.",
+    "pearl": "Perform it whenever the fundus is at or above the umbilicus."
+  },
+  {
+    "id": "SB028-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 28 · Surgery in the Pregnant Patient",
+    "topic": "Surgery in the Pregnant Patient",
+    "stem": "Which arterial blood gas finding is normal in the third trimester?",
+    "options": [
+      "PaCO2 of about 45 mmHg",
+      "Metabolic acidosis",
+      "PaCO2 of about 30 mmHg",
+      "Raised serum bicarbonate"
+    ],
+    "answer": "C",
+    "reason": "Progesterone drives hyperventilation and a compensated respiratory alkalosis.",
+    "explanation": "Minute ventilation rises by about 40% in pregnancy, lowering PaCO2 to around 30 mmHg with renal compensation reducing bicarbonate. A 'normal' PaCO2 of 40 mmHg in a pregnant woman can therefore indicate impending respiratory failure.",
+    "pearl": "Functional residual capacity falls, so pregnant patients desaturate quickly."
+  },
+  {
+    "id": "SB032-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "After injury or endotoxin exposure, which cytokine rises earliest in the circulation?",
+    "options": [
+      "TNF-alpha",
+      "IL-6",
+      "IL-4",
+      "IL-10"
+    ],
+    "answer": "A",
+    "reason": "TNF-alpha peaks within about 90 minutes.",
+    "explanation": "TNF-alpha is released by macrophages within minutes and peaks around 60 to 90 minutes, then triggers IL-1 and IL-6. It causes fever, catabolism, coagulation activation and, in excess, shock. Its short half-life makes levels hard to measure later.",
+    "pearl": "IL-6 levels correlate best with injury severity."
+  },
+  {
+    "id": "SB032-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "Which cytokine is the main driver of hepatic acute phase protein synthesis such as C-reactive protein?",
+    "options": [
+      "IL-6",
+      "TNF-alpha",
+      "IL-10",
+      "Interferon-gamma"
+    ],
+    "answer": "A",
+    "reason": "IL-6 induces CRP, fibrinogen and other acute phase proteins.",
+    "explanation": "IL-6 acts on hepatocytes to increase CRP, fibrinogen, haptoglobin and serum amyloid A, while reducing albumin and transferrin. Its levels rise in proportion to the extent of tissue injury and predict complications after major surgery.",
+    "pearl": "CRP peaks about 48 hours after surgery; a later rise suggests complications."
+  },
+  {
+    "id": "SB032-03",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "Mitochondrial DNA released from injured cells triggers inflammation in sterile trauma by acting as:",
+    "options": [
+      "A damage-associated molecular pattern (DAMP) recognised by TLR9",
+      "A complement inhibitor",
+      "An anti-inflammatory signal",
+      "A pathogen-associated molecular pattern via TLR4"
+    ],
+    "answer": "A",
+    "reason": "Mitochondria resemble bacteria, so their DNA activates TLR9.",
+    "explanation": "Mitochondria evolved from bacteria, and their DNA contains unmethylated CpG motifs recognised by TLR9 on neutrophils. After major trauma, released mitochondrial DAMPs can cause a sepsis-like systemic inflammatory response without infection.",
+    "pearl": "HMGB1 is another classic DAMP released by necrotic cells."
+  },
+  {
+    "id": "SB032-04",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "Which of the following is a negative acute phase protein whose level falls after surgery?",
+    "options": [
+      "Fibrinogen",
+      "Albumin",
+      "C-reactive protein",
+      "Serum amyloid A"
+    ],
+    "answer": "B",
+    "reason": "Albumin and transferrin fall in the acute phase.",
+    "explanation": "During the acute phase, the liver shifts synthesis toward CRP, fibrinogen, haptoglobin and amyloid A, while production of albumin, transferrin and prealbumin falls. Low postoperative albumin therefore reflects inflammation as well as nutrition.",
+    "pearl": "Prealbumin is unreliable as a nutrition marker during inflammation."
+  },
+  {
+    "id": "SB032-05",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "Which cytokine is the principal anti-inflammatory mediator that suppresses TNF-alpha production?",
+    "options": [
+      "IL-8",
+      "IL-12",
+      "IL-1 beta",
+      "IL-10"
+    ],
+    "answer": "D",
+    "reason": "IL-10 dampens macrophage cytokine production.",
+    "explanation": "IL-10 is released by macrophages and lymphocytes to limit inflammation, inhibiting TNF-alpha, IL-1 and IL-6. It is part of the compensatory anti-inflammatory response. IL-8 is a neutrophil chemokine and IL-12 drives Th1 responses.",
+    "pearl": "Excess compensation can leave patients immunosuppressed and prone to infection."
+  },
+  {
+    "id": "SB032-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "A trauma patient survives a long ICU stay but has ongoing low-grade inflammation, lymphopenia, recurrent infections and muscle wasting. This is described as:",
+    "options": [
+      "Persistent inflammation, immunosuppression and catabolism syndrome (PICS)",
+      "Macrophage activation syndrome",
+      "Cytokine release syndrome",
+      "Systemic inflammatory response syndrome"
+    ],
+    "answer": "A",
+    "reason": "PICS describes chronic critical illness after major insults.",
+    "explanation": "Many survivors of sepsis or trauma do not recover quickly. They develop persistent inflammation with raised CRP, immunosuppression with lymphopenia and recurrent infection, and protein catabolism with wasting. They are often discharged to long-term care with poor outcomes.",
+    "pearl": "Early mobilisation and adequate protein intake are central to prevention."
+  },
+  {
+    "id": "SB032-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "Gram-negative bacterial lipopolysaccharide is recognised mainly by which receptor?",
+    "options": [
+      "Toll-like receptor 2",
+      "NOD2",
+      "Toll-like receptor 9",
+      "Toll-like receptor 4"
+    ],
+    "answer": "D",
+    "reason": "LPS binds TLR4 with its co-receptors.",
+    "explanation": "LPS is carried by LPS-binding protein to CD14 and then to the TLR4-MD2 complex, activating NF-kappaB and cytokine production. TLR2 recognises lipoproteins and peptidoglycan from gram-positive bacteria, TLR9 recognises CpG DNA and NOD2 recognises muramyl dipeptide.",
+    "pearl": "NOD2 mutations are associated with Crohn disease."
+  },
+  {
+    "id": "SB032-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "Which complement component is a potent anaphylatoxin and neutrophil chemoattractant?",
+    "options": [
+      "C9",
+      "C1q",
+      "C5a",
+      "C3b"
+    ],
+    "answer": "C",
+    "reason": "C5a recruits and activates neutrophils.",
+    "explanation": "C3a and C5a are anaphylatoxins that increase vascular permeability and cause mast cell degranulation. C5a is also a strong chemoattractant for neutrophils. C3b is the main opsonin, C1q starts the classical pathway and C5b to C9 form the membrane attack complex.",
+    "pearl": "Excess C5a after severe injury contributes to neutrophil dysfunction."
+  },
+  {
+    "id": "SB032-09",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "The NLRP3 inflammasome promotes inflammation mainly by:",
+    "options": [
+      "Producing antibodies",
+      "Activating caspase-1 to produce mature IL-1 beta and IL-18",
+      "Inhibiting complement activation",
+      "Blocking NF-kappaB signalling"
+    ],
+    "answer": "B",
+    "reason": "Inflammasomes process pro-IL-1 beta into active IL-1 beta.",
+    "explanation": "The inflammasome is an intracellular sensor of danger signals such as ATP, crystals and DAMPs. Once assembled it activates caspase-1, which cleaves pro-IL-1 beta and pro-IL-18 into active cytokines and can trigger pyroptotic cell death.",
+    "pearl": "Gout crystals activate NLRP3, explaining the IL-1 driven inflammation."
+  },
+  {
+    "id": "SB032-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 32 · The Inflammatory Response",
+    "topic": "The Inflammatory Response",
+    "stem": "Fever during the inflammatory response is produced mainly by which mediator acting on the hypothalamus?",
+    "options": [
+      "Bradykinin",
+      "Histamine",
+      "Nitric oxide",
+      "Prostaglandin E2"
+    ],
+    "answer": "D",
+    "reason": "Cytokines induce PGE2, which resets the hypothalamic set-point.",
+    "explanation": "IL-1, IL-6 and TNF-alpha induce cyclooxygenase-2 in the hypothalamic endothelium, producing PGE2. PGE2 raises the thermoregulatory set-point. Antipyretics such as paracetamol and NSAIDs act by reducing PGE2 synthesis.",
+    "pearl": "Fever in the first 48 hours after surgery is usually inflammatory, not infective."
   }
 ]

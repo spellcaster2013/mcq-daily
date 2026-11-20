@@ -2,26 +2,7 @@
   "level_tag": "NEET SS · INI SS level",
   "disclaimer": "Educational content. Verify with standard textbooks.",
   "low_stock_days": 7,
-  "posts_per_day": 2,
   "send_quiz_poll": true,
-  "subjects": {
-    "surgery": {
-      "channel_name": "Surgery MCQ Daily",
-      "link": "t.me/SurgeryMCQDaily",
-      "chat_id_env": "SURGERY_CHAT_ID",
-      "accent": "#0E7C7B",
-      "dark": "#0A2A2E",
-      "hashtags": "#NEETSS #INISS #SurgeryMCQ #GeneralSurgery #MChEntrance #SurgeryResident"
-    },
-    "medicine": {
-      "channel_name": "Medicine MCQ Daily",
-      "link": "t.me/MedicineMCQDaily",
-      "chat_id_env": "MEDICINE_CHAT_ID",
-      "accent": "#4B3FBF",
-      "dark": "#17143A",
-      "hashtags": "#NEETSS #INISS #MedicineMCQ #InternalMedicine #DMEntrance #MedicineResident"
-    }
-  },
   "monthly_audience_poll": true,
   "audience_poll_question": "Quick check: what are you preparing for right now?",
   "audience_poll_options": [
@@ -30,5 +11,56 @@
     "INI SS",
     "Both NEET SS and INI SS",
     "Other / just revising"
-  ]
+  ],
+  "graph_version": "v23.0",
+  "ig_token_warn_days": 50,
+  "destinations": {
+    "surgery": {
+      "kind": "telegram",
+      "subject": "surgery",
+      "route": "telegram",
+      "channel_name": "Surgery MCQ Daily",
+      "badge": "Surgery MCQ Daily",
+      "link": "t.me/SurgeryMCQDaily",
+      "chat_id_env": "SURGERY_CHAT_ID",
+      "accent": "#0E7C7B",
+      "dark": "#0A2A2E",
+      "hashtags": "#NEETSS #INISS #SurgeryMCQ #GeneralSurgery #MChEntrance #SurgeryResident",
+      "posts_per_day": 2,
+      "swipe_text": "Swipe for the answer  →",
+      "cta_line": "2 fresh surgery MCQs every day at NEET SS · INI SS level, chapter by chapter from Sabiston.",
+      "cta_label": "JOIN FREE ON TELEGRAM"
+    },
+    "medicine": {
+      "kind": "telegram",
+      "subject": "medicine",
+      "route": null,
+      "channel_name": "Medicine MCQ Daily",
+      "badge": "Medicine MCQ Daily",
+      "link": "t.me/MedicineMCQDaily",
+      "chat_id_env": "MEDICINE_CHAT_ID",
+      "accent": "#4B3FBF",
+      "dark": "#17143A",
+      "hashtags": "#NEETSS #INISS #MedicineMCQ #InternalMedicine #DMEntrance #MedicineResident",
+      "posts_per_day": 2,
+      "swipe_text": "Swipe for the answer  →",
+      "cta_line": "2 fresh MCQs every day at NEET SS · INI SS level, with the answer and explanation.",
+      "cta_label": "JOIN FREE ON TELEGRAM"
+    },
+    "instagram": {
+      "kind": "instagram",
+      "subject": "surgery",
+      "route": "instagram",
+      "channel_name": "ScalpelXLab Instagram",
+      "badge": "ScalpelXLab · Surgery MCQ",
+      "link": "t.me/SurgeryMCQDaily",
+      "accent": "#B4432F",
+      "dark": "#2A1410",
+      "hashtags": "#neetss #iniss #surgerymcq #generalsurgery #msgeneralsurgery #surgerypg #mchentrance #sabiston #surgeryresident #scalpelxlab",
+      "posts_per_day": 2,
+      "swipe_text": "Comment your answer, then swipe  →",
+      "cta_line": "Follow @scalpelxlab for 2 NEET SS · INI SS surgery MCQs daily, chapter by chapter from Sabiston.",
+      "cta_label": "2 MORE EVERY DAY, FREE ON TELEGRAM"
+    }
+  }
 }
