@@ -10,6 +10,11 @@ on:
         description: "Only draw the slides (download them from the run page), post nothing"
         type: boolean
         default: false
+      subject:
+        description: "Which channel: both, surgery or medicine"
+        type: choice
+        options: [both, surgery, medicine]
+        default: both
 
 permissions:
   contents: write
@@ -31,7 +36,7 @@ jobs:
           SURGERY_CHAT_ID: ${{ secrets.SURGERY_CHAT_ID }}
           MEDICINE_CHAT_ID: ${{ secrets.MEDICINE_CHAT_ID }}
           OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
-        run: python bot.py ${{ inputs.preview_only && '--preview' || '' }}
+        run: python bot.py ${{ inputs.preview_only && '--preview' || '' }} ${{ (inputs.subject == 'surgery' || inputs.subject == 'medicine') && format('--subject {0}', inputs.subject) || '' }}
       - name: Remember what was posted
         if: always()
         run: |
