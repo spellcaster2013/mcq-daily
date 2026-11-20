@@ -12,8 +12,16 @@
   "medicine": [
    "M001",
    "M002"
+  ],
+  "instagram": [
+   "SB004-01"
   ]
  },
  "low_alert_on": "2026-11-19",
- "audience_poll": {}
+ "audience_poll": {},
+ "ig_token": {
+  "fp": "89b858170fd2",
+  "since": "2026-11-20",
+  "refreshed": "2026-11-20"
+ }
 }
