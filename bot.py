@@ -332,7 +332,8 @@ def audience_poll(token, chat_id, cfg, state, key, d):
 
 def ig_call(cfg, method, path, **params):
     import requests
-    url = f"https://graph.instagram.com/{cfg['graph_version']}/{path}"
+    host = "graph.facebook.com" if str(params.get("access_token", "")).startswith("EA") else "graph.instagram.com"
+    url = f"https://{host}/{cfg['graph_version']}/{path}"
     r = (requests.get(url, params=params, timeout=60) if method == "GET"
          else requests.post(url, data=params, timeout=60))
     body = r.json()
@@ -375,8 +376,10 @@ def host_images(paths, key, number, qid):
 
 
 def post_instagram(token, q, d, cfg, number, paths):
-    me = ig_call(cfg, "GET", "me", fields="user_id,username", access_token=token)
-    ig_id = me.get("user_id") or me["id"]
+    ig_id = os.environ.get("IG_USER_ID") or cfg.get("ig_user_id")
+    if not ig_id:
+        me = ig_call(cfg, "GET", "me", fields="user_id,username", access_token=token)
+        ig_id = me.get("user_id") or me["id"]
     urls = host_images(paths, "instagram", number, q["id"])
     children = [ig_call(cfg, "POST", f"{ig_id}/media", image_url=u, is_carousel_item="true",
                         access_token=token)["id"] for u in urls]
@@ -399,6 +402,8 @@ def check_ig_token(token, cfg, state, alerts):
     fp = hashlib.sha256(token.encode()).hexdigest()[:12]
     if info.get("fp") != fp:
         info.update(fp=fp, since=today.isoformat(), refreshed=today.isoformat())
+    if token.startswith("EA"):  # system-user token from Unified login never expires
+        return
     if (today - dt.date.fromisoformat(info["refreshed"])).days >= 7:
         try:
             r = ig_call(cfg, "GET", "refresh_access_token", grant_type="ig_refresh_token", access_token=token)
