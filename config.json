@@ -59,12 +59,11 @@
       "dark": "#2A1410",
       "hashtags": "#neetss #iniss #surgerymcq #generalsurgery #msgeneralsurgery #surgerypg #mchentrance #sabiston #surgeryresident #scalpelxlab",
       "posts_per_day": 2,
-      "swipe_text": "Vote in the poll · answer in the comments in 12 h",
-      "cta_line": "The answer, explanation and how many got it right go up in the comments in 12 hours. Follow @scalpelxlab so you don't miss it.",
+      "swipe_text": "Answer in the poll, then swipe  →",
       "cta_label": "2 MORE EVERY DAY, FREE ON TELEGRAM",
       "poll": true,
-      "cta_title": "Voted?",
-      "cta_footer": "Can't wait? Instant answers on Telegram."
+      "answer_footer": "See how many got it right in the Poll",
+      "cta_line": "Follow @scalpelxlab for 2 NEET SS · INI SS surgery MCQs daily, chapter by chapter from Sabiston."
     }
   }
 }

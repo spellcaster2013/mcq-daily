@@ -168,7 +168,7 @@ def slide_answer(q, d, cfg, number):
     y = option_rows(dr, q, top, opt_size, "reveal", d) + 30
     dr.text((M, y), "WHY", font=font("Bold", 24), fill=d["accent"])
     text_block(dr, (M, y + 44), q["reason"], "SemiBold", why_size, W - 2 * M)
-    footer(dr, "Swipe for the explanation  →", d["accent"])
+    footer(dr, d.get("answer_footer", "Swipe for the explanation  →"), d["accent"])
     return img
 
 
@@ -210,7 +210,7 @@ def slide_cta(q, d, cfg, number):
 def render(q, d, key, cfg, number):
     OUT.mkdir(exist_ok=True)
     paths = []
-    if d.get("poll"):  # question + CTA only; answer goes in a comment later
+    if d.get("answer_in_comment"):  # question + CTA only; answer goes in a comment later
         slides = (lambda *a: slide_question(*a, total=2), slide_cta)
     else:
         slides = (slide_question, slide_answer, slide_explanation, slide_cta)
@@ -234,10 +234,12 @@ def telegram_caption(q, d, cfg, number):
 
 def instagram_caption(q, d, cfg, number):
     where = q.get("chapter") or q["topic"]
-    if d.get("poll"):
+    if d.get("answer_in_comment"):
         ask = ("Vote in the poll 👆 or comment A, B, C or D.\n"
                "Answer, explanation and how many of you got it right: in the comments in 12 hours. "
                "Follow so you don't miss it.\n")
+    elif d.get("poll"):
+        ask = "Answer in the poll 👆 Swipe for the answer and explanation, then see how many got it right in the Poll.\n"
     else:
         ask = "Comment your answer (A, B, C or D), then swipe for the explanation.\n"
     return (f"NEET SS · INI SS Surgery MCQ #{number:03d}\n{where} (Sabiston 22e)\n\n"
@@ -561,9 +563,10 @@ def main():
                 post_telegram(tg_token, chat_id, q, d, cfg, number, paths)
             else:
                 check_ig_token(ig_token, cfg, state, alerts)
-                reveal_instagram(ig_token, cfg, state, qs, d, alerts)
+                if d.get("answer_in_comment"):
+                    reveal_instagram(ig_token, cfg, state, qs, d, alerts)
                 media_id, poll_on = post_instagram(ig_token, q, d, cfg, number, paths)
-                if d.get("poll"):
+                if d.get("answer_in_comment"):
                     state.setdefault("ig_pending", []).append(
                         {"media": media_id, "qid": q["id"], "number": number, "poll": poll_on,
                          "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")})
