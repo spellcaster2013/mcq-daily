@@ -1,7 +1,7 @@
 # MCQ Daily bot
 
 Posts one MCQ to each channel on every run: **Surgery MCQ Daily** and **Medicine MCQ Daily**.
-Runs twice a day on GitHub Actions (07:30 and 19:30 IST), so 2 MCQs per channel per day.
+Runs twice a day on GitHub Actions (10:00 and 18:00 IST), so 2 MCQs per channel per day.
 
 ## Files
 - `questions.json` : the ONE file holding every MCQ for both subjects. Add new ones at the bottom.

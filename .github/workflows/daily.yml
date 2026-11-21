@@ -2,8 +2,8 @@ name: MCQ Daily bot
 
 on:
   schedule:
-    - cron: "17 2 * * *"    # 07:47 IST
-    - cron: "17 15 * * *"   # 20:47 IST
+    - cron: "30 4 * * *"    # 10:00 IST
+    - cron: "30 12 * * *"   # 18:00 IST
   workflow_dispatch:
     inputs:
       preview_only:
