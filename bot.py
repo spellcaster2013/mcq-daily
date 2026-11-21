@@ -138,9 +138,9 @@ def tag_text(q, cfg):
     return f"{q['topic'].upper()}  ·  {cfg['level_tag']}"
 
 
-def slide_question(q, d, cfg, number):
+def slide_question(q, d, cfg, number, total=4):
     img, dr = new_slide()
-    header(dr, d, number, "1 / 4")
+    header(dr, d, number, f"1 / {total}")
     one_line(dr, (M, 170), tag_text(q, cfg), "SemiBold", W - 2 * M, (24, 22, 20, 18), MUTED)
     top, bottom = 230, H - 130
     for stem_size, opt_size in ((50, 34), (46, 32), (42, 30), (38, 28), (34, 26), (30, 24)):
@@ -194,14 +194,15 @@ def slide_explanation(q, d, cfg, number):
 def slide_cta(q, d, cfg, number):
     img, dr = new_slide(d["dark"])
     badge(dr, d)
-    y = text_block(dr, (M, 330), "Got it right?", "ExtraBold", 92, W - 2 * M, fill="#FFFFFF", spacing=1.1)
+    y = text_block(dr, (M, 330), d.get("cta_title", "Got it right?"), "ExtraBold", 92, W - 2 * M, fill="#FFFFFF", spacing=1.1)
     y = text_block(dr, (M, y + 30), d["cta_line"], "SemiBold", 42, W - 2 * M, fill="#D9DEE2", spacing=1.4)
     dr.text((M, y + 70), d["cta_label"], font=font("Bold", 26), fill="#FFD166")
     lf = font("ExtraBold", 50)
     lw = dr.textlength(d["link"], font=lf)
     dr.rounded_rectangle((M, y + 122, M + lw + 80, y + 230), 54, fill="#FFFFFF")
     dr.text((M + 40, y + 144), d["link"], font=lf, fill=d["dark"])
-    dr.text((M, y + 290), "Save this post.  Send it to a co-resident.", font=font("SemiBold", 32), fill="#FFFFFF")
+    dr.text((M, y + 290), d.get("cta_footer", "Save this post.  Send it to a co-resident."),
+            font=font("SemiBold", 32), fill="#FFFFFF")
     dr.text((M, H - 92), cfg["disclaimer"], font=font("SemiBold", 24), fill="#9AA4AB")
     return img
 
@@ -209,7 +210,11 @@ def slide_cta(q, d, cfg, number):
 def render(q, d, key, cfg, number):
     OUT.mkdir(exist_ok=True)
     paths = []
-    for i, fn in enumerate((slide_question, slide_answer, slide_explanation, slide_cta), 1):
+    if d.get("poll"):  # question + CTA only; answer goes in a comment later
+        slides = (lambda *a: slide_question(*a, total=2), slide_cta)
+    else:
+        slides = (slide_question, slide_answer, slide_explanation, slide_cta)
+    for i, fn in enumerate(slides, 1):
         p = OUT / f"{key}_{number:03d}_{q['id']}_{i}.png"
         fn(q, d, cfg, number).save(p, optimize=True)
         paths.append(p)
@@ -229,11 +234,16 @@ def telegram_caption(q, d, cfg, number):
 
 def instagram_caption(q, d, cfg, number):
     where = q.get("chapter") or q["topic"]
+    if d.get("poll"):
+        ask = ("Vote in the poll 👆 or comment A, B, C or D.\n"
+               "Answer, explanation and how many of you got it right: in the comments in 12 hours. "
+               "Follow so you don't miss it.\n")
+    else:
+        ask = "Comment your answer (A, B, C or D), then swipe for the explanation.\n"
     return (f"NEET SS · INI SS Surgery MCQ #{number:03d}\n{where} (Sabiston 22e)\n\n"
-            f"{q['stem']}\n\n{options_text(q)}\n\n"
-            "Comment your answer (A, B, C or D), then swipe for the explanation.\n"
+            f"{q['stem']}\n\n{options_text(q)}\n\n{ask}"
             "Save it for revision and send it to a co-resident.\n\n"
-            f"2 more MCQs every day, free on Telegram: {d['link']} (link in bio)\n\n"
+            f"Want instant answers? 2 more MCQs daily, free on Telegram: {d['link']} (link in bio)\n\n"
             f"{cfg['disclaimer']}\n\n{d['hashtags']}")[:2200]
 
 
@@ -383,8 +393,18 @@ def post_instagram(token, q, d, cfg, number, paths):
     urls = host_images(paths, "instagram", number, q["id"])
     children = [ig_call(cfg, "POST", f"{ig_id}/media", image_url=u, is_carousel_item="true",
                         access_token=token)["id"] for u in urls]
-    box = ig_call(cfg, "POST", f"{ig_id}/media", media_type="CAROUSEL", children=",".join(children),
-                  caption=instagram_caption(q, d, cfg, number), access_token=token)["id"]
+    box_args = dict(media_type="CAROUSEL", children=",".join(children),
+                    caption=instagram_caption(q, d, cfg, number), access_token=token)
+    poll_on = False
+    if d.get("poll"):
+        poll = {f"option_{c.lower()}": c for c in LETTERS[:len(q["options"])]}
+        try:
+            box = ig_call(cfg, "POST", f"{ig_id}/media", poll_attachment=json.dumps(poll), **box_args)["id"]
+            poll_on = True
+        except Exception as e:
+            print("poll not accepted, posting without it:", e)
+    if not poll_on:
+        box = ig_call(cfg, "POST", f"{ig_id}/media", **box_args)["id"]
     for _ in range(30):
         status = ig_call(cfg, "GET", box, fields="status_code", access_token=token).get("status_code")
         if status == "FINISHED":
@@ -392,7 +412,69 @@ def post_instagram(token, q, d, cfg, number, paths):
         if status in ("ERROR", "EXPIRED"):
             raise RuntimeError(f"Instagram carousel container status {status}")
         time.sleep(5)
-    ig_call(cfg, "POST", f"{ig_id}/media_publish", creation_id=box, access_token=token)
+    media_id = ig_call(cfg, "POST", f"{ig_id}/media_publish", creation_id=box, access_token=token)["id"]
+    return media_id, poll_on
+
+
+def poll_result(token, cfg, media_id, answer):
+    """Return (percent_correct, total_votes) or None."""
+    try:
+        r = ig_call(cfg, "GET", f"{media_id}/poll_attachment", access_token=token)
+    except Exception as e:
+        print("poll read failed:", e)
+        return None
+    print("poll result:", json.dumps(r)[:500])
+    data = r.get("data", [r])
+    p = data[0] if isinstance(data, list) and data else r
+    a = answer.lower()
+    pct = None
+    for k in (f"option_{a}_votes_percentage", f"option_{a}_percentage", f"option_{a}_vote_percentage"):
+        if k in p:
+            pct = float(p[k])
+    total = p.get("total_votes") or p.get("total_vote_count") or p.get("vote_count")
+    if pct is None:
+        return None
+    if pct <= 1:
+        pct *= 100
+    return round(pct), total
+
+
+def answer_comment(q, d, stats):
+    i = LETTERS.index(q["answer"])
+    lines = [f"✅ Answer: {q['answer']}. {q['options'][i]}"]
+    if stats:
+        pct, total = stats
+        lines.append(f"📊 {pct}% of you got it right" + (f" ({total} votes)" if total else "") + ".")
+    lines += ["", f"Why: {q['reason']}", "", q["explanation"], "", f"💎 Pearl: {q['pearl']}", "",
+              f"Instant answers + 2 more MCQs daily on Telegram: {d['link']}"]
+    return "\n".join(lines)[:2200]
+
+
+def reveal_instagram(token, cfg, state, qs, d, alerts, min_hours=10):
+    """Comment the answer (and poll stats) on earlier posts once they are old enough."""
+    pending = state.get("ig_pending", [])
+    if not pending:
+        return
+    by_id = {q["id"]: q for q in qs}
+    keep, now = [], dt.datetime.now(dt.timezone.utc)
+    for p in pending:
+        age = (now - dt.datetime.fromisoformat(p["at"])).total_seconds() / 3600
+        q = by_id.get(p["qid"])
+        if q is None or age < min_hours:
+            keep.append(p) if q else None
+            continue
+        stats = poll_result(token, cfg, p["media"], q["answer"]) if p.get("poll") else None
+        try:
+            ig_call(cfg, "POST", f"{p['media']}/comments", message=answer_comment(q, d, stats),
+                    access_token=token)
+            print(f"instagram: answer comment added to #{p['number']:03d}")
+        except Exception as e:
+            p["tries"] = p.get("tries", 0) + 1
+            if p["tries"] in (1, 4):
+                alerts.append(f"Instagram answer comment for #{p['number']:03d} failed: {e}")
+            if p["tries"] < 6:
+                keep.append(p)
+    state["ig_pending"] = keep
 
 
 def check_ig_token(token, cfg, state, alerts):
@@ -479,7 +561,12 @@ def main():
                 post_telegram(tg_token, chat_id, q, d, cfg, number, paths)
             else:
                 check_ig_token(ig_token, cfg, state, alerts)
-                post_instagram(ig_token, q, d, cfg, number, paths)
+                reveal_instagram(ig_token, cfg, state, qs, d, alerts)
+                media_id, poll_on = post_instagram(ig_token, q, d, cfg, number, paths)
+                if d.get("poll"):
+                    state.setdefault("ig_pending", []).append(
+                        {"media": media_id, "qid": q["id"], "number": number, "poll": poll_on,
+                         "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")})
             state["posted"].setdefault(k, []).append(q["id"])
             save_state(state)
             print(f"{k}: posted {q['id']} as #{number:03d}")
