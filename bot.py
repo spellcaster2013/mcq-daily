@@ -399,7 +399,27 @@ def post_telegram(token, chat_id, q, d, cfg, number, paths):
         })
 
 
-def answer_instagram(token, chat_id, cfg, qs, state, before, failed):
+def ig_permalink(ig_token, cfg, state, number):
+    """Link to the Instagram post with this number (matched by its caption), or None."""
+    links = state.setdefault("ig_links", {})
+    if str(number) in links:
+        return links[str(number)]
+    if not ig_token:
+        return None
+    try:
+        uid = os.environ.get("IG_USER_ID") or cfg.get("ig_user_id")
+        res = ig_call(cfg, "GET", f"{uid}/media", fields="permalink,caption", limit=50, access_token=ig_token)
+        tag = f"Surgery MCQ #{number:03d}"
+        for m in res.get("data", []):
+            if tag in (m.get("caption") or "")[:80] and m.get("permalink"):
+                links[str(number)] = m["permalink"]
+                return m["permalink"]
+    except Exception as e:
+        print(f"could not get Instagram link for #{number:03d}: {e}")
+    return None
+
+
+def answer_instagram(token, chat_id, cfg, qs, state, before, failed, ig_token=""):
     """Post the answer to each earlier Instagram question into the Telegram channel."""
     d = cfg["destinations"]["instagram"]  # Instagram colours, so it is not mistaken for the daily Telegram MCQ
     done = state.setdefault("ig_answered", [])
@@ -417,8 +437,9 @@ def answer_instagram(token, chat_id, cfg, qs, state, before, failed):
                 item["has_spoiler"] = True
                 if n == 0:
                     where = q.get("chapter") or q["topic"]
+                    link = ig_permalink(ig_token, cfg, state, i) or "https://www.instagram.com/scalpelxlab"
                     item["caption"] = (f"Answer to Instagram #{i:03d}  |  {where}\n"
-                                       f"(Our quiz on Instagram: https://www.instagram.com/scalpelxlab\nNot on Instagram? Here is the question.)\n\n"
+                                       f"(Our quiz on Instagram: {link}\nNot on Instagram? Here is the question.)\n\n"
                                        f"{q['stem']}\n\n{options_text(q)}\n\n"
                                        f"Tap the images to reveal the answer and explanation.")[:1024]
                 media.append(item)
@@ -698,7 +719,7 @@ def main():
         return
     sd = cfg["destinations"].get("surgery", {})
     if sd.get("answers_ig") and ("surgery" in keys or "instagram" in keys or args.only == "answers") and tg_token and os.environ.get(sd["chat_id_env"]):
-        answer_instagram(tg_token, os.environ[sd["chat_id_env"]], cfg, qs, state, state["posted"].get("instagram", []), failed)
+        answer_instagram(tg_token, os.environ[sd["chat_id_env"]], cfg, qs, state, state["posted"].get("instagram", []), failed, ig_token)
     today = dt.date.today().isoformat()
     if failed:
         tell_owner(tg_token, "MCQ bot problem:\n" + "\n".join(failed))
