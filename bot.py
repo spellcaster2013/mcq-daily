@@ -224,7 +224,7 @@ def slide_options_only(q, d, cfg, number):
     img, dr = new_slide()
     header(dr, d, number, "2 / 3")
     dr.text((M, 180), "OPTIONS", font=font("Bold", 30), fill=d["accent"])
-    line = d.get("opt_line", "Answer the poll below the post. Let's see what everyone else thinks.")
+    line = d.get("opt_line", "Answer the poll in the comments. Let's see what everyone else thinks.")
     top, bottom = 250, H - 130
     lh = text_block(dr, (0, 0), line, "ExtraBold", 44, W - 2 * M, dry=True, spacing=1.25)
     for op in (40, 38, 36, 34, 32, 30, 28):
@@ -310,7 +310,7 @@ def telegram_caption(q, d, cfg, number):
 def instagram_caption(q, d, cfg, number):
     where = q.get("chapter") or q["topic"]
     if d.get("style") == "teaser":
-        ask = ("Read the question, swipe for the options, then answer in the poll 👆\n"
+        ask = ("Read the question, swipe for the options, then answer the poll in the comments.\n"
                "Not sure? The answer and full explanation are on our Telegram channel.\n")
     elif d.get("answer_in_comment"):
         ask = ("Vote in the poll 👆 or comment A, B, C or D.\n"
