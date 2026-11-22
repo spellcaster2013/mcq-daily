@@ -528,13 +528,15 @@ def main():
     state.setdefault("posted", {})
     tg_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     ig_token = os.environ.get("IG_ACCESS_TOKEN", "")
-    keys = [args.only] if args.only else list(cfg["destinations"])
+    keys = [args.only] if args.only else [k for k, v in cfg["destinations"].items() if v.get("enabled", True)]
 
     if errors:
         tell_owner(tg_token, "MCQ bot stopped: questions.json has problems.\n" + "\n".join(errors[:15]))
         sys.exit(1)
     if args.check:
         for k, d in cfg["destinations"].items():
+            if not d.get("enabled", True):
+                continue
             left = len(stock(qs, state, k, d))
             print(f"{k}: {left} unused MCQs = {left // d['posts_per_day']} days")
         return

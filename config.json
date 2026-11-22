@@ -46,7 +46,8 @@
       "posts_per_day": 2,
       "swipe_text": "Swipe for the answer  →",
       "cta_line": "2 fresh MCQs every day at NEET SS · INI SS level, with the answer and explanation.",
-      "cta_label": "JOIN FREE ON TELEGRAM"
+      "cta_label": "JOIN FREE ON TELEGRAM",
+      "enabled": false
     },
     "instagram": {
       "kind": "instagram",
