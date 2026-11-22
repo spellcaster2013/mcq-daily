@@ -700,6 +700,12 @@ def main():
                 if d.get("answer_in_comment"):
                     reveal_instagram(ig_token, cfg, state, qs, d, alerts)
                 media_id, poll_on = post_instagram(ig_token, q, d, cfg, number, paths)
+                try:  # grab the post link right away, so the Telegram answer can point to it
+                    pl = ig_call(cfg, "GET", media_id, fields="permalink", access_token=ig_token).get("permalink")
+                    if pl:
+                        state.setdefault("ig_links", {})[str(number)] = pl
+                except Exception as e:
+                    print(f"could not read the Instagram link yet: {e}")
                 if d.get("answer_in_comment"):
                     state.setdefault("ig_pending", []).append(
                         {"media": media_id, "qid": q["id"], "number": number, "poll": poll_on,
