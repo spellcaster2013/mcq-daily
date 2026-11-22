@@ -154,9 +154,9 @@ def slide_question(q, d, cfg, number, total=4):
     return img
 
 
-def slide_answer(q, d, cfg, number):
+def slide_answer(q, d, cfg, number, page="2 / 4"):
     img, dr = new_slide()
-    header(dr, d, number, "2 / 4")
+    header(dr, d, number, page)
     dr.text((M, 180), "Answer", font=font("ExtraBold", 72), fill=INK)
     dr.text((M + 330, 180), q["answer"], font=font("ExtraBold", 72), fill=GREEN)
     top, bottom = 320, H - 130
@@ -172,9 +172,9 @@ def slide_answer(q, d, cfg, number):
     return img
 
 
-def slide_explanation(q, d, cfg, number):
+def slide_explanation(q, d, cfg, number, page="3 / 4"):
     img, dr = new_slide()
-    header(dr, d, number, "3 / 4")
+    header(dr, d, number, page)
     dr.text((M, 180), "Explanation", font=font("ExtraBold", 64), fill=INK)
     inner = W - 2 * M - 72
     pearl_size = fit(dr, q["pearl"], "SemiBold", inner, 230, (32, 30, 28, 26, 24))
@@ -207,10 +207,84 @@ def slide_cta(q, d, cfg, number):
     return img
 
 
+# ---- Instagram teaser carousel (question / options / Telegram CTA) ----
+
+def slide_q_only(q, d, cfg, number):
+    img, dr = new_slide()
+    header(dr, d, number, "1 / 3")
+    one_line(dr, (M, 170), tag_text(q, cfg), "SemiBold", W - 2 * M, (24, 22, 20, 18), MUTED)
+    dr.text((M, 250), "QUESTION", font=font("Bold", 30), fill=d["accent"])
+    size = fit(dr, q["stem"], "Bold", W - 2 * M, 760, (72, 66, 60, 56, 52, 48, 44, 40))
+    text_block(dr, (M, 320), q["stem"], "Bold", size, W - 2 * M, spacing=1.3)
+    footer(dr, "Swipe for the options  \u2192", d["accent"])
+    return img
+
+
+def slide_options_only(q, d, cfg, number):
+    img, dr = new_slide()
+    header(dr, d, number, "2 / 3")
+    dr.text((M, 180), "OPTIONS", font=font("Bold", 30), fill=d["accent"])
+    dr.text((M, 228), "Re-read the question on slide 1, then choose.", font=font("SemiBold", 30), fill=MUTED)
+    top, bottom = 310, H - 130
+    for op in (40, 38, 36, 34, 32, 30, 28):
+        if options_height(dr, q, op) <= bottom - top:
+            break
+    option_rows(dr, q, top, op, "ask", d)
+    footer(dr, "Pick your answer in the poll  \u2191", d["accent"])
+    return img
+
+
+def slide_cta_teaser(q, d, cfg, number):
+    dd = dict(d)
+    dd.update(cta_title="Not sure which is right?",
+              cta_line=f"The answer and full explanation are on our Telegram channel. Look for the post: Answer to Instagram #{number:03d}.",
+              cta_label="FIND IT FREE ON TELEGRAM",
+              cta_footer="Save this post.  Send it to a co-resident.")
+    return slide_cta(q, dd, cfg, number)
+
+
+def slide_tg_answer(q, d, cfg, number):
+    """Telegram answer card for an Instagram question: big question, smaller options."""
+    img, dr = new_slide()
+    d = dict(d, badge="Surgery MCQ Daily")
+    header(dr, d, number, "1 / 2")
+    dr.text((M, 170), f"ANSWER TO THE INSTAGRAM QUESTION  \u00b7  #{number:03d}", font=font("SemiBold", 24), fill=MUTED)
+    dr.text((M, 215), "Answer", font=font("ExtraBold", 72), fill=INK)
+    dr.text((M + 330, 215), q["answer"], font=font("ExtraBold", 72), fill=GREEN)
+    top, bottom = 330, H - 130
+    for st, op, why in ((46, 28, 30), (42, 28, 28), (38, 26, 28), (34, 26, 26), (32, 24, 26), (28, 24, 24)):
+        need = (text_block(dr, (0, 0), q["stem"], "Bold", st, W - 2 * M, dry=True) + 36
+                + options_height(dr, q, op) + 50
+                + text_block(dr, (0, 0), q["reason"], "SemiBold", why, W - 2 * M, dry=True) + 50)
+        if need <= bottom - top:
+            break
+    y = text_block(dr, (M, top), q["stem"], "Bold", st, W - 2 * M)
+    y = option_rows(dr, q, y + 36, op, "reveal", d) + 20
+    dr.text((M, y), "WHY", font=font("Bold", 24), fill=d["accent"])
+    text_block(dr, (M, y + 42), q["reason"], "SemiBold", why, W - 2 * M)
+    footer(dr, "Explanation on the next slide  \u2192", d["accent"])
+    return img
+
+
+def render_tg_answer(q, d, cfg, number):
+    OUT.mkdir(exist_ok=True)
+    p1 = OUT / f"igans_{number:03d}_{q['id']}_1.png"
+    p2 = OUT / f"igans_{number:03d}_{q['id']}_2.png"
+    slide_tg_answer(q, d, cfg, number).save(p1, optimize=True)
+    slide_explanation(q, dict(d, badge="Surgery MCQ Daily"), cfg, number, "2 / 2").save(p2, optimize=True)
+    return [p1, p2]
+
+
 def render(q, d, key, cfg, number):
     OUT.mkdir(exist_ok=True)
     paths = []
-    if d.get("answer_in_comment"):  # question + CTA only; answer goes in a comment later
+    if d.get("style") == "teaser":
+        slides = (slide_q_only, slide_options_only, slide_cta_teaser)
+    elif d.get("no_cta"):
+        slides = (lambda *a: slide_question(*a, total=3),
+                  lambda *a: slide_answer(*a, page="2 / 3"),
+                  lambda *a: slide_explanation(*a, page="3 / 3"))
+    elif d.get("answer_in_comment"):  # question + CTA only; answer goes in a comment later
         slides = (lambda *a: slide_question(*a, total=2), slide_cta)
     else:
         slides = (slide_question, slide_answer, slide_explanation, slide_cta)
@@ -229,12 +303,15 @@ def telegram_caption(q, d, cfg, number):
     where = q.get("chapter") or q["topic"]
     return (f"{d['channel_name']} #{number:03d}  |  {where}\n\n{q['stem']}\n\n{options_text(q)}"
             f"\n\nAnswer and explanation on the next slides.\n\n{cfg['disclaimer']}\n"
-            f"More daily MCQs: {d['link']}\n\n{d['hashtags']}")
+            + ("" if d.get("no_cta") else f"More daily MCQs: {d['link']}\n") + f"\n{d['hashtags']}")
 
 
 def instagram_caption(q, d, cfg, number):
     where = q.get("chapter") or q["topic"]
-    if d.get("answer_in_comment"):
+    if d.get("style") == "teaser":
+        ask = ("Read the question, swipe for the options, then answer in the poll 👆\n"
+               "Not sure? The answer and full explanation are on our Telegram channel.\n")
+    elif d.get("answer_in_comment"):
         ask = ("Vote in the poll 👆 or comment A, B, C or D.\n"
                "Answer, explanation and how many of you got it right: in the comments in 12 hours. "
                "Follow so you don't miss it.\n")
@@ -322,6 +399,38 @@ def post_telegram(token, chat_id, q, d, cfg, number, paths):
             "correct_option_id": LETTERS.index(q["answer"]),
             "explanation": q["reason"][:200],
         })
+
+
+def answer_instagram(token, chat_id, cfg, qs, state, before, failed):
+    """Post the answer to each earlier Instagram question into the Telegram channel."""
+    d = cfg["destinations"]["surgery"]
+    done = state.setdefault("ig_answered", [])
+    byid = {x["id"]: x for x in qs}
+    for i, qid in enumerate(before, 1):
+        if qid in done or qid not in byid:
+            continue
+        q = byid[qid]
+        try:
+            paths = render_tg_answer(q, d, cfg, i)
+            files, media = {}, []
+            for n, p in enumerate(paths):
+                files[f"f{n}"] = open(p, "rb")
+                item = {"type": "photo", "media": f"attach://f{n}"}
+                if n == 0:
+                    item["caption"] = (f"Here is the answer to the Instagram question #{i:03d}\n\n"
+                                       f"Answer: {q['answer']}. {q['options'][LETTERS.index(q['answer'])]}\n\n"
+                                       f"{cfg['disclaimer']}\n\n{d['hashtags']}")[:1024]
+                media.append(item)
+            try:
+                tg("sendMediaGroup", token, {"chat_id": chat_id, "media": json.dumps(media)}, files)
+            finally:
+                for f in files.values():
+                    f.close()
+            done.append(qid)
+            save_state(state)
+            print(f"telegram: posted answer to instagram {qid} as #{i:03d}")
+        except Exception as e:
+            failed.append(f"Telegram answer for Instagram #{i:03d}: {e}")
 
 
 def audience_poll(token, chat_id, cfg, state, key, d):
@@ -542,6 +651,7 @@ def main():
         return
 
     failed, low, alerts = [], [], []
+    ig_before = list(state["posted"].get("instagram", []))
     for k in keys:
         d = cfg["destinations"][k]
         if d["kind"] == "instagram" and not ig_token and not args.preview:
@@ -585,6 +695,9 @@ def main():
 
     if args.preview:
         return
+    sd = cfg["destinations"].get("surgery", {})
+    if sd.get("answers_ig") and "surgery" in keys and tg_token and os.environ.get(sd["chat_id_env"]):
+        answer_instagram(tg_token, os.environ[sd["chat_id_env"]], cfg, qs, state, ig_before, failed)
     today = dt.date.today().isoformat()
     if failed:
         tell_owner(tg_token, "MCQ bot problem:\n" + "\n".join(failed))

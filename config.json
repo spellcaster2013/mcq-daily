@@ -30,7 +30,9 @@
       "posts_per_day": 2,
       "swipe_text": "Swipe for the answer  →",
       "cta_line": "2 fresh surgery MCQs every day at NEET SS · INI SS level, chapter by chapter from Sabiston.",
-      "cta_label": "JOIN FREE ON TELEGRAM"
+      "cta_label": "JOIN FREE ON TELEGRAM",
+      "no_cta": true,
+      "answers_ig": true
     },
     "medicine": {
       "kind": "telegram",
@@ -64,7 +66,8 @@
       "cta_label": "2 MORE EVERY DAY, FREE ON TELEGRAM",
       "poll": true,
       "answer_footer": "See how many got it right in the Poll",
-      "cta_line": "Follow @scalpelxlab for 2 NEET SS · INI SS surgery MCQs daily, chapter by chapter from Sabiston."
+      "cta_line": "Follow @scalpelxlab for 2 NEET SS · INI SS surgery MCQs daily, chapter by chapter from Sabiston.",
+      "style": "teaser"
     }
   }
 }
