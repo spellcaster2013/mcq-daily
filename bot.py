@@ -310,8 +310,7 @@ def telegram_caption(q, d, cfg, number):
 def instagram_caption(q, d, cfg, number):
     where = q.get("chapter") or q["topic"]
     if d.get("style") == "teaser":
-        ask = ("Read the question, swipe for the options, then answer the poll in the comments.\n"
-               "Not sure? The answer and full explanation are on our Telegram channel.\n")
+        ask = ""
     elif d.get("answer_in_comment"):
         ask = ("Vote in the poll 👆 or comment A, B, C or D.\n"
                "Answer, explanation and how many of you got it right: in the comments in 12 hours. "
@@ -701,8 +700,8 @@ def main():
     if args.preview:
         return
     sd = cfg["destinations"].get("surgery", {})
-    if sd.get("answers_ig") and "surgery" in keys and tg_token and os.environ.get(sd["chat_id_env"]):
-        answer_instagram(tg_token, os.environ[sd["chat_id_env"]], cfg, qs, state, ig_before, failed)
+    if sd.get("answers_ig") and ("surgery" in keys or "instagram" in keys) and tg_token and os.environ.get(sd["chat_id_env"]):
+        answer_instagram(tg_token, os.environ[sd["chat_id_env"]], cfg, qs, state, state["posted"].get("instagram", []), failed)
     today = dt.date.today().isoformat()
     if failed:
         tell_owner(tg_token, "MCQ bot problem:\n" + "\n".join(failed))
