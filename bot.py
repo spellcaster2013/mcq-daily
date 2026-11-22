@@ -247,7 +247,6 @@ def slide_cta_teaser(q, d, cfg, number):
 def slide_tg_answer(q, d, cfg, number):
     """Telegram answer card for an Instagram question: big question, smaller options."""
     img, dr = new_slide()
-    d = dict(d, badge="Surgery MCQ Daily")
     header(dr, d, number, "1 / 2")
     dr.text((M, 170), f"ANSWER TO INSTAGRAM  \u00b7  #{number:03d}", font=font("SemiBold", 24), fill=MUTED)
     dr.text((M, 215), "Answer", font=font("ExtraBold", 72), fill=INK)
@@ -272,7 +271,7 @@ def render_tg_answer(q, d, cfg, number):
     p1 = OUT / f"igans_{number:03d}_{q['id']}_1.png"
     p2 = OUT / f"igans_{number:03d}_{q['id']}_2.png"
     slide_tg_answer(q, d, cfg, number).save(p1, optimize=True)
-    slide_explanation(q, dict(d, badge="Surgery MCQ Daily"), cfg, number, "2 / 2").save(p2, optimize=True)
+    slide_explanation(q, d, cfg, number, "2 / 2").save(p2, optimize=True)
     return [p1, p2]
 
 
@@ -402,7 +401,7 @@ def post_telegram(token, chat_id, q, d, cfg, number, paths):
 
 def answer_instagram(token, chat_id, cfg, qs, state, before, failed):
     """Post the answer to each earlier Instagram question into the Telegram channel."""
-    d = cfg["destinations"]["surgery"]
+    d = cfg["destinations"]["instagram"]  # Instagram colours, so it is not mistaken for the daily Telegram MCQ
     done = state.setdefault("ig_answered", [])
     byid = {x["id"]: x for x in qs}
     for i, qid in enumerate(before, 1):
