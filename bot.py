@@ -249,7 +249,7 @@ def slide_tg_answer(q, d, cfg, number):
     img, dr = new_slide()
     d = dict(d, badge="Surgery MCQ Daily")
     header(dr, d, number, "1 / 2")
-    dr.text((M, 170), f"ANSWER TO THE INSTAGRAM QUESTION  \u00b7  #{number:03d}", font=font("SemiBold", 24), fill=MUTED)
+    dr.text((M, 170), f"ANSWER TO INSTAGRAM  \u00b7  #{number:03d}  \u00b7  @SCALPELXLAB", font=font("SemiBold", 24), fill=MUTED)
     dr.text((M, 215), "Answer", font=font("ExtraBold", 72), fill=INK)
     dr.text((M + 330, 215), q["answer"], font=font("ExtraBold", 72), fill=GREEN)
     top, bottom = 330, H - 130
@@ -417,9 +417,13 @@ def answer_instagram(token, chat_id, cfg, qs, state, before, failed):
             for n, p in enumerate(paths):
                 files[f"f{n}"] = open(p, "rb")
                 item = {"type": "photo", "media": f"attach://f{n}"}
+                item["has_spoiler"] = True
                 if n == 0:
-                    item["caption"] = (f"Here is the answer to the Instagram question #{i:03d}\n\n"
-                                       f"Answer: {q['answer']}. {q['options'][LETTERS.index(q['answer'])]}\n\n"
+                    where = q.get("chapter") or q["topic"]
+                    item["caption"] = (f"Answer to Instagram #{i:03d}  |  {where}\n"
+                                       f"(Our quiz on Instagram @scalpelxlab. Not on Instagram? Here is the question.)\n\n"
+                                       f"{q['stem']}\n\n{options_text(q)}\n\n"
+                                       f"Tap the images to reveal the answer and explanation.\n\n"
                                        f"{cfg['disclaimer']}\n\n{d['hashtags']}")[:1024]
                 media.append(item)
             try:
