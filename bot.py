@@ -631,7 +631,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--preview", action="store_true")
     ap.add_argument("--check", action="store_true")
-    ap.add_argument("--only", "--subject", dest="only", choices=list(cfg["destinations"]))
+    ap.add_argument("--only", "--subject", dest="only", choices=list(cfg["destinations"]) + ["answers"])
     args = ap.parse_args()
 
     qs, errors = load_questions()
@@ -639,7 +639,7 @@ def main():
     state.setdefault("posted", {})
     tg_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     ig_token = os.environ.get("IG_ACCESS_TOKEN", "")
-    keys = [args.only] if args.only else [k for k, v in cfg["destinations"].items() if v.get("enabled", True)]
+    keys = ([] if args.only == "answers" else [args.only]) if args.only else [k for k, v in cfg["destinations"].items() if v.get("enabled", True)]
 
     if errors:
         tell_owner(tg_token, "MCQ bot stopped: questions.json has problems.\n" + "\n".join(errors[:15]))
@@ -698,7 +698,7 @@ def main():
     if args.preview:
         return
     sd = cfg["destinations"].get("surgery", {})
-    if sd.get("answers_ig") and ("surgery" in keys or "instagram" in keys) and tg_token and os.environ.get(sd["chat_id_env"]):
+    if sd.get("answers_ig") and ("surgery" in keys or "instagram" in keys or args.only == "answers") and tg_token and os.environ.get(sd["chat_id_env"]):
         answer_instagram(tg_token, os.environ[sd["chat_id_env"]], cfg, qs, state, state["posted"].get("instagram", []), failed)
     today = dt.date.today().isoformat()
     if failed:

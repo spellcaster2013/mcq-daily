@@ -11,9 +11,9 @@ on:
         type: boolean
         default: false
       subject:
-        description: "Where to post: all, surgery (Telegram), medicine (Telegram) or instagram"
+        description: "Where to post: all, surgery (Telegram), medicine (Telegram), instagram, or answers (only the pending Telegram answers)"
         type: choice
-        options: [all, surgery, medicine, instagram]
+        options: [all, surgery, medicine, instagram, answers]
         default: all
 
 permissions:
