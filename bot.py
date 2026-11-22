@@ -303,8 +303,7 @@ def options_text(q):
 def telegram_caption(q, d, cfg, number):
     where = q.get("chapter") or q["topic"]
     return (f"{d['channel_name']} #{number:03d}  |  {where}\n\n{q['stem']}\n\n{options_text(q)}"
-            f"\n\nAnswer and explanation on the next slides.\n\n{cfg['disclaimer']}\n"
-            + ("" if d.get("no_cta") else f"More daily MCQs: {d['link']}\n") + f"\n{d['hashtags']}")
+            f"\n\nAnswer and explanation on the next slides.")
 
 
 def instagram_caption(q, d, cfg, number):
@@ -420,10 +419,9 @@ def answer_instagram(token, chat_id, cfg, qs, state, before, failed):
                 if n == 0:
                     where = q.get("chapter") or q["topic"]
                     item["caption"] = (f"Answer to Instagram #{i:03d}  |  {where}\n"
-                                       f"(Our quiz on Instagram: instagram.com/scalpelxlab. Not on Instagram? Here is the question.)\n\n"
+                                       f"(Our quiz on Instagram: https://www.instagram.com/scalpelxlab\nNot on Instagram? Here is the question.)\n\n"
                                        f"{q['stem']}\n\n{options_text(q)}\n\n"
-                                       f"Tap the images to reveal the answer and explanation.\n\n"
-                                       f"{cfg['disclaimer']}\n\n{d['hashtags']}")[:1024]
+                                       f"Tap the images to reveal the answer and explanation.")[:1024]
                 media.append(item)
             try:
                 tg("sendMediaGroup", token, {"chat_id": chat_id, "media": json.dumps(media)}, files)
