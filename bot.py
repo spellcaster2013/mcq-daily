@@ -224,8 +224,7 @@ def slide_options_only(q, d, cfg, number):
     img, dr = new_slide()
     header(dr, d, number, "2 / 3")
     dr.text((M, 180), "OPTIONS", font=font("Bold", 30), fill=d["accent"])
-    dr.text((M, 228), "Re-read the question on slide 1, then choose.", font=font("SemiBold", 30), fill=MUTED)
-    top, bottom = 310, H - 130
+    top, bottom = 250, H - 130
     for op in (40, 38, 36, 34, 32, 30, 28):
         if options_height(dr, q, op) <= bottom - top:
             break
