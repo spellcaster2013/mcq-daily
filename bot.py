@@ -224,12 +224,14 @@ def slide_options_only(q, d, cfg, number):
     img, dr = new_slide()
     header(dr, d, number, "2 / 3")
     dr.text((M, 180), "OPTIONS", font=font("Bold", 30), fill=d["accent"])
+    line = d.get("opt_line", "Answer the poll below the post. Let's see what everyone else thinks.")
     top, bottom = 250, H - 130
+    lh = text_block(dr, (0, 0), line, "ExtraBold", 44, W - 2 * M, dry=True, spacing=1.25)
     for op in (40, 38, 36, 34, 32, 30, 28):
-        if options_height(dr, q, op) <= bottom - top:
+        if options_height(dr, q, op) + 20 + lh <= bottom - top:
             break
-    option_rows(dr, q, top, op, "ask", d)
-    footer(dr, "Pick your answer in the poll  \u2191", d["accent"])
+    y = option_rows(dr, q, top, op, "ask", d)
+    text_block(dr, (M, y + 24), line, "ExtraBold", 44, W - 2 * M, fill=d["accent"], spacing=1.25)
     return img
 
 
