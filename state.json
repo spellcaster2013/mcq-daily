@@ -14,7 +14,8 @@
    "SB004-08",
    "SB004-10",
    "SB019-02",
-   "SB019-04"
+   "SB019-04",
+   "SB019-06"
   ],
   "medicine": [
    "M001",
@@ -36,7 +37,8 @@
    "SB019-03",
    "SB019-05",
    "SB019-07",
-   "SB019-09"
+   "SB019-09",
+   "SB020-01"
   ]
  },
  "low_alert_on": "2026-11-19",
@@ -56,9 +58,11 @@
   "SB019-03",
   "SB019-05",
   "SB019-07",
-  "SB019-09"
+  "SB019-09",
+  "SB020-01"
  ],
  "ig_links": {
-  "10": "https://www.instagram.com/p/DgDmeLXEkRR/"
+  "10": "https://www.instagram.com/p/DgDmeLXEkRR/",
+  "11": "https://www.instagram.com/p/DgEi07lmoQS/"
  }
 }
