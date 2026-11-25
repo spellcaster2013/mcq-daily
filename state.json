@@ -50,7 +50,8 @@
    "SB020-07",
    "SB020-09",
    "SB022-01",
-   "SB022-03"
+   "SB022-03",
+   "SB022-05"
   ]
  },
  "low_alert_on": "2026-11-19",
@@ -77,7 +78,8 @@
   "SB020-07",
   "SB020-09",
   "SB022-01",
-  "SB022-03"
+  "SB022-03",
+  "SB022-05"
  ],
  "ig_links": {
   "10": "https://www.instagram.com/p/DgDmeLXEkRR/",
@@ -87,6 +89,7 @@
   "14": "https://www.instagram.com/p/DgINXlNDbDu/",
   "15": "https://www.instagram.com/p/DgIO9EJFwyq/",
   "16": "https://www.instagram.com/p/DgJDBiPlLiP/",
-  "17": "https://www.instagram.com/p/DgKxbVOlymK/"
+  "17": "https://www.instagram.com/p/DgKxbVOlymK/",
+  "18": "https://www.instagram.com/p/DgLij2Xl-LH/"
  }
 }
