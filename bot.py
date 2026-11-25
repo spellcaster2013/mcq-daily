@@ -679,47 +679,52 @@ def main():
         if d["kind"] == "instagram" and not ig_token and not args.preview:
             print("instagram: not connected yet (no IG_ACCESS_TOKEN), skipped")
             continue
+        for rep in range(int(d.get("per_run", 1))):
+            left = stock(qs, state, k, d)
+            number = len(state["posted"].get(k, [])) + 1
+            if not left:
+                failed.append(f"{d['channel_name']}: no MCQs left, nothing posted")
+                break
+            q = left[0]
+            paths = render(q, d, k, cfg, number)
+            if args.preview:
+                print(f"{k}: drew {q['id']} as #{number:03d}")
+                continue
+            try:
+                if d["kind"] == "telegram":
+                    chat_id = os.environ.get(d["chat_id_env"], "")
+                    if not (tg_token and chat_id):
+                        raise RuntimeError(f"secret TELEGRAM_BOT_TOKEN or {d['chat_id_env']} is missing")
+                    if rep:
+                        time.sleep(int(d.get("gap_seconds", 5)))
+                    post_telegram(tg_token, chat_id, q, d, cfg, number, paths)
+                else:
+                    check_ig_token(ig_token, cfg, state, alerts)
+                    if d.get("answer_in_comment"):
+                        reveal_instagram(ig_token, cfg, state, qs, d, alerts)
+                    media_id, poll_on = post_instagram(ig_token, q, d, cfg, number, paths)
+                    try:  # grab the post link right away, so the Telegram answer can point to it
+                        pl = ig_call(cfg, "GET", media_id, fields="permalink", access_token=ig_token).get("permalink")
+                        if pl:
+                            state.setdefault("ig_links", {})[str(number)] = pl
+                    except Exception as e:
+                        print(f"could not read the Instagram link yet: {e}")
+                    if d.get("answer_in_comment"):
+                        state.setdefault("ig_pending", []).append(
+                            {"media": media_id, "qid": q["id"], "number": number, "poll": poll_on,
+                             "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")})
+                state["posted"].setdefault(k, []).append(q["id"])
+                save_state(state)
+                print(f"{k}: posted {q['id']} as #{number:03d}")
+                if d["kind"] == "telegram":
+                    audience_poll(tg_token, os.environ.get(d["chat_id_env"]), cfg, state, k, d)
+            except Exception as e:
+                failed.append(f"{d['channel_name']}: {e}")
+                break
         left = stock(qs, state, k, d)
-        number = len(state["posted"].get(k, [])) + 1
-        if not left:
-            failed.append(f"{d['channel_name']}: no MCQs left, nothing posted")
-            continue
-        q = left[0]
-        paths = render(q, d, k, cfg, number)
-        if args.preview:
-            print(f"{k}: drew {q['id']} as #{number:03d}")
-            continue
-        try:
-            if d["kind"] == "telegram":
-                chat_id = os.environ.get(d["chat_id_env"], "")
-                if not (tg_token and chat_id):
-                    raise RuntimeError(f"secret TELEGRAM_BOT_TOKEN or {d['chat_id_env']} is missing")
-                post_telegram(tg_token, chat_id, q, d, cfg, number, paths)
-            else:
-                check_ig_token(ig_token, cfg, state, alerts)
-                if d.get("answer_in_comment"):
-                    reveal_instagram(ig_token, cfg, state, qs, d, alerts)
-                media_id, poll_on = post_instagram(ig_token, q, d, cfg, number, paths)
-                try:  # grab the post link right away, so the Telegram answer can point to it
-                    pl = ig_call(cfg, "GET", media_id, fields="permalink", access_token=ig_token).get("permalink")
-                    if pl:
-                        state.setdefault("ig_links", {})[str(number)] = pl
-                except Exception as e:
-                    print(f"could not read the Instagram link yet: {e}")
-                if d.get("answer_in_comment"):
-                    state.setdefault("ig_pending", []).append(
-                        {"media": media_id, "qid": q["id"], "number": number, "poll": poll_on,
-                         "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")})
-            state["posted"].setdefault(k, []).append(q["id"])
-            save_state(state)
-            print(f"{k}: posted {q['id']} as #{number:03d}")
-            if d["kind"] == "telegram":
-                audience_poll(tg_token, os.environ.get(d["chat_id_env"]), cfg, state, k, d)
-        except Exception as e:
-            failed.append(f"{d['channel_name']}: {e}")
-        days = (len(left) - 1) // d["posts_per_day"]
-        if days <= cfg["low_stock_days"]:
-            low.append(f"{d['channel_name']}: {len(left) - 1} MCQs left (about {days} days)")
+        days = len(left) // d["posts_per_day"]
+        if left and days <= cfg["low_stock_days"]:
+            low.append(f"{d['channel_name']}: {len(left)} MCQs left (about {days} days)")
 
     if args.preview:
         return

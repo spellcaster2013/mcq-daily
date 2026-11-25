@@ -27,12 +27,14 @@
       "accent": "#0E7C7B",
       "dark": "#0A2A2E",
       "hashtags": "#NEETSS #INISS #SurgeryMCQ #GeneralSurgery #MChEntrance #SurgeryResident",
-      "posts_per_day": 2,
+      "posts_per_day": 10,
       "swipe_text": "Swipe for the answer  →",
       "cta_line": "2 fresh surgery MCQs every day at NEET SS · INI SS level, chapter by chapter from Sabiston.",
       "cta_label": "JOIN FREE ON TELEGRAM",
       "no_cta": true,
-      "answers_ig": true
+      "answers_ig": true,
+      "per_run": 5,
+      "gap_seconds": 5
     },
     "medicine": {
       "kind": "telegram",
@@ -67,7 +69,8 @@
       "poll": true,
       "answer_footer": "See how many got it right in the Poll",
       "cta_line": "Follow @scalpelxlab for 2 NEET SS · INI SS surgery MCQs daily, chapter by chapter from Sabiston.",
-      "style": "teaser"
+      "style": "teaser",
+      "per_run": 1
     }
   }
 }
