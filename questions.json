@@ -2758,5 +2758,3605 @@
     "reason": "Cytokines induce PGE2, which resets the hypothalamic set-point.",
     "explanation": "IL-1, IL-6 and TNF-alpha induce cyclooxygenase-2 in the hypothalamic endothelium, producing PGE2. PGE2 raises the thermoregulatory set-point. Antipyretics such as paracetamol and NSAIDs act by reducing PGE2 synthesis.",
     "pearl": "Fever in the first 48 hours after surgery is usually inflammatory, not infective."
+  },
+  {
+    "id": "SB033-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "A 70-kg man after a road accident has HR 128/min, BP 92/60 mmHg, is anxious and confused, and passes 10 mL urine per hour. What is his estimated blood loss?",
+    "options": [
+      "Class I haemorrhage: under 15%",
+      "Class II haemorrhage: 15–30%",
+      "Class III haemorrhage: 31–40% of blood volume",
+      "Class IV haemorrhage: over 40%"
+    ],
+    "answer": "C",
+    "reason": "Tachycardia above 120, falling BP, confusion and oliguria fit class III.",
+    "explanation": "Class II shows tachycardia with a preserved systolic pressure. Class III is the first stage where systolic BP falls, with confusion and urine output of about 5–15 mL/h. Class IV adds marked hypotension, lethargy and negligible urine output.",
+    "pearl": "A falling systolic BP means at least 30% of blood volume is already lost."
+  },
+  {
+    "id": "SB033-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "A normotensive patient on day 1 after a Whipple is tachycardic and cool peripherally. Which test best detects occult hypoperfusion?",
+    "options": [
+      "Central venous pressure",
+      "Serum lactate",
+      "Haemoglobin concentration",
+      "Pulse oximetry"
+    ],
+    "answer": "B",
+    "reason": "Lactate rises with anaerobic metabolism even when BP is still normal.",
+    "explanation": "Compensated shock maintains BP by vasoconstriction while tissues are underperfused. A lactate above 2 mmol/L signals this occult hypoperfusion, and lactate clearance is a useful resuscitation end point. Static CVP predicts fluid responsiveness poorly.",
+    "pearl": "Normal BP does not mean normal perfusion. Check the lactate."
+  },
+  {
+    "id": "SB033-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "After a C5 cord injury a patient has BP 80/50 mmHg, HR 52/min and warm, dry peripheries. What type of shock is this?",
+    "options": [
+      "Haemorrhagic shock",
+      "Spinal shock",
+      "Neurogenic shock",
+      "Cardiogenic shock"
+    ],
+    "answer": "C",
+    "reason": "Loss of sympathetic tone gives hypotension with bradycardia and warm skin.",
+    "explanation": "Cord injury above T6 interrupts sympathetic outflow, causing vasodilatation and unopposed vagal bradycardia. Spinal shock is a different entity: loss of reflexes below the injury. Always exclude bleeding first in a trauma patient before attributing hypotension to the cord.",
+    "pearl": "Hypotension plus bradycardia in trauma: think neurogenic, but rule out haemorrhage."
+  },
+  {
+    "id": "SB033-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "A patient with K+ 7.1 mmol/L has peaked T waves and widened QRS on ECG. What is the first drug to give?",
+    "options": [
+      "IV sodium bicarbonate",
+      "IV calcium gluconate",
+      "IV furosemide",
+      "Oral sodium polystyrene sulfonate"
+    ],
+    "answer": "B",
+    "reason": "Calcium stabilises the myocardial membrane within minutes.",
+    "explanation": "Calcium does not lower potassium but protects against arrhythmia. It is followed by measures that shift potassium into cells (insulin with glucose, salbutamol) and then those that remove it (diuretics, binders, dialysis).",
+    "pearl": "Stabilise, shift, then remove."
+  },
+  {
+    "id": "SB033-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "What is the safe maximum rate of correction of chronic hyponatraemia in the first 24 hours?",
+    "options": [
+      "About 20 mmol/L in 24 hours",
+      "2 mmol/L per hour for the full 24 hours",
+      "No limit if the patient is symptomatic",
+      "About 8–10 mmol/L in 24 hours"
+    ],
+    "answer": "D",
+    "reason": "Faster correction risks osmotic demyelination.",
+    "explanation": "Brain cells adapt to chronic hyponatraemia by losing osmolytes. Rapid correction then shrinks them and can cause osmotic demyelination, often days later. Severe symptoms justify a small rapid rise of 4–6 mmol/L, but the daily limit still applies.",
+    "pearl": "In alcoholics, the malnourished and the hypokalaemic, aim even lower."
+  },
+  {
+    "id": "SB033-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "Hypokalaemia in a post-operative patient persists despite adequate IV potassium replacement. Which abnormality should be corrected first?",
+    "options": [
+      "Hypercalcaemia",
+      "Hypophosphataemia",
+      "Hypomagnesaemia",
+      "Hyponatraemia"
+    ],
+    "answer": "C",
+    "reason": "Low magnesium causes ongoing renal potassium wasting.",
+    "explanation": "Magnesium normally inhibits the ROMK channels in the distal nephron. When magnesium is low, potassium keeps leaking into the urine and replacement fails. Correcting magnesium allows potassium to be retained.",
+    "pearl": "Refractory low potassium: check and replace magnesium."
+  },
+  {
+    "id": "SB033-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "Resuscitation with large volumes of 0.9% saline typically causes which acid–base disturbance?",
+    "options": [
+      "Hyperchloraemic metabolic acidosis",
+      "Metabolic alkalosis",
+      "High anion gap metabolic acidosis",
+      "Respiratory alkalosis"
+    ],
+    "answer": "A",
+    "reason": "Saline has 154 mmol/L chloride, far above plasma.",
+    "explanation": "The chloride load lowers the strong ion difference and plasma bicarbonate, producing a normal anion gap acidosis. Balanced crystalloids such as Ringer's lactate or Plasma-Lyte avoid this and were associated with fewer kidney events in large trials.",
+    "pearl": "Prefer balanced crystalloids for large-volume resuscitation."
+  },
+  {
+    "id": "SB033-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "In a bleeding trauma patient without head injury, what systolic BP should be targeted before surgical control of haemorrhage?",
+    "options": [
+      "About 60 mmHg",
+      "About 80–90 mmHg (permissive hypotension)",
+      "Above 120 mmHg",
+      "Above 140 mmHg to protect the kidneys"
+    ],
+    "answer": "B",
+    "reason": "Low-normal pressure limits clot disruption and dilution.",
+    "explanation": "Raising BP before control increases bleeding, dilutes clotting factors and worsens hypothermia. Permissive hypotension is used for a short time until haemorrhage is controlled. It is avoided in traumatic brain injury, where hypotension worsens secondary brain damage.",
+    "pearl": "Head injury is the exception: avoid any hypotension."
+  },
+  {
+    "id": "SB033-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "During massive transfusion in trauma, which plasma : platelet : red cell ratio is recommended?",
+    "options": [
+      "1 : 1 : 4",
+      "1 : 2 : 4",
+      "Red cells only until labs return",
+      "1 : 1 : 1"
+    ],
+    "answer": "D",
+    "reason": "A balanced ratio approximates whole blood and limits coagulopathy.",
+    "explanation": "The PROPPR trial compared 1:1:1 with 1:1:2. The 1:1:1 group achieved haemostasis more often and had fewer deaths from exsanguination at 24 hours. Viscoelastic tests (TEG or ROTEM) then guide targeted replacement.",
+    "pearl": "Watch ionised calcium: citrate in stored blood causes hypocalcaemia."
+  },
+  {
+    "id": "SB033-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 33 · Shock, Electrolytes, and Fluid",
+    "topic": "Shock, Electrolytes, and Fluid",
+    "stem": "What is the first-line vasopressor in septic shock after initial fluid resuscitation?",
+    "options": [
+      "Norepinephrine",
+      "Dopamine",
+      "Phenylephrine",
+      "Vasopressin alone"
+    ],
+    "answer": "A",
+    "reason": "Norepinephrine raises MAP with fewer arrhythmias than dopamine.",
+    "explanation": "Surviving Sepsis guidelines recommend norepinephrine to reach a MAP of 65 mmHg. Vasopressin is added as a second agent, and epinephrine or dobutamine is considered when cardiac function is poor. Dopamine causes more tachyarrhythmias.",
+    "pearl": "Peripheral norepinephrine is acceptable short term while central access is obtained."
+  },
+  {
+    "id": "SB034-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "A malnourished patient starts parenteral nutrition and develops weakness and heart failure on day 3. Which electrolyte fall is most characteristic?",
+    "options": [
+      "Hypernatraemia",
+      "Hypophosphataemia",
+      "Hypercalcaemia",
+      "Hyperkalaemia"
+    ],
+    "answer": "B",
+    "reason": "Refeeding drives phosphate into cells with insulin release.",
+    "explanation": "Carbohydrate after starvation triggers insulin, which pushes phosphate, potassium and magnesium into cells. Low phosphate depletes ATP, causing muscle weakness, respiratory failure and cardiac failure. Start feeding slowly and give thiamine first.",
+    "pearl": "Start at about 10 kcal/kg/day in high-risk patients and build up."
+  },
+  {
+    "id": "SB034-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "Indirect calorimetry in a ventilated patient shows a respiratory quotient of 1.2. What does this indicate?",
+    "options": [
+      "Predominant fat oxidation",
+      "Predominant protein oxidation",
+      "Overfeeding with net fat synthesis (lipogenesis)",
+      "Starvation ketosis"
+    ],
+    "answer": "C",
+    "reason": "An RQ above 1.0 occurs only when carbohydrate is turned into fat.",
+    "explanation": "RQ is about 0.7 for fat, 0.8 for protein and 1.0 for carbohydrate. Lipogenesis produces extra CO2, raising RQ above 1 and increasing the ventilatory load, which can delay weaning.",
+    "pearl": "High RQ in a difficult wean: reduce the calories."
+  },
+  {
+    "id": "SB034-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "What is the main fuel for colonocytes?",
+    "options": [
+      "Short-chain fatty acids such as butyrate",
+      "Glutamine",
+      "Glucose",
+      "Ketone bodies"
+    ],
+    "answer": "A",
+    "reason": "Colonocytes rely on butyrate produced by bacterial fermentation of fibre.",
+    "explanation": "Small-bowel enterocytes prefer glutamine, while colonocytes depend on short-chain fatty acids. Lack of luminal butyrate contributes to diversion colitis in defunctioned colon.",
+    "pearl": "Diversion colitis can respond to short-chain fatty acid enemas."
+  },
+  {
+    "id": "SB034-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "What daily protein intake is recommended for most critically ill surgical patients?",
+    "options": [
+      "0.6–0.8 g/kg/day",
+      "0.8–1.0 g/kg/day",
+      "1.5–2.0 g/kg/day",
+      "3.5–4.0 g/kg/day"
+    ],
+    "answer": "C",
+    "reason": "Critical illness increases protein breakdown well beyond normal needs.",
+    "explanation": "Healthy adults need about 0.8 g/kg/day. After major surgery, sepsis or trauma, needs rise to 1.5–2.0 g/kg/day, and burns or open abdomens with large losses may need more.",
+    "pearl": "Protein delivery matters more than total calories in the ICU."
+  },
+  {
+    "id": "SB034-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "A patient takes 100 g protein per day and has 24-hour urinary urea nitrogen of 20 g. What is the nitrogen balance?",
+    "options": [
+      "−12 g/day",
+      "−8 g/day",
+      "−4 g/day",
+      "+4 g/day"
+    ],
+    "answer": "B",
+    "reason": "Nitrogen in = 100 / 6.25 = 16 g; out = 20 + 4 = 24 g.",
+    "explanation": "Nitrogen balance equals protein intake divided by 6.25, minus urinary urea nitrogen plus about 4 g for other losses. Here 16 − 24 gives −8 g/day, showing ongoing catabolism.",
+    "pearl": "Aim for a balance of 0 to +4 g/day during recovery."
+  },
+  {
+    "id": "SB034-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "Which serum marker best reflects a short-term response to nutritional support?",
+    "options": [
+      "Prealbumin (transthyretin)",
+      "Albumin",
+      "Serum cholesterol",
+      "Total lymphocyte count"
+    ],
+    "answer": "A",
+    "reason": "Prealbumin has a half-life of about 2 days.",
+    "explanation": "Albumin has a half-life of about 20 days and falls with inflammation, so it reflects illness more than nutrition. Prealbumin changes faster but is also a negative acute-phase protein, so read it alongside CRP.",
+    "pearl": "Low albumin predicts complications but is a poor feeding target."
+  },
+  {
+    "id": "SB034-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "Which feature characterises the ebb phase in the first 24–48 hours after major injury?",
+    "options": [
+      "Raised metabolic rate and heat production",
+      "Positive nitrogen balance",
+      "Rising insulin sensitivity",
+      "Reduced oxygen consumption and cardiac output"
+    ],
+    "answer": "D",
+    "reason": "The ebb phase is a period of hypometabolism and low perfusion.",
+    "explanation": "After injury there is an early ebb phase with low cardiac output and oxygen use. It is followed by the flow phase, with hypermetabolism, catabolism, insulin resistance and negative nitrogen balance, and then an anabolic recovery phase.",
+    "pearl": "The flow phase is when nutrition support matters most."
+  },
+  {
+    "id": "SB034-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "Cholestasis in a child on long-term parenteral nutrition is most associated with which component?",
+    "options": [
+      "Amino acid solution",
+      "Soybean oil lipid emulsion",
+      "Trace element additives",
+      "Dextrose concentration below 10%"
+    ],
+    "answer": "B",
+    "reason": "Phytosterols and omega-6 fats in soybean lipid harm the liver.",
+    "explanation": "Parenteral nutrition-associated liver disease is linked to soybean-based lipid. Switching to fish-oil or mixed lipid emulsions, cycling the PN and giving any enteral feeding all reduce cholestasis.",
+    "pearl": "Even small amounts of enteral feed protect the liver."
+  },
+  {
+    "id": "SB034-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "During prolonged starvation of more than 2–3 weeks, what adaptation spares body protein?",
+    "options": [
+      "Increased hepatic gluconeogenesis from amino acids",
+      "The brain switches to using ketone bodies",
+      "Increased insulin secretion",
+      "Muscle switches to glucose oxidation"
+    ],
+    "answer": "B",
+    "reason": "Ketoadaptation reduces the brain's need for glucose.",
+    "explanation": "Early starvation relies on gluconeogenesis from muscle protein. Later the brain uses ketone bodies for most of its energy, so protein breakdown falls. Injury blocks this adaptation, which is why surgical patients lose muscle fast.",
+    "pearl": "Stressed starvation is far more catabolic than simple starvation."
+  },
+  {
+    "id": "SB034-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 34 · Metabolism and Nutrition in Surgical Patients",
+    "topic": "Metabolism and Nutrition in Surgical Patients",
+    "stem": "When should enteral nutrition be started in a haemodynamically stable critically ill patient who cannot eat?",
+    "options": [
+      "After 7 days",
+      "Only when bowel sounds return",
+      "Only after flatus is passed",
+      "Within 24–48 hours of admission"
+    ],
+    "answer": "D",
+    "reason": "Early enteral feeding preserves the gut barrier and reduces infections.",
+    "explanation": "Guidelines recommend early enteral feeding within 24–48 hours once the patient is resuscitated. Bowel sounds and flatus are not required. Parenteral nutrition is delayed in well-nourished patients if enteral feeding fails.",
+    "pearl": "Hold feeds in uncontrolled shock or rising vasopressor needs."
+  },
+  {
+    "id": "SB035-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "What is the single most important treatment for necrotising fasciitis?",
+    "options": [
+      "High-dose IV antibiotics alone",
+      "Urgent radical surgical debridement",
+      "Hyperbaric oxygen therapy",
+      "Ultrasound-guided aspiration"
+    ],
+    "answer": "B",
+    "reason": "Mortality rises with every hour of delay to debridement.",
+    "explanation": "Antibiotics cannot reach thrombosed necrotic tissue. Debridement must remove all dead tissue back to bleeding, healthy fascia, with a planned second look within 24 hours.",
+    "pearl": "If in doubt, take the patient to theatre: surgery is both diagnostic and curative."
+  },
+  {
+    "id": "SB035-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "Which variable is part of the LRINEC score for necrotising soft tissue infection?",
+    "options": [
+      "Serum lactate",
+      "Platelet count",
+      "Procalcitonin",
+      "Serum sodium"
+    ],
+    "answer": "D",
+    "reason": "LRINEC uses CRP, white count, haemoglobin, sodium, creatinine and glucose.",
+    "explanation": "A LRINEC score of 6 or more raises suspicion of necrotising infection. Its sensitivity is low, so a low score never rules out disease when the clinical picture fits.",
+    "pearl": "Clinical judgement overrides the score."
+  },
+  {
+    "id": "SB035-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "Why is clindamycin added to treat group A streptococcal necrotising fasciitis?",
+    "options": [
+      "It suppresses bacterial toxin synthesis",
+      "It is the best agent for MRSA",
+      "It has the best Gram-negative cover",
+      "It reverses penicillin resistance in streptococci"
+    ],
+    "answer": "A",
+    "reason": "Clindamycin inhibits protein synthesis, reducing toxin production.",
+    "explanation": "In heavy bacterial loads, organisms are in stationary phase and penicillin works less well (the Eagle effect). Clindamycin blocks ribosomal production of exotoxins and M protein regardless of growth phase.",
+    "pearl": "For toxic shock, add clindamycin to the beta-lactam."
+  },
+  {
+    "id": "SB035-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "In Fournier gangrene, which structure is usually spared?",
+    "options": [
+      "Scrotal skin",
+      "Penile skin",
+      "The testes",
+      "Perineal skin"
+    ],
+    "answer": "C",
+    "reason": "The testes have a separate blood supply from the aorta.",
+    "explanation": "The testicular arteries arise from the aorta and run in the spermatic cord, independent of the perineal vessels. Orchidectomy is rarely needed, and the testes can be placed in thigh pouches if scrotal skin is lost.",
+    "pearl": "Look for the source: perianal abscess or urethral pathology."
+  },
+  {
+    "id": "SB035-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "Which toxin is chiefly responsible for tissue destruction in clostridial gas gangrene?",
+    "options": [
+      "Tetanospasmin",
+      "Enterotoxin B",
+      "Alpha toxin (phospholipase C)",
+      "Panton–Valentine leucocidin"
+    ],
+    "answer": "C",
+    "reason": "Alpha toxin lyses cell membranes and causes myonecrosis.",
+    "explanation": "Clostridium perfringens alpha toxin is a lecithinase that destroys muscle cells and red cells and depresses the heart. The infection spreads within hours and needs emergency excision of all involved muscle.",
+    "pearl": "Bronze skin, crepitus and sweet-smelling discharge: clostridial myonecrosis."
+  },
+  {
+    "id": "SB035-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "A man with cirrhosis develops rapidly spreading bullous cellulitis after eating raw oysters. Which organism is most likely?",
+    "options": [
+      "Pseudomonas aeruginosa",
+      "Vibrio vulnificus",
+      "Aeromonas hydrophila",
+      "Clostridium septicum"
+    ],
+    "answer": "B",
+    "reason": "Vibrio vulnificus infects people with liver disease via seafood or seawater.",
+    "explanation": "Iron overload and cirrhosis greatly increase susceptibility. Haemorrhagic bullae and septic shock develop fast. Treat with early debridement plus doxycycline and a third-generation cephalosporin.",
+    "pearl": "Clostridium septicum infection points to an occult colon cancer."
+  },
+  {
+    "id": "SB035-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "What is the earliest clinical clue to necrotising fasciitis?",
+    "options": [
+      "Skin crepitus",
+      "Pain out of proportion to the visible skin changes",
+      "Haemorrhagic bullae",
+      "Skin anaesthesia"
+    ],
+    "answer": "B",
+    "reason": "Deep tissue involvement causes severe pain before skin signs appear.",
+    "explanation": "Crepitus, bullae, skin necrosis and anaesthesia are late signs, appearing once nerves and skin vessels thrombose. Early cases look like simple cellulitis, so severe pain and systemic toxicity should prompt surgery.",
+    "pearl": "Late signs mean late diagnosis."
+  },
+  {
+    "id": "SB035-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "Which organism typically causes type II necrotising soft tissue infection?",
+    "options": [
+      "Mixed aerobes and anaerobes",
+      "Clostridium perfringens",
+      "Candida albicans",
+      "Streptococcus pyogenes"
+    ],
+    "answer": "D",
+    "reason": "Type II is monomicrobial group A streptococcus, sometimes with S. aureus.",
+    "explanation": "Type I is polymicrobial and is the most common type, often in diabetics or after abdominal and perineal surgery. Type II affects healthy people of any age and is often linked with toxic shock syndrome.",
+    "pearl": "Type I is the commonest; type II can strike the young and healthy."
+  },
+  {
+    "id": "SB035-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "A patient has Hurley stage III hidradenitis suppurativa of the axilla. What is the definitive treatment?",
+    "options": [
+      "Repeated incision and drainage",
+      "Long-term oral antibiotics alone",
+      "Topical clindamycin",
+      "Wide surgical excision of the affected area"
+    ],
+    "answer": "D",
+    "reason": "Stage III disease has interconnected sinus tracts across the whole area.",
+    "explanation": "Incision and drainage gives temporary relief only. Wide excision with healing by secondary intention, grafting or flaps has the lowest recurrence. Biologics such as adalimumab help control inflammation alongside surgery.",
+    "pearl": "Drain the abscess, but excise the disease."
+  },
+  {
+    "id": "SB035-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 35 · Primary Soft Tissue Infections",
+    "topic": "Primary Soft Tissue Infections",
+    "stem": "What is the role of hyperbaric oxygen therapy in necrotising soft tissue infection?",
+    "options": [
+      "The primary treatment before any surgery",
+      "It replaces the need for antibiotics",
+      "An adjunct only; it must never delay debridement",
+      "It is indicated only for type II infection"
+    ],
+    "answer": "C",
+    "reason": "Evidence for hyperbaric oxygen is weak and surgery is the priority.",
+    "explanation": "Hyperbaric oxygen may help in clostridial infection by inhibiting alpha toxin. It should be used only if available without delaying surgery and when the patient is stable enough to be transferred.",
+    "pearl": "Never transfer an unstable patient for hyperbaric oxygen."
+  },
+  {
+    "id": "SB036-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "A hypotensive blunt trauma patient who does not respond to fluids has a FAST positive in Morison's pouch. What is the next step?",
+    "options": [
+      "CT abdomen with contrast",
+      "Immediate laparotomy",
+      "Diagnostic peritoneal lavage",
+      "Repeat FAST in 30 minutes"
+    ],
+    "answer": "B",
+    "reason": "Unstable with intra-abdominal fluid means bleeding needing surgery.",
+    "explanation": "CT is only for haemodynamically stable patients. A positive FAST in an unstable patient is enough to justify laparotomy, ideally with damage control principles.",
+    "pearl": "The CT scanner is no place for an unstable patient."
+  },
+  {
+    "id": "SB036-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "According to ATLS, where should needle decompression of a tension pneumothorax be done in adults?",
+    "options": [
+      "2nd intercostal space, midclavicular line only",
+      "7th intercostal space, posterior axillary line",
+      "Subxiphoid approach",
+      "4th or 5th intercostal space, just anterior to the midaxillary line"
+    ],
+    "answer": "D",
+    "reason": "The chest wall is thinner laterally, so the needle more often reaches the pleura.",
+    "explanation": "Studies showed the 2nd space misses the pleura in many adults because of chest wall thickness. ATLS now recommends the 4th or 5th space in the midaxillary region, followed by a chest tube.",
+    "pearl": "In children the 2nd intercostal space, midclavicular line, is still used."
+  },
+  {
+    "id": "SB036-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "Which combination forms Beck's triad in cardiac tamponade?",
+    "options": [
+      "Hypertension, bradycardia and irregular breathing",
+      "Tachycardia, hypotension and tracheal deviation",
+      "Hypotension, raised JVP and muffled heart sounds",
+      "Bradycardia, hypotension and warm peripheries"
+    ],
+    "answer": "C",
+    "reason": "Pericardial fluid restricts filling, raising venous pressure and lowering output.",
+    "explanation": "The full triad is present in only a minority of cases. In hypovolaemic patients, neck veins may not distend. Pericardial views on FAST are the quickest way to confirm tamponade.",
+    "pearl": "The second option is Cushing's triad of raised intracranial pressure."
+  },
+  {
+    "id": "SB036-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "When should tranexamic acid be given to a bleeding trauma patient to improve survival?",
+    "options": [
+      "Only after 6 hours of injury",
+      "Only if fibrinogen is below 1 g/L",
+      "Within 3 hours of injury",
+      "Only after surgical haemorrhage control"
+    ],
+    "answer": "C",
+    "reason": "CRASH-2 showed benefit only when given within 3 hours.",
+    "explanation": "Tranexamic acid 1 g over 10 minutes, then 1 g over 8 hours, reduced death from bleeding when started early. Given after 3 hours it was associated with increased risk of death from bleeding.",
+    "pearl": "Early is everything with tranexamic acid."
+  },
+  {
+    "id": "SB036-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "A patient opens his eyes to pain, uses inappropriate words and localises to pain. What is his GCS?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "C",
+    "reason": "Eyes 2 + verbal 3 + motor 5 = 10.",
+    "explanation": "Eye opening: spontaneous 4, to sound 3, to pain 2, none 1. Verbal: oriented 5, confused 4, inappropriate words 3, sounds 2, none 1. Motor: obeys 6, localises 5, withdraws 4, abnormal flexion 3, extension 2, none 1.",
+    "pearl": "Report the components, for example E2 V3 M5, not just the total."
+  },
+  {
+    "id": "SB036-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "At what GCS should a definitive airway be secured in a head-injured patient?",
+    "options": [
+      "12 or less",
+      "14 or less",
+      "8 or less",
+      "Only when GCS reaches 3"
+    ],
+    "answer": "C",
+    "reason": "GCS of 8 or less means the patient cannot protect the airway.",
+    "explanation": "Hypoxia and hypercarbia worsen secondary brain injury. Intubation protects the airway and allows control of ventilation. Rapid sequence intubation with in-line cervical stabilisation is standard.",
+    "pearl": "Less than eight, intubate."
+  },
+  {
+    "id": "SB036-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "A restrained driver has an abdominal seat-belt sign and a Chance fracture of L1. Which injury must be actively excluded?",
+    "options": [
+      "Splenic rupture",
+      "Small bowel or mesenteric injury",
+      "Renal pedicle avulsion",
+      "Thoracic aortic injury"
+    ],
+    "answer": "B",
+    "reason": "Lap-belt flexion crushes bowel against the spine.",
+    "explanation": "The combination of a seat-belt sign and flexion-distraction fracture carries a high rate of hollow viscus injury. CT can miss early bowel injury, so serial examinations or a low threshold for laparoscopy are needed.",
+    "pearl": "Free fluid without solid organ injury on CT: suspect bowel injury."
+  },
+  {
+    "id": "SB036-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "In a stable patient with an anterior abdominal stab wound, which finding mandates laparotomy?",
+    "options": [
+      "Pain at the wound site",
+      "A small subcutaneous haematoma",
+      "Evisceration of bowel or omentum",
+      "A wound less than 2 cm long"
+    ],
+    "answer": "C",
+    "reason": "Evisceration, peritonitis or instability require surgery.",
+    "explanation": "Stable patients without these signs can be managed with local wound exploration, serial examination or CT. Selective nonoperative management avoids many non-therapeutic laparotomies.",
+    "pearl": "Hypotension, peritonitis or evisceration: go to theatre."
+  },
+  {
+    "id": "SB036-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "Damage control surgery aims to prevent which 'lethal triad'?",
+    "options": [
+      "Hypoxia, hypercarbia and hypotension",
+      "Hypothermia, acidosis and coagulopathy",
+      "Hyperglycaemia, hyperkalaemia and hypocalcaemia",
+      "Sepsis, fever and leucocytosis"
+    ],
+    "answer": "B",
+    "reason": "Each component of the triad worsens the others.",
+    "explanation": "Damage control limits the first operation to stopping bleeding and contamination. The patient is warmed and resuscitated in the ICU, then returns for definitive repair within 24–48 hours.",
+    "pearl": "Hypocalcaemia is increasingly called the fourth element: the 'lethal diamond'."
+  },
+  {
+    "id": "SB036-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 36 · Management of Acute Trauma",
+    "topic": "Management of Acute Trauma",
+    "stem": "Which patient group has the best survival after resuscitative thoracotomy?",
+    "options": [
+      "Blunt trauma with no signs of life at the scene",
+      "Gunshot wound to the abdomen",
+      "Penetrating cardiac stab wound with signs of life",
+      "Blunt trauma with prolonged CPR over 15 minutes"
+    ],
+    "answer": "C",
+    "reason": "Stab wounds causing tamponade are the most salvageable.",
+    "explanation": "Survival is best with penetrating thoracic, especially cardiac, injury and worst after blunt trauma without signs of life. Time without a pulse is a strong predictor.",
+    "pearl": "Blunt trauma with CPR over 10 minutes rarely survives thoracotomy."
+  },
+  {
+    "id": "SB037-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "How is abdominal compartment syndrome defined?",
+    "options": [
+      "Intra-abdominal pressure above 12 mmHg alone",
+      "Sustained intra-abdominal pressure above 20 mmHg with new organ dysfunction",
+      "A tense abdomen on palpation",
+      "Abdominal perfusion pressure above 60 mmHg"
+    ],
+    "answer": "B",
+    "reason": "ACS requires both raised pressure and organ failure.",
+    "explanation": "Intra-abdominal hypertension is a sustained pressure of 12 mmHg or more. When it exceeds 20 mmHg with new organ dysfunction (oliguria, high airway pressures, hypotension) it is compartment syndrome, and decompression is usually needed.",
+    "pearl": "Clinical examination is unreliable: measure bladder pressure."
+  },
+  {
+    "id": "SB037-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "How should intra-abdominal pressure be measured?",
+    "options": [
+      "Bladder pressure with up to 25 mL saline, at end-expiration, zeroed at the midaxillary line",
+      "Nasogastric pressure with 100 mL saline",
+      "Bladder pressure with 250 mL saline, zeroed at the symphysis",
+      "Rectal pressure while the patient coughs"
+    ],
+    "answer": "A",
+    "reason": "Larger volumes overestimate pressure.",
+    "explanation": "The patient is supine, without abdominal muscle contraction. A maximum of 25 mL saline is instilled and pressure read in mmHg at end-expiration, with the transducer at the iliac crest in the midaxillary line.",
+    "pearl": "Measure every 4–6 hours in at-risk patients."
+  },
+  {
+    "id": "SB037-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "What is the target abdominal perfusion pressure in intra-abdominal hypertension?",
+    "options": [
+      "At least 20 mmHg",
+      "Below 40 mmHg",
+      "At least 60 mmHg",
+      "At least 100 mmHg"
+    ],
+    "answer": "C",
+    "reason": "APP = mean arterial pressure − intra-abdominal pressure.",
+    "explanation": "Low APP predicts organ failure better than IAP alone. Medical measures include sedation, nasogastric and rectal decompression, drainage of ascites and avoiding fluid overload.",
+    "pearl": "APP is the abdominal equivalent of cerebral perfusion pressure."
+  },
+  {
+    "id": "SB037-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "Which temporary closure method for the open abdomen gives the highest rate of primary fascial closure?",
+    "options": [
+      "Skin closure only with towel clips",
+      "Negative-pressure wound therapy",
+      "Bogotá bag alone",
+      "Absorbable mesh sutured to the fascia"
+    ],
+    "answer": "B",
+    "reason": "Negative pressure controls fluid and limits fascial retraction.",
+    "explanation": "Negative-pressure systems, especially with dynamic fascial traction, achieve the highest closure rates. Each day the abdomen stays open increases the risk of fistula and frozen abdomen.",
+    "pearl": "Aim for fascial closure within 7 days."
+  },
+  {
+    "id": "SB037-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "What is the key principle in managing an enteroatmospheric fistula in an open abdomen?",
+    "options": [
+      "Immediate resection and anastomosis",
+      "Primary suture closure of the fistula",
+      "Isolate the effluent from the rest of the wound",
+      "Stop all nutrition"
+    ],
+    "answer": "C",
+    "reason": "Isolating effluent protects the granulating wound.",
+    "explanation": "Enteroatmospheric fistulas have no tract and rarely close spontaneously. Floating stomas or fistula devices with negative pressure divert the effluent. Definitive repair is delayed until adhesions soften, often 6–12 months.",
+    "pearl": "Do not try to suture an exposed bowel fistula in a hostile abdomen."
+  },
+  {
+    "id": "SB037-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "In an anterior component separation, which layer is divided?",
+    "options": [
+      "Internal oblique muscle",
+      "Transversus abdominis muscle",
+      "External oblique aponeurosis lateral to the linea semilunaris",
+      "Posterior rectus sheath at the linea alba"
+    ],
+    "answer": "C",
+    "reason": "Releasing the external oblique allows the rectus complex to advance medially.",
+    "explanation": "Anterior separation divides the external oblique aponeurosis lateral to the semilunar line. Transversus abdominis release is a posterior technique that divides the posterior rectus sheath and transversus muscle while sparing the neurovascular bundles.",
+    "pearl": "Anterior separation needs wide skin flaps; perforator-sparing techniques reduce skin necrosis."
+  },
+  {
+    "id": "SB037-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "Which factor predicts that an enterocutaneous fistula will not close spontaneously?",
+    "options": [
+      "A tract longer than 2 cm",
+      "Output under 200 mL per day",
+      "Good nutritional status",
+      "Distal bowel obstruction"
+    ],
+    "answer": "D",
+    "reason": "Distal obstruction keeps effluent flowing through the fistula.",
+    "explanation": "Factors against closure are summarised as FRIENDS: foreign body, radiation, inflammatory bowel disease, epithelialisation, neoplasm, distal obstruction and sepsis or steroids. A long tract and low output favour closure.",
+    "pearl": "Most fistulas that will close do so within 4–6 weeks once sepsis is controlled."
+  },
+  {
+    "id": "SB037-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "What output defines a high-output enterocutaneous fistula?",
+    "options": [
+      "More than 100 mL per day",
+      "More than 200 mL per day",
+      "More than 500 mL per day",
+      "More than 2000 mL per day"
+    ],
+    "answer": "C",
+    "reason": "Over 500 mL/day carries major fluid and electrolyte losses.",
+    "explanation": "Low output is under 200 mL/day, moderate 200–500 mL/day and high over 500 mL/day. High-output fistulas usually come from proximal small bowel and are less likely to close.",
+    "pearl": "Replace losses with balanced fluid and monitor magnesium."
+  },
+  {
+    "id": "SB037-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "After an open abdomen closed with a skin graft over bowel, when is definitive abdominal wall reconstruction usually done?",
+    "options": [
+      "Within 2 weeks",
+      "At 6 weeks regardless of findings",
+      "After 6–12 months, when the graft can be pinched off the bowel",
+      "Never, the graft is permanent"
+    ],
+    "answer": "C",
+    "reason": "Adhesions must mature before the bowel can be safely separated.",
+    "explanation": "The planned ventral hernia approach waits until the graft lifts freely from the underlying bowel (the pinch test). Reconstruction then often needs component separation and mesh.",
+    "pearl": "Operating too early risks multiple enterotomies."
+  },
+  {
+    "id": "SB037-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 37 · The Difficult Abdominal Wall",
+    "topic": "The Difficult Abdominal Wall",
+    "stem": "Secondary abdominal compartment syndrome arises from which situation?",
+    "options": [
+      "Intra-abdominal bleeding after trauma",
+      "Massive fluid resuscitation without primary abdominal pathology",
+      "Abdominal packing for liver injury",
+      "Recurrence after decompression"
+    ],
+    "answer": "B",
+    "reason": "Secondary ACS results from bowel and tissue oedema from conditions outside the abdomen.",
+    "explanation": "Primary ACS stems from abdominal injury or disease. Secondary ACS is seen after large-volume resuscitation for burns or sepsis. Recurrent or tertiary ACS develops after treatment of earlier ACS.",
+    "pearl": "Restrictive fluid strategies help prevent secondary ACS."
+  },
+  {
+    "id": "SB038-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "Which finding after a penetrating thigh wound is a hard sign of arterial injury?",
+    "options": [
+      "Proximity of the wound to a major vessel",
+      "A small stable haematoma",
+      "Neurological deficit of an adjacent nerve",
+      "Pulsatile or expanding haematoma"
+    ],
+    "answer": "D",
+    "reason": "Hard signs mean immediate surgical exploration.",
+    "explanation": "Hard signs are pulsatile bleeding, expanding or pulsatile haematoma, absent distal pulses, a bruit or thrill, and distal ischaemia. Soft signs, such as proximity or a stable haematoma, need further assessment with ABI or CT angiography.",
+    "pearl": "Hard signs: operate. Soft signs: investigate."
+  },
+  {
+    "id": "SB038-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "After a penetrating leg wound with soft signs only, the arterial pressure index of the injured leg is 0.8. What is the next step?",
+    "options": [
+      "Discharge with outpatient review",
+      "Immediate amputation",
+      "Observation only",
+      "CT angiography of the limb"
+    ],
+    "answer": "D",
+    "reason": "An index below 0.9 suggests arterial injury.",
+    "explanation": "The injured extremity index compares systolic pressure in the injured limb with an uninjured arm. A value of 0.9 or above has a high negative predictive value. Below 0.9, CT angiography defines the injury.",
+    "pearl": "A normal index with a normal examination needs no imaging."
+  },
+  {
+    "id": "SB038-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "In a damage control operation for femoral artery injury in an unstable patient, what is the preferred temporary measure?",
+    "options": [
+      "Ligation of the femoral artery",
+      "Temporary intravascular shunt",
+      "Primary end-to-end repair",
+      "Interposition PTFE graft"
+    ],
+    "answer": "B",
+    "reason": "A shunt restores flow quickly while the patient is resuscitated.",
+    "explanation": "Shunts maintain limb perfusion and allow definitive reconstruction after warming and correcting coagulopathy. Ligation of a major limb artery carries a high amputation risk, unlike most venous ligations.",
+    "pearl": "Shunt first, fix later in the unstable patient."
+  },
+  {
+    "id": "SB038-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "How many incisions are used for a standard four-compartment fasciotomy of the lower leg?",
+    "options": [
+      "One posterior midline incision",
+      "Two: anterolateral and posteromedial",
+      "Four separate incisions",
+      "Three incisions on the anterior leg"
+    ],
+    "answer": "B",
+    "reason": "Two incisions can release all four compartments.",
+    "explanation": "The anterolateral incision releases the anterior and lateral compartments, avoiding the superficial peroneal nerve. The posteromedial incision releases the superficial and deep posterior compartments, protecting the saphenous vein and nerve.",
+    "pearl": "Missing the deep posterior compartment is a common error."
+  },
+  {
+    "id": "SB038-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "Which injury is most associated with popliteal artery injury?",
+    "options": [
+      "Fracture of the patella",
+      "Posterior knee dislocation",
+      "Ankle fracture",
+      "Anterior cruciate ligament tear alone"
+    ],
+    "answer": "B",
+    "reason": "The popliteal artery is tethered above and below the knee.",
+    "explanation": "Knee dislocation stretches or tears the fixed popliteal artery. Pulses may be present despite intimal injury, so ABI should be measured in every knee dislocation, with CT angiography if it is abnormal.",
+    "pearl": "Ischaemia beyond 6 hours sharply raises amputation risk."
+  },
+  {
+    "id": "SB038-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "A stab wound in zone II of the neck shows active bleeding and an expanding haematoma. What is the management?",
+    "options": [
+      "CT angiography first",
+      "Observation with serial examinations",
+      "Operative neck exploration",
+      "Endovascular embolisation only"
+    ],
+    "answer": "C",
+    "reason": "Hard signs in zone II mean surgery.",
+    "explanation": "Zone II lies between the cricoid and the angle of the mandible and is surgically accessible. With hard signs, exploration is done through an incision along the anterior border of the sternocleidomastoid. Stable patients without hard signs may have CT angiography.",
+    "pearl": "Zones I and III are hard to reach; endovascular options help there."
+  },
+  {
+    "id": "SB038-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "Where is blunt thoracic aortic injury most commonly located?",
+    "options": [
+      "Ascending aorta near the valve",
+      "Abdominal aorta at the renal arteries",
+      "Aortic bifurcation",
+      "Aortic isthmus, just distal to the left subclavian artery"
+    ],
+    "answer": "D",
+    "reason": "The isthmus is fixed by the ligamentum arteriosum.",
+    "explanation": "Rapid deceleration creates shear stress where the mobile arch meets the fixed descending aorta. Survivors usually have a contained tear and are diagnosed by CT angiography.",
+    "pearl": "A widened mediastinum on chest X-ray is a classic clue."
+  },
+  {
+    "id": "SB038-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "What is the preferred treatment for a significant blunt thoracic aortic injury?",
+    "options": [
+      "Open repair through median sternotomy",
+      "Observation with no treatment",
+      "Thoracic endovascular aortic repair (TEVAR)",
+      "Clamp-and-sew repair without bypass"
+    ],
+    "answer": "C",
+    "reason": "TEVAR has lower mortality and paraplegia rates than open repair.",
+    "explanation": "Repair is often delayed to deal with more urgent injuries, with strict BP control using beta-blockers meanwhile. Minor intimal tears may be managed medically.",
+    "pearl": "Control heart rate and BP while waiting for repair."
+  },
+  {
+    "id": "SB038-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "A patient has a combined femoral fracture and superficial femoral artery injury. What is the correct order of treatment?",
+    "options": [
+      "Fix the fracture first, then explore the artery",
+      "Shunt the artery, fix the fracture, then do the definitive vascular repair",
+      "Definitive vascular repair, then fracture fixation",
+      "Amputate to save life"
+    ],
+    "answer": "B",
+    "reason": "Shunting first limits ischaemia while orthopaedic fixation proceeds.",
+    "explanation": "Fixing a fracture after a vascular repair can disrupt the repair, while fixing it first prolongs ischaemia. A temporary shunt solves both, and the definitive graft is placed once length and stability are restored.",
+    "pearl": "Consider fasciotomy routinely after prolonged ischaemia."
+  },
+  {
+    "id": "SB038-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 38 · Management of Vascular Trauma",
+    "topic": "Management of Vascular Trauma",
+    "stem": "Which measurement is used to diagnose compartment syndrome?",
+    "options": [
+      "Compartment pressure above 10 mmHg",
+      "Absent distal pulses",
+      "Systolic BP minus compartment pressure below 60 mmHg",
+      "Diastolic BP minus compartment pressure below 30 mmHg"
+    ],
+    "answer": "D",
+    "reason": "Delta pressure better reflects perfusion than absolute pressure.",
+    "explanation": "Clinical signs, especially pain on passive stretch, are most important. When unclear, a delta pressure (diastolic BP minus compartment pressure) below 30 mmHg supports fasciotomy. Pulses are usually present until very late.",
+    "pearl": "Pulses present do not rule out compartment syndrome."
+  },
+  {
+    "id": "SB039-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "A man with a pelvic fracture has blood at the urethral meatus. What should be done before passing a urinary catheter?",
+    "options": [
+      "CT abdomen with IV contrast",
+      "Cystoscopy",
+      "Retrograde urethrogram",
+      "Suprapubic aspiration"
+    ],
+    "answer": "C",
+    "reason": "Blood at the meatus suggests urethral injury.",
+    "explanation": "Blind catheterisation can convert a partial tear into a complete one. A retrograde urethrogram is done first. If the urethra is injured, a suprapubic catheter is placed.",
+    "pearl": "A high-riding prostate is unreliable; the urethrogram decides."
+  },
+  {
+    "id": "SB039-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "Where does urethral injury typically occur in a pelvic fracture?",
+    "options": [
+      "Posterior urethra at the bulbomembranous junction",
+      "Penile urethra",
+      "Prostatic urethra at the bladder neck",
+      "Fossa navicularis"
+    ],
+    "answer": "A",
+    "reason": "Shearing forces tear the urethra where it passes through the pelvic floor.",
+    "explanation": "Pelvic fractures cause posterior urethral injury. Anterior (bulbar) urethral injury usually follows a straddle injury. Delayed urethroplasty is preferred after suprapubic drainage.",
+    "pearl": "Straddle injury affects the bulbar urethra."
+  },
+  {
+    "id": "SB039-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "How are most blunt renal injuries, including many high-grade ones, managed in stable patients?",
+    "options": [
+      "Nonoperatively",
+      "Nephrectomy",
+      "Routine renal exploration",
+      "Partial nephrectomy"
+    ],
+    "answer": "A",
+    "reason": "Over 90% of blunt renal injuries heal without surgery.",
+    "explanation": "Stable patients are managed with bed rest, serial haemoglobin and repeat imaging if needed. Angioembolisation treats active bleeding. Surgery is for instability or expanding retroperitoneal haematoma.",
+    "pearl": "Surgical exploration often ends in nephrectomy, so avoid it when possible."
+  },
+  {
+    "id": "SB039-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "How is an intraperitoneal bladder rupture managed?",
+    "options": [
+      "Surgical repair",
+      "Urinary catheter drainage alone",
+      "Observation",
+      "Suprapubic catheter alone"
+    ],
+    "answer": "A",
+    "reason": "Urine leaking into the peritoneum causes peritonitis and does not seal.",
+    "explanation": "Intraperitoneal rupture often follows a blow to a full bladder and needs open or laparoscopic two-layer repair. Most extraperitoneal ruptures heal with 10–14 days of catheter drainage.",
+    "pearl": "Bone fragments in the bladder or bladder neck injury need repair even if extraperitoneal."
+  },
+  {
+    "id": "SB039-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "Which blunt trauma patient needs imaging for possible renal injury?",
+    "options": [
+      "Microscopic haematuria with systolic BP below 90 mmHg",
+      "Microscopic haematuria with normal BP",
+      "No haematuria and a stable patient",
+      "Isolated rib fracture with normal urine"
+    ],
+    "answer": "A",
+    "reason": "Gross haematuria, or microscopic haematuria with shock, warrant CT.",
+    "explanation": "In adults with blunt trauma, isolated microscopic haematuria in a stable patient rarely indicates significant injury. Deceleration injuries need CT even without haematuria because renal pedicle injury may not cause haematuria.",
+    "pearl": "Children are imaged more readily."
+  },
+  {
+    "id": "SB039-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "What is the treatment of a penile fracture?",
+    "options": [
+      "Ice and observation",
+      "Catheterisation alone",
+      "Corticosteroid injection",
+      "Urgent surgical repair of the tunica albuginea"
+    ],
+    "answer": "D",
+    "reason": "Early repair reduces curvature and erectile dysfunction.",
+    "explanation": "Penile fracture is a tear of the tunica albuginea of the corpus cavernosum during an erection, with a crack and rapid detumescence. Concomitant urethral injury occurs in some cases and is repaired at the same time.",
+    "pearl": "The 'eggplant deformity' is classic."
+  },
+  {
+    "id": "SB039-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "What is the most common cause of ureteric injury?",
+    "options": [
+      "Penetrating abdominal trauma",
+      "Blunt abdominal trauma",
+      "Iatrogenic injury during pelvic surgery",
+      "Pelvic fracture"
+    ],
+    "answer": "C",
+    "reason": "Gynaecological, colorectal and urological operations cause most ureteric injuries.",
+    "explanation": "Ureteric injury is often missed at surgery and presents later with flank pain, fever, urinoma or fistula. Recognition at the time of surgery allows immediate repair over a stent.",
+    "pearl": "Identify the ureter before ligating pelvic vessels."
+  },
+  {
+    "id": "SB039-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "Which investigation reliably diagnoses bladder rupture?",
+    "options": [
+      "CT cystogram with retrograde filling of the bladder",
+      "Delayed-phase CT after IV contrast alone",
+      "Ultrasound of the pelvis",
+      "Plain abdominal X-ray"
+    ],
+    "answer": "A",
+    "reason": "Passive filling from IV contrast can miss a leak.",
+    "explanation": "The bladder must be actively distended with at least 300 mL of dilute contrast to show extravasation. Intraperitoneal leaks outline bowel loops; extraperitoneal leaks show flame-shaped contrast around the bladder.",
+    "pearl": "Clamping the catheter after IV contrast is not enough."
+  },
+  {
+    "id": "SB039-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "Ultrasound after blunt scrotal trauma shows loss of the tunica albuginea contour. What is the management?",
+    "options": [
+      "Scrotal support and analgesia",
+      "Repeat ultrasound in 1 week",
+      "Surgical exploration and repair",
+      "Antibiotics only"
+    ],
+    "answer": "C",
+    "reason": "This suggests testicular rupture.",
+    "explanation": "Early exploration within 72 hours salvages most ruptured testes. Delay increases the rate of orchidectomy, infection and atrophy.",
+    "pearl": "Large haematoceles also warrant exploration."
+  },
+  {
+    "id": "SB039-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 39 · Management of Urologic Trauma",
+    "topic": "Management of Urologic Trauma",
+    "stem": "Which renal injury is AAST grade IV?",
+    "options": [
+      "Subcapsular haematoma without laceration",
+      "Cortical laceration under 1 cm deep",
+      "Laceration into the collecting system with urinary extravasation",
+      "Shattered kidney"
+    ],
+    "answer": "C",
+    "reason": "Collecting system involvement or segmental vascular injury makes grade IV.",
+    "explanation": "Grades I–III are parenchymal injuries of increasing depth without collecting system injury. Grade V is a shattered kidney or hilar avulsion with devascularisation. Many grade IV injuries heal with stenting or observation.",
+    "pearl": "Persistent urine leak is treated with a ureteric stent."
+  },
+  {
+    "id": "SB040-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "When should antibiotics be given for an open fracture?",
+    "options": [
+      "Only after formal debridement in theatre",
+      "Only if the wound looks contaminated",
+      "As soon as possible, ideally within 1 hour of injury",
+      "After 24 hours if a fever develops"
+    ],
+    "answer": "C",
+    "reason": "Early antibiotics reduce deep infection rates.",
+    "explanation": "A first-generation cephalosporin is given for all open fractures, with gram-negative cover for severe injuries. Tetanus status is checked, the wound covered with a sterile dressing and the fracture splinted.",
+    "pearl": "Antibiotic timing matters more than time to debridement."
+  },
+  {
+    "id": "SB040-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "Which Gustilo–Anderson type of open fracture has extensive soft tissue loss and needs flap coverage?",
+    "options": [
+      "Type I",
+      "Type II",
+      "Type IIIA",
+      "Type IIIB"
+    ],
+    "answer": "D",
+    "reason": "IIIB has periosteal stripping and exposed bone needing a flap.",
+    "explanation": "Type I wounds are under 1 cm and type II 1–10 cm. Type IIIA has adequate soft tissue cover despite high energy. Type IIIC has an arterial injury needing repair.",
+    "pearl": "Final grading is done in theatre after debridement."
+  },
+  {
+    "id": "SB040-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "Where should a pelvic binder be positioned?",
+    "options": [
+      "Over the iliac crests",
+      "Over the greater trochanters",
+      "Over the umbilicus",
+      "Over the lower thighs"
+    ],
+    "answer": "B",
+    "reason": "The trochanters give the best leverage to close the pelvic ring.",
+    "explanation": "Binders placed too high over the iliac crests widen the ring or fail to reduce it. Binders reduce pelvic volume and tamponade venous bleeding while awaiting definitive control.",
+    "pearl": "Do not remove the binder until bleeding has been controlled."
+  },
+  {
+    "id": "SB040-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "A patient develops hypoxaemia, confusion and petechiae over the chest 48 hours after a femoral shaft fracture. What is the diagnosis?",
+    "options": [
+      "Pulmonary embolism from deep vein thrombosis",
+      "Septic shock",
+      "Fat embolism syndrome",
+      "Transfusion reaction"
+    ],
+    "answer": "C",
+    "reason": "The classic triad is respiratory, neurological and skin changes.",
+    "explanation": "Fat embolism usually appears 24–72 hours after long bone fractures. Treatment is supportive. Early stabilisation of long bone fractures reduces its incidence.",
+    "pearl": "Petechiae in the axillae and conjunctivae are a key clue."
+  },
+  {
+    "id": "SB040-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "Within what time should a posterior hip dislocation be reduced to lower the risk of avascular necrosis?",
+    "options": [
+      "Within 6 hours",
+      "Within 24 hours",
+      "Within 72 hours",
+      "Within 1 week"
+    ],
+    "answer": "A",
+    "reason": "Delay compromises femoral head blood supply.",
+    "explanation": "The femoral head relies on retinacular vessels that are stretched or kinked by dislocation. Delays beyond 6 hours sharply raise avascular necrosis risk. Sciatic nerve injury occurs in some posterior dislocations.",
+    "pearl": "Look for an associated posterior wall acetabular fracture."
+  },
+  {
+    "id": "SB040-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "Which nerve is most often injured in an extension-type supracondylar fracture of the humerus in a child?",
+    "options": [
+      "Ulnar nerve",
+      "Radial nerve",
+      "Axillary nerve",
+      "Anterior interosseous nerve"
+    ],
+    "answer": "D",
+    "reason": "Test with the 'OK' sign of thumb and index flexion.",
+    "explanation": "The anterior interosseous branch of the median nerve is the most commonly injured. The brachial artery may also be injured, especially with posterolateral displacement. Flexion-type fractures more often injure the ulnar nerve.",
+    "pearl": "A pink, pulseless hand needs urgent reduction and reassessment."
+  },
+  {
+    "id": "SB040-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "What Mangled Extremity Severity Score value has traditionally predicted amputation?",
+    "options": [
+      "3 or more",
+      "5 or more",
+      "7 or more",
+      "12 or more"
+    ],
+    "answer": "C",
+    "reason": "MESS combines tissue injury, ischaemia, shock and age.",
+    "explanation": "A score of 7 or above was linked with amputation in early studies. Later work showed no score reliably predicts outcome, so the decision considers the whole patient and the limb.",
+    "pearl": "No scoring system should decide amputation alone."
+  },
+  {
+    "id": "SB040-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "A haemodynamically unstable polytrauma patient has a femoral shaft fracture. What is the preferred initial treatment?",
+    "options": [
+      "External fixation (damage control orthopaedics)",
+      "Immediate intramedullary nailing",
+      "Skin traction only for 2 weeks",
+      "Open plating"
+    ],
+    "answer": "A",
+    "reason": "Brief external fixation avoids a second hit in unstable patients.",
+    "explanation": "Early definitive nailing benefits stable patients. Unstable, cold or coagulopathic patients do better with quick external fixation and conversion to nailing once resuscitated, usually within 2 weeks.",
+    "pearl": "Convert to definitive fixation when the patient is physiologically ready."
+  },
+  {
+    "id": "SB040-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "Why does a fracture of the scaphoid waist risk avascular necrosis of the proximal pole?",
+    "options": [
+      "The proximal pole has no cartilage",
+      "The radial artery crosses the fracture",
+      "The lunate compresses the proximal pole",
+      "The blood supply enters distally and flows retrograde"
+    ],
+    "answer": "D",
+    "reason": "Retrograde flow is cut off by a waist fracture.",
+    "explanation": "Most scaphoid blood comes from dorsal branches of the radial artery entering distally. Tenderness in the anatomical snuffbox with a normal X-ray warrants immobilisation and MRI or repeat imaging.",
+    "pearl": "Treat snuffbox tenderness as a fracture until proven otherwise."
+  },
+  {
+    "id": "SB040-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 40 · Emergency Care of Musculoskeletal Injuries",
+    "topic": "Emergency Care of Musculoskeletal Injuries",
+    "stem": "A patient with a pelvic fracture remains hypotensive despite a binder and blood transfusion, with a negative FAST. What is the next step?",
+    "options": [
+      "Laparotomy",
+      "Remove the binder and reassess",
+      "Angiographic embolisation or preperitoneal pelvic packing",
+      "Wait for a repeat CT in 6 hours"
+    ],
+    "answer": "C",
+    "reason": "Ongoing pelvic bleeding needs control by embolisation or packing.",
+    "explanation": "Arterial bleeding responds to angioembolisation, while venous and bony bleeding responds to preperitoneal packing. A negative FAST makes laparotomy less useful. REBOA may be a bridge in selected centres.",
+    "pearl": "Most pelvic bleeding is venous."
+  },
+  {
+    "id": "SB041-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "Which triad suggests raised intracranial pressure with impending herniation?",
+    "options": [
+      "Hypotension, tachycardia and fever",
+      "Hypotension, bradycardia and warm skin",
+      "Hypertension, bradycardia and irregular breathing",
+      "Tachycardia, tachypnoea and hypertension"
+    ],
+    "answer": "C",
+    "reason": "This is the Cushing reflex.",
+    "explanation": "Rising ICP reduces cerebral perfusion, triggering a sympathetic surge that raises BP. Baroreceptors then slow the heart, and brainstem compression disturbs breathing. It is a late sign.",
+    "pearl": "Pupillary dilatation on the side of the mass is another sign of herniation."
+  },
+  {
+    "id": "SB041-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "A young man is knocked out, recovers, then deteriorates hours later. CT shows a biconvex hyperdense collection. What is the source?",
+    "options": [
+      "Bridging cortical veins",
+      "Circle of Willis aneurysm",
+      "Middle meningeal artery",
+      "Superior sagittal sinus"
+    ],
+    "answer": "C",
+    "reason": "Extradural haematoma is usually arterial and lens-shaped.",
+    "explanation": "A temporal bone fracture tears the middle meningeal artery. The collection does not cross suture lines. Early evacuation gives an excellent outcome.",
+    "pearl": "The lucid interval is classic but present in only some cases."
+  },
+  {
+    "id": "SB041-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "An elderly man on anticoagulants has a crescent-shaped collection that crosses suture lines on CT. What is the likely source?",
+    "options": [
+      "Middle meningeal artery",
+      "Rupture of a berry aneurysm",
+      "Choroid plexus bleeding",
+      "Torn bridging veins"
+    ],
+    "answer": "D",
+    "reason": "Subdural haematomas follow the brain surface across sutures.",
+    "explanation": "Brain atrophy stretches bridging veins, so the elderly and alcoholics are at risk after minor trauma. Acute subdurals are often associated with underlying brain injury and have a worse prognosis than extradurals.",
+    "pearl": "Reverse anticoagulation quickly."
+  },
+  {
+    "id": "SB041-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "According to Brain Trauma Foundation guidelines, what systolic BP should be maintained in a 55-year-old with severe TBI?",
+    "options": [
+      "At least 80 mmHg",
+      "At least 90 mmHg",
+      "At least 100 mmHg",
+      "At least 130 mmHg"
+    ],
+    "answer": "C",
+    "reason": "Patients 50–69 years: SBP ≥100; 15–49 or over 70: SBP ≥110.",
+    "explanation": "A single episode of hypotension or hypoxia greatly worsens outcome after TBI. Target SpO2 is at least 94% and PaCO2 35–45 mmHg, with hyperventilation reserved for impending herniation.",
+    "pearl": "Permissive hypotension does not apply to head injury."
+  },
+  {
+    "id": "SB041-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "At what intracranial pressure should treatment start in severe TBI?",
+    "options": [
+      "Above 10 mmHg",
+      "Above 15 mmHg",
+      "Above 22 mmHg",
+      "Above 40 mmHg"
+    ],
+    "answer": "C",
+    "reason": "Brain Trauma Foundation sets the threshold at 22 mmHg.",
+    "explanation": "Treatment is stepwise: head up 30 degrees, sedation, CSF drainage, hyperosmolar therapy with mannitol or hypertonic saline, then advanced measures such as decompressive craniectomy. Cerebral perfusion pressure is kept at 60–70 mmHg.",
+    "pearl": "CPP = MAP − ICP."
+  },
+  {
+    "id": "SB041-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "What is the role of corticosteroids in traumatic brain injury?",
+    "options": [
+      "High-dose methylprednisolone for 48 hours",
+      "Dexamethasone to reduce oedema",
+      "They are used for all GCS below 8",
+      "They are contraindicated because they increase mortality"
+    ],
+    "answer": "D",
+    "reason": "The CRASH trial showed higher mortality with steroids.",
+    "explanation": "Unlike vasogenic oedema around tumours, traumatic oedema does not respond to steroids. Steroids are not recommended in TBI.",
+    "pearl": "Steroids help tumour oedema, not traumatic oedema."
+  },
+  {
+    "id": "SB041-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "An elderly man falls forward and hyperextends his neck. He has weakness much worse in the arms than the legs. What is the diagnosis?",
+    "options": [
+      "Anterior cord syndrome",
+      "Brown-Séquard syndrome",
+      "Cauda equina syndrome",
+      "Central cord syndrome"
+    ],
+    "answer": "D",
+    "reason": "Central fibres for the arms are affected more than lateral fibres for the legs.",
+    "explanation": "Hyperextension in a spondylotic spine compresses the cord centrally. It is the most common incomplete cord syndrome and often recovers partly, with the legs, bladder and finally the hands improving in that order.",
+    "pearl": "Anterior cord syndrome spares only proprioception and vibration."
+  },
+  {
+    "id": "SB041-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "A stab wound to the back causes cord hemisection. Which pattern results?",
+    "options": [
+      "Bilateral loss of motor function only",
+      "Contralateral weakness, ipsilateral loss of pain sensation",
+      "Ipsilateral weakness and loss of proprioception, contralateral loss of pain and temperature",
+      "Loss of sensation in a saddle distribution"
+    ],
+    "answer": "C",
+    "reason": "Spinothalamic fibres cross early; corticospinal and dorsal columns cross higher.",
+    "explanation": "Brown-Séquard syndrome has the best prognosis of the incomplete cord syndromes. Most patients recover the ability to walk.",
+    "pearl": "Pain and temperature fibres cross within one or two segments of entry."
+  },
+  {
+    "id": "SB041-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "What is the evidence-based role of anti-seizure prophylaxis after severe TBI?",
+    "options": [
+      "It prevents late post-traumatic epilepsy",
+      "It reduces early seizures in the first 7 days",
+      "It is given for life",
+      "It is not used at all"
+    ],
+    "answer": "B",
+    "reason": "Prophylaxis cuts early seizures but not late epilepsy.",
+    "explanation": "Phenytoin or levetiracetam for 7 days lowers seizures in the first week, which could raise ICP. It does not prevent epilepsy developing later, so it is stopped after a week if no seizures occur.",
+    "pearl": "Levetiracetam is increasingly preferred for fewer interactions."
+  },
+  {
+    "id": "SB041-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 41 · Emergency Care of Neurologic Injuries",
+    "topic": "Emergency Care of Neurologic Injuries",
+    "stem": "Which is a high-risk factor in the Canadian C-spine rule mandating imaging?",
+    "options": [
+      "Age 65 years or more",
+      "Distracting injury",
+      "Intoxication",
+      "Female sex"
+    ],
+    "answer": "A",
+    "reason": "High-risk factors: age 65+, dangerous mechanism, or limb paraesthesias.",
+    "explanation": "Distracting injury and intoxication belong to NEXUS. The Canadian rule then asks about low-risk features and whether the patient can rotate the neck 45 degrees each way.",
+    "pearl": "Both rules apply only to alert, stable patients."
+  },
+  {
+    "id": "SB042-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "What is the leading cause of death in children over 1 year of age in high-income countries?",
+    "options": [
+      "Congenital heart disease",
+      "Cancer",
+      "Infections",
+      "Injury (trauma)"
+    ],
+    "answer": "D",
+    "reason": "Trauma kills more children than all other causes combined.",
+    "explanation": "Road traffic accidents, drowning, falls and non-accidental injury dominate. Head injury causes most trauma deaths in children.",
+    "pearl": "Prevention (car seats, helmets, pool fencing) saves the most lives."
+  },
+  {
+    "id": "SB042-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "What is the lower limit of normal systolic BP in a child aged 1–10 years?",
+    "options": [
+      "50 + age in years mmHg",
+      "70 + (2 × age in years) mmHg",
+      "90 + (2 × age in years) mmHg",
+      "100 mmHg at all ages"
+    ],
+    "answer": "B",
+    "reason": "Below this value the child is hypotensive.",
+    "explanation": "Children compensate for blood loss with tachycardia and vasoconstriction, keeping BP normal until about 30–45% of blood volume is lost. Hypotension is a late, ominous sign.",
+    "pearl": "Tachycardia and poor capillary refill come first."
+  },
+  {
+    "id": "SB042-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "How are most blunt splenic and liver injuries managed in haemodynamically stable children?",
+    "options": [
+      "Splenectomy or hepatic resection",
+      "Routine laparotomy",
+      "Angioembolisation in every case",
+      "Nonoperative management"
+    ],
+    "answer": "D",
+    "reason": "Over 90% of stable children are managed without surgery.",
+    "explanation": "Children have a thicker capsule and better bleeding control. Nonoperative management also avoids overwhelming post-splenectomy infection. Protocols limit bed rest and ICU stays by injury grade.",
+    "pearl": "Blood transfusion beyond about 40 mL/kg suggests the need for surgery."
+  },
+  {
+    "id": "SB042-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "What does SCIWORA stand for?",
+    "options": [
+      "Spinal canal injury with occult rib abnormality",
+      "Severe cord injury with ongoing respiratory arrest",
+      "Spinal compression in white matter of adolescents",
+      "Spinal cord injury without radiographic abnormality"
+    ],
+    "answer": "D",
+    "reason": "Children's elastic spines allow cord injury without fractures.",
+    "explanation": "Ligamentous laxity lets the spine stretch more than the cord can. Plain films and CT may be normal, but MRI shows cord or ligament injury. Delayed onset of deficits is common.",
+    "pearl": "MRI is the investigation of choice."
+  },
+  {
+    "id": "SB042-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "Which fracture pattern is highly suggestive of non-accidental injury in an infant?",
+    "options": [
+      "Posterior rib fractures",
+      "Clavicle fracture",
+      "Distal radius buckle fracture",
+      "Toddler's fracture of the tibia"
+    ],
+    "answer": "A",
+    "reason": "Posterior rib fractures result from squeezing of the chest.",
+    "explanation": "Other red flags are metaphyseal corner fractures, multiple fractures of different ages, injuries inconsistent with the history or development, and retinal haemorrhages. A skeletal survey is done in infants with suspected abuse.",
+    "pearl": "Always ask: does the injury match the story and the child's development?"
+  },
+  {
+    "id": "SB042-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "What is the preferred site for intraosseous access in a young child?",
+    "options": [
+      "Anteromedial proximal tibia, below the tibial tuberosity",
+      "Distal femur on the lateral side",
+      "Sternum",
+      "Iliac crest"
+    ],
+    "answer": "A",
+    "reason": "The flat anteromedial tibia is easy to reach and avoids the growth plate.",
+    "explanation": "Intraosseous access is used if IV access fails after two attempts or 90 seconds. All resuscitation drugs and fluids can be given. Avoid fractured bones.",
+    "pearl": "Do not use a limb with a fracture above the site."
+  },
+  {
+    "id": "SB042-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "A child falls onto bicycle handlebars and has epigastric pain. Which injury must be considered?",
+    "options": [
+      "Splenic rupture",
+      "Bladder rupture",
+      "Pancreatic or duodenal injury",
+      "Diaphragmatic injury"
+    ],
+    "answer": "C",
+    "reason": "The handlebar compresses the pancreas and duodenum against the spine.",
+    "explanation": "Symptoms may be delayed and early CT can be normal. A rising amylase or lipase prompts repeat imaging. Duodenal haematoma causes vomiting and usually resolves with nasogastric decompression.",
+    "pearl": "A handlebar mark on the abdomen is a warning sign."
+  },
+  {
+    "id": "SB042-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "Why are children more prone to hypothermia after trauma?",
+    "options": [
+      "They have more subcutaneous fat",
+      "They shiver more than adults",
+      "They have a larger body surface area relative to their mass",
+      "Their metabolic rate is lower"
+    ],
+    "answer": "C",
+    "reason": "Heat is lost quickly through the larger relative surface area.",
+    "explanation": "Hypothermia worsens coagulopathy and acidosis. Warm the room and fluids, cover the head and use warming blankets during assessment.",
+    "pearl": "Keep children covered except for the part being examined."
+  },
+  {
+    "id": "SB042-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "What is usually the earliest sign of hypovolaemia in an injured child?",
+    "options": [
+      "Hypotension",
+      "Tachycardia",
+      "Bradycardia",
+      "Reduced conscious level"
+    ],
+    "answer": "B",
+    "reason": "Children maintain BP until late, so heart rate rises first.",
+    "explanation": "Tachycardia, cool skin and prolonged capillary refill appear first. Hypotension develops only when compensation fails. Bradycardia is pre-arrest.",
+    "pearl": "A falling heart rate in a shocked child signals impending arrest."
+  },
+  {
+    "id": "SB042-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 42 · Management of Pediatric Trauma",
+    "topic": "Management of Pediatric Trauma",
+    "stem": "Under PECARN rules, which finding in a 1-year-old with minor head trauma means CT is recommended?",
+    "options": [
+      "A frontal scalp bruise",
+      "A single episode of vomiting",
+      "A palpable skull fracture",
+      "Crying immediately after the fall"
+    ],
+    "answer": "C",
+    "reason": "Altered mental status or palpable fracture puts the child in the high-risk group.",
+    "explanation": "PECARN separates children under 2 from older children. Altered mental status, GCS below 15 or a palpable skull fracture means CT. Lesser findings such as a non-frontal haematoma or brief loss of consciousness may justify observation.",
+    "pearl": "PECARN helps avoid unnecessary radiation in children."
+  },
+  {
+    "id": "SB043-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "A 70-kg adult has 40% TBSA burns. Using the Parkland formula, how much fluid is given in the first 8 hours from injury?",
+    "options": [
+      "2800 mL",
+      "4000 mL",
+      "5600 mL",
+      "11,200 mL"
+    ],
+    "answer": "C",
+    "reason": "4 × 70 × 40 = 11,200 mL in 24 h; half in the first 8 h.",
+    "explanation": "The first half is given in the 8 hours from the time of burn, not from arrival. The rest is given over the next 16 hours. Fluid rates are then adjusted to urine output.",
+    "pearl": "Watch for fluid creep: over-resuscitation causes compartment syndromes."
+  },
+  {
+    "id": "SB043-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "What urine output is targeted during burn resuscitation in an adult?",
+    "options": [
+      "0.1 mL/kg/hour",
+      "0.5 mL/kg/hour (about 30–50 mL/hour)",
+      "2 mL/kg/hour",
+      "200 mL/hour"
+    ],
+    "answer": "B",
+    "reason": "Urine output is the main bedside resuscitation end point.",
+    "explanation": "Children aim for about 1 mL/kg/hour. Higher targets drive over-resuscitation. Electrical injury with pigmenturia needs higher output, around 1–1.5 mL/kg/hour.",
+    "pearl": "Adjust fluid by about a third if output is off target."
+  },
+  {
+    "id": "SB043-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "In the adult rule of nines, what percentage of body surface area is the entire anterior trunk?",
+    "options": [
+      "9%",
+      "18%",
+      "27%",
+      "36%"
+    ],
+    "answer": "B",
+    "reason": "Anterior trunk and posterior trunk are 18% each.",
+    "explanation": "Head 9%, each upper limb 9%, each lower limb 18% and perineum 1%. Children have a larger head and smaller legs, so Lund–Browder charts are more accurate. Erythema alone is not counted.",
+    "pearl": "The patient's palm with fingers is about 1% TBSA."
+  },
+  {
+    "id": "SB043-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "A house-fire victim has a carboxyhaemoglobin level of 25%. What is the first-line treatment?",
+    "options": [
+      "Hydroxocobalamin alone",
+      "100% oxygen through a non-rebreathing mask",
+      "Hyperbaric oxygen before anything else",
+      "Methylene blue"
+    ],
+    "answer": "B",
+    "reason": "100% oxygen shortens the half-life of carbon monoxide.",
+    "explanation": "In room air carbon monoxide's half-life is about 4–5 hours, falling to about 1 hour on 100% oxygen. Pulse oximetry falsely reads normal, so co-oximetry is needed. Hyperbaric oxygen is controversial.",
+    "pearl": "Pulse oximetry cannot tell carboxyhaemoglobin from oxyhaemoglobin."
+  },
+  {
+    "id": "SB043-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "A fire victim has severe lactic acidosis that persists despite oxygen and fluids. Which antidote should be given?",
+    "options": [
+      "Hydroxocobalamin",
+      "Naloxone",
+      "Flumazenil",
+      "Atropine"
+    ],
+    "answer": "A",
+    "reason": "Suspect cyanide poisoning from burning plastics.",
+    "explanation": "Cyanide blocks cytochrome oxidase, so cells cannot use oxygen. Hydroxocobalamin binds cyanide to form cyanocobalamin, which is excreted in the urine. It may colour urine and skin red.",
+    "pearl": "Lactate above 8 mmol/L in a fire victim suggests cyanide."
+  },
+  {
+    "id": "SB043-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "A patient with circumferential full-thickness chest burns has rising airway pressures. What is needed?",
+    "options": [
+      "Increase the tidal volume",
+      "Bronchoscopy",
+      "Chest escharotomy",
+      "Chest drain insertion"
+    ],
+    "answer": "C",
+    "reason": "Inelastic eschar restricts chest expansion.",
+    "explanation": "Incisions along the anterior axillary lines, joined across the chest, release the eschar. Circumferential limb burns may need escharotomy for distal ischaemia. Escharotomy goes through the eschar only, not the fascia.",
+    "pearl": "The incisions are painless because full-thickness burns lack sensation."
+  },
+  {
+    "id": "SB043-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "Which topical antimicrobial for burns can cause metabolic acidosis?",
+    "options": [
+      "Silver sulfadiazine",
+      "Silver nitrate",
+      "Mafenide acetate",
+      "Bacitracin"
+    ],
+    "answer": "C",
+    "reason": "Mafenide inhibits carbonic anhydrase.",
+    "explanation": "Mafenide penetrates eschar well and is useful for ear cartilage and deep burns. Silver sulfadiazine can cause transient leucopenia. Silver nitrate causes hyponatraemia and staining.",
+    "pearl": "Hyperchloraemic acidosis with mafenide: switch agents."
+  },
+  {
+    "id": "SB043-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "A burn is expected to take more than 3 weeks to heal. What is the preferred management?",
+    "options": [
+      "Daily dressings until healing",
+      "Early excision and skin grafting",
+      "Topical steroids",
+      "Leave exposed to dry"
+    ],
+    "answer": "B",
+    "reason": "Healing beyond 3 weeks leads to hypertrophic scarring.",
+    "explanation": "Deep partial-thickness and full-thickness burns are excised and grafted, usually within the first week. Early excision reduces infection, length of stay and scarring.",
+    "pearl": "Superficial partial-thickness burns heal in under 2 weeks."
+  },
+  {
+    "id": "SB043-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "What is a Curling ulcer?",
+    "options": [
+      "A stress ulcer of the stomach or duodenum after major burns",
+      "An ulcer arising in a chronic burn scar",
+      "A pressure ulcer under a splint",
+      "A corneal ulcer from facial burns"
+    ],
+    "answer": "A",
+    "reason": "Stress ulcers occur in severe burns.",
+    "explanation": "Mucosal ischaemia from hypovolaemia leads to ulceration. Early enteral feeding and acid suppression have made Curling ulcers rare. Malignant change in a chronic burn scar is a Marjolin ulcer.",
+    "pearl": "Cushing ulcer follows head injury."
+  },
+  {
+    "id": "SB043-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 43 · Burns",
+    "topic": "Burns",
+    "stem": "Which drug reduces hypermetabolism and muscle wasting after severe burns?",
+    "options": [
+      "Furosemide",
+      "Dexamethasone",
+      "Metoclopramide",
+      "Propranolol"
+    ],
+    "answer": "D",
+    "reason": "Beta-blockade lowers heart rate, energy use and catabolism.",
+    "explanation": "Severe burns cause months of hypermetabolism with high catecholamines. Propranolol reduces resting energy expenditure and muscle protein loss. Oxandrolone, an anabolic steroid, is also used.",
+    "pearl": "Keep the room warm to reduce energy expenditure."
+  },
+  {
+    "id": "SB044-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "A hypothermic patient at 30 °C has a positive deflection at the junction of the QRS and ST segment on ECG. What is this called?",
+    "options": [
+      "Delta wave",
+      "U wave",
+      "Osborn (J) wave",
+      "Epsilon wave"
+    ],
+    "answer": "C",
+    "reason": "J waves are typical of hypothermia.",
+    "explanation": "Hypothermia also causes bradycardia, prolonged intervals and atrial fibrillation. Below about 28 °C ventricular fibrillation becomes likely, and rough handling can trigger it.",
+    "pearl": "J waves get bigger as the temperature falls."
+  },
+  {
+    "id": "SB044-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "A labourer collapses in the heat with a core temperature of 41 °C and confusion. What is the most effective cooling method?",
+    "options": [
+      "Paracetamol",
+      "Fanning alone",
+      "Ice packs to the forehead only",
+      "Cold water immersion"
+    ],
+    "answer": "D",
+    "reason": "Immersion cools fastest and improves survival in heat stroke.",
+    "explanation": "Heat stroke is core temperature above 40 °C with CNS dysfunction. Cooling should start immediately, aiming below 39 °C. Antipyretics do not work because the hypothalamic set-point is normal.",
+    "pearl": "Cool first, transport second."
+  },
+  {
+    "id": "SB044-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "Which statement about frostbite management is correct?",
+    "options": [
+      "Rub the part with snow",
+      "Do not thaw the part if there is a risk of refreezing",
+      "Warm the part over an open fire",
+      "Early amputation within 48 hours"
+    ],
+    "answer": "B",
+    "reason": "Freeze–thaw–refreeze causes much worse tissue loss.",
+    "explanation": "Rewarm rapidly in warm water once there is no risk of refreezing. Demarcation takes weeks, so amputation is delayed. Thrombolysis with tPA may save digits in severe cases treated early.",
+    "pearl": "Frozen in January, amputate in July."
+  },
+  {
+    "id": "SB044-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "Which organism is classically transmitted by cat bites?",
+    "options": [
+      "Pasteurella multocida",
+      "Eikenella corrodens",
+      "Capnocytophaga canimorsus",
+      "Bartonella henselae"
+    ],
+    "answer": "A",
+    "reason": "Pasteurella infection develops within 24 hours of a cat bite.",
+    "explanation": "Cat bites are deep punctures and often infected. Amoxicillin–clavulanate covers Pasteurella, streptococci, staphylococci and anaerobes. Capnocytophaga follows dog bites, especially in splenectomised patients.",
+    "pearl": "Cat bites over the hand deserve prophylactic antibiotics."
+  },
+  {
+    "id": "SB044-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "A man hits someone in the mouth and has a small wound over the 3rd MCP joint. What is the management?",
+    "options": [
+      "Suture the wound and discharge",
+      "Antibiotics only if fever develops",
+      "Surgical exploration, washout and antibiotics",
+      "Dressing and review in 1 week"
+    ],
+    "answer": "C",
+    "reason": "A fight bite can inoculate oral flora into the joint.",
+    "explanation": "The tendon and joint capsule are penetrated with the fist clenched, so the wound looks small when the hand is open. Eikenella corrodens and anaerobes are common. Never close these wounds primarily.",
+    "pearl": "Assume joint penetration until proven otherwise."
+  },
+  {
+    "id": "SB044-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "After a black widow spider bite, a patient develops severe abdominal pain and rigidity. What causes this?",
+    "options": [
+      "Local necrosis spreading to the abdominal wall",
+      "Haemolysis with splenic infarction",
+      "Acute pancreatitis from the venom",
+      "Neurotoxin causing neurotransmitter release and muscle spasm"
+    ],
+    "answer": "D",
+    "reason": "Alpha-latrotoxin causes release of acetylcholine and noradrenaline.",
+    "explanation": "Latrodectism causes painful muscle cramps that can mimic an acute abdomen. Treatment is analgesia and benzodiazepines, with antivenom in severe cases. Brown recluse bites cause local necrosis instead.",
+    "pearl": "Board-like rigidity without peritonitis: think black widow."
+  },
+  {
+    "id": "SB044-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "What is the initial management of a necrotic wound after a brown recluse spider bite?",
+    "options": [
+      "Local wound care with delayed excision if needed",
+      "Immediate wide surgical excision",
+      "Systemic steroids for all",
+      "Incision and drainage"
+    ],
+    "answer": "A",
+    "reason": "Early excision does not help and can worsen scarring.",
+    "explanation": "Loxoscelism causes a painful necrotic ulcer from sphingomyelinase D. Wait for the lesion to demarcate over weeks before debridement and grafting.",
+    "pearl": "Systemic loxoscelism can cause haemolysis and kidney injury."
+  },
+  {
+    "id": "SB044-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "What is correct first aid for a venomous snake bite on the leg?",
+    "options": [
+      "Immobilise the limb and transport for antivenom",
+      "Apply a tight tourniquet",
+      "Incise and suck out the venom",
+      "Apply ice to the wound"
+    ],
+    "answer": "A",
+    "reason": "Immobilisation slows venom spread; antivenom is the definitive treatment.",
+    "explanation": "Tourniquets, incisions, suction and ice cause more harm. Pressure immobilisation is used for neurotoxic elapid bites. Antivenom is given for systemic toxicity or progressive local swelling.",
+    "pearl": "Mark swelling margins every 15–30 minutes."
+  },
+  {
+    "id": "SB044-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "A hypothermic patient (24 °C) is in cardiac arrest. What is the preferred rewarming method?",
+    "options": [
+      "Extracorporeal rewarming with ECMO or cardiopulmonary bypass",
+      "Warm blankets alone",
+      "Warm IV fluid alone",
+      "Radiant heater"
+    ],
+    "answer": "A",
+    "reason": "Extracorporeal rewarming restores both temperature and circulation.",
+    "explanation": "Hypothermic patients can survive long periods of arrest with good neurological outcome. CPR continues during transfer. A serum potassium above 10–12 mmol/L suggests death before cooling.",
+    "pearl": "No one is dead until they are warm and dead."
+  },
+  {
+    "id": "SB044-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 44 · The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "topic": "The Outdoors: Venomous Bites and Stings and Environmental Exposure",
+    "stem": "After a lightning strike affects a group, which victims should be treated first?",
+    "options": [
+      "Those who are conscious with burns",
+      "Those in cardiopulmonary arrest",
+      "Those with fractures",
+      "Those who are walking"
+    ],
+    "answer": "B",
+    "reason": "This is reverse triage: arrested victims can be saved by prompt CPR.",
+    "explanation": "Lightning causes cardiac and respiratory arrest. The heart often restarts, but apnoea persists and causes a second, hypoxic arrest. Conscious victims are unlikely to deteriorate.",
+    "pearl": "Lichtenberg figures are a skin sign of lightning strike."
+  },
+  {
+    "id": "SB045-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "A pressure injury shows full-thickness skin loss with visible fat, but no exposed bone or tendon. What stage is it?",
+    "options": [
+      "Stage 1",
+      "Stage 2",
+      "Stage 3",
+      "Stage 4"
+    ],
+    "answer": "C",
+    "reason": "Visible fat without deeper exposure is stage 3.",
+    "explanation": "Stage 1 is non-blanching erythema. Stage 2 is partial-thickness loss with exposed dermis. Stage 4 exposes fascia, muscle, tendon or bone. An unstageable injury is covered by slough or eschar.",
+    "pearl": "Reposition at risk patients at least every 2 hours."
+  },
+  {
+    "id": "SB045-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "What is the mainstay of treatment for venous leg ulcers?",
+    "options": [
+      "Antibiotics",
+      "Compression therapy",
+      "Skin grafting first",
+      "Topical steroids"
+    ],
+    "answer": "B",
+    "reason": "Compression reverses venous hypertension and speeds healing.",
+    "explanation": "Check the ABI before compression; high compression is safe above 0.8. Superficial venous ablation reduces recurrence (EVRA trial).",
+    "pearl": "Never apply full compression without measuring ABI."
+  },
+  {
+    "id": "SB045-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "A diabetic foot ulcer is probed with a sterile probe that touches bone. What does this suggest?",
+    "options": [
+      "Cellulitis only",
+      "Charcot foot",
+      "Osteomyelitis",
+      "Arterial ulcer"
+    ],
+    "answer": "C",
+    "reason": "A positive probe-to-bone test strongly suggests osteomyelitis.",
+    "explanation": "MRI or bone biopsy confirm the diagnosis. Treatment is prolonged antibiotics, often with debridement or resection of infected bone.",
+    "pearl": "Raised ESR above 70 also supports osteomyelitis."
+  },
+  {
+    "id": "SB045-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "A chronic burn scar develops a non-healing ulcer with raised everted edges. What is the most likely diagnosis?",
+    "options": [
+      "Basal cell carcinoma",
+      "Melanoma",
+      "Pyoderma gangrenosum",
+      "Squamous cell carcinoma (Marjolin ulcer)"
+    ],
+    "answer": "D",
+    "reason": "Malignant change in chronic wounds is usually squamous cell carcinoma.",
+    "explanation": "Marjolin ulcers occur in old burn scars, chronic osteomyelitis sinuses and long-standing ulcers. They are aggressive and metastasise more often than other skin SCCs. Biopsy any non-healing chronic wound.",
+    "pearl": "Biopsy chronic wounds that change or fail to heal."
+  },
+  {
+    "id": "SB045-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "Where are venous ulcers typically found?",
+    "options": [
+      "Tips of the toes",
+      "Plantar surface of the forefoot",
+      "Over the heel",
+      "Medial gaiter area above the medial malleolus"
+    ],
+    "answer": "D",
+    "reason": "Venous hypertension is greatest around the medial ankle perforators.",
+    "explanation": "Venous ulcers are shallow with irregular edges and surrounding lipodermatosclerosis or haemosiderin staining. Arterial ulcers occur on toes and pressure points and are painful and punched out.",
+    "pearl": "Neuropathic ulcers occur on the plantar weight-bearing areas."
+  },
+  {
+    "id": "SB045-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "What does the TIME framework of wound bed preparation stand for?",
+    "options": [
+      "Temperature, Ischaemia, Malnutrition, Exudate",
+      "Trauma, Infection, Mobility, Eschar",
+      "Tissue, Ischaemia, Medication, Exercise",
+      "Tissue, Infection or inflammation, Moisture, Edge"
+    ],
+    "answer": "D",
+    "reason": "TIME guides systematic treatment of chronic wounds.",
+    "explanation": "Remove non-viable tissue, treat infection, balance moisture and stimulate edges that are not advancing. The cause of the wound (pressure, venous, arterial, diabetes) must also be treated.",
+    "pearl": "A non-advancing edge after 4 weeks suggests a need to re-evaluate."
+  },
+  {
+    "id": "SB045-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "A diabetic with a foot ulcer has an ABI of 1.4. Which test better assesses perfusion?",
+    "options": [
+      "Repeat ABI in 1 week",
+      "Plain X-ray of the foot",
+      "Serum lactate",
+      "Toe–brachial index or toe pressures"
+    ],
+    "answer": "D",
+    "reason": "Calcified, non-compressible arteries falsely raise ABI.",
+    "explanation": "Toe arteries are usually spared from calcification. A toe pressure below 30 mmHg predicts poor healing. Transcutaneous oxygen and duplex scanning add information.",
+    "pearl": "An ABI above 1.3 is unreliable."
+  },
+  {
+    "id": "SB045-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "What is the gold-standard offloading method for a neuropathic plantar ulcer?",
+    "options": [
+      "Bed rest alone",
+      "Total contact cast",
+      "Ordinary footwear with padding",
+      "Elevation of the leg"
+    ],
+    "answer": "B",
+    "reason": "Total contact casting redistributes pressure across the whole foot.",
+    "explanation": "Non-removable offloading heals more ulcers because patients cannot take it off. Removable boots made non-removable work similarly.",
+    "pearl": "Contraindicated with active infection or significant ischaemia."
+  },
+  {
+    "id": "SB045-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "In diabetic foot ulcers, when is hyperbaric oxygen therapy most often considered?",
+    "options": [
+      "All Wagner grade 1 ulcers",
+      "As first-line therapy before debridement",
+      "For ulcers that are healing well",
+      "Wagner grade 3 or higher ulcers not healing with standard care"
+    ],
+    "answer": "D",
+    "reason": "Evidence supports hyperbaric oxygen only for deep, non-healing ulcers.",
+    "explanation": "Standard care of debridement, offloading, infection control and revascularisation comes first. Hyperbaric oxygen is an adjunct for selected patients.",
+    "pearl": "Revascularise before considering adjuncts."
+  },
+  {
+    "id": "SB045-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 45 · Management of Chronic Wounds",
+    "topic": "Management of Chronic Wounds",
+    "stem": "A painful ulcer with violaceous undermined edges worsens after debridement in a patient with Crohn disease. What is the treatment?",
+    "options": [
+      "Wide surgical debridement",
+      "Systemic immunosuppression such as corticosteroids",
+      "Split-skin grafting",
+      "Antibiotics alone"
+    ],
+    "answer": "B",
+    "reason": "Pyoderma gangrenosum shows pathergy and worsens with trauma.",
+    "explanation": "Pyoderma gangrenosum is associated with inflammatory bowel disease, rheumatoid arthritis and haematological disease. Avoid surgery during active disease. Steroids, ciclosporin or biologics control it.",
+    "pearl": "An ulcer that worsens after debridement: think pyoderma."
+  },
+  {
+    "id": "SB046-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "A patient has bilateral infiltrates with a PaO2/FiO2 ratio of 150 on PEEP 8 cmH2O, not explained by heart failure. How is this classified?",
+    "options": [
+      "Not ARDS",
+      "Mild ARDS",
+      "Moderate ARDS",
+      "Severe ARDS"
+    ],
+    "answer": "C",
+    "reason": "Berlin: mild 200–300, moderate 100–200, severe 100 or less.",
+    "explanation": "ARDS requires onset within 1 week, bilateral opacities, a cause other than heart failure and PEEP of at least 5 cmH2O.",
+    "pearl": "Severity is graded on the PaO2/FiO2 ratio."
+  },
+  {
+    "id": "SB046-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "What tidal volume is recommended for lung-protective ventilation in ARDS?",
+    "options": [
+      "4 mL/kg actual body weight",
+      "6 mL/kg predicted body weight",
+      "10 mL/kg actual body weight",
+      "12 mL/kg predicted body weight"
+    ],
+    "answer": "B",
+    "reason": "Low tidal volumes reduced mortality in the ARDSNet trial.",
+    "explanation": "Plateau pressure is kept below 30 cmH2O and driving pressure as low as possible. Predicted body weight is calculated from height and sex, not actual weight.",
+    "pearl": "Permissive hypercapnia is acceptable."
+  },
+  {
+    "id": "SB046-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "In severe ARDS with a PaO2/FiO2 below 150, which intervention reduces mortality?",
+    "options": [
+      "High-frequency oscillation",
+      "Prone positioning for at least 16 hours a day",
+      "Routine steroids on day 1",
+      "Inhaled nitric oxide"
+    ],
+    "answer": "B",
+    "reason": "PROSEVA showed lower mortality with early prolonged prone positioning.",
+    "explanation": "Prone positioning improves ventilation–perfusion matching. High-frequency oscillation increased mortality in trials, and nitric oxide improves oxygenation without improving survival.",
+    "pearl": "Start proning early, within 36 hours."
+  },
+  {
+    "id": "SB046-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "How is sepsis defined by Sepsis-3?",
+    "options": [
+      "Life-threatening organ dysfunction from infection, with SOFA increase of 2 or more",
+      "SIRS criteria plus suspected infection",
+      "Fever with positive blood cultures",
+      "Infection with lactate above 2 mmol/L"
+    ],
+    "answer": "A",
+    "reason": "Sepsis-3 focuses on organ dysfunction, not inflammation.",
+    "explanation": "qSOFA (respiratory rate 22 or more, altered mental state, systolic BP 100 or less) is a bedside screening tool. Septic shock needs vasopressors for MAP 65 and lactate above 2 mmol/L despite fluids.",
+    "pearl": "SIRS is no longer part of the definition."
+  },
+  {
+    "id": "SB046-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "What glucose target is recommended in critically ill surgical patients?",
+    "options": [
+      "Below 70 mg/dL",
+      "80–110 mg/dL (4.4–6.1 mmol/L)",
+      "140–180 mg/dL (7.8–10 mmol/L)",
+      "Above 250 mg/dL"
+    ],
+    "answer": "C",
+    "reason": "Tight control increased mortality in NICE-SUGAR.",
+    "explanation": "Intensive insulin therapy causes hypoglycaemia, which is linked to death. Moderate control avoids both extremes.",
+    "pearl": "Hypoglycaemia is more dangerous than mild hyperglycaemia."
+  },
+  {
+    "id": "SB046-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "Which ICU patient most clearly needs stress ulcer prophylaxis?",
+    "options": [
+      "Mechanical ventilation for over 48 hours",
+      "Elective surgery with early discharge",
+      "Mild asthma",
+      "Well-controlled hypertension"
+    ],
+    "answer": "A",
+    "reason": "Ventilation and coagulopathy are major bleeding risk factors.",
+    "explanation": "Proton pump inhibitors or H2 blockers reduce clinically important bleeding. Overuse raises pneumonia and C. difficile risk, so stop prophylaxis when risk factors resolve.",
+    "pearl": "Early enteral feeding also protects the mucosa."
+  },
+  {
+    "id": "SB046-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "Which measure reduces ventilator-associated pneumonia?",
+    "options": [
+      "Routine ventilator circuit changes",
+      "Head-of-bed elevation to 30–45 degrees",
+      "Lying flat",
+      "Prophylactic antibiotics for all"
+    ],
+    "answer": "B",
+    "reason": "Head-up positioning reduces aspiration.",
+    "explanation": "Other measures in the VAP bundle are daily sedation breaks, spontaneous breathing trials, oral care and subglottic secretion drainage.",
+    "pearl": "Wean from the ventilator as early as possible."
+  },
+  {
+    "id": "SB046-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "Which bedside tool is used to screen for delirium in ventilated patients?",
+    "options": [
+      "MMSE",
+      "CAM-ICU",
+      "GCS",
+      "APACHE II"
+    ],
+    "answer": "B",
+    "reason": "CAM-ICU works in patients who cannot speak.",
+    "explanation": "It tests acute change, inattention, altered consciousness and disorganised thinking. Delirium prolongs ventilation and increases mortality. Minimise benzodiazepines, mobilise early and keep sleep cycles normal.",
+    "pearl": "Hypoactive delirium is easy to miss."
+  },
+  {
+    "id": "SB046-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "What haemoglobin threshold for transfusion is recommended in most stable ICU patients?",
+    "options": [
+      "7 g/dL",
+      "9 g/dL",
+      "10 g/dL",
+      "12 g/dL"
+    ],
+    "answer": "A",
+    "reason": "The TRICC trial found restrictive transfusion at least as safe.",
+    "explanation": "A threshold of 7 g/dL is used for most critically ill patients. Higher thresholds may be used for active bleeding or acute coronary syndrome.",
+    "pearl": "Transfuse one unit and reassess."
+  },
+  {
+    "id": "SB046-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 46 · Surgical Critical Care",
+    "topic": "Surgical Critical Care",
+    "stem": "How often should the need for central venous catheter be reviewed to reduce bloodstream infections?",
+    "options": [
+      "Weekly",
+      "Only when fever occurs",
+      "Daily, with prompt removal when not needed",
+      "Every 2 weeks with routine replacement"
+    ],
+    "answer": "C",
+    "reason": "Each line-day adds infection risk.",
+    "explanation": "Insertion bundles include hand hygiene, full barrier precautions, chlorhexidine skin prep, subclavian site where suitable and avoiding the femoral site. Routine replacement of lines is not recommended.",
+    "pearl": "The best line is no line."
+  },
+  {
+    "id": "SB048-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "In START triage, an adult who is breathing with a respiratory rate of 34 per minute is tagged as what?",
+    "options": [
+      "Delayed (yellow)",
+      "Minor (green)",
+      "Expectant (black)",
+      "Immediate (red)"
+    ],
+    "answer": "D",
+    "reason": "A respiratory rate above 30 means immediate.",
+    "explanation": "START checks walking, breathing, rate above 30, radial pulse or capillary refill over 2 seconds, and ability to follow commands. Any abnormal finding makes the patient immediate.",
+    "pearl": "Triage takes under 60 seconds per patient."
+  },
+  {
+    "id": "SB048-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "In START triage, how are 'walking wounded' classified?",
+    "options": [
+      "Immediate (red)",
+      "Minor (green)",
+      "Delayed (yellow)",
+      "Expectant (black)"
+    ],
+    "answer": "B",
+    "reason": "Anyone who can walk is tagged minor first.",
+    "explanation": "They are directed to a collection point and reassessed later, because some may deteriorate. This quickly clears the scene so attention goes to those who cannot move.",
+    "pearl": "Triage is repeated, not a one-time label."
+  },
+  {
+    "id": "SB048-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "Which primary blast injury is the most common cause of death among initial survivors?",
+    "options": [
+      "Blast lung",
+      "Tympanic membrane rupture",
+      "Intestinal perforation",
+      "Traumatic brain injury"
+    ],
+    "answer": "A",
+    "reason": "Air-filled organs are vulnerable to the blast wave.",
+    "explanation": "Blast lung causes haemorrhage and oedema, hypoxia and air embolism. It may appear hours later, so patients need observation. Avoid excessive fluids and high airway pressures.",
+    "pearl": "Tympanic membrane rupture is common but does not predict other injuries."
+  },
+  {
+    "id": "SB048-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "What is the mechanism of a secondary blast injury?",
+    "options": [
+      "Penetrating injury from flying fragments",
+      "Pressure wave damage to hollow organs",
+      "Body thrown against a fixed object",
+      "Burns and toxic inhalation"
+    ],
+    "answer": "A",
+    "reason": "Secondary injury is caused by projectiles.",
+    "explanation": "Primary is the pressure wave, secondary is fragments, tertiary is the body being thrown, and quaternary covers burns, crush and toxic exposure. Secondary injuries are the most common.",
+    "pearl": "Fragment wounds may hide deep injuries."
+  },
+  {
+    "id": "SB048-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "A man trapped under rubble for 6 hours is about to be freed. What should be done before release?",
+    "options": [
+      "Start aggressive IV fluids",
+      "Apply a tourniquet and leave in place permanently",
+      "Give IV potassium",
+      "Withhold fluids until imaging"
+    ],
+    "answer": "A",
+    "reason": "Fluids before extrication protect against hyperkalaemia and kidney injury.",
+    "explanation": "Releasing crushed muscle floods the circulation with potassium, myoglobin and acid. Target high urine output and monitor potassium closely; dialysis may be needed.",
+    "pearl": "Sudden cardiac arrest on release is a known risk."
+  },
+  {
+    "id": "SB048-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "Which elements make up a hospital's surge capacity?",
+    "options": [
+      "Speed, safety and sterility",
+      "Staff, stuff (supplies) and space",
+      "Surgeons, scanners and stretchers only",
+      "Security, signage and supervision"
+    ],
+    "answer": "B",
+    "reason": "The '3 S' model describes surge capacity.",
+    "explanation": "Many add systems as a fourth S. Plans should include staff call-in, extra beds and supplies, and a clear command structure.",
+    "pearl": "Practise the plan with regular drills."
+  },
+  {
+    "id": "SB048-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "What is the effect of excessive over-triage in a mass casualty event?",
+    "options": [
+      "Higher mortality among critically injured patients",
+      "Better outcomes for all patients",
+      "No effect on outcomes",
+      "Faster definitive care for the critically injured"
+    ],
+    "answer": "A",
+    "reason": "Over-triage overwhelms resources needed by the sickest.",
+    "explanation": "Sending minor injuries to the trauma bay delays care for critical patients. In mass casualties over-triage correlates with critical mortality, so senior surgeons should lead triage.",
+    "pearl": "Experienced triage officers reduce over-triage."
+  },
+  {
+    "id": "SB048-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "What system provides a standard command structure for hospitals during disasters?",
+    "options": [
+      "Hospital Incident Command System (HICS)",
+      "ATLS",
+      "Advanced Cardiac Life Support",
+      "Surgical Safety Checklist"
+    ],
+    "answer": "A",
+    "reason": "HICS gives clear roles and lines of authority.",
+    "explanation": "It assigns an incident commander and sections for operations, planning, logistics and finance. Common terminology helps hospitals coordinate with other agencies.",
+    "pearl": "Each person should report to only one supervisor."
+  },
+  {
+    "id": "SB048-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "After chemical exposure, what is the most effective first decontamination step?",
+    "options": [
+      "Removing the victim's clothing",
+      "Washing with dilute bleach",
+      "Giving an antidote to all",
+      "Waiting for the toxin to be identified"
+    ],
+    "answer": "A",
+    "reason": "Removing clothing removes most of the contaminant.",
+    "explanation": "Decontamination should happen before patients enter the hospital to protect staff. After undressing, victims are washed with plenty of water. Staff need appropriate protective equipment.",
+    "pearl": "Contaminated victims arriving by private car are a major risk."
+  },
+  {
+    "id": "SB048-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 48 · The Surgeon's Role in Disaster Management",
+    "topic": "The Surgeon's Role in Disaster Management",
+    "stem": "What is the treatment for nerve agent poisoning?",
+    "options": [
+      "Atropine and pralidoxime",
+      "Naloxone",
+      "Hydroxocobalamin",
+      "Methylene blue"
+    ],
+    "answer": "A",
+    "reason": "Nerve agents inhibit acetylcholinesterase.",
+    "explanation": "Atropine blocks muscarinic effects such as secretions and bronchospasm, and is titrated to dry secretions. Pralidoxime reactivates the enzyme if given early. Benzodiazepines treat seizures.",
+    "pearl": "Remember SLUDGE: salivation, lacrimation, urination, defaecation, GI upset, emesis."
+  },
+  {
+    "id": "SB049-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "A kidney graft turns cyanotic and mottled within minutes of reperfusion. What is the mechanism?",
+    "options": [
+      "T-cell mediated rejection",
+      "Calcineurin inhibitor toxicity",
+      "Recurrent original disease",
+      "Preformed recipient antibodies against donor ABO or HLA antigens"
+    ],
+    "answer": "D",
+    "reason": "Hyperacute rejection is antibody mediated and immediate.",
+    "explanation": "Preformed antibodies bind graft endothelium and activate complement, causing thrombosis. It is prevented by ABO matching and a negative crossmatch, and the graft must be removed.",
+    "pearl": "Crossmatching has made hyperacute rejection rare."
+  },
+  {
+    "id": "SB049-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "Which cells chiefly mediate acute cellular rejection?",
+    "options": [
+      "Neutrophils",
+      "Eosinophils",
+      "T lymphocytes",
+      "Platelets"
+    ],
+    "answer": "C",
+    "reason": "Acute cellular rejection is a T-cell response to donor antigens.",
+    "explanation": "It occurs most often in the first months after transplant. Biopsy shows lymphocytic infiltration. Treatment is pulse steroids, with antithymocyte globulin for resistant rejection.",
+    "pearl": "Antibody-mediated rejection shows C4d deposition on biopsy."
+  },
+  {
+    "id": "SB049-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "How does tacrolimus suppress the immune response?",
+    "options": [
+      "It blocks mTOR",
+      "It binds FKBP-12 and inhibits calcineurin, reducing IL-2 production",
+      "It inhibits purine synthesis",
+      "It depletes B cells"
+    ],
+    "answer": "B",
+    "reason": "Calcineurin inhibition prevents T-cell activation.",
+    "explanation": "Calcineurin normally activates NFAT, a transcription factor for IL-2. Ciclosporin works the same way through cyclophilin. Both are nephrotoxic, and drug levels must be monitored.",
+    "pearl": "Tacrolimus is the most widely used calcineurin inhibitor."
+  },
+  {
+    "id": "SB049-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "Which immunosuppressant is associated with impaired wound healing and lymphocele formation?",
+    "options": [
+      "Sirolimus",
+      "Tacrolimus",
+      "Basiliximab",
+      "Prednisolone at low doses"
+    ],
+    "answer": "A",
+    "reason": "mTOR inhibitors slow fibroblast proliferation.",
+    "explanation": "Sirolimus and everolimus inhibit mTOR. They are less nephrotoxic than calcineurin inhibitors but cause poor healing, lymphoceles, hyperlipidaemia and pneumonitis. They are often delayed until wounds have healed.",
+    "pearl": "mTOR inhibitors also have anti-tumour effects."
+  },
+  {
+    "id": "SB049-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "What is the target of basiliximab?",
+    "options": [
+      "CD20",
+      "CD25 (IL-2 receptor alpha chain)",
+      "CD3",
+      "TNF-alpha"
+    ],
+    "answer": "B",
+    "reason": "Basiliximab blocks IL-2 signalling in activated T cells.",
+    "explanation": "It is used as induction therapy at transplantation. It does not deplete lymphocytes, unlike antithymocyte globulin or alemtuzumab.",
+    "pearl": "Rituximab targets CD20 on B cells."
+  },
+  {
+    "id": "SB049-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "Belatacept is contraindicated in which kidney transplant recipients?",
+    "options": [
+      "Those who are CMV-seropositive",
+      "Those with diabetes",
+      "Those over 60 years",
+      "Those who are EBV-seronegative"
+    ],
+    "answer": "D",
+    "reason": "Belatacept raises the risk of post-transplant lymphoproliferative disorder in EBV-negative patients.",
+    "explanation": "Belatacept blocks CD80/CD86 co-stimulation of T cells. It avoids calcineurin inhibitor nephrotoxicity and improves long-term kidney function, but it carries a higher risk of acute rejection early.",
+    "pearl": "Check EBV serology before starting belatacept."
+  },
+  {
+    "id": "SB049-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "Compared with ciclosporin, which side effect is more common with tacrolimus?",
+    "options": [
+      "New-onset diabetes after transplantation",
+      "Hirsutism",
+      "Gingival hyperplasia",
+      "Hypertension"
+    ],
+    "answer": "A",
+    "reason": "Tacrolimus is more diabetogenic.",
+    "explanation": "Ciclosporin causes more hirsutism, gum hyperplasia and hypertension. Both cause nephrotoxicity, hyperkalaemia, hypomagnesaemia and tremor.",
+    "pearl": "Remember: ciclosporin changes the face (hair and gums)."
+  },
+  {
+    "id": "SB049-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "How does mycophenolate mofetil work?",
+    "options": [
+      "It inhibits calcineurin",
+      "It binds IL-2 receptors",
+      "It blocks mTOR",
+      "It inhibits inosine monophosphate dehydrogenase, blocking purine synthesis in lymphocytes"
+    ],
+    "answer": "D",
+    "reason": "Lymphocytes depend on the de novo purine pathway.",
+    "explanation": "Its main side effects are GI upset, leucopenia and teratogenicity. It is usually combined with a calcineurin inhibitor and steroids.",
+    "pearl": "Stop mycophenolate before pregnancy."
+  },
+  {
+    "id": "SB049-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "What does a positive T-cell crossmatch mean before a deceased-donor kidney transplant?",
+    "options": [
+      "Transplant proceeds with extra steroids",
+      "The transplant should not proceed due to the risk of hyperacute rejection",
+      "It is irrelevant if ABO matches",
+      "The donor kidney is too small"
+    ],
+    "answer": "B",
+    "reason": "Donor-specific antibodies are present in the recipient.",
+    "explanation": "The crossmatch mixes recipient serum with donor lymphocytes. Flow cytometry and virtual crossmatching detect lower antibody levels. Desensitisation protocols can allow some living donor transplants.",
+    "pearl": "Panel-reactive antibody predicts how hard it will be to find a match."
+  },
+  {
+    "id": "SB049-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 49 · Transplantation Immunobiology and Immunosuppression",
+    "topic": "Transplantation Immunobiology and Immunosuppression",
+    "stem": "Graft-versus-host disease is most often seen after which solid organ transplant?",
+    "options": [
+      "Small bowel transplant",
+      "Kidney transplant",
+      "Heart transplant",
+      "Cornea transplant"
+    ],
+    "answer": "A",
+    "reason": "Intestinal grafts carry a large amount of donor lymphoid tissue.",
+    "explanation": "Donor immune cells attack recipient tissues such as skin, gut and liver. It also occurs after liver transplant but is rare. It carries a high mortality in solid organ recipients.",
+    "pearl": "Rash and diarrhoea after intestinal transplant: consider GVHD."
+  },
+  {
+    "id": "SB051-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "Historically, what is the mortality of elective abdominal surgery in a Child–Pugh class C cirrhotic?",
+    "options": [
+      "About 2%",
+      "About 10%",
+      "About 30%",
+      "About 80%"
+    ],
+    "answer": "D",
+    "reason": "Classic series show about 10%, 30% and 80% for classes A, B and C.",
+    "explanation": "Elective surgery is generally avoided in class C. MELD and the Mayo risk score give more precise estimates. Optimise ascites, nutrition and coagulation before any operation.",
+    "pearl": "Consider transplant referral rather than elective surgery in class C."
+  },
+  {
+    "id": "SB051-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "Which variables are used to calculate the MELD score?",
+    "options": [
+      "Albumin, ascites and encephalopathy",
+      "Bilirubin, albumin and platelet count",
+      "Bilirubin, INR and creatinine (with sodium in MELD-Na)",
+      "AST, ALT and INR"
+    ],
+    "answer": "C",
+    "reason": "MELD uses objective laboratory values.",
+    "explanation": "MELD was first designed to predict survival after TIPS and is now used for liver allocation. A MELD above 15 before surgery predicts significant perioperative mortality.",
+    "pearl": "Child–Pugh includes subjective items: ascites and encephalopathy."
+  },
+  {
+    "id": "SB051-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "A cirrhotic with tense ascites has spontaneous rupture of an umbilical hernia with ascitic leak. What is this called?",
+    "options": [
+      "Richter hernia",
+      "Flood syndrome",
+      "Amyand hernia",
+      "Littre hernia"
+    ],
+    "answer": "B",
+    "reason": "Flood syndrome is rupture of an umbilical hernia in ascites.",
+    "explanation": "It carries a high risk of peritonitis and death. Management includes emergency repair and control of ascites, often with TIPS. Elective repair after optimising ascites prevents it.",
+    "pearl": "Repair umbilical hernias in cirrhotics once ascites is controlled."
+  },
+  {
+    "id": "SB051-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "What is the role of preoperative TIPS in a cirrhotic needing abdominal surgery?",
+    "options": [
+      "It lowers portal pressure and controls ascites before surgery in selected patients",
+      "It reverses liver failure completely",
+      "It is required before every cholecystectomy",
+      "It prevents hepatocellular carcinoma"
+    ],
+    "answer": "A",
+    "reason": "Lower portal pressure reduces bleeding and ascitic leak.",
+    "explanation": "Preoperative TIPS is used for selected patients with portal hypertension. It can worsen encephalopathy and liver function, so it is avoided in advanced liver failure.",
+    "pearl": "TIPS is a bridge, not a cure."
+  },
+  {
+    "id": "SB051-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "A kidney transplant recipient on long-term prednisolone is having emergency surgery and is hypotensive despite fluids. What should be considered?",
+    "options": [
+      "Rejection of the kidney",
+      "Tacrolimus toxicity",
+      "Allergy to anaesthetic agents",
+      "Adrenal insufficiency needing stress-dose steroids"
+    ],
+    "answer": "D",
+    "reason": "Chronic steroid use suppresses the adrenal axis.",
+    "explanation": "Patients on long-term steroids may not mount a cortisol response to stress. Hydrocortisone is given if refractory hypotension occurs. Routine high-dose steroids are no longer needed for all.",
+    "pearl": "Hypotension resistant to fluids and pressors: think adrenal insufficiency."
+  },
+  {
+    "id": "SB051-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "Why may perforated viscus be missed in a transplant recipient?",
+    "options": [
+      "Transplant patients have no peritoneum",
+      "Pain is always worse in transplant patients",
+      "Free gas is never seen on X-ray",
+      "Immunosuppression blunts fever and peritoneal signs"
+    ],
+    "answer": "D",
+    "reason": "Steroids and other drugs suppress inflammation.",
+    "explanation": "Abdominal pain in a transplant patient warrants early imaging. Diverticulitis and CMV colitis are common causes of perforation. Delayed diagnosis carries high mortality.",
+    "pearl": "Have a low threshold for CT in transplant patients."
+  },
+  {
+    "id": "SB051-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "Which immunosuppressant is most often switched before elective surgery because of wound complications?",
+    "options": [
+      "Sirolimus",
+      "Tacrolimus",
+      "Mycophenolate",
+      "Prednisolone"
+    ],
+    "answer": "A",
+    "reason": "mTOR inhibitors impair wound healing.",
+    "explanation": "Switching to a calcineurin inhibitor several weeks before surgery reduces dehiscence, hernia and lymphocele. Changes should be made with the transplant team.",
+    "pearl": "Always involve the transplant team in perioperative drug changes."
+  },
+  {
+    "id": "SB051-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "In a cirrhotic with a difficult gallbladder, which operation reduces bleeding from the liver bed?",
+    "options": [
+      "Total cholecystectomy with liver bed cautery",
+      "Cholecystostomy for all",
+      "Open cholecystectomy with Pringle manoeuvre",
+      "Subtotal cholecystectomy"
+    ],
+    "answer": "D",
+    "reason": "Leaving the back wall avoids the vascular liver bed.",
+    "explanation": "Portal hypertension produces large collateral veins in the gallbladder bed. Subtotal cholecystectomy leaves the posterior wall attached to the liver and is safer in cirrhosis.",
+    "pearl": "Do not hesitate to bail out in cirrhosis."
+  },
+  {
+    "id": "SB051-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "How should bleeding risk be assessed in cirrhosis before surgery?",
+    "options": [
+      "INR alone",
+      "Viscoelastic testing such as TEG or ROTEM",
+      "Platelet count alone",
+      "Bleeding time"
+    ],
+    "answer": "B",
+    "reason": "INR does not reflect the rebalanced haemostasis of cirrhosis.",
+    "explanation": "Cirrhosis reduces both clotting and anticlotting factors. Correcting INR with plasma raises portal pressure and may increase bleeding. Viscoelastic testing guides targeted therapy.",
+    "pearl": "Cirrhotics can also develop thrombosis."
+  },
+  {
+    "id": "SB051-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 51 · Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "topic": "Surgery in Transplant Patients and in Patients With Portal Hypertension",
+    "stem": "Where is a kidney transplant usually placed, which affects incisions for later abdominal surgery?",
+    "options": [
+      "Extraperitoneally in the right or left iliac fossa",
+      "In the native renal fossa",
+      "In the pelvis behind the bladder",
+      "In the left upper quadrant"
+    ],
+    "answer": "A",
+    "reason": "Knowing the graft site avoids injuring it.",
+    "explanation": "The graft vessels join the external iliac vessels and the ureter is implanted into the bladder. Avoid placing drains or stomas in the graft area, and review previous operative notes.",
+    "pearl": "Palpate the graft before choosing an incision."
+  },
+  {
+    "id": "SB052-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "To which vessels is the renal artery of a kidney transplant usually anastomosed?",
+    "options": [
+      "Aorta",
+      "Common femoral artery",
+      "External iliac artery",
+      "Inferior mesenteric artery"
+    ],
+    "answer": "C",
+    "reason": "The external iliac artery is accessible in the extraperitoneal iliac fossa.",
+    "explanation": "The renal vein is joined to the external iliac vein. The ureter is implanted into the bladder over a stent using an extravesical technique.",
+    "pearl": "The right iliac fossa is often chosen because the iliac vein is more superficial."
+  },
+  {
+    "id": "SB052-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "How is delayed graft function defined after kidney transplant?",
+    "options": [
+      "Need for dialysis within the first week",
+      "Creatinine above 2 mg/dL at 1 year",
+      "Biopsy-proven rejection",
+      "Urine output under 2 L/day"
+    ],
+    "answer": "A",
+    "reason": "Delayed graft function is defined by dialysis requirement.",
+    "explanation": "It is more common with deceased donors, long cold ischaemia and donation after circulatory death. Most grafts recover, but it raises rejection risk and lowers long-term graft survival.",
+    "pearl": "Biopsy if function does not recover by 7–10 days."
+  },
+  {
+    "id": "SB052-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "A transplant recipient develops a fluid collection near the graft 6 weeks after surgery with leg swelling and rising creatinine. Fluid creatinine equals serum creatinine. What is the treatment?",
+    "options": [
+      "Ureteric reimplantation",
+      "Graft nephrectomy",
+      "Antibiotics alone",
+      "Laparoscopic peritoneal fenestration (marsupialisation)"
+    ],
+    "answer": "D",
+    "reason": "This is a lymphocele, which drains into the peritoneum after fenestration.",
+    "explanation": "Lymphoceles arise from divided recipient lymphatics around the iliac vessels. Fluid creatinine equal to serum distinguishes it from a urine leak. Aspiration alone often recurs.",
+    "pearl": "Fluid creatinine much higher than serum means a urine leak."
+  },
+  {
+    "id": "SB052-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "Where do most urinary leaks occur after kidney transplant?",
+    "options": [
+      "At the renal pelvis",
+      "From the native kidney",
+      "At the urethra",
+      "At the ureteroneocystostomy"
+    ],
+    "answer": "D",
+    "reason": "The distal ureter has a fragile blood supply.",
+    "explanation": "The ureter depends on blood from the renal artery, so distal ischaemia causes leaks and strictures. Management is drainage with a catheter and stent, with surgical revision if needed.",
+    "pearl": "Preserve the tissue around the lower pole of the graft to protect ureteric blood flow."
+  },
+  {
+    "id": "SB052-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "A kidney transplant recipient becomes suddenly anuric 24 hours after surgery. Doppler shows no arterial flow. What is the most likely cause?",
+    "options": [
+      "Acute cellular rejection",
+      "Lymphocele",
+      "BK virus nephropathy",
+      "Renal artery thrombosis"
+    ],
+    "answer": "D",
+    "reason": "Sudden anuria with absent flow means arterial thrombosis.",
+    "explanation": "It usually happens in the first days and leads to graft loss unless corrected within minutes to hours. Risk factors include technical problems, multiple arteries and hypercoagulable states.",
+    "pearl": "Sudden anuria after transplant: urgent Doppler."
+  },
+  {
+    "id": "SB052-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "A transplant recipient develops worsening hypertension and a bruit over the graft months later. What is the likely diagnosis?",
+    "options": [
+      "Hyperacute rejection",
+      "Urine leak",
+      "Transplant renal artery stenosis",
+      "Lymphocele"
+    ],
+    "answer": "C",
+    "reason": "Renal artery stenosis is the most common late vascular complication.",
+    "explanation": "It may cause rising creatinine, hypertension and fluid retention. Doppler ultrasound shows high peak velocities. Angioplasty with stenting is the first-line treatment.",
+    "pearl": "Creatinine rising with ACE inhibitors suggests renal artery stenosis."
+  },
+  {
+    "id": "SB052-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "How is BK virus nephropathy in a kidney transplant recipient managed?",
+    "options": [
+      "Increase tacrolimus",
+      "Reduce immunosuppression",
+      "Start ganciclovir",
+      "Graft nephrectomy"
+    ],
+    "answer": "B",
+    "reason": "No antiviral is reliably effective against BK virus.",
+    "explanation": "BK polyomavirus causes interstitial nephritis that mimics rejection. Screening for BK viraemia allows early dose reduction, but rejection risk rises when immunosuppression is lowered.",
+    "pearl": "Biopsy with SV40 staining confirms the diagnosis."
+  },
+  {
+    "id": "SB052-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "What is the most common malignancy after solid organ transplantation?",
+    "options": [
+      "Colorectal cancer",
+      "Breast cancer",
+      "Prostate cancer",
+      "Non-melanoma skin cancer, especially squamous cell carcinoma"
+    ],
+    "answer": "D",
+    "reason": "Immunosuppression increases skin cancer many times over.",
+    "explanation": "Squamous cell carcinoma outnumbers basal cell carcinoma in transplant recipients, reversing the usual ratio. Sun protection and annual skin checks are recommended. mTOR inhibitors can lower recurrence.",
+    "pearl": "Post-transplant lymphoproliferative disorder is linked to EBV."
+  },
+  {
+    "id": "SB052-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "Why is the left kidney usually preferred for laparoscopic living donor nephrectomy?",
+    "options": [
+      "It has fewer arteries",
+      "Its renal vein is longer",
+      "It has better function",
+      "It is easier to reach through the liver"
+    ],
+    "answer": "B",
+    "reason": "A longer vein makes the recipient anastomosis easier.",
+    "explanation": "The left renal vein crosses in front of the aorta and is longer than the short right vein. The right kidney may be chosen if the left has multiple arteries or the right has a cyst or stone.",
+    "pearl": "Leave the donor with the better kidney."
+  },
+  {
+    "id": "SB052-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 52 · Kidney Transplantation",
+    "topic": "Kidney Transplantation",
+    "stem": "Which donor/recipient combination carries the highest CMV risk after kidney transplant?",
+    "options": [
+      "Donor negative, recipient negative",
+      "Donor negative, recipient positive",
+      "Donor positive, recipient negative (D+/R−)",
+      "Donor positive, recipient positive"
+    ],
+    "answer": "C",
+    "reason": "A seronegative recipient has no immunity against the donor virus.",
+    "explanation": "These recipients receive valganciclovir prophylaxis, often for 6 months. CMV causes fever, leucopenia, colitis, hepatitis and pneumonitis and is linked to rejection.",
+    "pearl": "CMV colitis can perforate."
+  },
+  {
+    "id": "SB053-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "What is currently the most common indication for liver transplantation in the United States?",
+    "options": [
+      "Hepatitis C cirrhosis",
+      "Primary biliary cholangitis",
+      "Acute paracetamol overdose",
+      "Alcohol-associated liver disease"
+    ],
+    "answer": "D",
+    "reason": "Alcohol has overtaken hepatitis C since direct-acting antivirals.",
+    "explanation": "Effective hepatitis C treatment reduced HCV listings. Metabolic dysfunction-associated steatotic liver disease is rising fast. Selected patients with severe alcohol-associated hepatitis are transplanted early.",
+    "pearl": "Hepatitis B and C both respond to antiviral therapy now."
+  },
+  {
+    "id": "SB053-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "Which patients with hepatocellular carcinoma meet the Milan criteria?",
+    "options": [
+      "Single tumour up to 10 cm",
+      "Single tumour 5 cm or less, or up to 3 tumours each 3 cm or less, with no vascular invasion",
+      "Any number of tumours under 2 cm",
+      "Tumours with portal vein invasion if under 5 cm"
+    ],
+    "answer": "B",
+    "reason": "Milan criteria predict about 75% five-year survival after transplant.",
+    "explanation": "Extrahepatic spread and macrovascular invasion are contraindications. Down-staging with locoregional therapy can bring some patients within criteria.",
+    "pearl": "Within Milan, transplant results match non-cancer indications."
+  },
+  {
+    "id": "SB053-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "What is the most common early vascular complication after liver transplantation?",
+    "options": [
+      "Portal vein thrombosis",
+      "Hepatic artery thrombosis",
+      "IVC stenosis",
+      "Hepatic vein outflow obstruction"
+    ],
+    "answer": "B",
+    "reason": "Hepatic artery thrombosis occurs more often in children and with small vessels.",
+    "explanation": "Doppler ultrasound is done routinely after surgery. Early thrombosis may need thrombectomy or retransplantation.",
+    "pearl": "Routine early Doppler catches it before biliary damage."
+  },
+  {
+    "id": "SB053-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "Why does hepatic artery thrombosis after liver transplant cause biliary necrosis?",
+    "options": [
+      "The portal vein supplies the bile ducts",
+      "The donor bile ducts depend only on the hepatic artery",
+      "Bile becomes infected",
+      "Tacrolimus is toxic to bile ducts"
+    ],
+    "answer": "B",
+    "reason": "There is no collateral arterial supply after transplant.",
+    "explanation": "In the native liver collaterals exist, but the transplanted liver depends on the anastomosed hepatic artery. Ischaemia causes bile leaks, strictures and abscesses.",
+    "pearl": "Unexplained bile leak after transplant: check the hepatic artery."
+  },
+  {
+    "id": "SB053-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "A liver graft fails to function within hours of transplant, with rising INR, lactate and no bile. What is the treatment?",
+    "options": [
+      "Increase immunosuppression",
+      "Urgent retransplantation",
+      "Pulse steroids",
+      "Observation"
+    ],
+    "answer": "B",
+    "reason": "Primary non-function is graft failure without another cause.",
+    "explanation": "It is linked to donor age, steatosis, long cold ischaemia and donation after circulatory death. These patients receive the highest priority for a new liver.",
+    "pearl": "Primary non-function is uncommon but often fatal without a new graft."
+  },
+  {
+    "id": "SB053-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "According to King's College criteria, which single finding after paracetamol overdose indicates the need for transplant listing?",
+    "options": [
+      "Arterial pH below 7.3 after fluid resuscitation",
+      "ALT above 1000 IU/L",
+      "Bilirubin above 3 mg/dL",
+      "Paracetamol level above the treatment line"
+    ],
+    "answer": "A",
+    "reason": "Acidosis after resuscitation predicts death without transplant.",
+    "explanation": "Alternatively, the combination of INR above 6.5, creatinine above 3.4 mg/dL and grade 3–4 encephalopathy within 24 hours also qualifies. Lactate is used in modified criteria.",
+    "pearl": "Give N-acetylcysteine in every case."
+  },
+  {
+    "id": "SB053-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "What is the most common complication of the biliary anastomosis after liver transplant?",
+    "options": [
+      "Anastomotic stricture",
+      "Bile leak at the cystic duct",
+      "Gallstones",
+      "Cholangiocarcinoma"
+    ],
+    "answer": "A",
+    "reason": "Biliary complications are the commonest technical problem after transplant.",
+    "explanation": "Strictures are treated with ERCP and stenting. Non-anastomotic strictures are linked to ischaemia and are harder to treat.",
+    "pearl": "Biliary complications are called the Achilles heel of liver transplant."
+  },
+  {
+    "id": "SB053-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "In adult living-donor liver transplantation, what minimum graft-to-recipient weight ratio avoids small-for-size syndrome?",
+    "options": [
+      "About 0.2%",
+      "About 0.8%",
+      "About 2.5%",
+      "About 5%"
+    ],
+    "answer": "B",
+    "reason": "Grafts below 0.8% of recipient weight risk small-for-size syndrome.",
+    "explanation": "Small-for-size syndrome causes cholestasis, coagulopathy and ascites. The donor must also keep at least 30% of liver volume. Portal inflow modulation can protect small grafts.",
+    "pearl": "Donor safety comes first."
+  },
+  {
+    "id": "SB053-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "How do patients with hepatocellular carcinoma within criteria receive priority on the transplant list?",
+    "options": [
+      "MELD exception points",
+      "Child–Pugh score alone",
+      "Waiting time alone",
+      "Age-based priority"
+    ],
+    "answer": "A",
+    "reason": "MELD underestimates the risk of tumour progression.",
+    "explanation": "Exception points reflect the risk of dropping off the list from tumour growth. Locoregional therapy such as TACE is used as a bridge.",
+    "pearl": "Bridge therapy keeps patients within criteria."
+  },
+  {
+    "id": "SB053-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 53 · Liver Transplantation",
+    "topic": "Liver Transplantation",
+    "stem": "Which technique of liver implantation preserves caval flow during the transplant?",
+    "options": [
+      "Piggyback technique",
+      "Classic caval replacement without bypass",
+      "Portocaval shunt",
+      "Splenorenal shunt"
+    ],
+    "answer": "A",
+    "reason": "The recipient IVC is left in place.",
+    "explanation": "In the piggyback technique the donor IVC is joined to the recipient hepatic veins. This avoids full caval clamping and the large drop in cardiac output, often without venovenous bypass.",
+    "pearl": "Most centres now use the piggyback technique."
+  },
+  {
+    "id": "SB054-01",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "What is the most common type of pancreas transplant?",
+    "options": [
+      "Pancreas transplant alone",
+      "Pancreas after kidney transplant",
+      "Simultaneous pancreas–kidney transplant",
+      "Islet transplant"
+    ],
+    "answer": "C",
+    "reason": "Most recipients have type 1 diabetes with end-stage kidney disease.",
+    "explanation": "SPK has the best pancreas graft survival, partly because kidney rejection can be used as a marker. It also improves survival compared with kidney transplant alone in suitable patients.",
+    "pearl": "Kidney creatinine is a surrogate marker of pancreas rejection in SPK."
+  },
+  {
+    "id": "SB054-02",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "Bladder drainage of a pancreas transplant can cause which metabolic complication?",
+    "options": [
+      "Metabolic alkalosis",
+      "Metabolic acidosis from bicarbonate loss",
+      "Hyperkalaemia",
+      "Hypercalcaemia"
+    ],
+    "answer": "B",
+    "reason": "Pancreatic juice rich in bicarbonate is lost in the urine.",
+    "explanation": "Bladder drainage also causes dehydration, cystitis, haematuria and urethritis. Most centres now use enteric drainage, and bladder-drained grafts are often converted.",
+    "pearl": "Bladder drainage lets urinary amylase monitor rejection."
+  },
+  {
+    "id": "SB054-03",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "What is the most common cause of early non-immunological pancreas graft loss?",
+    "options": [
+      "Acute rejection",
+      "Recurrent diabetes",
+      "Graft thrombosis",
+      "Pancreatitis"
+    ],
+    "answer": "C",
+    "reason": "The pancreas is a low-flow organ prone to thrombosis.",
+    "explanation": "Thrombosis usually happens within the first weeks and often requires graft removal. Risk factors include donor obesity, long cold ischaemia and a low-flow venous system. Prophylactic anticoagulation is used.",
+    "pearl": "Sudden rise in glucose and graft pain: check Doppler."
+  },
+  {
+    "id": "SB054-04",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "In a bladder-drained pancreas transplant, which test signals early rejection?",
+    "options": [
+      "A rise in urinary amylase",
+      "A fall in serum glucose",
+      "A rise in serum albumin",
+      "A fall in urinary amylase"
+    ],
+    "answer": "D",
+    "reason": "Rejection reduces exocrine output before endocrine failure.",
+    "explanation": "Urinary amylase falls before hyperglycaemia develops. Enteric-drained grafts lack this marker, so serum lipase, kidney function in SPK and biopsy are used.",
+    "pearl": "Hyperglycaemia is a late sign of rejection."
+  },
+  {
+    "id": "SB054-05",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "Which is a late sign of pancreas graft rejection?",
+    "options": [
+      "Rising serum amylase",
+      "Graft tenderness",
+      "Low-grade fever",
+      "Hyperglycaemia"
+    ],
+    "answer": "D",
+    "reason": "Islets are damaged only after significant exocrine injury.",
+    "explanation": "By the time glucose rises, most islet mass may be lost. Early markers include rising amylase and lipase and rising kidney creatinine in SPK. Biopsy confirms the diagnosis.",
+    "pearl": "Act on enzyme changes early."
+  },
+  {
+    "id": "SB054-06",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "During back-table preparation, how is the donor pancreas arterial supply reconstructed?",
+    "options": [
+      "Coeliac artery only",
+      "Inferior mesenteric artery",
+      "With a donor iliac Y-graft joined to the superior mesenteric and splenic arteries",
+      "Gastroduodenal artery only"
+    ],
+    "answer": "C",
+    "reason": "The pancreas has two separate arterial inflows that need a single conduit.",
+    "explanation": "The Y-graft is then joined to the recipient common or external iliac artery. Venous drainage is through the portal vein to the iliac vein or the portal system.",
+    "pearl": "Damage to the gastroduodenal artery threatens the head of the pancreas."
+  },
+  {
+    "id": "SB054-07",
+    "subject": "surgery",
+    "route": "instagram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "What is the main theoretical advantage of portal venous drainage of a pancreas graft?",
+    "options": [
+      "It avoids peripheral hyperinsulinaemia",
+      "It removes the need for immunosuppression",
+      "It prevents graft thrombosis completely",
+      "It allows bladder drainage"
+    ],
+    "answer": "A",
+    "reason": "Insulin reaches the liver first, as in normal physiology.",
+    "explanation": "Systemic drainage into the iliac vein causes high peripheral insulin levels. No clear clinical difference in outcomes has been proven, so both approaches are used.",
+    "pearl": "Systemic venous drainage is technically easier."
+  },
+  {
+    "id": "SB054-08",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "Which patient is the typical candidate for a simultaneous pancreas–kidney transplant?",
+    "options": [
+      "Type 2 diabetic with BMI above 40",
+      "Chronic pancreatitis without diabetes",
+      "Type 1 diabetic with end-stage kidney disease",
+      "Pancreatic cancer"
+    ],
+    "answer": "C",
+    "reason": "SPK treats both diabetes and kidney failure.",
+    "explanation": "Selected type 2 diabetics with low insulin requirement are also transplanted. Cardiovascular disease must be carefully assessed because it is the main cause of death after transplant.",
+    "pearl": "Screen for coronary disease before listing."
+  },
+  {
+    "id": "SB054-09",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "Which patient may benefit from pancreas transplant alone?",
+    "options": [
+      "Type 2 diabetic with good control",
+      "Patient with chronic pancreatitis pain",
+      "Type 1 diabetic with severe hypoglycaemic unawareness and preserved kidney function",
+      "Patient with insulinoma"
+    ],
+    "answer": "C",
+    "reason": "Life-threatening hypoglycaemia justifies the risks of immunosuppression.",
+    "explanation": "Pancreas transplant alone removes the need for insulin and hypoglycaemic episodes. Calcineurin inhibitor toxicity to native kidneys must be weighed. Islet transplant is an alternative.",
+    "pearl": "Hypoglycaemic unawareness is the key indication."
+  },
+  {
+    "id": "SB054-10",
+    "subject": "surgery",
+    "route": "telegram",
+    "chapter": "Ch 54 · Pancreas Transplantation",
+    "topic": "Pancreas Transplantation",
+    "stem": "Which approach for exocrine drainage of a pancreas graft is used most widely today?",
+    "options": [
+      "Bladder drainage",
+      "Duct injection with polymer",
+      "External drainage via a stoma",
+      "Enteric drainage into the small bowel"
+    ],
+    "answer": "D",
+    "reason": "Enteric drainage avoids the urinary complications of bladder drainage.",
+    "explanation": "The donor duodenal segment is joined to recipient jejunum or duodenum. Enteric leaks are more serious than bladder leaks because they cause peritonitis.",
+    "pearl": "A leak from enteric drainage can cause severe sepsis."
   }
 ]
