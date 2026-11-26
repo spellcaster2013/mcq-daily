@@ -367,7 +367,18 @@ def stock(qs, state, key, d):
 
 def tg(method, token, data=None, files=None):
     import requests
-    r = requests.post(f"https://api.telegram.org/bot{token}/{method}", data=data, files=files, timeout=120)
+    for attempt in range(4):  # retry short network drops (connection reset, timeout)
+        try:
+            if files:
+                for f in files.values():
+                    f.seek(0)
+            r = requests.post(f"https://api.telegram.org/bot{token}/{method}", data=data, files=files, timeout=120)
+            break
+        except (requests.ConnectionError, requests.Timeout) as e:
+            if attempt == 3:
+                raise
+            print(f"telegram {method}: network error ({e}), retrying in {10 * (attempt + 1)} s")
+            time.sleep(10 * (attempt + 1))
     body = r.json()
     if not body.get("ok"):
         raise RuntimeError(f"Telegram {method} failed: {body.get('description')}")
