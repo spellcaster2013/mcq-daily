@@ -115,5 +115,17 @@
   "19": "https://www.instagram.com/p/DgNSKNWoJJe/",
   "20": "https://www.instagram.com/p/DgOGqWuksIK/",
   "21": "https://www.instagram.com/p/DgP2xX_D3v0/"
- }
+ },
+ "ig_to_answer": [
+  {
+   "qid": "SB022-09",
+   "number": 20,
+   "at": "2026-11-26T21:46:00+00:00"
+  },
+  {
+   "qid": "SB023-01",
+   "number": 21,
+   "at": "2026-11-27T14:06:00+00:00"
+  }
+ ]
 }

@@ -655,6 +655,60 @@ def tell_owner(token, text):
     print("[owner]", text)
 
 
+def ig_answer_text(q):
+    a = q["answer"]
+    t = (f"\u2705 Answer: {a}. {q['options'][LETTERS.index(a)]}\n\n"
+         f"{q.get('explanation') or q.get('reason', '')}\n\n")
+    if q.get("pearl"):
+        t += f"\U0001F4A1 High-yield: {q['pearl']}\n\n"
+    t += "More daily NEET SS \u00b7 INI SS MCQs: Surgery MCQ Daily on Telegram (link in bio)"
+    return t[:2200]
+
+
+def ig_comment_answers(ig_token, cfg, qs, state, failed, min_minutes=60):
+    """Comment the answer + explanation on Instagram posts that have been up for min_minutes."""
+    todo = state.get("ig_to_answer", [])
+    if not todo or not ig_token:
+        return
+    byid = {x["id"]: x for x in qs}
+    now = dt.datetime.now(dt.timezone.utc)
+    uid = os.environ.get("IG_USER_ID") or cfg.get("ig_user_id")
+    keep = []
+    for p in todo:
+        age = (now - dt.datetime.fromisoformat(p["at"])).total_seconds() / 60
+        if age < min_minutes:
+            keep.append(p)
+            continue
+        try:
+            media = p.get("media")
+            if not media:  # older posts: find the media id from the saved link
+                link = state.get("ig_links", {}).get(str(p["number"]))
+                res = ig_call(cfg, "GET", f"{uid}/media", fields="id,permalink", limit=50, access_token=ig_token)
+                media = next((m["id"] for m in res.get("data", []) if link and m.get("permalink") == link), None)
+                if not media:
+                    raise RuntimeError("post not found")
+            ig_call(cfg, "POST", f"{media}/comments", message=ig_answer_text(byid[p["qid"]]), access_token=ig_token)
+            state.setdefault("ig_commented", []).append(p["qid"])
+            print(f"instagram: commented the answer on #{p['number']:03d} ({p['qid']})")
+        except Exception as e:
+            keep.append(p)
+            failed.append(f"Instagram answer comment for #{p['number']:03d}: {e}")
+    state["ig_to_answer"] = keep
+
+
+def wait_for_ig_answers(state, minutes=60, cap=80):
+    """Sleep until the oldest pending Instagram answer is due (at most cap minutes)."""
+    todo = state.get("ig_to_answer", [])
+    if not todo:
+        print("nothing waiting")
+        return
+    now = dt.datetime.now(dt.timezone.utc)
+    due = min(dt.datetime.fromisoformat(p["at"]) for p in todo) + dt.timedelta(minutes=minutes)
+    wait = max(0, min((due - now).total_seconds(), cap * 60))
+    print(f"waiting {int(wait // 60)} min for the Instagram answer")
+    time.sleep(wait)
+
+
 # ---------- main ----------
 
 def main():
@@ -662,15 +716,19 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--preview", action="store_true")
     ap.add_argument("--check", action="store_true")
-    ap.add_argument("--only", "--subject", dest="only", choices=list(cfg["destinations"]) + ["answers"])
+    ap.add_argument("--only", "--subject", dest="only", choices=list(cfg["destinations"]) + ["answers", "igcomments"])
+    ap.add_argument("--wait-ig", action="store_true")
     args = ap.parse_args()
+    if args.wait_ig:
+        wait_for_ig_answers(load_state())
+        return
 
     qs, errors = load_questions()
     state = load_state()
     state.setdefault("posted", {})
     tg_token = os.environ.get("TELEGRAM_BOT_TOKEN", "")
     ig_token = os.environ.get("IG_ACCESS_TOKEN", "")
-    keys = ([] if args.only == "answers" else [args.only]) if args.only else [k for k, v in cfg["destinations"].items() if v.get("enabled", True)]
+    keys = ([] if args.only in ("answers", "igcomments") else [args.only]) if args.only else [k for k, v in cfg["destinations"].items() if v.get("enabled", True)]
 
     if errors:
         tell_owner(tg_token, "MCQ bot stopped: questions.json has problems.\n" + "\n".join(errors[:15]))
@@ -720,6 +778,10 @@ def main():
                             state.setdefault("ig_links", {})[str(number)] = pl
                     except Exception as e:
                         print(f"could not read the Instagram link yet: {e}")
+                    if d.get("comment_answer_after"):
+                        state.setdefault("ig_to_answer", []).append(
+                            {"media": media_id, "qid": q["id"], "number": number,
+                             "at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")})
                     if d.get("answer_in_comment"):
                         state.setdefault("ig_pending", []).append(
                             {"media": media_id, "qid": q["id"], "number": number, "poll": poll_on,
@@ -742,6 +804,9 @@ def main():
     sd = cfg["destinations"].get("surgery", {})
     if sd.get("answers_ig") and ("surgery" in keys or "instagram" in keys or args.only == "answers") and tg_token and os.environ.get(sd["chat_id_env"]):
         answer_instagram(tg_token, os.environ[sd["chat_id_env"]], cfg, qs, state, state["posted"].get("instagram", []), failed, ig_token)
+    if ig_token and args.only != "answers":
+        ig_comment_answers(ig_token, cfg, qs, state, failed,
+                           int(cfg["destinations"].get("instagram", {}).get("comment_answer_after", 60)))
     today = dt.date.today().isoformat()
     if failed:
         tell_owner(tg_token, "MCQ bot problem:\n" + "\n".join(failed))

@@ -70,7 +70,8 @@
       "answer_footer": "See how many got it right in the Poll",
       "cta_line": "Follow @scalpelxlab for 2 NEET SS · INI SS surgery MCQs daily, chapter by chapter from Sabiston.",
       "style": "teaser",
-      "per_run": 1
+      "per_run": 1,
+      "comment_answer_after": 60
     }
   }
 }

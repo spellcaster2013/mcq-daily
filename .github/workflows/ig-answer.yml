@@ -1,0 +1,42 @@
+name: Instagram answer comment
+
+on:
+  workflow_run:
+    workflows: ["MCQ Daily bot"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency: ig-answer
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 100
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pillow requests
+      - name: Wait until 1 hour after the Instagram post
+        run: python bot.py --wait-ig
+      - name: Comment the answer
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          OWNER_CHAT_ID: ${{ secrets.OWNER_CHAT_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: |
+          git config user.name "mcq-daily-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git pull --rebase
+          python bot.py --only igcomments
+      - name: Remember what was answered
+        if: always()
+        run: |
+          git add state.json 2>/dev/null || true
+          git diff --cached --quiet || (git commit -m "Record Instagram answer comments" && (git push || (git pull --rebase && git push)))
